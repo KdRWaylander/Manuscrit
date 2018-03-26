@@ -1,0 +1,161 @@
+\part*{ANNEXES}
+\addcontentsline{toc}{part}{ANNEXES}
+\newpage
+
+	\chapter*{Calcul de la performance visuelle, méthode des temps de réaction}
+	\addcontentsline{toc}{chapter}{Calcul de la performance visuelle, méthode des temps de réaction}
+	
+	\section*{Performance visuelle générique}
+	\par Quatre paramètres d'entrée sont nécessaires:
+	\begin{itemize}
+		\item L'aire de la cible visuelle $\omega$ en stéradians ($2.0 \times 10^{-6} \leq \omega \leq 2.8 \times 10^{-3}$),
+		\item Le rayon pupillaire $r$ en millimètres obtenu avec le modèle de Weale: $2r = 4.77 - 2.44~\tanh[0.3~log_{10}(L_A)]$,
+		\item La luminance d'adaptation $L_A$ en candela par mètre carré ($cd/m^2$),
+		\item Les luminances relatives à la tache visuelle: luminance du fond d'affichage ($L_b$) et luminance de la cible ($L_t$).
+	\end{itemize}	
+	
+	\subsection*{Calcul du contraste de seuil $C_{t,d}$}		
+	\begin{equation}
+		\begin{cases}
+			A = \log_{10} \left[ \tanh(20000~\omega) \right]\\
+			L = \log_{10} \left[ \log_{10} \left( \frac{10~I_R}{\pi} \right) \right]\\
+			I_R = L_A \pi r^2
+		\end{cases}
+		\label{eq:anxe_step_10}
+	\end{equation}
+	
+	\begin{equation}
+		\log_{10}(C_{t,d}) = -1.36 -0.179~A - 0.813~L + 0.226~A^2 - 0.0772~L^2 + 0.169~A~L
+		\label{eq:anxe_step_11}
+	\end{equation}
+	
+	\subsection*{Calcul de la constante de semi-saturation $K$}	
+	\begin{equation}
+		\begin{cases}
+			A\ast = \log_{10} \left[ \tanh(5000~\omega) \right]\\
+			L\ast = \log_{10} \left[ \tanh \left( \frac{0.04~I_R}{\pi} \right) \right]
+		\end{cases}
+		\label{eq:anxe_step_20}
+	\end{equation}
+	
+	\begin{equation}
+		\log_{10}(K) = -1.76 -0.175~A\ast - 0.0310~L\ast + 0.112~A\ast^2 + 0.171~L\ast^2 + 0.0622~A\ast~L\ast
+		\label{eq:anxe_step_21}
+	\end{equation}
+	
+	\subsection*{Calcul de la réponse maximale $R_{max}$}	
+	\begin{equation}
+		R_{max} = 0.000196~\log_{10}(I_R) + 0.00270
+		\label{eq:anxe_step_30}
+	\end{equation}
+	
+	\subsection*{Calcul de la performance $R$}	
+	\begin{equation}
+		\begin{cases}
+		C_V = \frac{T \vert L_b - L_t \vert}{L_a}\\		
+		\Delta C_d = \vert C_V - C_{t,d} \vert
+		\end{cases}
+		\label{eq:anxe_step_40}
+	\end{equation}
+	
+	\begin{equation}
+		R = \frac{(\Delta C_d)^{0.97}}{(\Delta C_d)^{0.97} + K^{0.97}}
+		\label{eq:anxe_step_41}
+	\end{equation}
+	
+	\section*{Ajout de l'influence de l'âge}	
+	\par Avec $a$ l'âge de l'observateur en années, $a \geq 20$.	
+	
+	\subsection*{Réduction de l'illumination rétinienne}
+	\begin{equation}
+		\begin{cases}
+		P = 1 - 0.017~(a - 20)\\
+		2r = 4.77 - 2.44~\tanh[0.3~\log_{10}(L_a)]
+		\end{cases}
+		\label{eq:anxe_step_50}
+	\end{equation}
+	
+	\begin{equation}
+		I_R' = P~I_R = P~L_A~\pi r^2
+		\label{eq:anxe_step_51}
+	\end{equation}
+	
+	\subsection*{Réduction du contraste rétinien}
+	\begin{equation}
+		\begin{cases}
+		A = \log_{10} \left[ \tanh(20000~\omega) \right]\\
+		L = \log_{10} \left[ \log_{10} \left( \frac{10~I_R}{\pi} \right) \right]\\
+		\epsilon = 1 + \left[ \frac{0.113}{45}~(a - 20) \right]
+		\end{cases}
+		\label{eq:anxe_step_50}
+	\end{equation}
+	
+	\begin{equation}
+		\log_{10} \left( \frac{C_{t,d}'}{\epsilon} \right) = -1.36 -0.179~A - 0.813~L + 0.226~A^2 - 0.0772~L^2 + 0.169~A~L
+		\label{eq:anxe_step_51}
+	\end{equation}
+	
+	\chapter*{Mesures de luminance}
+	\addcontentsline{toc}{chapter}{Luminance de fond}
+	
+	\section*{Luminance de fond}
+	\begin{table}[h]	
+		\centering
+		\caption{Luminance globale du simulateur en fonction de la nuance de gris affichée.}
+		\label{tab:mesure_luminance_fond}
+		\small
+		\begin{tabular}{ccccccc}
+			\textbf{Gris} & \textbf{Bas-gauche} & \textbf{Haut-gauche} & \textbf{Centre} & \textbf{Bas-droit} & \textbf{Haut-droit} & \textbf{Moyenne}\\
+			0 & $0.07$ & $0.07$ & $0.06$ & $0.07$ & $0.07$ & $0.07~cd/m^2$\\
+			16 & $0.13$ & $0.13$ & $0.12$ & $0.13$ & $0.13$ & $0.13~cd/m^2$\\
+			32 & $0.40$ & $0.40$ & $0.39$ & $0.43$ & $0.42$ & $0.41~cd/m^2$\\
+			48 & $1.02$ & $1.01$ & $1.00$ & $1.08$ & $1.04$ & $1.03~cd/m^2$\\
+			64 & $2.06$ & $2.02$ & $2.01$ & $2.22$ & $2.11$ & $2.09~cd/m^2$\\
+			80 & $3.68$ & $3.65$ & $3.56$ & $3.96$ & $3.82$ & $3.73~cd/m^2$\\
+			96 & $5.86$ & $5.55$ & $5.65$ & $5.97$ & $5.90$ & $5.79~cd/m^2$\\
+			112 & $8.44$ & $8.26$ & $8.25$ & $9.06$ & $8.74$ & $5.88~cd/m^2$\\
+			128 & $11.40$ & $11.30$ & $11.30$ & $12.40$ & $12.20$ & $11.72~cd/m^2$\\
+			144 & $14.17$ & $14.53$ & $14.83$ & $16.07$ & $15.87$ & $15.09~cd/m^2$\\
+			160 & $17.73$ & $18.07$ & $18.50$ & $20.17$ & $19.93$ & $18.88~cd/m^2$\\
+			176 & $21.80$ & $22.03$ & $22.77$ & $24.87$ & $24.63$ & $23.22~cd/m^2$\\
+			192 & $26.03$ & $26.37$ & $27.30$ & $29.47$ & $28.93$ & $27.62~cd/m^2$\\
+			208 & $30.27$ & $30.57$ & $31.77$ & $33.80$ & $33.60$ & $32.00~cd/m^2$\\
+			224 & $34.23$ & $34.70$ & $35.93$ & $38.50$ & $38.00$ & $36.27~cd/m^2$\\
+			240 & $37.97$ & $38.47$ & $39.63$ & $42.80$ & $42.13$ & $40.20~cd/m^2$\\
+			255 & $40.53$ & $40.97$ & $42.53$ & $45.53$ & $44.53$ & $42.82~cd/m^2$\\
+		\end{tabular}
+	\end{table}
+	
+	\section*{Luminance de cible}
+	\begin{table}[h]	
+		\centering
+		\caption{Luminance de la cible (en $cd/m^2$) en fonction de sa nuance de gris et de la nuance de gris du fond.}
+		\label{tab:mesure_luminance_fond}
+		\small
+		\begin{tabular}{ccccccc}
+			\textbf{Gris} & \textbf{Fond: 0} & \textbf{Fond: 32} & \textbf{Fond: 80} & \textbf{Fond: 128} & \textbf{Fond: 176} & \textbf{Fond: 255}\\
+			0 & $0.06$ & $0.22$ & $1.73$ & $5.51$ & $11.10$ & $2030$\\
+			16 & $0.09$ & $0.26$ & $1.76$ & $5.54$ & $11.10$ & $20.30$\\
+			32 & $0.25$ & $0.40$ & $1.91$ & $5.68$ & $11.30$ & $20.60$\\
+			48 & $0.58$ & $0.73$ & $2.23$ & $6.00$ & $11.60$ & $20.80$\\
+			64 & $1.13$ & $1.28$ & $2.78$ & $6.55$ & $12.10$ & $21.40$\\
+			80 & $1.94$ & $2.11$ & $3.61$ & $7.38$ & $12.93$ & $22.20$\\
+			96 & $3.06$ & $3.20$ & $4.70$ & $8.46$ & $14.00$ & $23.30$\\
+			112 & $4.46$ & $4.61$ & $6.13$ & $9.87$ & $15.50$ & $24.70$\\
+			128 & $6.24$ & $6.40$ & $7.87$ & $11.60$ & $17.20$ & $26.50$\\
+			144 & $8.20$ & $8.36$ & $9.88$ & $13.57$ & $19.10$ & $28.40$\\
+			160 & $10.30$ & $10.40$ & $11.90$ & $15.70$ & $21.30$ & $30.60$\\
+			176 & $12.60$ & $12.80$ & $14.30$ & $18.00$ & $23.20$ & $32.90$\\
+			192 & $15.00$ & $15.10$ & $16.67$ & $20.37$ & $25.90$ & $35.20$\\
+			208 & $17.40$ & $17.60$ & $19.10$ & $22.80$ & $28.30$ & $37.57$\\
+			224 & $19.80$ & $19.90$ & $21.47$ & $25.10$ & $30.70$ & $40.00$\\
+			240 & $21.97$ & $22.17$ & $23.63$ & $27.30$ & $32.87$ & $42.07$\\
+			255 & $23.37$ & $23.53$ & $25.03$ & $28.77$ & $34.30$ & $43.40$\\
+		\end{tabular}
+	\end{table}
+		
+%	\chapter*{Annexe B: Bbb}
+%	\addcontentsline{toc}{chapter}{Annexe B: Bbb}
+%	
+%	\chapter*{Annexe C: Ccc}
+%	\addcontentsline{toc}{chapter}{Annexe C: Ccc}

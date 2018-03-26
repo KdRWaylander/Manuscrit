@@ -1,0 +1,92 @@
+% FEUILLE DE STYLE
+\input{Style/style_Main}
+
+% METADATA
+\title{
+	THÈSE DE DOCTORAT\\
+	\textbf{Immersion Visuelle Hyper-réaliste et multi-sensorielle 3D}
+}
+
+\author{}
+\date{}
+% END METADATA
+
+% STYLE SPECIFIQUE
+	% Reset chapter counter for parts
+	\makeatletter
+	\@addtoreset{chapter}{part}
+	\makeatother 
+
+	% Biblio as PART
+	\makeatletter
+	\renewenvironment{thebibliography}[1]
+     	{\part*{\bibname}
+     	 \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+    	  \list{\@biblabel{\@arabic\c@enumiv}}%
+     	      {\settowidth\labelwidth{\@biblabel{#1}}%
+        	    \leftmargin\labelwidth
+            	\advance\leftmargin\labelsep
+            	\@openbib@code
+            	\usecounter{enumiv}%
+            	\let\p@enumiv\@empty
+            	\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      	\sloppy
+      	\clubpenalty4000
+      	\@clubpenalty \clubpenalty
+      	\widowpenalty4000%
+      	\sfcode`\.\@m}
+     	{\def\@noitemerr
+       	{\@latex@warning{Empty `thebibliography' environment}}%
+      	\endlist}
+	\makeatother
+
+% PAGES SPECIFIQUES
+%\makeindex
+%\makenomenclature
+
+% DOCUMENT
+\begin{document}
+
+	% Page de garde
+	\maketitle
+	\newpage
+	
+	% Préambule
+%	\include{Chapitres/PREAMB}			\newpage		% A faire
+	\tableofcontents	% Sommaire
+	\listoffigures		% Figures
+	\listoftables		% Tables
+	
+	% Chapitres
+%	\include{Chapitres/INTRO}			\newpage		% A faire
+%	\include{Chapitres/EDLA}			\newpage		% Fait, optimisé
+%	\include{Chapitres/MDLVI}			\newpage		% Fait, optimisé
+%	\include{Chapitres/SDR-GENE}		\newpage		% Fait, optimisé
+%		\include{Chapitres/SDR-DISP}	\newpage		% Fait, optimisé
+%		\include{Chapitres/SDR-IMM}		\newpage		% Fait, optimisé
+%		\include{Chapitres/SDR-POND}	\newpage		% Fait, optimisé
+%		\include{Chapitres/SDR-EXPE}	\newpage		% Fait, optimisé
+%		\include{Chapitres/SDR-CONCL}	\newpage		% Fait, optimisé
+	\include{Chapitres/EXPE1}			\newpage		% En cours
+		\include{Chapitres/EXPE1-REA}
+		\include{Chapitres/EXPE1-PRELIM}
+%		\include{Chapitres/EXPE1-MANIP}
+%		\include{Chapitres/EXPE1-CONCL}
+%	\include{Chapitres/EXPE2}			\newpage		% A faire
+%	\include{Chapitres/CONCL}			\newpage		% A faire
+
+	% Bibliographie
+	\newpage
+	\addcontentsline{toc}{part}{Bibliographie}
+	\bibliography{References/refs}
+
+	
+	% Index & Nomenclature
+%	\printindex
+%	\printnomenclature
+	
+	% Annexes
+	\include{Chapitres/ANXE}
+%	\include{Chapitres/PUBL}
+
+\end{document}
