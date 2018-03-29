@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  20 MAR 2018 18:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  29 MAR 2018 15:58
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -838,22 +838,7 @@ Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
 
 
 Writing index file Main.idx
-) (Main.aux (Chapitres/EXPE1.aux) (Chapitres/EXPE1-REA.aux)
-(Chapitres/EXPE1-PRELIM.aux
-
-LaTeX Warning: Label `fig:pourcentage absorption' multiply defined.
-
-) (Chapitres/ANXE.aux
-
-LaTeX Warning: Label `eq:anxe_step_50' multiply defined.
-
-
-LaTeX Warning: Label `eq:anxe_step_51' multiply defined.
-
-
-LaTeX Warning: Label `tab:mesure_luminance_fond' multiply defined.
-
-))
+) (Main.aux (Chapitres/EXPE1-MANIP.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -973,14 +958,18 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 56--56
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
- [2
-
-])
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 15.
+)
 \tf@toc=\write5
 \openout5 = `Main.toc'.
 
- [3]
+
+Underfull \vbox (badness 3657) has occurred while \output is active []
+
+ [2
+
+]
+[3]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 57--57
 [][] 
  []
@@ -1003,265 +992,81 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 58--58
  [5
 
 ]
-\openout2 = `Chapitres/EXPE1.aux'.
+\openout2 = `Chapitres/EXPE1-MANIP.aux'.
 
- (Chapitres/EXPE1.tex
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
- [6
-
-
-]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
-[][] 
- []
-
-
-Overfull \hbox (1.93489pt too wide) in paragraph at lines 5--6
-[]\T1/pnc/m/n/10.95 Dans le cha-pitre pré-cé-dent, on a dé-crit deux ap-proches
- pos-sibles pour le cri-tère de contraste
- []
-
-
-Overfull \hbox (8.65775pt too wide) in paragraph at lines 7--8
-[]\T1/pnc/m/n/10.95 Il a été né-ces-saire de choi-sir entre les deux mo-dèles, 
-ce-lui de Rea et ce-lui de la CIE/Blackwell.
- []
-
-) [7
-
-]
-\openout2 = `Chapitres/EXPE1-REA.aux'.
-
- (Chapitres/EXPE1-REA.tex
+ (Chapitres/EXPE1-MANIP.tex
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
-[8
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 3.
+
+LaTeX Warning: Reference `chap:sdr_etude_experimentale' on page 6 undefined on 
+input line 12.
 
 
+LaTeX Warning: Reference `tab:cave_dimensions' on page 6 undefined on input lin
+e 14.
 
-] <Figures/CompressionEffect.png, id=203, 666.23906pt x 188.20313pt>
-File: Figures/CompressionEffect.png Graphic file (type png)
-
-<use Figures/CompressionEffect.png>
-Package pdftex.def Info: Figures/CompressionEffect.png used on input line 14.
-(pdftex.def)             Requested size: 399.74652pt x 112.92273pt.
- [9 <./Figures/CompressionEffect.png>]
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 72.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
-pnc.fd"
-File: omspnc.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
-
-Overfull \hbox (16.71725pt too wide) in paragraph at lines 74--75
-[]\T1/pnc/m/n/10.95 La per-for-mance va-rie as-sez peu entre des condi-tions mo
-yenne et su-pé-rieure de contraste. 
- []
+[6
 
 
-LaTeX Warning: Command \' invalid in math mode on input line 85.
+] <Figures/SubjectsCharts.png, id=104, 568.524pt x 215.3646pt>
+File: Figures/SubjectsCharts.png Graphic file (type png)
 
-Missing character: There is no é in font cmr10!
+<use Figures/SubjectsCharts.png>
+Package pdftex.def Info: Figures/SubjectsCharts.png used on input line 18.
+(pdftex.def)             Requested size: 454.81982pt x 172.2919pt.
 
-LaTeX Warning: Command \' invalid in math mode on input line 85.
-
-Missing character: There is no é in font cmr10!
-<Figures/ReactionTimeApparatus.png, id=229, 406.51875pt x 389.95688pt>
-File: Figures/ReactionTimeApparatus.png Graphic file (type png)
-
-<use Figures/ReactionTimeApparatus.png>
-Package pdftex.def Info: Figures/ReactionTimeApparatus.png used on input line 8
-9.
-(pdftex.def)             Requested size: 304.8883pt x 292.46693pt.
- [10] [11 <./Figures/ReactionTimeApparatus.png>]) [12]
-\openout2 = `Chapitres/EXPE1-PRELIM.aux'.
-
- (Chapitres/EXPE1-PRELIM.tex
-Chapitre 2.
-<Figures/ChromameterCS100.png, id=263, 152.06813pt x 187.45032pt>
-File: Figures/ChromameterCS100.png Graphic file (type png)
-
-<use Figures/ChromameterCS100.png>
-Package pdftex.def Info: Figures/ChromameterCS100.png used on input line 6.
-(pdftex.def)             Requested size: 152.06775pt x 187.44984pt.
- [13
-
-
-
-]
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 28.
- [14 <./Figures/ChromameterCS100.png>]
-<Figures/EvolutionLuminanceGlobale.png, id=279, 569.4876pt x 320.397pt>
-File: Figures/EvolutionLuminanceGlobale.png Graphic file (type png)
-
-<use Figures/EvolutionLuminanceGlobale.png>
-Package pdftex.def Info: Figures/EvolutionLuminanceGlobale.png used on input li
-ne 45.
-(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./Figures/EvolutionLuminanceGlobale.png>]
-<Figures/EvolutionLuminanceTarget.png, id=288, 569.4876pt x 330.9966pt>
-File: Figures/EvolutionLuminanceTarget.png Graphic file (type png)
-
-<use Figures/EvolutionLuminanceTarget.png>
-Package pdftex.def Info: Figures/EvolutionLuminanceTarget.png used on input lin
-e 89.
-(pdftex.def)             Requested size: 427.11465pt x 248.24683pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 95.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
-cr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Underfull \vbox (badness 1418) has occurred while \output is active []
-
- [16 <./Figures/EvolutionLuminanceTarget.png>]
-<Figures/DikablisProfessional.png, id=299, 225.84375pt x 126.4725pt>
-File: Figures/DikablisProfessional.png Graphic file (type png)
-
-<use Figures/DikablisProfessional.png>
-Package pdftex.def Info: Figures/DikablisProfessional.png used on input line 10
-4.
-(pdftex.def)             Requested size: 225.84319pt x 126.47218pt.
-
-<Figures/LargeurPupillaireEnFonctionDuTemps.png, id=301, 858.20625pt x 481.0471
-8pt>
-File: Figures/LargeurPupillaireEnFonctionDuTemps.png Graphic file (type png)
- <use Figures/LargeurPupillaireEnFonctionDuTemps.png>
-Package pdftex.def Info: Figures/LargeurPupillaireEnFonctionDuTemps.png used on
- input line 113.
-(pdftex.def)             Requested size: 429.10208pt x 240.523pt.
-
-Overfull \hbox (22.44882pt too wide) in paragraph at lines 132--140
+Overfull \hbox (1.85193pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
+[7 <./Figures/SubjectsCharts.png>]
+Chapitre 2.
+) [8
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/MesureReferenceOeil.png, id=306, 619.113pt x 386.4036pt>
-File: Figures/MesureReferenceOeil.png Graphic file (type png)
-
-<use Figures/MesureReferenceOeil.png>
-Package pdftex.def Info: Figures/MesureReferenceOeil.png used on input line 144
-.
-(pdftex.def)             Requested size: 433.37614pt x 270.48067pt.
- [17 <./Figures/DikablisProfessional.png>] [18 <./Figures/LargeurPupillaireEnFo
-nctionDuTemps.png> <./Figures/MesureReferenceOeil.png>]
-<Figures/ComparaisonDiamReelDiamTheo.png, id=323, 569.4876pt x 320.397pt>
-File: Figures/ComparaisonDiamReelDiamTheo.png Graphic file (type png)
-
-<use Figures/ComparaisonDiamReelDiamTheo.png>
-Package pdftex.def Info: Figures/ComparaisonDiamReelDiamTheo.png used on input 
-line 155.
-(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [19 <./Figures/ComparaisonDiamReelDiamTheo.png>]
-<Figures/CourbesLuminanceLunettesStereo.png, id=330, 569.4876pt x 320.397pt>
-File: Figures/CourbesLuminanceLunettesStereo.png Graphic file (type png)
-
-<use Figures/CourbesLuminanceLunettesStereo.png>
-Package pdftex.def Info: Figures/CourbesLuminanceLunettesStereo.png used on inp
-ut line 165.
-(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
-
-<Figures/PourcentageAbsorption.png, id=333, 569.0058pt x 319.9152pt>
-File: Figures/PourcentageAbsorption.png Graphic file (type png)
-
-<use Figures/PourcentageAbsorption.png>
-Package pdftex.def Info: Figures/PourcentageAbsorption.png used on input line 1
-81.
-(pdftex.def)             Requested size: 426.7533pt x 239.9358pt.
-) [20 <./Figures/CourbesLuminanceLunettesStereo.png>] [21 <./Figures/Pourcentag
-eAbsorption.png>] (Main.bbl [22
-
-
-])
-[23]
-\openout2 = `Chapitres/ANXE.aux'.
-
- (Chapitres/ANXE.tex [24
+] (Main.bbl
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
+ [9
 
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
-[][] 
- []
 
-[25
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-] [26] [27]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 98--98
-[][] 
- []
-
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [28
-
-])
-[29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
- (Main.aux (Chapitres/EXPE1.aux) (Chapitres/EXPE1-REA.aux)
-(Chapitres/EXPE1-PRELIM.aux) (Chapitres/ANXE.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (Main.aux (Chapitres/EXPE1-MANIP.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 6903A16D672AA58EB9EC2EC91BB82743;1570.
+(rerunfilecheck)             Checksum: E4C859FEB7D48094EF03A4B5E2469677;966.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 92.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 93.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 43 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10509 strings out of 493634
- 155388 string characters out of 3131976
- 279814 words of memory out of 3000000
- 13524 multiletter control sequences out of 15000+200000
- 50968 words of font info for 77 fonts, out of 3000000 for 9000
+ 10222 strings out of 493634
+ 149536 string characters out of 3131976
+ 264422 words of memory out of 3000000
+ 13363 multiletter control sequences out of 15000+200000
+ 34382 words of font info for 57 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,9n,39p,950b,6001s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,39p,646b,5928s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
-Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Administrator/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Administrator/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/User
-s/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
-s/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8
-a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw
-/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (29 pages, 1039457 bytes).
+X 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on Main.pdf (9 pages, 65290 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
- 102 named destinations out of 1000 (max. 500000)
- 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
