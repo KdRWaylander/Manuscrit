@@ -4,7 +4,7 @@
 % METADATA
 \title{
 	THÈSE DE DOCTORAT\\
-	\textbf{Immersion Visuelle Hyper-réaliste et multi-sensorielle 3D}
+	\textbf{Immersion Visuelle Hyper-Réaliste et Multi-Sensorielle 3D}
 }
 
 \author{}
@@ -46,27 +46,29 @@
 
 % DOCUMENT
 \begin{document}
-
-	% Page de garde
-	\maketitle
-	\newpage
 	
+	% Page de garde	
+	\frontmatter
+	\maketitle
+
 	% Préambule
+	%\setcounter{page}{1}	
 %	\include{Chapitres/PREAMB}			\newpage		% A faire
 	\tableofcontents	% Sommaire
 	\listoffigures		% Figures
 	\listoftables		% Tables
 	
 	% Chapitres
+	\mainmatter
 %	\include{Chapitres/INTRO}				\newpage		% A faire
-%	\include{Chapitres/EDLA}				\newpage		% Fait, optimisé
-%	\include{Chapitres/MDLVI}				\newpage		% Fait, optimisé
-%	\include{Chapitres/SDR-GENE}			\newpage		% Fait, optimisé
-%		\include{Chapitres/SDR-DISP}		\newpage		% Fait, optimisé
-%		\include{Chapitres/SDR-IMM}			\newpage		% Fait, optimisé
-%		\include{Chapitres/SDR-POND}		\newpage		% Fait, optimisé
-%		\include{Chapitres/SDR-EXPE}		\newpage		% Fait, optimisé
-%		\include{Chapitres/SDR-CONCL}		\newpage		% Fait, optimisé
+%	\include{Chapitres/EDLA}				\newpage		% Fait, manque un chapitre
+%	\include{Chapitres/MDLVI}				\newpage		% Fait
+%	\include{Chapitres/SDR-GENE}			\newpage		% Fait
+%		\include{Chapitres/SDR-DISP}		\newpage		% Fait
+%		\include{Chapitres/SDR-IMM}			\newpage		% Fait
+%		\include{Chapitres/SDR-POND}		\newpage		% Fait
+%		\include{Chapitres/SDR-EXPE}		\newpage		% Fait
+%		\include{Chapitres/SDR-CONCL}		\newpage		% Fait
 %	\include{Chapitres/EXPE1}				\newpage		% Fait
 %		\include{Chapitres/EXPE1-REA}		\newpage		% Fait
 %		\include{Chapitres/EXPE1-PRELIM}	\newpage		% Fait
@@ -76,16 +78,19 @@
 %	\include{Chapitres/CONCL}				\newpage		% A faire
 
 	% Bibliographie
+	\backmatter
 	\newpage
 	\addcontentsline{toc}{part}{Bibliographie}
 	\bibliography{References/refs}
 
-	
 	% Index & Nomenclature
 %	\printindex
 %	\printnomenclature
 	
 	% Annexes
+%	\appendix
+%	\renewcommand{\thepage}{\Alph{page}}
+%	\setcounter{page}{0} \setcounter{table}{0} \setcounter{figure}{0}
 %	\include{Chapitres/ANXE}
 %	\include{Chapitres/QUEST}
 %	\include{Chapitres/PUBL}

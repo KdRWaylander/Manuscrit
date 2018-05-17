@@ -1,5 +1,6 @@
 % CLASSE PRINCIPALE DU DOCUMENT
-	\documentclass[a4paper,twoside,11pt]{report}
+	\documentclass[a4paper,twoside,11pt,openany,fleqn]{book}
+	% option openright pour forcer les débuts de chapitres sur page impaire
 	
 % BIBLIOGRAPHIE (A load avant frenchb/babel sinon warning)
 	\usepackage[square,sort,semicolon]{natbib}
@@ -17,6 +18,19 @@
 % CHAPITRES CUSTOM
 	\usepackage[Rejne]{fncychap}
 	% Options: Sonny, Lenny, Glenn, Conny, Rejne
+	
+% EN-TÊTE ET PIED DE PAGE CUSTOM
+	%\usepackage{fancyhdr}
+	%\pagestyle{fancy}
+	\pagestyle{plain}
+	
+	%\fancyhead[RE]{\thechapter} % Nom du chapitre en haut à droite des pages paires
+	%\fancyhead[LO]{\thesection} % Nom de la section en haut à gauche des pages impaires
+	%\renewcommand{\headrulewidth}{1pt} % Ligne
+	
+	%\fancyfoot[RE]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+	%\fancyfoot[LO]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+	
 	
 % TAILLE DES TITRES
 	\usepackage{titlesec}

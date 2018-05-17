@@ -1,2 +1,0 @@
-# Manuscrit
-Manuscrit de thèse
