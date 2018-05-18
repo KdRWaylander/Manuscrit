@@ -1,6 +1,7 @@
 % CLASSE PRINCIPALE DU DOCUMENT
 	\documentclass[a4paper,twoside,11pt,openany,fleqn]{book}
 	% option openright pour forcer les débuts de chapitres sur page impaire
+	% sinon, openany
 	
 % BIBLIOGRAPHIE (A load avant frenchb/babel sinon warning)
 	\usepackage[square,sort,semicolon]{natbib}
@@ -21,16 +22,44 @@
 	
 % EN-TÊTE ET PIED DE PAGE CUSTOM
 	\usepackage{fancyhdr}
+	\usepackage{etoolbox}
 	\setlength{\headwidth}{450pt}
+	\pagestyle{fancy}
 	
-	%\fancyhead[RE]{\thechapter} % Nom du chapitre en haut à droite des pages paires
-	%\fancyhead[LO]{\thesection} % Nom de la section en haut à gauche des pages impaires
+	% Define fancy styles
+	\fancypagestyle{front}{%
+		\fancyhf{} % Reset du fancy déjà existant
+		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0pt} % Ligne de tête
+		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
+	}
 	
-	%\fancyfoot[RE]{\thepage} % Numéro de la page en bas à droite sur les pages paires
-	%\fancyfoot[LO]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+	\fancypagestyle{main}{%
+		\fancyhf{} % Reset du fancy déjà existant
+		\fancyhead[C]{\large \thepart: \normalsize \leftmark} % Nom du chapitre en haut au centre	
+		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0.5pt} % Ligne de tête
+		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
+	}
 	
-	\renewcommand{\headrulewidth}{1pt}
-	\renewcommand{\footrulewidth}{1pt}
+	\fancypagestyle{back}{%
+		\fancyhf{} % Reset du fancy déjà existant
+		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0pt} % Ligne de tête
+		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
+	}
+
+	% Redefine the plain page style
+	\fancypagestyle{plain}{%
+  		\fancyhf{}%
+  		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0pt} % Ligne de tête forcée invisible
+		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
+  	}
 	
 % TAILLE DES TITRES
 	\usepackage{titlesec}
@@ -90,12 +119,41 @@
 	%\renewcommand{\mtcSfont}{\small\bf}
 
 % INDEX
-	\usepackage{imakeidx}
-	\makeindex[columns=2, title=Index, intoc]
+	%\usepackage{imakeidx}
+	%\makeindex[columns=2, title=Index, intoc]
 	
 % NOMENCLATURE
 	%\usepackage{nomencl}
 	%\makenomenclature[title=Nomemclature, intoc]
+	
+% STYLE SPECIFIQUE
+	% Reset chapter counter for parts
+	\makeatletter
+	\@addtoreset{chapter}{part}
+	\makeatother 
+
+	% Biblio as PART
+	\makeatletter
+	\renewenvironment{thebibliography}[1]
+     	{\part*{\bibname}
+     	 \@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
+    	  \list{\@biblabel{\@arabic\c@enumiv}}%
+     	      {\settowidth\labelwidth{\@biblabel{#1}}%
+        	    \leftmargin\labelwidth
+            	\advance\leftmargin\labelsep
+            	\@openbib@code
+            	\usecounter{enumiv}%
+            	\let\p@enumiv\@empty
+            	\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      	\sloppy
+      	\clubpenalty4000
+      	\@clubpenalty \clubpenalty
+      	\widowpenalty4000%
+      	\sfcode`\.\@m}
+     	{\def\@noitemerr
+       	{\@latex@warning{Empty `thebibliography' environment}}%
+      	\endlist}
+	\makeatother
 	
 % RENAME DES INSERTIONS AUTOMATIQUES (Laisser à la fin du fichier Style)
 	\renewcommand{\listfigurename}{Liste des Figures}		%Figures

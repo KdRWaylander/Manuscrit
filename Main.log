@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  18 MAY 2018 15:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  18 MAY 2018 17:26
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -421,6 +421,11 @@ s
 \f@nch@O@olf=\skip65
 \f@nch@O@orf=\skip66
 )
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\e
+toolbox.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count95
+)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\t
 itlesec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
@@ -452,9 +457,9 @@ Package ifvtex Info: VTeX not detected.
 ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count95
-\Gm@cntv=\count96
-\c@Gm@tempcnt=\count97
+\Gm@cnth=\count96
+\Gm@cntv=\count97
+\c@Gm@tempcnt=\count98
 \Gm@bindingoffset=\dimen114
 \Gm@wd@mp=\dimen115
 \Gm@odd@mp=\dimen116
@@ -493,13 +498,13 @@ Package: amsbsy 1999/11/29 v1.2d
 sopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count98
+\inf@bad=\count99
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count99
-\leftroot@=\count100
+\uproot@=\count100
+\leftroot@=\count101
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count101
-\DOTSCASE@=\count102
+\classnum@=\count102
+\DOTSCASE@=\count103
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -508,15 +513,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen124
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count103
-\c@MaxMatrixCols=\count104
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
 \dotsspace@=\muskip10
-\c@parentequation=\count105
-\dspbrk@lvl=\count106
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
 \tag@help=\toks21
-\row@=\count107
-\column@=\count108
-\maxfields@=\count109
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
 \andhelp@=\toks22
 \eqnshift@=\dimen125
 \alignsep@=\dimen126
@@ -586,16 +591,16 @@ G,.JBIG2,.JB2,.eps]
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\l
 ettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count110
-\c@DefaultDepth=\count111
+\c@DefaultLines=\count111
+\c@DefaultDepth=\count112
 \DefaultFindent=\dimen131
 \DefaultNindent=\dimen132
 \DefaultSlope=\dimen133
 \DiscardVskip=\dimen134
 \L@lbox=\box29
 \L@tbox=\box30
-\c@L@lines=\count112
-\c@L@depth=\count113
+\c@L@lines=\count113
+\c@L@depth=\count114
 \L@Pindent=\dimen135
 \L@Findent=\dimen136
 \L@Nindent=\dimen137
@@ -647,7 +652,6 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -657,8 +661,8 @@ uxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count114
-\Hy@pagecounter=\count115
+\Hy@linkcounter=\count115
+\Hy@pagecounter=\count116
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\p
 d1enc.def"
@@ -666,7 +670,7 @@ File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count116
+\Hy@SavedSpaceFactor=\count117
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\h
 yperref.cfg"
@@ -679,7 +683,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count117
+\c@Hy@tempcnt=\count118
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.st
 y"
@@ -688,7 +692,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen148
-\Fld@menulength=\count118
+\Fld@menulength=\count119
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -700,9 +704,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count119
-\c@Item=\count120
-\c@Hfootnote=\count121
+\Hy@abspage=\count120
+\c@Item=\count121
+\c@Hfootnote=\count122
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -711,8 +715,8 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
 pdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count122
-\c@bookmark@seq@number=\count123
+\Fld@listcount=\count123
+\c@bookmark@seq@number=\count124
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
 erunfilecheck.sty"
@@ -722,14 +726,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 76.
+Package hyperref Info: Option `colorlinks' set `true' on input line 105.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\pe
 rpage.sty"
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count124
+\c@abspage=\count125
 )
-\c@pp@a@footnote=\count125
+\c@pp@a@footnote=\count126
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\p
 dfpages.sty"
@@ -742,15 +746,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc
 .sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count126
-\calc@Bcount=\count127
+\calc@Acount=\count127
+\calc@Bcount=\count128
 \calc@Adimen=\dimen151
 \calc@Bdimen=\dimen152
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count128
+\calc@Ccount=\count129
 \calc@Cskip=\skip75
 )
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\es
@@ -786,124 +790,49 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box31
 \AM@global@opts=\toks25
 \AM@toc@title=\toks26
-\c@AM@survey=\count129
+\c@AM@survey=\count130
 \AM@templatesizebox=\box32
-)
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\imakeidx\i
-makeidx.sty"
-Package: imakeidx 2016/05/16 v1.3d Package for typesetting indices in a synchro
-nous mode
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xk
-eyval.sty"
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\
-xkeyval.tex"
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\
-xkvutils.tex"
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
-)
-\XKV@depth=\count130
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\mult
-icol.sty"
-Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
-\c@tracingmulticols=\count131
-\mult@box=\box33
-\multicol@leftmargin=\dimen155
-\c@unbalance=\count132
-\c@collectmore=\count133
-\doublecol@number=\count134
-\multicoltolerance=\count135
-\multicolpretolerance=\count136
-\full@width=\dimen156
-\page@free=\dimen157
-\premulticols=\dimen158
-\postmulticols=\dimen159
-\multicolsep=\skip76
-\multicolbaselineskip=\skip77
-\partial@page=\box34
-\last@line=\box35
-\maxbalancingoverflow=\dimen160
-\mult@rightbox=\box36
-\mult@grightbox=\box37
-\mult@gfirstbox=\box38
-\mult@firstbox=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
-\@tempa=\box45
-\@tempa=\box46
-\@tempa=\box47
-\@tempa=\box48
-\@tempa=\box49
-\@tempa=\box50
-\@tempa=\box51
-\@tempa=\box52
-\@tempa=\box53
-\@tempa=\box54
-\@tempa=\box55
-\@tempa=\box56
-\c@columnbadness=\count137
-\c@finalcolumnbadness=\count138
-\last@try=\dimen161
-\multicolovershoot=\dimen162
-\multicolundershoot=\dimen163
-\mult@nat@firstbox=\box57
-\colbreak@box=\box58
-\mc@col@check@num=\count139
-))
-\Main@idxfile=\write3
-\openout3 = `Main.idx'.
-
-
-Writing index file Main.idx
-) (Main.aux (Chapitres/EXPE1.aux) (Chapitres/EXPE1-REA.aux))
+)) (Main.aux (Chapitres/EXPE2.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Try loading font information for T1+pnc on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Try loading font information for T1+pnc on input line 10.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
 nc.fd"
 File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
 )
-LaTeX Info: Redefining \degres on input line 48.
-LaTeX Info: Redefining \dots on input line 48.
-LaTeX Info: Redefining \up on input line 48.
+LaTeX Info: Redefining \degres on input line 10.
+LaTeX Info: Redefining \dots on input line 10.
+LaTeX Info: Redefining \up on input line 10.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count140
-\scratchdimen=\dimen164
-\scratchbox=\box59
-\nofMPsegments=\count141
-\nofMParguments=\count142
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count143
-\MPscratchDim=\dimen165
-\MPnumerator=\count144
-\makeMPintoPDFobject=\count145
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count131
+\scratchdimen=\dimen155
+\scratchbox=\box33
+\nofMPsegments=\count132
+\nofMParguments=\count133
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count134
+\MPscratchDim=\dimen156
+\MPnumerator=\count135
+\makeMPintoPDFobject=\count136
+\everyMPtoPDFconversion=\toks28
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -939,8 +868,8 @@ p-pdf.mkii"
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 48.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 10.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\n
 ameref.sty"
@@ -950,14 +879,14 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count146
+\c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+LaTeX Info: Redefining \ref on input line 10.
+LaTeX Info: Redefining \pageref on input line 10.
+LaTeX Info: Redefining \nameref on input line 10.
  (Main.out) (Main.out)
-\@outlinefile=\write4
-\openout4 = `Main.out'.
+\@outlinefile=\write3
+\openout3 = `Main.out'.
 
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\p
@@ -971,13 +900,13 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 54.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 16.
  [1
 
 
 
 {C:/Users/Administrator/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 58--58
+Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
 [][] 
  []
 
@@ -987,43 +916,37 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
 )
-\tf@toc=\write5
-\openout5 = `Main.toc'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+\tf@toc=\write4
+\openout4 = `Main.toc'.
 
  [2
 
 ]
-[3]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 59--59
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
 (Main.lof)
-\tf@lof=\write6
-\openout6 = `Main.lof'.
+\tf@lof=\write5
+\openout5 = `Main.lof'.
 
- [4
+ [3
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 60--60
+Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][] 
  []
 
 (Main.lot)
-\tf@lot=\write7
-\openout7 = `Main.lot'.
+\tf@lot=\write6
+\openout6 = `Main.lot'.
 
- [5
-
-] [6
+ [4
 
 ]
-\openout2 = `Chapitres/EXPE1.aux'.
+\openout2 = `Chapitres/EXPE2.aux'.
 
- (Chapitres/EXPE1.tex
+ (Chapitres/EXPE2.tex
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
@@ -1031,149 +954,61 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
  [1
 
 
+
 ]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][] 
  []
 
-
-Overfull \hbox (1.93489pt too wide) in paragraph at lines 5--6
-[]\T1/pnc/m/n/10.95 Dans le cha-pitre pré-cé-dent, on a dé-crit deux ap-proches
- pos-sibles pour le cri-tère de contraste
- []
-
-
-Overfull \hbox (8.65775pt too wide) in paragraph at lines 7--8
-[]\T1/pnc/m/n/10.95 Il a été né-ces-saire de choi-sir entre les deux mo-dèles, 
-ce-lui de Rea et ce-lui de la CIE/Blackwell.
- []
-
-) [2
+[2
 
 ]
-\openout2 = `Chapitres/EXPE1-REA.aux'.
-
- (Chapitres/EXPE1-REA.tex
 Chapitre 1.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
 [3
 
-
-
-] <Figures/CompressionEffect.png, id=135, 666.23906pt x 188.20313pt>
-File: Figures/CompressionEffect.png Graphic file (type png)
-
-<use Figures/CompressionEffect.png>
-Package pdftex.def Info: Figures/CompressionEffect.png used on input line 14.
-(pdftex.def)             Requested size: 399.74652pt x 112.92273pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.50986pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4 <./Figures/CompressionEffect.png>]
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 72.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
-pnc.fd"
-File: omspnc.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
-
-Overfull \hbox (16.71725pt too wide) in paragraph at lines 74--75
-[]\T1/pnc/m/n/10.95 La per-for-mance va-rie as-sez peu entre des condi-tions mo
-yenne et su-pé-rieure de contraste. 
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 10--10
+[][] 
  []
 
+) [4
 
-LaTeX Warning: Command \' invalid in math mode on input line 85.
-
-Missing character: There is no é in font cmr10!
-
-LaTeX Warning: Command \' invalid in math mode on input line 85.
-
-Missing character: There is no é in font cmr10!
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.50986pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5] <Figures/ReactionTimeApparatus.png, id=169, 406.51875pt x 389.95688pt>
-File: Figures/ReactionTimeApparatus.png Graphic file (type png)
-
-<use Figures/ReactionTimeApparatus.png>
-Package pdftex.def Info: Figures/ReactionTimeApparatus.png used on input line 8
-9.
-(pdftex.def)             Requested size: 304.8883pt x 292.46693pt.
-
-Underfull \vbox (badness 4913) has occurred while \output is active []
+] (Main.bbl [5
 
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.50986pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+]
 
-[6 <./Figures/ReactionTimeApparatus.png>])
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.50986pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7] (Main.bbl [8
-
-
-
-])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
- [0]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
- (Main.aux (Chapitres/EXPE1.aux) (Chapitres/EXPE1-REA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+ (Main.aux (Chapitres/EXPE2.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 7A5617309BC748A569E3196DCF3CE8A2;934.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
+(rerunfilecheck)             Checksum: CDEC4ABA53038FC4141F10388EF6A91D;398.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 57 ({)
+### simple group (level 1) entered at line 86 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10456 strings out of 493634
- 153228 string characters out of 3131976
- 270268 words of memory out of 3000000
- 13550 multiletter control sequences out of 15000+200000
- 42543 words of font info for 64 fonts, out of 3000000 for 9000
+ 10179 strings out of 493634
+ 147061 string characters out of 3131976
+ 260140 words of memory out of 3000000
+ 13339 multiletter control sequences out of 15000+200000
+ 31869 words of font info for 56 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,12n,43p,947b,5950s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,11n,44p,826b,5503s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
-Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
-Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administ
-rator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:
-/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk
-/uncri8a.pfb>
-Output written on Main.pdf (15 pages, 210606 bytes).
+X 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
+Output written on Main.pdf (9 pages, 41021 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 94 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

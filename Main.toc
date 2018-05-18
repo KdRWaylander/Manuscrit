@@ -1,13 +1,8 @@
 \select@language {french}
-\contentsline {chapter}{Table des figures}{iv}{chapter*.2}
-\contentsline {chapter}{Liste des tableaux}{v}{chapter*.3}
-\contentsline {part}{I\hspace {1em}Partie exp\IeC {\'e}rimentale: contraste et luminance}{1}{part.1}
+\contentsline {chapter}{Table des figures}{iii}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{iv}{chapter*.3}
+\contentsline {part}{I\hspace {1em}Exp\IeC {\'e}rimentation: latence \& tracking}{1}{part.1}
 \contentsline {chapter}{Introduction}{2}{chapter*.4}
-\contentsline {chapter}{\numberline {1}Mod\IeC {\`e}les de Rea}{3}{chapter.1.1}
-\contentsline {section}{\numberline {1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation de la performance visuelle relative}{3}{section.1.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Mod\IeC {\`e}le pr\IeC {\'e}curseur}{3}{subsection.1.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Application \IeC {\`a} la performance visuelle}{4}{subsection.1.1.1.2}
-\contentsline {section}{\numberline {1.2}M\IeC {\'e}thode des temps de r\IeC {\'e}action}{5}{section.1.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Protocole exp\IeC {\'e}rimental}{5}{subsection.1.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Calcul des temps de r\IeC {\'e}action th\IeC {\'e}oriques}{7}{subsection.1.1.2.2}
-\contentsline {part}{Bibliographie}{8}{equation.1.1.2.12}
+\contentsline {chapter}{\numberline {1}Apparatus}{3}{chapter.1.1}
+\contentsline {chapter}{Conclusion}{4}{chapter*.5}
+\contentsline {part}{Bibliographie}{5}{chapter*.5}
