@@ -40,10 +40,6 @@
       	\endlist}
 	\makeatother
 
-% PAGES SPECIFIQUES
-%\makeindex
-%\makenomenclature
-
 % DOCUMENT
 \begin{document}
 	
@@ -52,7 +48,6 @@
 	\maketitle
 
 	% Préambule
-	%\setcounter{page}{1}	
 %	\include{Chapitres/PREAMB}			\newpage		% A faire
 	\tableofcontents	% Sommaire
 	\listoffigures		% Figures
@@ -69,11 +64,11 @@
 %		\include{Chapitres/SDR-POND}		\newpage		% Fait
 %		\include{Chapitres/SDR-EXPE}		\newpage		% Fait
 %		\include{Chapitres/SDR-CONCL}		\newpage		% Fait
-%	\include{Chapitres/EXPE1}				\newpage		% Fait
-%		\include{Chapitres/EXPE1-REA}		\newpage		% Fait
+	\include{Chapitres/EXPE1}				\newpage		% Fait
+		\include{Chapitres/EXPE1-REA}		\newpage		% Fait
 %		\include{Chapitres/EXPE1-PRELIM}	\newpage		% Fait
-		\include{Chapitres/EXPE1-MANIP}		\newpage		% En cours
-%		\include{Chapitres/EXPE1-CONCL}		\newpage		% A faire
+%		\include{Chapitres/EXPE1-MANIP}		\newpage		% Fait
+%		\include{Chapitres/EXPE1-CONCL}		\newpage		% Fait
 %	\include{Chapitres/EXPE2}				\newpage		% A faire
 %	\include{Chapitres/CONCL}				\newpage		% A faire
 
@@ -82,15 +77,11 @@
 	\newpage
 	\addcontentsline{toc}{part}{Bibliographie}
 	\bibliography{References/refs}
-
-	% Index & Nomenclature
-%	\printindex
-%	\printnomenclature
 	
 	% Annexes
-%	\appendix
-%	\renewcommand{\thepage}{\Alph{page}}
-%	\setcounter{page}{0} \setcounter{table}{0} \setcounter{figure}{0}
+	\appendix
+	\renewcommand{\thepage}{\Alph{page}}
+	\setcounter{page}{0} \setcounter{table}{0} \setcounter{figure}{0}
 %	\include{Chapitres/ANXE}
 %	\include{Chapitres/QUEST}
 %	\include{Chapitres/PUBL}

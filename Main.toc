@@ -1,15 +1,13 @@
 \select@language {french}
 \contentsline {chapter}{Table des figures}{iv}{chapter*.2}
 \contentsline {chapter}{Liste des tableaux}{v}{chapter*.3}
-\contentsline {chapter}{\numberline {1}Protocole exp\IeC {\'e}rimental}{1}{chapter.0.1}
-\contentsline {section}{\numberline {1.1}Dispositif}{1}{section.0.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Hypoth\IeC {\`e}ses de travail}{1}{subsection.0.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Sujets \& mat\IeC {\'e}riel}{2}{subsection.0.1.1.2}
-\contentsline {subsection}{\numberline {1.1.3}T\IeC {\^a}che \IeC {\`a} effectuer}{3}{subsection.0.1.1.3}
-\contentsline {section}{\numberline {1.2}Choix des conditions exp\IeC {\'e}rimentales}{4}{section.0.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Luminance}{4}{subsection.0.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Contraste}{6}{subsection.0.1.2.2}
-\contentsline {chapter}{\numberline {2}R\IeC {\'e}sultats}{9}{chapter.0.2}
-\contentsline {section}{\numberline {2.1}Pr\IeC {\'e}dictions du mod\IeC {\`e}le th\IeC {\'e}orique}{9}{section.0.2.1}
-\contentsline {section}{\numberline {2.2}Mesures r\IeC {\'e}elles}{9}{section.0.2.2}
-\contentsline {part}{Bibliographie}{14}{figure.0.2.3}
+\contentsline {part}{I\hspace {1em}Partie exp\IeC {\'e}rimentale: contraste et luminance}{1}{part.1}
+\contentsline {chapter}{Introduction}{2}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Mod\IeC {\`e}les de Rea}{3}{chapter.1.1}
+\contentsline {section}{\numberline {1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation de la performance visuelle relative}{3}{section.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Mod\IeC {\`e}le pr\IeC {\'e}curseur}{3}{subsection.1.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Application \IeC {\`a} la performance visuelle}{4}{subsection.1.1.1.2}
+\contentsline {section}{\numberline {1.2}M\IeC {\'e}thode des temps de r\IeC {\'e}action}{5}{section.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Protocole exp\IeC {\'e}rimental}{5}{subsection.1.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Calcul des temps de r\IeC {\'e}action th\IeC {\'e}oriques}{7}{subsection.1.1.2.2}
+\contentsline {part}{Bibliographie}{8}{equation.1.1.2.12}
