@@ -1,7 +1,6 @@
 % CLASSE PRINCIPALE DU DOCUMENT
 	\documentclass[a4paper,twoside,11pt,openany,fleqn]{book}
-	% option openright pour forcer les débuts de chapitres sur page impaire
-	% sinon, openany
+	% options: openright, openany
 	
 % BIBLIOGRAPHIE (A load avant frenchb/babel sinon warning)
 	\usepackage[square,sort,semicolon]{natbib}
@@ -19,11 +18,12 @@
 % CHAPITRES CUSTOM
 	\usepackage[Rejne]{fncychap}
 	% Options: Sonny, Lenny, Glenn, Conny, Rejne
-	
+
+% MARGES (Toujours avant fancyhdr)
+	\usepackage[top=1in, bottom=1.25in, left=1in, right=1in]{geometry}
+
 % EN-TÊTE ET PIED DE PAGE CUSTOM
 	\usepackage{fancyhdr}
-	\usepackage{etoolbox}
-	\setlength{\headwidth}{450pt}
 	\pagestyle{fancy}
 	
 	% Define fancy styles
@@ -35,9 +35,25 @@
 		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
 	}
 	
+	\fancypagestyle{front_light}{%
+		\fancyhf{} % Reset du fancy déjà existant
+		\fancyfoot[CO]{\thepage} % Numéro de la page au centre sur les pages paires
+		\fancyfoot[CE]{\thepage} % Numéro de la page au centre sur les pages paires
+		\renewcommand{\headrulewidth}{0pt} % Ligne de tête
+		\renewcommand{\footrulewidth}{0pt} % Ligne de pied
+	}
+	
 	\fancypagestyle{main}{%
 		\fancyhf{} % Reset du fancy déjà existant
-		\fancyhead[C]{\large \thepart: \normalsize \leftmark} % Nom du chapitre en haut au centre	
+		\fancyhead[C]{\leftmark} % Nom du chapitre en haut au centre	
+		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0.5pt} % Ligne de tête
+		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
+	}
+	
+	\fancypagestyle{star}{%
+		\fancyhf{} % Reset du fancy déjà existant
 		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
 		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
 		\renewcommand{\headrulewidth}{0.5pt} % Ligne de tête
@@ -51,6 +67,14 @@
 		\renewcommand{\headrulewidth}{0pt} % Ligne de tête
 		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
 	}
+	
+	\fancypagestyle{part}{%
+		\fancyhf{} % Reset du fancy déjà existant
+		\fancyfoot[RO]{\thepage} % Numéro de la page en bas à droite sur les pages paires
+		\fancyfoot[LE]{\thepage} % Numéro de la page en bas à gauche sur les pages impaires
+		\renewcommand{\headrulewidth}{0pt} % Ligne de tête forcée invisible
+		\renewcommand{\footrulewidth}{0pt} % Ligne de pied forcée invisible
+	}
 
 	% Redefine the plain page style
 	\fancypagestyle{plain}{%
@@ -60,6 +84,25 @@
 		\renewcommand{\headrulewidth}{0pt} % Ligne de tête forcée invisible
 		\renewcommand{\footrulewidth}{0.5pt} % Ligne de pied
   	}
+  	
+  	% Empty style on PART pages
+  	\makeatletter
+    \renewcommand\part{%
+       \if@openright
+         \cleardoublepage
+       \else
+         \clearpage
+       \fi
+       \thispagestyle{empty}%
+       \if@twocolumn
+         \onecolumn
+         \@tempswatrue
+       \else
+         \@tempswafalse
+       \fi
+       \null\vfil
+       \secdef\@part\@spart}
+    \makeatother 
 	
 % TAILLE DES TITRES
 	\usepackage{titlesec}
@@ -69,8 +112,8 @@
 	\titleformat*{\paragraph}{\large\bfseries}
 	\titleformat*{\subparagraph}{\large\bfseries}
 
-% MARGES
-	\usepackage[top=1in, bottom=1.25in, left=1in, right=1in]{geometry}
+% ALPHANUM FOR APPENDIXES
+	\usepackage{alphalph}
 	
 % PARAGRAPHE SPACING
 	\setlength{\parskip}{\baselineskip}
@@ -126,13 +169,12 @@
 	%\usepackage{nomencl}
 	%\makenomenclature[title=Nomemclature, intoc]
 	
-% STYLE SPECIFIQUE
-	% Reset chapter counter for parts
+% RESET CHAPTER COUNTER FOR PARTS
 	\makeatletter
 	\@addtoreset{chapter}{part}
 	\makeatother 
 
-	% Biblio as PART
+% BIBLIO AS PART
 	\makeatletter
 	\renewenvironment{thebibliography}[1]
      	{\part*{\bibname}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  18 MAY 2018 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  22 MAY 2018 15:06
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -407,38 +407,6 @@ Package: fncychap 2007/07/30 v1.34 LaTeX package (Revised chapters)
 \pyy=\skip56
 \pxx=\skip57
 )
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\f
-ancyhdr.sty"
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip58
-\f@nch@O@elh=\skip59
-\f@nch@O@erh=\skip60
-\f@nch@O@olh=\skip61
-\f@nch@O@orh=\skip62
-\f@nch@O@elf=\skip63
-\f@nch@O@erf=\skip64
-\f@nch@O@olf=\skip65
-\f@nch@O@orf=\skip66
-)
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\e
-toolbox.sty"
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count95
-)
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\t
-itlesec.sty"
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box26
-\beforetitleunit=\skip67
-\aftertitleunit=\skip68
-\ttl@plus=\dimen109
-\ttl@minus=\dimen110
-\ttl@toksa=\toks18
-\titlewidth=\dimen111
-\titlewidthlast=\dimen112
-\titlewidthfirst=\dimen113
-)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\g
 eometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -457,21 +425,56 @@ Package ifvtex Info: VTeX not detected.
 ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count96
-\Gm@cntv=\count97
-\c@Gm@tempcnt=\count98
-\Gm@bindingoffset=\dimen114
-\Gm@wd@mp=\dimen115
-\Gm@odd@mp=\dimen116
-\Gm@even@mp=\dimen117
-\Gm@layoutwidth=\dimen118
-\Gm@layoutheight=\dimen119
-\Gm@layouthoffset=\dimen120
-\Gm@layoutvoffset=\dimen121
-\Gm@dimlist=\toks19
+\Gm@cnth=\count95
+\Gm@cntv=\count96
+\c@Gm@tempcnt=\count97
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks18
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\g
 eometry.cfg"))
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\f
+ancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip58
+\f@nch@O@elh=\skip59
+\f@nch@O@erh=\skip60
+\f@nch@O@olh=\skip61
+\f@nch@O@orh=\skip62
+\f@nch@O@elf=\skip63
+\f@nch@O@erf=\skip64
+\f@nch@O@olf=\skip65
+\f@nch@O@orf=\skip66
+)
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\titlesec\t
+itlesec.sty"
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks19
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
+)
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\alphalph.sty"
+Package: alphalph 2011/05/13 v2.4 Convert numbers to letters (HO)
+
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek
+\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+))
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\am
 smath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
@@ -498,13 +501,13 @@ Package: amsbsy 1999/11/29 v1.2d
 sopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count99
+\inf@bad=\count98
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count100
-\leftroot@=\count101
+\uproot@=\count99
+\leftroot@=\count100
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count102
-\DOTSCASE@=\count103
+\classnum@=\count101
+\DOTSCASE@=\count102
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -513,15 +516,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen124
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count104
-\c@MaxMatrixCols=\count105
+\macc@depth=\count103
+\c@MaxMatrixCols=\count104
 \dotsspace@=\muskip10
-\c@parentequation=\count106
-\dspbrk@lvl=\count107
+\c@parentequation=\count105
+\dspbrk@lvl=\count106
 \tag@help=\toks21
-\row@=\count108
-\column@=\count109
-\maxfields@=\count110
+\row@=\count107
+\column@=\count108
+\maxfields@=\count109
 \andhelp@=\toks22
 \eqnshift@=\dimen125
 \alignsep@=\dimen126
@@ -591,16 +594,16 @@ G,.JBIG2,.JB2,.eps]
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\l
 ettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
-\c@DefaultLines=\count111
-\c@DefaultDepth=\count112
+\c@DefaultLines=\count110
+\c@DefaultDepth=\count111
 \DefaultFindent=\dimen131
 \DefaultNindent=\dimen132
 \DefaultSlope=\dimen133
 \DiscardVskip=\dimen134
 \L@lbox=\box29
 \L@tbox=\box30
-\c@L@lines=\count113
-\c@L@depth=\count114
+\c@L@lines=\count112
+\c@L@depth=\count113
 \L@Pindent=\dimen135
 \L@Findent=\dimen136
 \L@Nindent=\dimen137
@@ -635,7 +638,7 @@ Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package hobsub Info: Skipping package `ifluatex' (already loaded).
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `intcalc' (already loaded).
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package hobsub Info: Skipping package `etexcmds' (already loaded).
 Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
@@ -652,6 +655,7 @@ Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
 Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
@@ -661,8 +665,8 @@ uxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count115
-\Hy@pagecounter=\count116
+\Hy@linkcounter=\count114
+\Hy@pagecounter=\count115
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\p
 d1enc.def"
@@ -670,7 +674,7 @@ File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count117
+\Hy@SavedSpaceFactor=\count116
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\h
 yperref.cfg"
@@ -683,7 +687,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count118
+\c@Hy@tempcnt=\count117
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.st
 y"
@@ -692,7 +696,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen148
-\Fld@menulength=\count119
+\Fld@menulength=\count118
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -704,9 +708,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count120
-\c@Item=\count121
-\c@Hfootnote=\count122
+\Hy@abspage=\count119
+\c@Item=\count120
+\c@Hfootnote=\count121
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
@@ -715,8 +719,8 @@ Package hyperref Message: Driver (autodetected): hpdftex.
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\h
 pdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count123
-\c@bookmark@seq@number=\count124
+\Fld@listcount=\count122
+\c@bookmark@seq@number=\count123
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\r
 erunfilecheck.sty"
@@ -726,14 +730,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 105.
+Package hyperref Info: Option `colorlinks' set `true' on input line 149.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\pe
 rpage.sty"
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
-\c@abspage=\count125
+\c@abspage=\count124
 )
-\c@pp@a@footnote=\count126
+\c@pp@a@footnote=\count125
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\p
 dfpages.sty"
@@ -746,15 +750,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc
 .sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count127
-\calc@Bcount=\count128
+\calc@Acount=\count126
+\calc@Bcount=\count127
 \calc@Adimen=\dimen151
 \calc@Bdimen=\dimen152
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count129
+\calc@Ccount=\count128
 \calc@Cskip=\skip75
 )
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\es
@@ -790,9 +794,29 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box31
 \AM@global@opts=\toks25
 \AM@toc@title=\toks26
-\c@AM@survey=\count130
+\c@AM@survey=\count129
 \AM@templatesizebox=\box32
-)) (Main.aux (Chapitres/EXPE2.aux))
+)) (Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux)
+(Chapitres/EDLA.aux) (Chapitres/MDLVI.aux) (Chapitres/SDR-GENE.aux)
+(Chapitres/SDR-DISP.aux) (Chapitres/SDR-IMM.aux) (Chapitres/SDR-POND.aux)
+(Chapitres/SDR-EXPE.aux) (Chapitres/SDR-CONCL.aux) (Chapitres/EXPE1.aux)
+(Chapitres/EXPE1-REA.aux) (Chapitres/EXPE1-PRELIM.aux
+
+LaTeX Warning: Label `fig:pourcentage absorption' multiply defined.
+
+) (Chapitres/EXPE1-MANIP.aux) (Chapitres/EXPE1-CONCL.aux) (Chapitres/EXPE2.aux)
+(Chapitres/EXPE2-PRELIM.aux) (Chapitres/EXPE2-MANIP.aux)
+(Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux) (Chapitres/ANXE.aux
+
+LaTeX Warning: Label `eq:anxe_step_50' multiply defined.
+
+
+LaTeX Warning: Label `eq:anxe_step_51' multiply defined.
+
+
+LaTeX Warning: Label `tab:mesure_luminance_fond' multiply defined.
+
+) (Chapitres/QUEST.aux) (Chapitres/PUBL.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -822,16 +846,16 @@ LaTeX Info: Redefining \up on input line 10.
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
+\scratchcounter=\count130
 \scratchdimen=\dimen155
 \scratchbox=\box33
-\nofMPsegments=\count132
-\nofMParguments=\count133
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count134
+\MPscratchCnt=\count133
 \MPscratchDim=\dimen156
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks28
 )
 *geometry* driver: auto-detecting
@@ -879,7 +903,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 \gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count137
+\c@section@level=\count136
 )
 LaTeX Info: Redefining \ref on input line 10.
 LaTeX Info: Redefining \pageref on input line 10.
@@ -900,12 +924,40 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 16.
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 15.
  [1
 
 
 
 {C:/Users/Administrator/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `Chapitres/PREAMB.aux'.
+
+ (Chapitres/PREAMB.tex [2
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+[3] [4
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
+[][] 
+ []
+
+[5] [6
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 9--9
+[][] 
+ []
+
+[7]) [8
+
+
+]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
 [][] 
  []
@@ -915,100 +967,3399 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
-)
+
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 41.
+
+[11]
+Overfull \hbox (1.29184pt too wide) detected at line 87
+ []\T1/pnc/m/n/10.95 101
+ []
+
+
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+ [12]
+Overfull \hbox (1.29184pt too wide) detected at line 91
+ []\T1/pnc/m/n/10.95 103
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 92
+ []\T1/pnc/m/n/10.95 104
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 93
+ []\T1/pnc/m/n/10.95 104
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 94
+ []\T1/pnc/m/n/10.95 104
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 95
+ []\T1/pnc/m/n/10.95 105
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 96
+ []\T1/pnc/m/n/10.95 105
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 97
+ []\T1/pnc/m/n/10.95 106
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 98
+ []\T1/pnc/m/n/10.95 107
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 99
+ []\T1/pnc/m/n/10.95 108
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 100
+ []\T1/pnc/m/n/10.95 109
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 101
+ []\T1/pnc/m/n/10.95 109
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 102
+ []\T1/pnc/m/n/10.95 111
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 104
+ []\T1/pnc/m/n/10.95 113
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 105
+ []\T1/pnc/m/n/10.95 114
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 106
+ []\T1/pnc/m/n/10.95 115
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 108
+ []\T1/pnc/m/n/10.95 117
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 109
+ []\T1/pnc/m/n/10.95 117
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 110
+ []\T1/pnc/m/n/10.95 119
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 111
+ []\T1/pnc/m/n/10.95 121
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 112
+ []\T1/pnc/m/n/10.95 121
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 113
+ []\T1/pnc/m/n/10.95 121
+ []
+
+[13]
+Overfull \hbox (1.29184pt too wide) detected at line 118
+ []\T1/pnc/m/n/10.95 129
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 119
+ []\T1/pnc/m/n/10.95 129
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 120
+ []\T1/pnc/m/n/10.95 130
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 121
+ []\T1/pnc/m/n/10.95 131
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 122
+ []\T1/pnc/m/n/10.95 131
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 123
+ []\T1/pnc/m/n/10.95 133
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 125
+ []\T1/pnc/m/n/10.95 135
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 126
+ []\T1/pnc/m/n/10.95 137
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 127
+ []\T1/pnc/m/n/10.95 138
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 128
+ []\T1/pnc/m/n/10.95 141
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 130
+ []\T1/pnc/m/n/10.95 145
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 131
+ []\T1/pnc/m/n/10.95 145
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 132
+ []\T1/pnc/m/n/10.95 146
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 133
+ []\T1/pnc/m/n/10.95 147
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 134
+ []\T1/pnc/m/n/10.95 148
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 135
+ []\T1/pnc/m/n/10.95 148
+ []
+
+
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [14]
+Overfull \hbox (1.29184pt too wide) detected at line 136
+ []\T1/pnc/m/n/10.95 150
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 138
+ []\T1/pnc/m/n/10.95 153
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 139
+ []\T1/pnc/m/n/10.95 153
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 140
+ []\T1/pnc/m/n/10.95 156
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 146
+ []\T1/pnc/m/n/10.95 167
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 147
+ []\T1/pnc/m/n/10.95 167
+ []
+
+
+Underfull \vbox (badness 2126) has occurred while \output is active []
+
+ [15])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
- [2
 
-]
+[16]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
-(Main.lof)
+(Main.lof
+Overfull \hbox (0.41357pt too wide) in paragraph at lines 11--11
+ [][] [][][]\T1/pnc/m/n/10.95 Modèle et va-leurs phy-sio-lo-giques de Gull-stra
+nd, image ti-rée de [[][]Liou & Bren- 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Overfull \hbox (1.29184pt too wide) detected at line 59
+ []\T1/pnc/m/n/10.95 100
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 60
+ []\T1/pnc/m/n/10.95 100
+ []
+
+
+Overfull \hbox (1.71983pt too wide) in paragraph at lines 60--60
+ [][] [][][]\T1/pnc/m/n/10.95 Variation de la dis-tance in-ter-ocu-laire sur la
+ po-pu-la-tion. Image ti-rée de [[][]Dodg- 
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 61
+ []\T1/pnc/m/n/10.95 102
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 63
+ []\T1/pnc/m/n/10.95 105
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 64
+ []\T1/pnc/m/n/10.95 106
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 65
+ []\T1/pnc/m/n/10.95 107
+ []
+
+[19]
+Overfull \hbox (1.29184pt too wide) detected at line 66
+ []\T1/pnc/m/n/10.95 108
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 67
+ []\T1/pnc/m/n/10.95 110
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 68
+ []\T1/pnc/m/n/10.95 110
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 70
+ []\T1/pnc/m/n/10.95 116
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 72
+ []\T1/pnc/m/n/10.95 118
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 73
+ []\T1/pnc/m/n/10.95 120
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 75
+ []\T1/pnc/m/n/10.95 130
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 76
+ []\T1/pnc/m/n/10.95 132
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 78
+ []\T1/pnc/m/n/10.95 136
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 79
+ []\T1/pnc/m/n/10.95 137
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 80
+ []\T1/pnc/m/n/10.95 139
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 81
+ []\T1/pnc/m/n/10.95 139
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 82
+ []\T1/pnc/m/n/10.95 140
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 83
+ []\T1/pnc/m/n/10.95 141
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 84
+ []\T1/pnc/m/n/10.95 142
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 85
+ []\T1/pnc/m/n/10.95 142
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 86
+ []\T1/pnc/m/n/10.95 143
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 88
+ []\T1/pnc/m/n/10.95 146
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (1.29184pt too wide) detected at line 89
+ []\T1/pnc/m/n/10.95 148
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 90
+ []\T1/pnc/m/n/10.95 149
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 92
+ []\T1/pnc/m/n/10.95 155
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 93
+ []\T1/pnc/m/n/10.95 155
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 94
+ []\T1/pnc/m/n/10.95 155
+ []
+
+)
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [3
+ [21] [22
 
 ]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][] 
  []
 
-(Main.lot)
+(Main.lot
+Overfull \hbox (1.29184pt too wide) detected at line 20
+ []\T1/pnc/m/n/10.95 114
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 21
+ []\T1/pnc/m/n/10.95 115
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 23
+ []\T1/pnc/m/n/10.95 118
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 24
+ []\T1/pnc/m/n/10.95 119
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 27
+ []\T1/pnc/m/n/10.95 136
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 28
+ []\T1/pnc/m/n/10.95 138
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 29
+ []\T1/pnc/m/n/10.95 141
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 31
+ []\T1/pnc/m/n/10.95 152
+ []
+
+
+Overfull \hbox (2.00049pt too wide) in paragraph at lines 31--31
+ [][] [][][]\T1/pnc/m/n/10.95 Valeurs des nuances de gris du sti-mu-lus né-ces-
+saire pour af-fi-cher un contraste 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (1.29184pt too wide) detected at line 32
+ []\T1/pnc/m/n/10.95 152
+ []
+
+
+Overfull \hbox (2.00049pt too wide) in paragraph at lines 32--32
+ [][] [][][]\T1/pnc/m/n/10.95 Valeurs des nuances de gris du sti-mu-lus né-ces-
+saire pour af-fi-cher un contraste 
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 34
+ []\T1/pnc/m/n/10.95 154
+ []
+
+
+Overfull \hbox (1.29184pt too wide) detected at line 35
+ []\T1/pnc/m/n/10.95 156
+ []
+
+)
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
- [4
+ [24]
+\openout2 = `Chapitres/INTRO.aux'.
+
+ (Chapitres/INTRO.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+) [1
+
+
 
 ]
-\openout2 = `Chapitres/EXPE2.aux'.
+\openout2 = `Chapitres/EDLA.aux'.
 
- (Chapitres/EXPE2.tex
+ (Chapitres/EDLA.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2
+
+
+
+]
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
- [1
+ [3] [4]
+Chapitre 1.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 14.
+
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
+cr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 16.
+
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
+pnc.fd"
+File: omspnc.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+ [5
+
+]
+Overfull \hbox (2.01044pt too wide) in paragraph at lines 18--19
+[]\T1/pnc/m/n/10.95 Tendance lit-té-raire et ar-tis-tique du XIXe siècle qui pr
+i-vi-lé-gie la re-pré-sen-ta-tion exacte,
+ []
+
+<Figures/BokehIllustration.png, id=1184, 405.6756pt x 269.3262pt>
+File: Figures/BokehIllustration.png Graphic file (type png)
+
+<use Figures/BokehIllustration.png>
+Package pdftex.def Info: Figures/BokehIllustration.png used on input line 29.
+(pdftex.def)             Requested size: 304.25595pt x 201.99416pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./Figures/BokehIllustration.png>]
+<Figures/AcceptationsRealisme2.png, id=1216, 433.1382pt x 361.8318pt>
+File: Figures/AcceptationsRealisme2.png Graphic file (type png)
+
+<use Figures/AcceptationsRealisme2.png>
+Package pdftex.def Info: Figures/AcceptationsRealisme2.png used on input line 5
+9.
+(pdftex.def)             Requested size: 324.85286pt x 271.37318pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8 <./Figures/AcceptationsRealisme2.png>]
+<Figures/CadreEtude.png, id=1225, 639.89063pt x 462.97969pt>
+File: Figures/CadreEtude.png Graphic file (type png)
+
+<use Figures/CadreEtude.png>
+Package pdftex.def Info: Figures/CadreEtude.png used on input line 71.
+(pdftex.def)             Requested size: 319.94452pt x 231.48927pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <./Figures/CadreEtude.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10
+
+]
+Chapitre 2.
+
+Underfull \vbox (badness 2119) has occurred while \output is active []
+
+ [11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+Chapitre 3.
+[13
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14] <Figures/SchemaOeil.png, id=1301, 732.7375pt x 431.6125pt>
+File: Figures/SchemaOeil.png Graphic file (type png)
+
+<use Figures/SchemaOeil.png>
+Package pdftex.def Info: Figures/SchemaOeil.png used on input line 132.
+(pdftex.def)             Requested size: 293.08981pt x 172.64194pt.
+
+<Figures/DensiteConesBatonnets.png, id=1302, 1003.75pt x 611.28375pt>
+File: Figures/DensiteConesBatonnets.png Graphic file (type png)
+
+<use Figures/DensiteConesBatonnets.png>
+Package pdftex.def Info: Figures/DensiteConesBatonnets.png used on input line 1
+39.
+(pdftex.def)             Requested size: 351.31776pt x 213.95251pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[15 <./Figures/SchemaOeil.png>]
+<Figures/PointsSystemeOptique.png, id=1312, 799.3062pt x 305.943pt>
+File: Figures/PointsSystemeOptique.png Graphic file (type png)
+
+<use Figures/PointsSystemeOptique.png>
+Package pdftex.def Info: Figures/PointsSystemeOptique.png used on input line 15
+7.
+(pdftex.def)             Requested size: 399.65211pt x 152.97112pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16 <./Figures/DensiteConesBatonnets.png>]
+<Figures/GullstrandModel.png, id=1327, 260.70734pt x 202.8378pt>
+File: Figures/GullstrandModel.png Graphic file (type png)
+
+<use Figures/GullstrandModel.png>
+Package pdftex.def Info: Figures/GullstrandModel.png used on input line 178.
+(pdftex.def)             Requested size: 325.88335pt x 253.54662pt.
+
+<Figures/LiouBrennanModel.png, id=1332, 388.07169pt x 195.55412pt>
+File: Figures/LiouBrennanModel.png Graphic file (type png)
+
+<use Figures/LiouBrennanModel.png>
+Package pdftex.def Info: Figures/LiouBrennanModel.png used on input line 185.
+(pdftex.def)             Requested size: 388.07072pt x 195.55363pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17 <./Figures/PointsSystemeOptique.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18 <./Figures/GullstrandModel.png> <./Figures/LiouBrennanModel.png>]
+<Figures/HoropterePanum.png, id=1354, 472.76625pt x 325.215pt>
+File: Figures/HoropterePanum.png Graphic file (type png)
+
+<use Figures/HoropterePanum.png>
+Package pdftex.def Info: Figures/HoropterePanum.png used on input line 209.
+(pdftex.def)             Requested size: 260.02223pt x 178.86879pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[19]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./Figures/HoropterePanum.png>]
+<Figures/StructureRetinae.png, id=1389, 847.66687pt x 464.4853pt>
+File: Figures/StructureRetinae.png Graphic file (type png)
+
+<use Figures/StructureRetinae.png>
+Package pdftex.def Info: Figures/StructureRetinae.png used on input line 233.
+(pdftex.def)             Requested size: 381.44656pt x 209.01645pt.
+
+Underfull \vbox (badness 7796) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./Figures/StructureRetinae.png>]
+<Figures/VoiesVentraleDorsale.png, id=1407, 920.7198pt x 542.025pt>
+File: Figures/VoiesVentraleDorsale.png Graphic file (type png)
+
+<use Figures/VoiesVentraleDorsale.png>
+Package pdftex.def Info: Figures/VoiesVentraleDorsale.png used on input line 25
+0.
+(pdftex.def)             Requested size: 322.25676pt x 189.71158pt.
+
+<Figures/OpponentColorsTheory.png, id=1413, 651.8754pt x 192.72pt>
+File: Figures/OpponentColorsTheory.png Graphic file (type png)
+
+<use Figures/OpponentColorsTheory.png>
+Package pdftex.def Info: Figures/OpponentColorsTheory.png used on input line 26
+1.
+(pdftex.def)             Requested size: 391.12825pt x 115.63287pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./Figures/VoiesVentraleDorsale.png>]
+<Figures/ContrastSensitivityFunctionAcuity.png, id=1433, 502.87875pt x 572.1375
+pt>
+File: Figures/ContrastSensitivityFunctionAcuity.png Graphic file (type png)
+ <use Figures/ContrastSensitivityFunctionAcuity.png>
+Package pdftex.def Info: Figures/ContrastSensitivityFunctionAcuity.png used on 
+input line 270.
+(pdftex.def)             Requested size: 226.29333pt x 257.45949pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./Figures/OpponentColorsTheory.png> <./Figures/ContrastSensitivityFunction
+Acuity.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24
+
+]
+Chapitre 4.
+[25] <Figures/CIELABAxes.png, id=1472, 353.6412pt x 86.2422pt>
+File: Figures/CIELABAxes.png Graphic file (type png)
+
+<use Figures/CIELABAxes.png>
+Package pdftex.def Info: Figures/CIELABAxes.png used on input line 300.
+(pdftex.def)             Requested size: 353.64032pt x 86.24197pt.
+
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26 <./Figures/CIELABAxes.png>]
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 328.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+<Figures/PhotopiqueMesopiqueScotopique.png, id=1522, 400.3758pt x 46.2528pt>
+File: Figures/PhotopiqueMesopiqueScotopique.png Graphic file (type png)
+
+<use Figures/PhotopiqueMesopiqueScotopique.png>
+Package pdftex.def Info: Figures/PhotopiqueMesopiqueScotopique.png used on inpu
+t line 383.
+(pdftex.def)             Requested size: 400.3748pt x 46.25269pt.
+
+<Figures/StandardObsCurves.png, id=1524, 321.2pt x 194.7275pt>
+File: Figures/StandardObsCurves.png Graphic file (type png)
+
+<use Figures/StandardObsCurves.png>
+Package pdftex.def Info: Figures/StandardObsCurves.png used on input line 392.
+(pdftex.def)             Requested size: 321.19922pt x 194.727pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29 <./Figures/PhotopiqueMesopiqueScotopique.png>]
+Overfull \hbox (7.79176pt too wide) in paragraph at lines 422--423
+[]\T1/pnc/m/n/10.95 Enfin, il faut at-tendre 2010 pour voir ap-pa-raitre l'\T1/
+pnc/m/it/10.95 Observateur Stan-dard Mé-so-pique\T1/pnc/m/n/10.95 , $\OML/cmm/m
+/it/10.95 V[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 \OT1/cmr/m/n/10.95 )$\T1/
+pnc/m/n/10.95 ,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30 <./Figures/StandardObsCurves.png>]
+<Figures/IlluminantD65.png, id=1551, 732.48656pt x 450.9347pt>
+File: Figures/IlluminantD65.png Graphic file (type png)
+
+<use Figures/IlluminantD65.png>
+Package pdftex.def Info: Figures/IlluminantD65.png used on input line 459.
+(pdftex.def)             Requested size: 329.61589pt x 202.91873pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./Figures/IlluminantD65.png>]
+Underfull \hbox (badness 2495) in paragraph at lines 504--504
+[][][]\T1/pnc/m/n/9 .[][]Bruce Lind-bloom, \T1/pnc/m/it/9 Delta E (CIE 2000)\T1
+/pnc/m/n/9 , [][]$\T1/pcr/m/n/9 http : / / www . brucelindbloom . com / index .
+ html ? Eqn _$
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[33]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[34
+
+]
+Chapitre 5.
+<Figures/IndicesProfondeur.png, id=1610, 413.3844pt x 200.4288pt>
+File: Figures/IndicesProfondeur.png Graphic file (type png)
+
+<use Figures/IndicesProfondeur.png>
+Package pdftex.def Info: Figures/IndicesProfondeur.png used on input line 532.
+(pdftex.def)             Requested size: 413.38338pt x 200.4283pt.
+
+Overfull \hbox (10.14714pt too wide) in paragraph at lines 537--538
+[]\T1/pnc/m/n/10.95 Premièrement, le cer-veau peut ré-cu-pé-rer as-sez fa-ci-le
+-ment les in-for-ma-tions d'\T1/pnc/m/it/10.95 accommodation
+ []
+
+[35]
+Underfull \vbox (badness 1102) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./Figures/IndicesProfondeur.png>]
+<Figures/PerspectivesProfondeur.png, id=1632, 1540.75626pt x 879.285pt>
+File: Figures/PerspectivesProfondeur.png Graphic file (type png)
+
+<use Figures/PerspectivesProfondeur.png>
+Package pdftex.def Info: Figures/PerspectivesProfondeur.png used on input line 
+566.
+(pdftex.def)             Requested size: 385.18813pt x 219.82071pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37 <./Figures/PerspectivesProfondeur.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38
+
+]
+Chapitre 6.
+
+Underfull \hbox (badness 2529) in paragraph at lines 573--573
+[][][]\T1/pnc/m/n/9 .[][]Contraste. (s.d.). Dans \T1/pnc/m/it/9 Dic-tion-naire 
+La-rousse en ligne\T1/pnc/m/n/9 . Re-péré à [][]$\T1/pcr/m/n/9 http : / / www .
+ larousse . fr /$
+ []
+
+
+Package natbib Warning: Citation `winkler_computing_1999' on page 39 undefined 
+on input line 579.
+
+
+Package natbib Warning: Citation `winkler_computing_1999' on page 39 undefined 
+on input line 580.
+
+[39]
+
+Package natbib Warning: Citation `winkler_computing_1999' on page 40 undefined 
+on input line 601.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[42
+
+]
+Chapitre 7.
+[43] <Figures/ProfondeurStereoDIO.png, id=1729, 919.18407pt x 539.01375pt>
+File: Figures/ProfondeurStereoDIO.png Graphic file (type png)
+
+<use Figures/ProfondeurStereoDIO.png>
+Package pdftex.def Info: Figures/ProfondeurStereoDIO.png used on input line 660
+.
+(pdftex.def)             Requested size: 459.59091pt x 269.50621pt.
+
+Overfull \hbox (6.62302pt too wide) in paragraph at lines 660--661
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44 <./Figures/ProfondeurStereoDIO.png>]
+<Figures/AbaqueDIO.png, id=1742, 463.9734pt x 414.8298pt>
+File: Figures/AbaqueDIO.png Graphic file (type png)
+
+<use Figures/AbaqueDIO.png>
+Package pdftex.def Info: Figures/AbaqueDIO.png used on input line 681.
+(pdftex.def)             Requested size: 371.17921pt x 331.86429pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./Figures/AbaqueDIO.png>]
+Underfull \hbox (badness 8019) in paragraph at lines 691--691
+[][][]\T1/pnc/m/n/9 .[][]Craig Bla-ck-well. 3 dé-cembre 2014. Aging Eye 1 : Vi-
+sion [Vi-déo en ligne]. Re-péré à
+ []
+
+<Figures/ConeDensityAge.png, id=1770, 702.37407pt x 574.39594pt>
+File: Figures/ConeDensityAge.png Graphic file (type png)
+
+<use Figures/ConeDensityAge.png>
+Package pdftex.def Info: Figures/ConeDensityAge.png used on input line 695.
+(pdftex.def)             Requested size: 351.18617pt x 287.19725pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./Figures/ConeDensityAge.png>]
+\openout2 = `Chapitres/MDLVI.aux'.
+
+ (Chapitres/MDLVI.tex [47
+
+
+
+] [48]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2--2
+[][] 
+ []
+
+[49
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50
+
+]
+Chapitre 1.
+
+Package natbib Warning: Citation `rushmeier_qsd_1995' on page 51 undefined on i
+nput line 28.
+
+[51]
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 39.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53] <Figures/FerwerdaAdaptationSteps.png, id=1885, 370.38374pt x 652.68843pt>
+File: Figures/FerwerdaAdaptationSteps.png Graphic file (type png)
+
+<use Figures/FerwerdaAdaptationSteps.png>
+Package pdftex.def Info: Figures/FerwerdaAdaptationSteps.png used on input line
+ 69.
+(pdftex.def)             Requested size: 370.38283pt x 652.68684pt.
+
+
+LaTeX Warning: Float too large for page by 9.50055pt on input line 72.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55 <./Figures/FerwerdaAdaptationSteps.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56
+
+]
+Chapitre 2.
+<Figures/FlowChartPattanaik.png, id=1907, 602.25pt x 179.2296pt>
+File: Figures/FlowChartPattanaik.png Graphic file (type png)
+
+<use Figures/FlowChartPattanaik.png>
+Package pdftex.def Info: Figures/FlowChartPattanaik.png used on input line 90.
+(pdftex.def)             Requested size: 451.68639pt x 134.42184pt.
+ [57]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58 <./Figures/FlowChartPattanaik.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 187.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60] <Figures/PattanaikFullModel.png, id=1998, 261.6286pt x 523.2348pt>
+File: Figures/PattanaikFullModel.png Graphic file (type png)
+
+<use Figures/PattanaikFullModel.png>
+Package pdftex.def Info: Figures/PattanaikFullModel.png used on input line 230.
+
+(pdftex.def)             Requested size: 327.03493pt x 654.0419pt.
+
+
+LaTeX Warning: Float too large for page by 10.8556pt on input line 233.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <./Figures/PattanaikFullModel.png>]
+Chapitre 3.
+[63
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 282--282
+[][] 
+ []
+
+) [65
+
+]
+\openout2 = `Chapitres/SDR-GENE.aux'.
+
+ (Chapitres/SDR-GENE.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66
+
+
+
+] [67] [68]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2--2
+[][] 
+ []
+
+[69
+
+] <Figures/ImageQualityWinkler.png, id=2093, 417.7206pt x 199.4652pt>
+File: Figures/ImageQualityWinkler.png Graphic file (type png)
+
+<use Figures/ImageQualityWinkler.png>
+Package pdftex.def Info: Figures/ImageQualityWinkler.png used on input line 17.
+
+(pdftex.def)             Requested size: 417.71957pt x 199.4647pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70 <./Figures/ImageQualityWinkler.png>]
+<Figures/SignalDetectionTheory.png, id=2130, 761.244pt x 439.4016pt>
+File: Figures/SignalDetectionTheory.png Graphic file (type png)
+
+<use Figures/SignalDetectionTheory.png>
+Package pdftex.def Info: Figures/SignalDetectionTheory.png used on input line 4
+3.
+(pdftex.def)             Requested size: 380.62106pt x 219.70026pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./Figures/SignalDetectionTheory.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72
+
+]
+Chapitre 1.
+
+Underfull \vbox (badness 1577) has occurred while \output is active []
+
+ [73]
+<Figures/ImageBias.png, id=2145, 887.9574pt x 397.0032pt>
+File: Figures/ImageBias.png Graphic file (type png)
+
+<use Figures/ImageBias.png>
+Package pdftex.def Info: Figures/ImageBias.png used on input line 60.
+(pdftex.def)             Requested size: 399.57713pt x 178.64978pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74 <./Figures/ImageBias.png>]
+<Figures/EDLAProcessScoreTarget.png, id=2151, 848.4498pt x 361.35pt>
+File: Figures/EDLAProcessScoreTarget.png Graphic file (type png)
+
+<use Figures/EDLAProcessScoreTarget.png>
+Package pdftex.def Info: Figures/EDLAProcessScoreTarget.png used on input line 
+78.
+(pdftex.def)             Requested size: 424.22386pt x 180.67456pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75 <./Figures/EDLAProcessScoreTarget.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76
+
+]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[][][]\T1/pnc/m/n/9 .[][]Acuité vi-suelle. Dans \T1/pnc/m/it/9 Vul-ga-ris Mé-di
+-cal\T1/pnc/m/n/9 . Consulté le 20/09/2017, http ://www.vulgaris-
+ []
+
+[77] <Figures/Modele1.png, id=2169, 512.1534pt x 342.5598pt>
+File: Figures/Modele1.png Graphic file (type png)
+
+<use Figures/Modele1.png>
+Package pdftex.def Info: Figures/Modele1.png used on input line 127.
+(pdftex.def)             Requested size: 409.72327pt x 274.04819pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78] <Figures/Modele2.png, id=2176, 538.1706pt x 288.1164pt>
+File: Figures/Modele2.png Graphic file (type png)
+
+<use Figures/Modele2.png>
+Package pdftex.def Info: Figures/Modele2.png used on input line 141.
+(pdftex.def)             Requested size: 430.53706pt x 230.49341pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79 <./Figures/Modele1.png>]
+<Figures/Modele3.png, id=2184, 391.7034pt x 655.7298pt>
+File: Figures/Modele3.png Graphic file (type png)
+
+<use Figures/Modele3.png>
+Package pdftex.def Info: Figures/Modele3.png used on input line 155.
+(pdftex.def)             Requested size: 391.70244pt x 655.7282pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80 <./Figures/Modele2.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81 <./Figures/Modele3.png>]
+Overfull \hbox (0.25197pt too wide) in paragraph at lines 166--167
+[]\T1/pnc/b/n/10.95 Indices de vi-sion : \T1/pnc/m/n/10.95 contraste et lu-mi-n
+o-sité (lu-mi-nance), images par se-conde, nombre
+ []
+
+<Figures/ModeleDefinitif.png, id=2196, 251.9814pt x 383.031pt>
+File: Figures/ModeleDefinitif.png Graphic file (type png)
+
+<use Figures/ModeleDefinitif.png>
+Package pdftex.def Info: Figures/ModeleDefinitif.png used on input line 178.
+(pdftex.def)             Requested size: 340.17557pt x 517.09291pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83 <./Figures/ModeleDefinitif.png>]
+\openout2 = `Chapitres/SDR-DISP.aux'.
+
+ (Chapitres/SDR-DISP.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84
 
 
 
 ]
+Chapitre 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+<Figures/EyeContrastSensitivity.png, id=2216, 366.9961pt x 339.89484pt>
+File: Figures/EyeContrastSensitivity.png Graphic file (type png)
+
+<use Figures/EyeContrastSensitivity.png>
+Package pdftex.def Info: Figures/EyeContrastSensitivity.png used on input line 
+14.
+(pdftex.def)             Requested size: 330.29341pt x 305.90251pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[86 <./Figures/EyeContrastSensitivity.png>]
+<Figures/CourbesReaExemple.png, id=2231, 765.0984pt x 310.761pt>
+File: Figures/CourbesReaExemple.png Graphic file (type png)
+
+<use Figures/CourbesReaExemple.png>
+Package pdftex.def Info: Figures/CourbesReaExemple.png used on input line 32.
+(pdftex.def)             Requested size: 382.54826pt x 155.38011pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[87] <Figures/MouvementBetaEffetPhi.png, id=2246, 663.9204pt x 405.6756pt>
+File: Figures/MouvementBetaEffetPhi.png Graphic file (type png)
+
+<use Figures/MouvementBetaEffetPhi.png>
+Package pdftex.def Info: Figures/MouvementBetaEffetPhi.png used on input line 4
+8.
+(pdftex.def)             Requested size: 365.15735pt x 223.12227pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[88 <./Figures/CourbesReaExemple.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[89 <./Figures/MouvementBetaEffetPhi.png>]
+<Figures/FPS.png, id=2285, 401.5pt x 401.5pt>
+File: Figures/FPS.png Graphic file (type png)
+ <use Figures/FPS.png>
+Package pdftex.def Info: Figures/FPS.png used on input line 86.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[90]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[91 <./Figures/FPS.png (PNG copy)>]
+<Figures/GamutBT2020.png, id=2320, 297.36093pt x 321.45094pt>
+File: Figures/GamutBT2020.png Graphic file (type png)
+
+<use Figures/GamutBT2020.png>
+Package pdftex.def Info: Figures/GamutBT2020.png used on input line 121.
+(pdftex.def)             Requested size: 267.62236pt x 289.30316pt.
+
+Underfull \vbox (badness 6658) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[92 <./Figures/GamutBT2020.png>]
+<Figures/Color.png, id=2327, 301.125pt x 301.125pt>
+File: Figures/Color.png Graphic file (type png)
+ <use Figures/Color.png>
+Package pdftex.def Info: Figures/Color.png used on input line 143.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[93 <./Figures/Color.png>]
+<Figures/ChampVisionHorizontal.png, id=2338, 820.9872pt x 352.1958pt>
+File: Figures/ChampVisionHorizontal.png Graphic file (type png)
+
+<use Figures/ChampVisionHorizontal.png>
+Package pdftex.def Info: Figures/ChampVisionHorizontal.png used on input line 1
+66.
+(pdftex.def)             Requested size: 410.4926pt x 176.09747pt.
+
+Underfull \vbox (badness 1776) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[94 <./Figures/ChampVisionHorizontal.png>]
+<Figures/ChampVisionVertical.png, id=2349, 518.8986pt x 514.0806pt>
+File: Figures/ChampVisionVertical.png Graphic file (type png)
+
+<use Figures/ChampVisionVertical.png>
+Package pdftex.def Info: Figures/ChampVisionVertical.png used on input line 184
+.
+(pdftex.def)             Requested size: 311.34155pt x 308.45074pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[95 <./Figures/ChampVisionVertical.png>]
+<Figures/FOV.png, id=2360, 301.125pt x 301.125pt>
+File: Figures/FOV.png Graphic file (type png)
+ <use Figures/FOV.png>
+Package pdftex.def Info: Figures/FOV.png used on input line 208.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[96 <./Figures/FOV.png>]
+<Figures/AcuityICD9CM.png, id=2368, 681.2652pt x 474.573pt>
+File: Figures/AcuityICD9CM.png Graphic file (type png)
+
+<use Figures/AcuityICD9CM.png>
+Package pdftex.def Info: Figures/AcuityICD9CM.png used on input line 222.
+(pdftex.def)             Requested size: 408.76227pt x 284.74599pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[97 <./Figures/AcuityICD9CM.png>]
+<Figures/AcuityMono.png, id=2387, 401.5pt x 401.5pt>
+File: Figures/AcuityMono.png Graphic file (type png)
+
+<use Figures/AcuityMono.png>
+Package pdftex.def Info: Figures/AcuityMono.png used on input line 264.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[98] <Figures/FractionVariation.png, id=2407, 387.3672pt x 279.9258pt>
+File: Figures/FractionVariation.png Graphic file (type png)
+
+<use Figures/FractionVariation.png>
+Package pdftex.def Info: Figures/FractionVariation.png used on input line 286.
+(pdftex.def)             Requested size: 387.36626pt x 279.92511pt.
+
+<Figures/ANSURIPD.png, id=2408, 876.27374pt x 432.86719pt>
+File: Figures/ANSURIPD.png Graphic file (type png)
+
+<use Figures/ANSURIPD.png>
+Package pdftex.def Info: Figures/ANSURIPD.png used on input line 293.
+(pdftex.def)             Requested size: 438.13579pt x 216.43306pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[99 <./Figures/AcuityMono.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[100 <./Figures/FractionVariation.png> <./Figures/ANSURIPD.png>]
+<Figures/StereoAcuity.png, id=2433, 301.125pt x 301.125pt>
+File: Figures/StereoAcuity.png Graphic file (type png)
+
+<use Figures/StereoAcuity.png>
+Package pdftex.def Info: Figures/StereoAcuity.png used on input line 324.
+(pdftex.def)             Requested size: 271.00998pt x 271.00998pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[101]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[102 <./Figures/StereoAcuity.png>]
+\openout2 = `Chapitres/SDR-IMM.aux'.
+
+ (Chapitres/SDR-IMM.tex
+Chapitre 4.
+[103
+
+
+
+]
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[104] <Figures/RecouvrementFOR.png, id=2470, 1229.0718pt x 482.2818pt>
+File: Figures/RecouvrementFOR.png Graphic file (type png)
+
+<use Figures/RecouvrementFOR.png>
+Package pdftex.def Info: Figures/RecouvrementFOR.png used on input line 42.
+(pdftex.def)             Requested size: 430.18158pt x 168.80115pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[105 <./Figures/RecouvrementFOR.png>]
+<Figures/StereoActiveAnaglyphGlasses.png, id=2483, 501.875pt x 170.6375pt>
+File: Figures/StereoActiveAnaglyphGlasses.png Graphic file (type png)
+
+<use Figures/StereoActiveAnaglyphGlasses.png>
+Package pdftex.def Info: Figures/StereoActiveAnaglyphGlasses.png used on input 
+line 63.
+(pdftex.def)             Requested size: 401.50053pt x 136.51016pt.
+
+<Figures/StereoTechnoScore.png, id=2486, 361.35pt x 216.81pt>
+File: Figures/StereoTechnoScore.png Graphic file (type png)
+
+<use Figures/StereoTechnoScore.png>
+Package pdftex.def Info: Figures/StereoTechnoScore.png used on input line 77.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[106 <./Figures/StereoActiveAnaglyphGlasses.png>]
+<Figures/TrackingCameraBody.png, id=2494, 739.563pt x 276.5532pt>
+File: Figures/TrackingCameraBody.png Graphic file (type png)
+
+<use Figures/TrackingCameraBody.png>
+Package pdftex.def Info: Figures/TrackingCameraBody.png used on input line 87.
+(pdftex.def)             Requested size: 443.74123pt x 165.9332pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[107 <./Figures/StereoTechnoScore.png>]
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[108 <./Figures/TrackingCameraBody.png>]
+<Figures/EyeTrackerTobii.png, id=2515, 273.71552pt x 120.45pt>
+File: Figures/EyeTrackerTobii.png Graphic file (type png)
+
+<use Figures/EyeTrackerTobii.png>
+Package pdftex.def Info: Figures/EyeTrackerTobii.png used on input line 116.
+(pdftex.def)             Requested size: 273.71483pt x 120.44969pt.
+
+<Figures/RedressementPlansVision.png, id=2516, 493.0922pt x 363.60844pt>
+File: Figures/RedressementPlansVision.png Graphic file (type png)
+
+<use Figures/RedressementPlansVision.png>
+Package pdftex.def Info: Figures/RedressementPlansVision.png used on input line
+ 123.
+(pdftex.def)             Requested size: 369.81824pt x 272.70566pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[109]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[110 <./Figures/EyeTrackerTobii.png> <./Figures/RedressementPlansVision.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[111]
+\openout2 = `Chapitres/SDR-POND.aux'.
+
+ (Chapitres/SDR-POND.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[112
+
+
+
+]
+Chapitre 5.
+[113]
+Overfull \hbox (3.17223pt too wide) in paragraph at lines 34--34
+|[]\T1/pnc/b/n/17.28 Tracking, sté-réo-sco-pie, conver-gence des ca-mé-
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[114]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[115] <Figures/ModeleDefinitifPondere.png, id=2591, 417.7206pt x 273.1806pt>
+File: Figures/ModeleDefinitifPondere.png Graphic file (type png)
+
+<use Figures/ModeleDefinitifPondere.png>
+Package pdftex.def Info: Figures/ModeleDefinitifPondere.png used on input line 
+85.
+(pdftex.def)             Requested size: 417.71957pt x 273.17992pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[116 <./Figures/ModeleDefinitifPondere.png>]
+\openout2 = `Chapitres/SDR-EXPE.aux'.
+
+ (Chapitres/SDR-EXPE.tex
+Chapitre 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[][][]\T1/pnc/m/n/9 .[][][][]$\T1/pcr/m/n/9 http : / / www . oktal . fr / en / 
+automotive / range-[]of-[]simulators / software$[][] \T1/pnc/m/n/9 (lien rac-co
+urci :
+ []
+
+[117
+
+
+
+] <Figures/AidedScale.png, id=2606, 426.8748pt x 82.8696pt>
+File: Figures/AidedScale.png Graphic file (type png)
+
+<use Figures/AidedScale.png>
+Package pdftex.def Info: Figures/AidedScale.png used on input line 31.
+(pdftex.def)             Requested size: 426.87375pt x 82.86937pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[118 <./Figures/AidedScale.png>]
+<Figures/ResultsComparison.png, id=2615, 507.8172pt x 898.557pt>
+File: Figures/ResultsComparison.png Graphic file (type png)
+
+<use Figures/ResultsComparison.png>
+Package pdftex.def Info: Figures/ResultsComparison.png used on input line 77.
+(pdftex.def)             Requested size: 380.86195pt x 673.9161pt.
+
+
+LaTeX Warning: Float too large for page by 28.8026pt on input line 80.
+
+
+Underfull \vbox (badness 2205) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[119]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[120 <./Figures/ResultsComparison.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[121])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[122]
+\openout2 = `Chapitres/SDR-CONCL.aux'.
+
+ (Chapitres/SDR-CONCL.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+
+Overfull \hbox (0.25197pt too wide) in paragraph at lines 11--12
+[]\T1/pnc/b/n/10.95 Indices de vi-sion : \T1/pnc/m/n/10.95 contraste et lu-mi-n
+o-sité (lu-mi-nance), images par se-conde, nombre
+ []
+
+[123
+
+
+
+]
+Overfull \hbox (0.5698pt too wide) in paragraph at lines 17--18
+[]\T1/pnc/m/n/10.95 Néanmoins, il reste des points à dé-ve-lop-per. Cer-tains c
+ri-tères ne sont pas abou-tis et doivent
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[124]
+\openout2 = `Chapitres/EXPE1.aux'.
+
+ (Chapitres/EXPE1.tex [125
+
+
+
+] [126]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][] 
  []
 
-[2
+
+Overfull \hbox (1.93489pt too wide) in paragraph at lines 6--7
+[]\T1/pnc/m/n/10.95 Dans le cha-pitre pré-cé-dent, on a dé-crit deux ap-proches
+ pos-sibles pour le cri-tère de contraste
+ []
+
+
+Overfull \hbox (8.65775pt too wide) in paragraph at lines 8--9
+[]\T1/pnc/m/n/10.95 Il a été né-ces-saire de choi-sir entre les deux mo-dèles, 
+ce-lui de Rea et ce-lui de la CIE/Blackwell.
+ []
+
+) [127
+
+]
+\openout2 = `Chapitres/EXPE1-REA.aux'.
+
+ (Chapitres/EXPE1-REA.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[128
+
+
 
 ]
 Chapitre 1.
-[3
+[129] <Figures/CompressionEffect.png, id=2676, 666.23906pt x 188.20313pt>
+File: Figures/CompressionEffect.png Graphic file (type png)
+
+<use Figures/CompressionEffect.png>
+Package pdftex.def Info: Figures/CompressionEffect.png used on input line 14.
+(pdftex.def)             Requested size: 399.74652pt x 112.92273pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[130 <./Figures/CompressionEffect.png>]
+Overfull \hbox (16.71725pt too wide) in paragraph at lines 74--75
+[]\T1/pnc/m/n/10.95 La per-for-mance va-rie as-sez peu entre des condi-tions mo
+yenne et su-pé-rieure de contraste. 
+ []
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 85.
+
+Missing character: There is no é in font cmr10!
+
+LaTeX Warning: Command \' invalid in math mode on input line 85.
+
+Missing character: There is no é in font cmr10!
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[131] <Figures/ReactionTimeApparatus.png, id=2705, 406.51875pt x 389.95688pt>
+File: Figures/ReactionTimeApparatus.png Graphic file (type png)
+
+<use Figures/ReactionTimeApparatus.png>
+Package pdftex.def Info: Figures/ReactionTimeApparatus.png used on input line 8
+9.
+(pdftex.def)             Requested size: 304.8883pt x 292.46693pt.
+
+Underfull \vbox (badness 4913) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[132 <./Figures/ReactionTimeApparatus.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[133]
+\openout2 = `Chapitres/EXPE1-PRELIM.aux'.
+
+ (Chapitres/EXPE1-PRELIM.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[134
+
+
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 10--10
+Chapitre 2.
+<Figures/ChromameterCS100.png, id=2736, 152.06813pt x 187.45032pt>
+File: Figures/ChromameterCS100.png Graphic file (type png)
+
+<use Figures/ChromameterCS100.png>
+Package pdftex.def Info: Figures/ChromameterCS100.png used on input line 6.
+(pdftex.def)             Requested size: 152.06775pt x 187.44984pt.
+ [135]
+Underfull \vbox (badness 3291) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[136 <./Figures/ChromameterCS100.png>]
+<Figures/EvolutionLuminanceGlobale.png, id=2751, 569.4876pt x 320.397pt>
+File: Figures/EvolutionLuminanceGlobale.png Graphic file (type png)
+
+<use Figures/EvolutionLuminanceGlobale.png>
+Package pdftex.def Info: Figures/EvolutionLuminanceGlobale.png used on input li
+ne 45.
+(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[137 <./Figures/EvolutionLuminanceGlobale.png>]
+<Figures/EvolutionLuminanceTarget.png, id=2760, 569.4876pt x 330.9966pt>
+File: Figures/EvolutionLuminanceTarget.png Graphic file (type png)
+
+<use Figures/EvolutionLuminanceTarget.png>
+Package pdftex.def Info: Figures/EvolutionLuminanceTarget.png used on input lin
+e 89.
+(pdftex.def)             Requested size: 427.11465pt x 248.24683pt.
+
+<Figures/DikablisProfessional.png, id=2765, 225.84375pt x 126.4725pt>
+File: Figures/DikablisProfessional.png Graphic file (type png)
+
+<use Figures/DikablisProfessional.png>
+Package pdftex.def Info: Figures/DikablisProfessional.png used on input line 10
+4.
+(pdftex.def)             Requested size: 225.84319pt x 126.47218pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[138]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[139 <./Figures/EvolutionLuminanceTarget.png> <./Figures/DikablisProfessional.p
+ng>]
+<Figures/LargeurPupillaireEnFonctionDuTemps.png, id=2781, 858.20625pt x 481.047
+18pt>
+File: Figures/LargeurPupillaireEnFonctionDuTemps.png Graphic file (type png)
+ <use Figures/LargeurPupillaireEnFonctionDuTemps.png>
+Package pdftex.def Info: Figures/LargeurPupillaireEnFonctionDuTemps.png used on
+ input line 113.
+(pdftex.def)             Requested size: 429.10208pt x 240.523pt.
+
+Overfull \hbox (22.44882pt too wide) in paragraph at lines 132--140
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/MesureReferenceOeil.png, id=2786, 619.113pt x 386.4036pt>
+File: Figures/MesureReferenceOeil.png Graphic file (type png)
+
+<use Figures/MesureReferenceOeil.png>
+Package pdftex.def Info: Figures/MesureReferenceOeil.png used on input line 144
+.
+(pdftex.def)             Requested size: 433.37614pt x 270.48067pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[140 <./Figures/LargeurPupillaireEnFonctionDuTemps.png>]
+<Figures/ComparaisonDiamReelDiamTheo.png, id=2794, 569.4876pt x 320.397pt>
+File: Figures/ComparaisonDiamReelDiamTheo.png Graphic file (type png)
+
+<use Figures/ComparaisonDiamReelDiamTheo.png>
+Package pdftex.def Info: Figures/ComparaisonDiamReelDiamTheo.png used on input 
+line 155.
+(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
+
+<Figures/CourbesLuminanceLunettesStereo.png, id=2795, 569.4876pt x 320.397pt>
+File: Figures/CourbesLuminanceLunettesStereo.png Graphic file (type png)
+
+<use Figures/CourbesLuminanceLunettesStereo.png>
+Package pdftex.def Info: Figures/CourbesLuminanceLunettesStereo.png used on inp
+ut line 165.
+(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[141 <./Figures/MesureReferenceOeil.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[142 <./Figures/ComparaisonDiamReelDiamTheo.png> <./Figures/CourbesLuminanceLun
+ettesStereo.png>]
+<Figures/PourcentageAbsorption.png, id=2809, 569.0058pt x 319.9152pt>
+File: Figures/PourcentageAbsorption.png Graphic file (type png)
+
+<use Figures/PourcentageAbsorption.png>
+Package pdftex.def Info: Figures/PourcentageAbsorption.png used on input line 1
+81.
+(pdftex.def)             Requested size: 426.7533pt x 239.9358pt.
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[143 <./Figures/PourcentageAbsorption.png>]
+\openout2 = `Chapitres/EXPE1-MANIP.aux'.
+
+ (Chapitres/EXPE1-MANIP.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[144
+
+
+
+]
+Chapitre 3.
+[145] <Figures/SubjectsCharts.png, id=2828, 568.524pt x 215.3646pt>
+File: Figures/SubjectsCharts.png Graphic file (type png)
+
+<use Figures/SubjectsCharts.png>
+Package pdftex.def Info: Figures/SubjectsCharts.png used on input line 24.
+(pdftex.def)             Requested size: 454.81982pt x 172.2919pt.
+
+Overfull \hbox (1.85193pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[146 <./Figures/SubjectsCharts.png>]
+<Figures/FlowchartExpeRVPGeneral.png, id=2836, 242.8272pt x 361.8318pt>
+File: Figures/FlowchartExpeRVPGeneral.png Graphic file (type png)
+
+<use Figures/FlowchartExpeRVPGeneral.png>
+Package pdftex.def Info: Figures/FlowchartExpeRVPGeneral.png used on input line
+ 40.
+(pdftex.def)             Requested size: 194.26201pt x 289.46584pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[147] <Figures/FlowchartExpeRVP.png, id=2843, 470.7186pt x 478.9092pt>
+File: Figures/FlowchartExpeRVP.png Graphic file (type png)
+
+<use Figures/FlowchartExpeRVP.png>
+Package pdftex.def Info: Figures/FlowchartExpeRVP.png used on input line 61.
+(pdftex.def)             Requested size: 376.57538pt x 383.12787pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[148 <./Figures/FlowchartExpeRVPGeneral.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[149 <./Figures/FlowchartExpeRVP.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[150]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[151]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[152]
+Chapitre 4.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[153
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/ResultsRVP_1.png, id=2894, 722.7pt x 216.81pt>
+File: Figures/ResultsRVP_1.png Graphic file (type png)
+
+<use Figures/ResultsRVP_1.png>
+Package pdftex.def Info: Figures/ResultsRVP_1.png used on input line 215.
+(pdftex.def)             Requested size: 452.9679pt x 135.88966pt.
+
+<Figures/ResultsRVP_2.png, id=2895, 722.7pt x 216.81pt>
+File: Figures/ResultsRVP_2.png Graphic file (type png)
+
+<use Figures/ResultsRVP_2.png>
+Package pdftex.def Info: Figures/ResultsRVP_2.png used on input line 222.
+(pdftex.def)             Requested size: 452.9679pt x 135.88966pt.
+
+<Figures/ResultsRVP_3.png, id=2896, 722.2182pt x 216.81pt>
+File: Figures/ResultsRVP_3.png Graphic file (type png)
+
+<use Figures/ResultsRVP_3.png>
+Package pdftex.def Info: Figures/ResultsRVP_3.png used on input line 229.
+(pdftex.def)             Requested size: 452.9679pt x 135.9856pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[154]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[155 <./Figures/ResultsRVP_1.png> <./Figures/ResultsRVP_2.png> <./Figures/Resul
+tsRVP_3.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[156])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[157]
+\openout2 = `Chapitres/EXPE1-CONCL.aux'.
+
+ (Chapitres/EXPE1-CONCL.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[158
+
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-) [4
+) [159]
+\openout2 = `Chapitres/EXPE2.aux'.
 
-] (Main.bbl [5
+ (Chapitres/EXPE2.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[160
+
+
+
+] [161] [162]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
+[][] 
+ []
+
+) [163
+
+]
+\openout2 = `Chapitres/EXPE2-PRELIM.aux'.
+
+ (Chapitres/EXPE2-PRELIM.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[164
+
+
+
+]
+Chapitre 1.
+) [165]
+\openout2 = `Chapitres/EXPE2-MANIP.aux'.
+
+ (Chapitres/EXPE2-MANIP.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[166
+
+
+
+]
+Chapitre 2.
+) [167]
+\openout2 = `Chapitres/EXPE2-CONCL.aux'.
+
+ (Chapitres/EXPE2-CONCL.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[168
+
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+) [169]
+\openout2 = `Chapitres/CONCL.aux'.
+
+ (Chapitres/CONCL.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[170
+
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+) [171]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.50986pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[172
+
+
+] (Main.bbl [173
+
+] [174] [175] [176] [177] [178] [179]
+Underfull \hbox (badness 1946) in paragraph at lines 613--616
+[]\T1/pnc/m/n/10.95 Spencer, Greg, Shir-ley, Pe-ter, Zim-mer-man, Kurt, & Green
+-berg, Do-nald P. 1995.
+ []
+
+[180]) [0]
+\openout2 = `Chapitres/ANXE.aux'.
+
+ (Chapitres/ANXE.tex [1
+
+
+] [2]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 5--5
+[][] 
+ []
+
+[3
+
+] [4] [5] [6
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 98--98
+[][] 
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [7])
+[8]
+\openout2 = `Chapitres/QUEST.aux'.
+
+ (Chapitres/QUEST.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.4 \newpage
+             [9
 
 
 
 ]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 5.
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
- (Main.aux (Chapitres/EXPE2.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+<Questionnaires/QPI_vf.pdf, id=3066, 614.295pt x 794.97pt>
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+ <use Questionnaires/QPI_vf.pdf>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf used on input line 6.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Questionnaires/QPI_vf.pdf, id=3069, page=1, 614.295pt x 794.97pt>
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
+
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [10 <./Questionnaires/QPI_vf.pdf>]
+<Questionnaires/QPI_vf.pdf, id=3092, page=2, 614.295pt x 794.97pt>
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page2 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page2 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page2 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [11 <./Questionnaires/QPI_vf.pdf>]
+<Questionnaires/QPI_vf.pdf, id=3098, page=3, 614.295pt x 794.97pt>
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page3 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page3 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page3 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [12 <./Questionnaires/QPI_vf.pdf>]
+<Questionnaires/QPI_vf.pdf, id=3111, page=4, 614.295pt x 794.97pt>
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page4 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page4 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QPI_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page4 used on input line 6.
+
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [13 <./Questionnaires/QPI_vf.pdf>]
+<Questionnaires/SSQ_vf.pdf, id=3145, 614.295pt x 794.97pt>
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf used on input line 10.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+ <use Questionnaires/SSQ_vf.pdf>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf used on input line 10.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Questionnaires/SSQ_vf.pdf, id=3148, page=1, 614.295pt x 794.97pt>
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [14 <./Questionnaires/SSQ_vf.pdf>]
+<Questionnaires/SSQ_vf.pdf, id=3176, page=2, 614.295pt x 794.97pt>
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page2 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page2 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/SSQ_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page2 used on input line 10
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [15 <./Questionnaires/SSQ_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3195, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf used on input line 14.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+ <use Questionnaires/QEP_vf.pdf>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf used on input line 14.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<Questionnaires/QEP_vf.pdf, id=3198, page=1, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 1>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [16 <./Questionnaires/QEP_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3231, page=2, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page2 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page2 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 2>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page2 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [17 <./Questionnaires/QEP_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3237, page=3, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page3 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page3 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 3>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page3 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [18 <./Questionnaires/QEP_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3244, page=4, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page4 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page4 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 4>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page4 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [19 <./Questionnaires/QEP_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3250, page=5, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 5>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page5 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 5>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page5 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 5>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page5 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [20 <./Questionnaires/QEP_vf.pdf>]
+<Questionnaires/QEP_vf.pdf, id=3259, page=6, 614.295pt x 794.97pt>
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 6>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page6 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 6>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page6 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
+
+<use Questionnaires/QEP_vf.pdf, page 6>
+Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page6 used on input line 14
+.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [21 <./Questionnaires/QEP_vf.pdf>])
+\openout2 = `Chapitres/PUBL.aux'.
+
+
+(Chapitres/PUBL.texpdfTeX warning (ext4): destination with the same identifier 
+(name{page.v}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            *{Publications} [22
+
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+[23]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 5.
+
+<Articles/PRS.pdf, id=3288, 597.50829pt x 845.0471pt>
+File: Articles/PRS.pdf Graphic file (type pdf)
+ <use Articles/PRS.pdf>
+Package pdftex.def Info: Articles/PRS.pdf used on input line 6.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf>
+Package pdftex.def Info: Articles/PRS.pdf used on input line 6.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+
+<Articles/PRS.pdf, id=3291, page=1, 597.50829pt x 845.0471pt>
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf, page 1>
+Package pdftex.def Info: Articles/PRS.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+ <use Articles/PRS.pdf, page 1>
+Package pdftex.def Info: Articles/PRS.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf, page 1>
+Package pdftex.def Info: Articles/PRS.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+ <use Articles/PRS.pdf, page 1>
+Package pdftex.def Info: Articles/PRS.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.x}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6 ...f[pages=-,pagecommand={}]{Articles/PRS.pdf}
+                                                  
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf, page 1>
+Package pdftex.def Info: Articles/PRS.pdf, page1 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [24 <./Articles/PRS.pdf>]
+<Articles/PRS.pdf, id=3322, page=2, 597.50829pt x 845.0471pt>
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf, page 2>
+Package pdftex.def Info: Articles/PRS.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+ <use Articles/PRS.pdf, page 2>
+Package pdftex.def Info: Articles/PRS.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Articles/PRS.pdf Graphic file (type pdf)
+
+<use Articles/PRS.pdf, page 2>
+Package pdftex.def Info: Articles/PRS.pdf, page2 used on input line 6.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [25 <./Articles/PRS.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3372, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf>
+Package pdftex.def Info: Articles/ERS-Main.pdf used on input line 10.
+(pdftex.def)             Requested size: 546.29163pt x 745.4602pt.
+
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+<use Articles/ERS-Main.pdf>
+Package pdftex.def Info: Articles/ERS-Main.pdf used on input line 10.
+(pdftex.def)             Requested size: 546.29163pt x 745.4602pt.
+
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3375, page=1, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 1>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page1 used on input line 10.
+(pdftex.def)             Requested size: 546.29163pt x 745.4602pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 1>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page1 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 1>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page1 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 1>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page1 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 1>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page1 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [26 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3417, page=2, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 2>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page2 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 2>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page2 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 2>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page2 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [27 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3440, page=3, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 3>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page3 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 3>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page3 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 3>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page3 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [28 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3449, page=4, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 4>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page4 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 4>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page4 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 4>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page4 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [29 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3459, page=5, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 5>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page5 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 5>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page5 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 5>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page5 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [30 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3477, page=6, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 6>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page6 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 6>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page6 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 6>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page6 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [31 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3487, page=7, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 7>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page7 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 7>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page7 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 7>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page7 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [32 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3498, page=8, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 8>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page8 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 8>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page8 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 8>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page8 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [33 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3512, page=9, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 9>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page9 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 9>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page9 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 9>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page9 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [34 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3521, page=10, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 10>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page10 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 10>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page10 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 10>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page10 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [35 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3530, page=11, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 11>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page11 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 11>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page11 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 11>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page11 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [36 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3540, page=12, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 12>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page12 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 12>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page12 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 12>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page12 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [37 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3551, page=13, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 13>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page13 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 13>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page13 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 13>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page13 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [38 <./Articles/ERS-Main.pdf>]
+
+pdfTeX warning: pdflatex (file ./Articles/ERS-Main.pdf): PDF inclusion: found P
+DF version <1.7>, but at most version <1.5> allowed
+<Articles/ERS-Main.pdf, id=3560, page=14, 546.29295pt x 745.46204pt>
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 14>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page14 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+ <use Articles/ERS-Main.pdf, page 14>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page14 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+File: Articles/ERS-Main.pdf Graphic file (type pdf)
+
+<use Articles/ERS-Main.pdf, page 14>
+Package pdftex.def Info: Articles/ERS-Main.pdf, page14 used on input line 10.
+(pdftex.def)             Requested size: 597.82321pt x 815.77933pt.
+ [39 <./Articles/ERS-Main.pdf>]
+<Articles/CL.pdf, id=3569, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf>
+Package pdftex.def Info: Articles/CL.pdf used on input line 14.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf>
+Package pdftex.def Info: Articles/CL.pdf used on input line 14.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+ <Articles/CL.pdf, id=3572, page=1, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 1>
+Package pdftex.def Info: Articles/CL.pdf, page1 used on input line 14.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 1>
+Package pdftex.def Info: Articles/CL.pdf, page1 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 1>
+Package pdftex.def Info: Articles/CL.pdf, page1 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 1>
+Package pdftex.def Info: Articles/CL.pdf, page1 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 1>
+Package pdftex.def Info: Articles/CL.pdf, page1 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [40 <./Articles/CL.pdf>]
+<Articles/CL.pdf, id=3622, page=2, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 2>
+Package pdftex.def Info: Articles/CL.pdf, page2 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 2>
+Package pdftex.def Info: Articles/CL.pdf, page2 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 2>
+Package pdftex.def Info: Articles/CL.pdf, page2 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [41 <./Articles/CL.pdf>]
+<Articles/CL.pdf, id=3652, page=3, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 3>
+Package pdftex.def Info: Articles/CL.pdf, page3 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 3>
+Package pdftex.def Info: Articles/CL.pdf, page3 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 3>
+Package pdftex.def Info: Articles/CL.pdf, page3 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [42 <./Articles/CL.pdf>]
+<Articles/CL.pdf, id=3661, page=4, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 4>
+Package pdftex.def Info: Articles/CL.pdf, page4 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 4>
+Package pdftex.def Info: Articles/CL.pdf, page4 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 4>
+Package pdftex.def Info: Articles/CL.pdf, page4 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [43 <./Articles/CL.pdf>]
+<Articles/CL.pdf, id=3673, page=5, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 5>
+Package pdftex.def Info: Articles/CL.pdf, page5 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 5>
+Package pdftex.def Info: Articles/CL.pdf, page5 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 5>
+Package pdftex.def Info: Articles/CL.pdf, page5 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [44 <./Articles/CL.pdf>]
+<Articles/CL.pdf, id=3699, page=6, 614.295pt x 794.97pt>
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 6>
+Package pdftex.def Info: Articles/CL.pdf, page6 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+ <use Articles/CL.pdf, page 6>
+Package pdftex.def Info: Articles/CL.pdf, page6 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: Articles/CL.pdf Graphic file (type pdf)
+
+<use Articles/CL.pdf, page 6>
+Package pdftex.def Info: Articles/CL.pdf, page6 used on input line 14.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+ [45 <./Articles/CL.pdf>])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
+(Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux) (Chapitres/EDLA.aux)
+(Chapitres/MDLVI.aux) (Chapitres/SDR-GENE.aux) (Chapitres/SDR-DISP.aux)
+(Chapitres/SDR-IMM.aux) (Chapitres/SDR-POND.aux) (Chapitres/SDR-EXPE.aux)
+(Chapitres/SDR-CONCL.aux) (Chapitres/EXPE1.aux) (Chapitres/EXPE1-REA.aux)
+(Chapitres/EXPE1-PRELIM.aux) (Chapitres/EXPE1-MANIP.aux)
+(Chapitres/EXPE1-CONCL.aux) (Chapitres/EXPE2.aux) (Chapitres/EXPE2-PRELIM.aux)
+(Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux)
+(Chapitres/ANXE.aux) (Chapitres/QUEST.aux) (Chapitres/PUBL.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: CDEC4ABA53038FC4141F10388EF6A91D;398.
+(rerunfilecheck)             Checksum: E69CD5BEE1AB3008C91D4DF51F966DD2;11720.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 86 ({)
+### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10179 strings out of 493634
- 147061 string characters out of 3131976
- 260140 words of memory out of 3000000
- 13339 multiletter control sequences out of 15000+200000
- 31869 words of font info for 56 fonts, out of 3000000 for 9000
+ 12158 strings out of 493634
+ 191804 string characters out of 3131976
+ 314030 words of memory out of 3000000
+ 14337 multiletter control sequences out of 15000+200000
+ 72407 words of font info for 93 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,11n,44p,826b,5503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,18n,53p,1967b,6462s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-Output written on Main.pdf (9 pages, 41021 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Administrator/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
+s/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
+/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><C:/Users/Administrator/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users
+/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Administrator/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/Admini
+strator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/
+Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmm
+i5.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmmi7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/lm/lmr10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmr5.pfb><C:/Users/Administrator/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Administrator/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Administ
+rator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Use
+rs/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr
+8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
+w/helvetic/uhvb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/Administrator/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Administrator/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Users/
+Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a
+.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+ncntrsbk/uncbi8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Users/Administrator/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Ad
+ministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplbi8a.
+pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/p
+alatino/uplr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/palatino/uplri8a.pfb><C:/Users/Administrator/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Main.pdf (250 pages, 12801132 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3940 PDF objects out of 4296 (max. 8388607)
+ 726 named destinations out of 1000 (max. 500000)
+ 1834 words of extra memory for PDF output out of 10000 (max. 10000000)
 
