@@ -1,60 +1,10 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: authordate1.bst
-A level-1 auxiliary file: Chapitres/PREAMB.aux
-A level-1 auxiliary file: Chapitres/INTRO.aux
-A level-1 auxiliary file: Chapitres/EDLA.aux
-A level-1 auxiliary file: Chapitres/MDLVI.aux
-A level-1 auxiliary file: Chapitres/SDR-GENE.aux
-A level-1 auxiliary file: Chapitres/SDR-DISP.aux
-A level-1 auxiliary file: Chapitres/SDR-IMM.aux
-A level-1 auxiliary file: Chapitres/SDR-POND.aux
-A level-1 auxiliary file: Chapitres/SDR-EXPE.aux
-A level-1 auxiliary file: Chapitres/SDR-CONCL.aux
-A level-1 auxiliary file: Chapitres/EXPE1.aux
-A level-1 auxiliary file: Chapitres/EXPE1-REA.aux
-A level-1 auxiliary file: Chapitres/EXPE1-PRELIM.aux
-A level-1 auxiliary file: Chapitres/EXPE1-MANIP.aux
-A level-1 auxiliary file: Chapitres/EXPE1-CONCL.aux
 A level-1 auxiliary file: Chapitres/EXPE2.aux
-A level-1 auxiliary file: Chapitres/EXPE2-PRELIM.aux
 A level-1 auxiliary file: Chapitres/EXPE2-MANIP.aux
 A level-1 auxiliary file: Chapitres/EXPE2-CONCL.aux
-A level-1 auxiliary file: Chapitres/CONCL.aux
-A level-1 auxiliary file: Chapitres/ANXE.aux
-A level-1 auxiliary file: Chapitres/QUEST.aux
-A level-1 auxiliary file: Chapitres/PUBL.aux
 Database file #1: References/refs.bib
-Warning--I didn't find a database entry for "winkler_computing_1999"
-Warning--I didn't find a database entry for "rushmeier_qsd_1995"
-Warning--empty publisher in cadik_human_2004
-Warning--empty institution in anses_effets_2014
-Warning--empty publisher in beretta_understanding_2000
-Warning--can't use both author and editor fields in international_commission_on_illumination_analytic_1981
-Warning--empty booktitle in burkhardt_conception_1999
-Warning--empty booktitle in daly_visible_1992
-Warning--empty booktitle in deering_limits_1998
-Warning--empty institution in devisme_optimisation_2004
-Warning--empty school in dhondt_emotion_2011
-Warning--empty booktitle in dodgson_variation_2004
-Warning--empty booktitle in feng_han_investigation_2010
-Warning--empty booktitle in ferwerda_model_1996
-Warning--empty booktitle in halonen_cie_2011
-Warning--empty booktitle in kemeny_driving_2014
-Warning--empty booktitle in langlois_adas_2013
-Warning--empty publisher in lubin_visual_1995
-Warning--empty booktitle in lukin_improved_2009
-Warning--empty booktitle in mantiuk_visible_2004
-Warning--empty booktitle in mantiuk_predicting_2005
-Warning--empty booktitle in mantiuk_human_2015
-Warning--empty booktitle in mikkola_relative_2010
-Warning--empty booktitle in moorthy_survey_2013
-Warning--empty journal in pattanaik_multiscale_1998
-Warning--empty booktitle in reinhart_comparison_1990
-Warning--empty journal in rushmeier_comparing_1995
-Warning--empty publisher in sharma_digital_2013
-Warning--empty booktitle in spencer_physically-based_1995
-Warning--empty publisher in stoffregen_one_2003
-Warning--empty publisher in westheimer_eye_1986
-Warning--empty booktitle in winkler_quality_2000
-Warning--empty booktitle in woods_image_1993
-(There were 33 warnings)
+Warning--can't use both author and editor fields in hale_handbook_2015
+Warning--empty booktitle in bouchard_revising_2007
+Warning--empty booktitle in regan_real-time_1999
+(There were 3 warnings)

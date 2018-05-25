@@ -1,4 +1,128 @@
-\chapter{Protocole expérimental}
-	\section{Dispositif}
-	\subsection{Hypothèses de travail}
+\chapter{Contexte}
+	\par Dans ce chapitre, on aborde toute les notions préliminaires à un travail expérimental: la définition du sujet, les valeurs clefs, les méthodes de mesure. On établira également les objectifs que l'on cherchera à atteindre via expérimentation.
+	
+	\section{Définition et mesure de ses effets}
+	\subsection{Définitions}	
+	\par Il existe un certain nombre de définitions différentes de la latence. On a présenté notre approche dans la partie sur le score de réalisme. Indépendamment, les auteurs donnent souvent des définitions multiples. On présente ici deux définitions plutôt classiques de la latence (ou plutôt <<~des~>> latences) ainsi qu'une définition plus originale.
+	
+	\par La première définition est quadruple \citep{papadakis_system_2011}. La latence peut donc être définie telle que:
+	\begin{itemize}
+		\item le retard entre l'action d'un utilisateur et sa prise en compte par le système,
+		\item le temps de calcul lié à l'application, typiquement la lourdeur des graphismes à afficher ou des algorithmes qui travaillent en arrière plan.
+		\item le retard du au temps mis pour afficher l'image calculée, qui est au minimum égal au taux de rafraichissement de l'écran,
+		\item le retard engendré par la non-synchronisation écran - unité de calcul: une image calculée doit attendre le prochain rafraichissement de l'écran pour être affichée.
+	\end{itemize}		
+	
+	\par D'autres auteurs, \citep{hale_handbook_2015}, proposent quand à eux une version différente, plus adaptée à la Réalité Virtuelle et à l'immersion:
+	\begin{itemize}
+		\item le retard entre un mouvement de l'utilisateur et la réponse du système de tracking (typiquement, l'envoie de l'information de la nouvelle position à l'ordinateur),
+		\item le retard entre le mouvement de l'utilisateur et le même mouvement dans le programme,
+		\item de manière générale, un temps de réponse retardé.
+	\end{itemize}		
+	
+	\par On s'aperçoit que si la première définition est sensiblement la même que pour les auteurs précédents, les autres définitions ne convergent pas du tout. Il nous faut donc impérativement clairement définir le concept de latence que l'on utilise pour notre expérimentation. En l'occurrence, on choisit de se mettre dans le cadre deux la deuxième définition de \citep{hale_handbook_2015}: le retard entre le mouvement réel et le mouvement dans la simulation.
+	
+	\par Enfin, \citep{watson_effects_1998}, parle quant non pas de latence directement mais d'un concept plus global: la réactivité du système, c'est à dire du temps qui s'écoule, lorsque l'on effectue une action, pour recevoir un feedback. La réactivité du système se compose des éléments suivants: la latence en elle-même (sans plus de définition), le temps entre deux images affichées (l'inverse du taux de rafraichissement donc) ainsi que le délai entre l'action de l'utilisateur et le moment suivant où le système vérifie les inputs. Typiquement, si le système de tracking capture les mouvements toutes les $100~ms$ mais que l'utilisateur commence son mouvement $20~ms$ après une capture, il y aura donc automatiquement un délai de $80~ms$	qui s'ajoutera, indépendamment du reste du système.
+	
+	\subsection{La performance comme outil de mesure}
+	\par De nombreux auteurs ont travaillé sur l'influence de la latence. Afin de s'extraire le plus possible de la subjectivité humaine, il fallait trouver une méthode qui ne se repose sur aucun questionnaire, source de biais. L'approche utilisée est alors la performance à l'échelle d'une tâche à réaliser dans l'environnement virtuel. L'influence de la latence sur la performance a été traitée de nombreuse fois dans la littérature \citep{ellis_sensor_1999,mania_perceptual_2004,watson_effects_1998,papadakis_system_2011,meehan_effect_2003}. C'est par ce biais là que nous mèneront également notre expérimentation.
+	
+	\par Parallèlement, \citep{meehan_effect_2003} proposent un autre moyen d'établir l'influence de la latence, qui ne passe pas par la performance. Pour rester sur des facteurs objectifs, ils mesurent des facteurs biologiques dans le corps humain directement, tels que le rythme cardiaque et la conductance de la peau (qui augmente avec la transpiration). Avec ces mesures, ils démontrent également, de manière alternative là encore, que la latence a un effet sur la présence: plus la latence est faible, plus la présence est forte.
+	
+	\section{Perception de la latence}
+	\subsection{Notions de psychométrie}
+	\par L'étude de la littérature nécessite, au préalable, un petit détour par le domaine de la psychométrie et la définition d'un certain nombre de grandeurs que l'on sera amené à rencontrer. On se contentera ici d'une brève introduction pour la compréhension puisque les méthodes de psychométrie ne seront pas utilisées dans cette expérimentation. Les ouvrages de référence restent le Manuel Pratique de Psychophysique de \citep{bonnet_manuel_1986} pour la langue française et Psychophysics: A Practical Introduction de \citep{kingdom_psychophysics:_2010} pour la langue anglaise.
+	
+	\par La psychométrie est l'étude quantitative de la relation entre un phénomène physique quantifiable et la ou les réponses générées par le système sensoriel humain. Elle permet d'établir des modèles de fonctionnement à plusieurs niveaux: la structure du stimulus, le fonctionnement perceptif, ou bien le/s processus d'élaboration des réponses sensorielles. La notion de stimulus est ainsi définie \citep{bonnet_manuel_1986}:
+	\begin{quote}
+		Ensemble des évènements physiques qui déclenchent l'activité des récepteurs sensoriels et étant ainsi à l'origine des réponses observées.
+	\end{quote}
+	
+	\par Une notion fondamentale en psychométrie est celle de seuil, c'est à dire de limite établie entre deux états: l'état haut et l'état bas. Selon la tâche effectuée, l'état haut peut être une détection de stimulus, une discrimination, une reconnaissance, une identification, ... tandis que l'état bas sera toujours défini comme l'absence d'état haut. Trois hypothèses sont nécessaires à la reconnaissance d'un seuil:
+	\begin{itemize}
+		\item \textbf{Hypothèse 1:} il ne doit pas être attribué au stimulus de part dans la variation observée des réponses (c'est à dire que le stimulus est considéré comme parfait et le récepteur comme observant des lois de probabilité),
+		\item \textbf{Hypothèse 2:} il est admis un continuum des états d'excitation en réponse (c'est à dire que le comportement du système sensoriel ne doit pas changer du tout au tout au passage du seuil),
+		\item \textbf{Hypothèse 3:} il est admis l'existence d'un mécanisme de réponse qui peut être modélisé sous la forme d'une règle logique.
+	\end{itemize}		
+	
+	\par On note plus particulièrement deux seuils caractéristiques qui nous intéressent: le seuil de détection et le seuil de discrimination. 
+	
+	\par Le premier, appelé seuil de détection ou <<~absolute threshold~>> en anglais, caractérise la détection du stimulus, c'est à dire la capacité du sujet à répondre sur la présence ou l'absence de ce dernier. Il est nécessaire mais non suffisant pour déterminer en entier un système sensoriel: il faudrait également pouvoir estimer la limite supérieure. Cependant, et dans de nombreux cas, il est difficile de mesurer expérimentalement au delà d'une certaine intensité de stimulus sans endommager le système sensoriel des sujets. Typiquement, une luminance trop forte détruirait les cellules de la rétine dans l'œil. Ces grandeurs dont on ne peut pas mesurer le seuil maximal sont appelées <<~métathétique~>> \citep{stevens_psychophysical_1957}.
+	
+	\par Le deuxième seuil caractéristique est celui de discrimination (ou JND en anglais pour <<~just noticeable difference~>>). Il quantifie la capacité du sujet à distinguer une présence ou une absence de différence entre deux stimuli. Tout système, physique ou biologique, peut être caractérisé d'une part par ses limites de fonctionnement mais aussi par son pouvoir de résolution, sa capacité à discriminer deux niveaux voisins de signaux qu'il traite.
+	
+	\par La psychométrie propose ensuite des paradigmes pour établir des protocoles expérimentaux et des méthodes pour traiter les résultats et en extraire des modèles (avec notamment l'usage des fonctions psychométriques). Néanmoins, nous n'avons pas eu recours à ces méthodes pendant nos expérimentations et le développer serait donc légèrement hors-cadre. On présente donc dans la section suivante les différents seuils et influences sur l'expérience utilisateur liés à la latence, dans la littérature.	
+	
+	\subsection{Dans la littérature}
+	\par Il est tout d'abord à noter que la perception de la latence se ferait de manière indirecte \citep{adelstein_head_2003}: elle serait perçue non pas directement pas les systèmes sensoriels mais par son effet sur l'environnement. On parle alors d' <<~oscillopsie~>> \citep{allison_tolerance_2001}, c'est à dire que l'environnement semble bouger, flotter dans l'espace. On peut donc extrapoler que, plus l'environnement est immersif, plus la ressenti de la latence sera fort. La perception est également indépendante de la complexité de la scène \citep{mania_perceptual_2004}: que l'on soit dans un décors minimaliste avec quelques polygones ou une scène surchargée (fig ?), si les deux ont la même quantité de latence, le ressenti sera le même. Enfin, la latence ne suivrait pas la loi de Weber \citep{adelstein_head_2003} qui implique que le seuil de perception est proportionnel à la valeur de l'intensité du stimulus: on percevrai donc également la même variation de latence, quelle que soit la valeur initiale de celle-ci.
+	
+	\par Le seuil de perception, donc de capacité à dire si le stimulus est présent ou non, a été mesuré à hauteur d'un intervalle de $15$ à $18.6~ms$ \citep{regan_real-time_1999}. Néanmoins, ces valeurs ont été observées pour un environnement souvent non-immersif et, comme on l'a vu au paragraphe précédent, ce dernier paramètre pourrait avoir une forte influence sur le résultat. De même, les résultats peuvent fortement varier suivant si la tâche demandée pendant l'expérimentation demande de se concentrer sur la perception de la latence ou de se concentrer sur une autre activité. Par ailleurs, \citep{brooks_whats_1999} estime le seuil de perception, pour les simulateurs de vol, à une valeur de $50~ms$. Regan et al. estiment également que le lag spécifiquement imputable au calcul de l'image (sans prise en compte ni de l'acquisition du mouvement, ni de l'affichage) est perceptible à partir de $15 \pm 3~ms$.
+	
+	\par Le seuil de discrimination (capacité à distinguer une différence entre deux stimuli) quant à lui, est mesuré pour la main à une valeur comprise entre $15$ et $20~ms$ et monte à une valeur de $50~ms$ pour la tête \citep{ellis_sensor_1999}. De leur côté, \citep{adelstein_head_2003} et \citep{mania_perceptual_2004} proposent des valeurs pour le tracking de la tête plus proches des valeurs de Ellis pour le tracking de la main avec respectivement $13.6 \pm 0.6~ms$ ($Max = 24.6~ms$) et $9.1 \pm 1.6~ms$ de JND.
+	
+	\par Enfin, \citep{allison_tolerance_2001} font une remarque intéressante: plus le mouvement de la tête est rapide, plus la latence doit être faible. Ils proposent des valeurs assez élevées comme seuil de perception mais l'ordre de grandeur permet toutefois la comparaison: pour une rotation lente de la tête, une latence de $320~ms$ est acceptable, tandis que pour une rotation rapide, le seuil descend à $180~ms$. Ces valeurs correspondent bien à la théorie de perception indirecte de la latence: plus on bouge vite, plus l'environnement va <<~flotter~>> et donc plus la perception sera forte. Cela donne également des indices sur une stratégie à adopter: quand la latence augmente, il peut être bienvenu de ralentir ses mouvements.
+	
+	\section{Mesure de la latence}
+	\par On a vu que la mesure de l'influence de la latence sur l'être humain se faisait généralement via un indice de performance sur une tâche donnée. Il faut également être capable de mesurer le plus précisément possible quelle est le niveau de latence auquel la tâche s'effectue. Cette fois, la mesure ne peut être qu'objective puisqu'elle n'implique pas le sujet humain mais seulement le système directement. On trouve un certain nombre de techniques dans la littérature, que nous allons présenter brièvement ici (de manière non exhaustive).
+	
+	% Cf. Papadakis et al., 2011: A system to measure, control and minimize end to end head tracking latency in immersive simulation
+	\par pendule \citep{liang_temporal-spatial_1991}
+	
+	\par oscilloscope \citep{jacoby_improved_1996}
+	
+	\par phonograph \citep{swindells_system_2000}
+	
+	\par vga signals \citep{ellis_generalizeability_2004}
+	
+	\par analyse vidéo \citep{steed_simple_2008}
+	
+	\par photodiodes \citep{di_luca_new_2010}
+	
+	\par encoder \citep{papadakis_system_2011}
+	
+	\par Bien que, dans l'idéal et pour maximiser la précision dans les mesures, il faudrait utiliser un oscilloscope, nous utilisons une méthode par la vidéo pour mesurer la latence de nos propres systèmes ; la précision étant suffisante pour notre application (voir chapitre suivant).
+	
+	
+\chapter{Mise en place du dispositif expérimental}
+	\par Maintenant que l'on connait mieux le contexte de la latence dans la réalité virtuelle, on décide de mener une expérimentation à ce propos. Si on connait les seuils de perception et de discrimination de la latence, la variation de la performance n'est pas décrite: on sait simplement qu'elle change, mais pas de combien en fonction de l'évolution de la latence. Les objectifs liés à cette expérimentation sont donc multiples:
+	
+	\begin{itemize}
+		\item développer un des critères prépondérant du modèle de score de réalisme,
+		\item regarder l'influence de la latence sur la performance, en milieu immersif (et écologique),
+		\item comparer entre deux moyens immersifs (un casque et un simulateur type CAVE),
+		\item déterminer un seuil au delà duquel l'expérience utilisateur devient trop impactée. 
+	\end{itemize}	
+	
+	\section{Tâche à effectuer}
+	\par The subjects were confronted to an ecological situation and asked to perform a typical daily task such as looking at precise locations in a vehicle, during short amounts of time. The immersion was done through the mean of a 4 faces CAVE-like display system, with the subject seated at $1~m$ far from the main screen. The subjects were to perform an identical routine at different levels of latency. The simulation ran at a smooth 60 frames per second. Performance indicators beforehandly established were transparently recorded during the routines. In addition, multiple questionnaires were filled throughout the entire experiment: immersion tendency \cite{witmer_measuring_1998}, presence \cite{witmer_measuring_1998} and simulator sickness questionnaires (Kennedy's SSQ). The scientifically verified french translation of the questionnaires were used \cite{bouchard_revising_2007, bouchard_side_2009, bouchard_exploring_2011}.
+
+	\par Precisely, the subjects are immersed in a realistic-looking car and its environment. They were  asked to visually aim at given points in the car, in a random order. The aiming was helped with a game-like virtual reticle follwing the movements of the head. The target to aim were indicated through the mean of a white arrow pointing one out of four possible directions (left, up, right and down). Whenever the subjects assumed to be at the center of the designated target, they would hit a button on a joystick they held in their hands. There were four different possible targets, bounded to the direction of the arrow: the left and right mirrors, the rear view mirror and the central display. The routine was made of 24 targets to hit (6 times each of the 4 targets) presented in a random order. The subjects were asked to replace their gaze at the arrow location after every aiming routine. The software automatically and transparently recorded the hit position on the target (x-axis and y-axis coordinates) and the hit time. The hit position was then used to compute how far from the center of the target the subject shot. The output is relative to the size of the target and thus given between 0 and 1 on both axes.
+
+	% Figure Expe.png
+
+	\par The same 24 targets aiming routine was performed twice: once at the standard running capability of the immersive system (reference setup) and once in a degraded state of the system, latency-wise. The order was alternated between subjects in order to limit any bias. Latency was added on the tracking of the head. Technically, the tracking is correctly performed but delayed in time. We did not degrade the frame rate to be able to keep a high frame rate and thus a smooth (but late) simulation.
+
+	\par The latency offset we added in our experiment is based on the different values that were presented previously in the Research Question section. In order to stay within the range of the performance interaction threshold, we chose to add an amount of $60~ms$ within the tracking loop of the head (Fig. \ref{fig:added_latency_intheloop}).
+		
+	\section{Méthode de latence artificielle}
+	\par The addition of latency was made by applying a filter in the tracking software. The filter was set with a negative amount of anticipation time.
+	
+	\section{Mesures préliminaires}
+	\par In order to properly conduct our experiment, some values needed to be verified upstream. We had to measure the total amount of latency, with and without added latency (and hence verify that the filter is well applied). There exists a lot of different techniques to measure end-to-end latency \cite{papadakis_system_2011}. Since our system tracks the VR glasses, we chose to apply a color tint to the 3D environment, based on the height difference of the tracked device (compared to the height at the previous frame). For a positive difference (actual height greater than previous-frame height) the world was tinted green while for a negative diffrence (actual height smaller than previous-frame height) the world was tinted red. We then applied a sinusoidal vertical movement to the glasses and filmed the output (glasses + screens) at 120~Hz. By running frame by frame the thus obtained video, we could count the number of frames between a real change of direction of the glasses' movement (ascendent or descendent) and its display (which was characterized by a tint change of the 3D environment). The precision is hence half a frame, which means $4~ms$. Our measurements report a total amount of latency of $160~ms$ for the reference system, and a correct addition of $60~ms$ in the tracking loop, which leads to a total amount of latency of $220~ms$ for the degraded setup.
+	
+\chapter{Résultats}
+	\par In our experiment, there were 12 subjects, 6 men and 6 women, aging from 23 to 54 years-old, with a mean value of $31$ y.o. and a standard deviation pf $\sigma = 11$ y.o.. 9 of them declared being familiar to Virtual Reality or playing video games (Fig. \ref{fig:population}).
+
+	% Figure population
+	
+	\section{Dans le CAVE}
+	\par qsd
+	
+	\section{Dans le casque}
+	\par qsd
+	
+	\section{Analyse croisée}
+	\par qsd
+	
+	\section{Apport au score de réalisme}
 	\par qsd

@@ -1,161 +1,24 @@
 \select@language {french}
-\contentsline {chapter}{Table des figures}{xvii}{chapter*.5}
-\contentsline {chapter}{Liste des tableaux}{xxiii}{chapter*.6}
-\contentsline {part}{Introduction g\IeC {\'e}n\IeC {\'e}rale}{1}{chapter*.7}
-\contentsline {part}{I\hspace {1em}\IeC {\'E}tat de l'Art: Partie Th\IeC {\'e}orique}{3}{part.1}
-\contentsline {chapter}{\numberline {1}D\IeC {\'e}finition du r\IeC {\'e}alisme}{5}{chapter.1.1}
-\contentsline {section}{\numberline {1.1}Enjeux et probl\IeC {\'e}matiques}{5}{section.1.1.1}
-\contentsline {section}{\numberline {1.2}D\IeC {\'e}finitions usuelles}{5}{section.1.1.2}
-\contentsline {section}{\numberline {1.3}D\IeC {\'e}finitions dans le domaine de la R\IeC {\'e}alit\IeC {\'e} Virtuelle}{6}{section.1.1.3}
-\contentsline {section}{\numberline {1.4}Cadre d'\IeC {\'e}tude}{8}{section.1.1.4}
-\contentsline {chapter}{\numberline {2}D\IeC {\'e}finition de la multi-sensorialit\IeC {\'e} 3D}{11}{chapter.1.2}
-\contentsline {section}{\numberline {2.1}Immersion}{11}{section.1.2.1}
-\contentsline {section}{\numberline {2.2}Pr\IeC {\'e}sence}{12}{section.1.2.2}
-\contentsline {section}{\numberline {2.3}Proprioception}{12}{section.1.2.3}
-\contentsline {section}{\numberline {2.4}Application dans la th\IeC {\`e}se}{12}{section.1.2.4}
-\contentsline {chapter}{\numberline {3}Fonctionnement de la vision}{13}{chapter.1.3}
-\contentsline {section}{\numberline {3.1}Structure de l'\IeC {\oe }il}{13}{section.1.3.1}
-\contentsline {section}{\numberline {3.2}Mod\IeC {\'e}lisation de l'\IeC {\oe }il}{15}{section.1.3.2}
-\contentsline {section}{\numberline {3.3}Vision binoculaire}{19}{section.1.3.3}
-\contentsline {section}{\numberline {3.4}Traitement post-r\IeC {\'e}tinien}{20}{section.1.3.4}
-\contentsline {chapter}{\numberline {4}Perception de la couleur}{25}{chapter.1.4}
-\contentsline {section}{\numberline {4.1}Espaces colorim\IeC {\'e}triques}{25}{section.1.4.1}
-\contentsline {section}{\numberline {4.2}Lois et effets}{27}{section.1.4.2}
-\contentsline {section}{\numberline {4.3}Observateurs standards}{29}{section.1.4.3}
-\contentsline {section}{\numberline {4.4}Illuminants}{30}{section.1.4.4}
-\contentsline {section}{\numberline {4.5}Equations de diff\IeC {\'e}rentiations des couleurs}{31}{section.1.4.5}
-\contentsline {chapter}{\numberline {5}Perception visuelle de la profondeur}{35}{chapter.1.5}
-\contentsline {chapter}{\numberline {6}Contraste}{39}{chapter.1.6}
-\contentsline {section}{\numberline {6.1}D\IeC {\'e}finitions math\IeC {\'e}matiques}{39}{section.1.6.1}
-\contentsline {section}{\numberline {6.2}Lois de comportement}{40}{section.1.6.2}
-\contentsline {chapter}{\numberline {7}Influences Physiologiques}{43}{chapter.1.7}
-\contentsline {section}{\numberline {7.1}Variations morphologiques}{43}{section.1.7.1}
-\contentsline {section}{\numberline {7.2}\IeC {\^A}ge}{46}{section.1.7.2}
-\contentsline {part}{II\hspace {1em}Premi\IeC {\`e}re approche: mod\IeC {\`e}les de vision}{47}{part.2}
-\contentsline {chapter}{Introduction}{49}{chapter*.8}
-\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'Art}{51}{chapter.2.1}
-\contentsline {section}{\numberline {1.1}Mod\IeC {\`e}les principaux}{52}{section.2.1.1}
-\contentsline {section}{\numberline {1.2}P\IeC {\'e}rennit\IeC {\'e}s des mod\IeC {\`e}les principaux}{52}{section.2.1.2}
-\contentsline {section}{\numberline {1.3}Mod\IeC {\`e}les de Mantiuk \textit {et al.} [2004, 2005, 2015]}{52}{section.2.1.3}
-\contentsline {section}{\numberline {1.4}Reproduction de tons}{53}{section.2.1.4}
-\contentsline {chapter}{\numberline {2}Mod\IeC {\`e}le de Pattanaik \textit {et al.}}{57}{chapter.2.2}
-\contentsline {chapter}{\numberline {3}Mod\IeC {\`e}le de Mantiuk \& Ramponi}{63}{chapter.2.3}
-\contentsline {chapter}{Conclusion}{65}{chapter*.9}
-\contentsline {part}{III\hspace {1em}Deuxi\IeC {\`e}me approche: score de r\IeC {\'e}alisme}{67}{part.3}
-\contentsline {chapter}{Introduction}{69}{chapter*.10}
-\contentsline {chapter}{\numberline {1}Score de r\IeC {\'e}alisme}{73}{chapter.3.1}
-\contentsline {section}{\numberline {1.1}Ambition}{73}{section.3.1.1}
-\contentsline {section}{\numberline {1.2}M\IeC {\'e}thodologie}{74}{section.3.1.2}
-\contentsline {chapter}{\numberline {2}Proposition de mod\IeC {\`e}le}{77}{chapter.3.2}
-\contentsline {section}{\numberline {2.1}Propositions pr\IeC {\'e}liminaires}{78}{section.3.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_1})}{78}{subsection.3.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Seconde mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_2})}{79}{subsection.3.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Troisi\IeC {\`e}me mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_3})}{80}{subsection.3.2.1.3}
-\contentsline {section}{\numberline {2.2}Mod\IeC {\`e}le d\IeC {\'e}finitif}{82}{section.3.2.2}
-\contentsline {chapter}{\numberline {3}Indices de vision}{85}{chapter.3.3}
-\contentsline {section}{\numberline {3.1}Contraste \& luminosit\IeC {\'e}}{85}{section.3.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Fonction de sensibilit\IeC {\'e} au contraste (CSF)}{86}{subsection.3.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Performance visuelle relative}{87}{subsection.3.3.1.2}
-\contentsline {subsubsection}{Mod\IeC {\`e}le de la CIE}{87}{subsubsection*.11}
-\contentsline {subsubsection}{Mod\IeC {\`e}les de Rea et Ouellette}{87}{subsubsection*.12}
-\contentsline {subsubsection}{Vers une v\IeC {\'e}rification exp\IeC {\'e}rimentale}{87}{subsubsection*.13}
-\contentsline {section}{\numberline {3.2}Images par seconde}{88}{section.3.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Minimum de fonctionnement}{88}{subsection.3.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Ph\IeC {\'e}nom\IeC {\`e}ne de scintillement (flickering)}{88}{subsection.3.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Maximum de fonctionnement}{89}{subsection.3.3.2.3}
-\contentsline {subsubsection}{L'hypoth\IeC {\`e}se des deux voies}{89}{subsubsection*.14}
-\contentsline {subsubsection}{Les pilotes de l'US Air Force}{90}{subsubsection*.15}
-\contentsline {subsection}{\numberline {3.2.4}Fonction de notation du crit\IeC {\`e}re}{90}{subsection.3.3.2.4}
-\contentsline {section}{\numberline {3.3}Couleurs}{90}{section.3.3.3}
-\contentsline {subsection}{\numberline {3.3.1}D\IeC {\'e}nombrement des couleurs visibles}{90}{subsection.3.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Les espaces colorim\IeC {\'e}triques}{91}{subsection.3.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Indice de rendu des couleurs (IRC)}{92}{subsection.3.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Fonction de notation du crit\IeC {\`e}re}{93}{subsection.3.3.3.4}
-\contentsline {section}{\numberline {3.4}Champ de vision}{93}{section.3.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Axe horizontal}{94}{subsection.3.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Axe vertical}{95}{subsection.3.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Pond\IeC {\'e}ration}{95}{subsection.3.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Fonction de notation du crit\IeC {\`e}re}{96}{subsection.3.3.4.4}
-\contentsline {section}{\numberline {3.5}Acuit\IeC {\'e} monoscopique}{96}{section.3.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Premi\IeC {\`e}re approche}{96}{subsection.3.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Deuxi\IeC {\`e}me approche}{97}{subsection.3.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Fonction de notation du crit\IeC {\`e}re}{98}{subsection.3.3.5.3}
-\contentsline {section}{\numberline {3.6}Acuit\IeC {\'e} st\IeC {\'e}r\IeC {\'e}oscopique}{98}{section.3.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation}{98}{subsection.3.3.6.1}
-\contentsline {subsubsection}{Mod\IeC {\`e}le usuel}{98}{subsubsection*.16}
-\contentsline {subsubsection}{Limites et solution d'am\IeC {\'e}lioration}{99}{subsubsection*.17}
-\contentsline {subsection}{\numberline {3.6.2}Fonction de notation du crit\IeC {\`e}re}{101}{subsection.3.3.6.2}
-\contentsline {subsubsection}{Cas g\IeC {\'e}n\IeC {\'e}ral}{101}{subsubsection*.18}
-\contentsline {subsubsection}{Cas du CAVE}{101}{subsubsection*.19}
-\contentsline {chapter}{\numberline {4}Indices d'immersion}{103}{chapter.3.4}
-\contentsline {section}{\numberline {4.1}Latence}{103}{section.3.4.1}
-\contentsline {section}{\numberline {4.2}Champ de regard}{104}{section.3.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Champ horizontal \& champ vertical}{104}{subsection.3.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Pond\IeC {\'e}ration}{104}{subsection.3.4.2.2}
-\contentsline {section}{\numberline {4.3}St\IeC {\'e}r\IeC {\'e}oscopie}{105}{section.3.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Fonctionnement}{105}{subsection.3.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Fonction de notation du crit\IeC {\`e}re}{106}{subsection.3.4.3.2}
-\contentsline {section}{\numberline {4.4}Tracking}{107}{section.3.4.4}
-\contentsline {section}{\numberline {4.5}Uniformit\IeC {\'e}}{108}{section.3.4.5}
-\contentsline {section}{\numberline {4.6}Orientation des cam\IeC {\'e}ras}{109}{section.3.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Mim\IeC {\'e}tisme du fonctionnement oculaire}{109}{subsection.3.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Fonction de notation du crit\IeC {\`e}re}{111}{subsection.3.4.6.2}
-\contentsline {chapter}{\numberline {5}Pond\IeC {\'e}ration du mod\IeC {\`e}le}{113}{chapter.3.5}
-\contentsline {section}{\numberline {5.1}Contraste, luminance, taille et champs visuels}{113}{section.3.5.1}
-\contentsline {section}{\numberline {5.2}Tracking, st\IeC {\'e}r\IeC {\'e}oscopie, convergence des cam\IeC {\'e}ras et couleurs}{114}{section.3.5.2}
-\contentsline {section}{\numberline {5.3}Conclusion}{115}{section.3.5.3}
-\contentsline {chapter}{\numberline {6}Etude exp\IeC {\'e}rimentale}{117}{chapter.3.6}
-\contentsline {section}{\numberline {6.1}Objectif}{117}{section.3.6.1}
-\contentsline {section}{\numberline {6.2}Apparatus}{117}{section.3.6.2}
-\contentsline {section}{\numberline {6.3}R\IeC {\'e}sultats}{119}{section.3.6.3}
-\contentsline {section}{\numberline {6.4}Discussion}{121}{section.3.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Couleurs et acuit\IeC {\'e} monoscopique}{121}{subsection.3.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Champ de vision \& champ de regard}{121}{subsection.3.6.4.2}
-\contentsline {chapter}{Conclusion}{123}{chapter*.20}
-\contentsline {part}{IV\hspace {1em}Partie exp\IeC {\'e}rimentale: contraste et luminance}{125}{part.4}
-\contentsline {chapter}{Introduction}{127}{chapter*.21}
-\contentsline {chapter}{\numberline {1}Mod\IeC {\`e}les de Rea}{129}{chapter.4.1}
-\contentsline {section}{\numberline {1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation de la performance visuelle relative}{129}{section.4.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Mod\IeC {\`e}le pr\IeC {\'e}curseur}{129}{subsection.4.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Application \IeC {\`a} la performance visuelle}{130}{subsection.4.1.1.2}
-\contentsline {section}{\numberline {1.2}M\IeC {\'e}thode des temps de r\IeC {\'e}action}{131}{section.4.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Protocole exp\IeC {\'e}rimental}{131}{subsection.4.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Calcul des temps de r\IeC {\'e}action th\IeC {\'e}oriques}{133}{subsection.4.1.2.2}
-\contentsline {chapter}{\numberline {2}Mesures pr\IeC {\'e}liminaires}{135}{chapter.4.2}
-\contentsline {section}{\numberline {2.1}Luminance globale (luminance de fond)}{135}{section.4.2.1}
-\contentsline {section}{\numberline {2.2}Luminance de la cible (luminance de tache)}{137}{section.4.2.2}
-\contentsline {section}{\numberline {2.3}Diam\IeC {\`e}tre pupillaire}{138}{section.4.2.3}
-\contentsline {section}{\numberline {2.4}Absorption des verres des lunettes 3D}{141}{section.4.2.4}
-\contentsline {chapter}{\numberline {3}Protocole exp\IeC {\'e}rimental}{145}{chapter.4.3}
-\contentsline {section}{\numberline {3.1}Dispositif}{145}{section.4.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Hypoth\IeC {\`e}ses de travail}{145}{subsection.4.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Sujets \& mat\IeC {\'e}riel}{146}{subsection.4.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}T\IeC {\^a}che \IeC {\`a} effectuer}{147}{subsection.4.3.1.3}
-\contentsline {section}{\numberline {3.2}Choix des conditions exp\IeC {\'e}rimentales}{148}{section.4.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Luminance}{148}{subsection.4.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Contraste}{150}{subsection.4.3.2.2}
-\contentsline {chapter}{\numberline {4}R\IeC {\'e}sultats}{153}{chapter.4.4}
-\contentsline {section}{\numberline {4.1}Pr\IeC {\'e}dictions du mod\IeC {\`e}le th\IeC {\'e}orique}{153}{section.4.4.1}
-\contentsline {section}{\numberline {4.2}Mesures r\IeC {\'e}elles}{153}{section.4.4.2}
-\contentsline {section}{\numberline {4.3}Analyse et discussion}{156}{section.4.4.3}
-\contentsline {chapter}{Conclusion}{159}{chapter*.22}
-\contentsline {part}{V\hspace {1em}Exp\IeC {\'e}rimentation: latence}{161}{part.5}
-\contentsline {chapter}{Introduction}{163}{chapter*.23}
-\contentsline {chapter}{\numberline {1}Mesures pr\IeC {\'e}liminaires}{165}{chapter.5.1}
-\contentsline {chapter}{\numberline {2}Protocole exp\IeC {\'e}rimental}{167}{chapter.5.2}
-\contentsline {section}{\numberline {2.1}Dispositif}{167}{section.5.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Hypoth\IeC {\`e}ses de travail}{167}{subsection.5.2.1.1}
-\contentsline {chapter}{Conclusion}{169}{chapter*.24}
-\contentsline {part}{Conclusion g\IeC {\'e}n\IeC {\'e}rale}{171}{chapter*.25}
-\contentsline {part}{Bibliographie}{173}{chapter*.25}
-\contentsline {part}{ANNEXES}{c}{part*.27}
-\contentsline {chapter}{Calcul de la performance visuelle, m\IeC {\'e}thode des temps de r\IeC {\'e}action}{c}{appendix*.28}
-\contentsline {chapter}{Luminance de fond}{g}{appendix*.29}
-\contentsline {chapter}{Questionnaires}{i}{appendix*.30}
-\contentsline {section}{Questionnaire de Propension \IeC {\`a} l'Immersion - Version canadienne-fran\IeC {\c c}aise}{j}{section*.31}
-\contentsline {section}{Questionnaire de Cybermalaise - Version canadienne-fran\IeC {\c c}aise}{n}{section*.31}
-\contentsline {section}{Questionnaire de Pr\IeC {\'e}sence - Version canadienne-fran\IeC {\c c}aise}{p}{section*.31}
-\contentsline {chapter}{Publications}{w}{appendix*.32}
-\contentsline {section}{DSC 2017 EUROPE VR}{x}{section*.33}
-\contentsline {section}{Transportation Research Part F: Traffic Behavior and Psychology}{z}{section*.33}
-\contentsline {section}{IEEE Transactions on Computers}{an}{section*.33}
+\contentsline {chapter}{Table des figures}{iv}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{v}{chapter*.3}
+\contentsline {part}{I\hspace {1em}Exp\IeC {\'e}rimentation: latence}{1}{part.1}
+\contentsline {chapter}{Introduction}{2}{chapter*.4}
+\contentsline {chapter}{\numberline {1}Contexte}{3}{chapter.1.1}
+\contentsline {section}{\numberline {1.1}D\IeC {\'e}finition et mesure de ses effets}{3}{section.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}D\IeC {\'e}finitions}{3}{subsection.1.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}La performance comme outil de mesure}{4}{subsection.1.1.1.2}
+\contentsline {section}{\numberline {1.2}Perception de la latence}{5}{section.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Notions de psychom\IeC {\'e}trie}{5}{subsection.1.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Dans la litt\IeC {\'e}rature}{6}{subsection.1.1.2.2}
+\contentsline {section}{\numberline {1.3}Mesure de la latence}{7}{section.1.1.3}
+\contentsline {chapter}{\numberline {2}Mise en place du dispositif exp\IeC {\'e}rimental}{8}{chapter.1.2}
+\contentsline {section}{\numberline {2.1}T\IeC {\^a}che \IeC {\`a} effectuer}{8}{section.1.2.1}
+\contentsline {section}{\numberline {2.2}M\IeC {\'e}thode de latence artificielle}{9}{section.1.2.2}
+\contentsline {section}{\numberline {2.3}Mesures pr\IeC {\'e}liminaires}{9}{section.1.2.3}
+\contentsline {chapter}{\numberline {3}R\IeC {\'e}sultats}{11}{chapter.1.3}
+\contentsline {section}{\numberline {3.1}Dans le CAVE}{11}{section.1.3.1}
+\contentsline {section}{\numberline {3.2}Dans le casque}{11}{section.1.3.2}
+\contentsline {section}{\numberline {3.3}Analyse crois\IeC {\'e}e}{11}{section.1.3.3}
+\contentsline {section}{\numberline {3.4}Apport au score de r\IeC {\'e}alisme}{12}{section.1.3.4}
+\contentsline {chapter}{Conclusion}{13}{chapter*.5}
+\contentsline {part}{Bibliographie}{14}{chapter*.5}
