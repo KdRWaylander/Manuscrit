@@ -65,22 +65,40 @@
 	\section{Mesure de la latence}
 	\par On a vu que la mesure de l'influence de la latence sur l'être humain se faisait généralement via un indice de performance sur une tâche donnée. Il faut également être capable de mesurer le plus précisément possible quelle est le niveau de latence auquel la tâche s'effectue. Cette fois, la mesure ne peut être qu'objective puisqu'elle n'implique pas le sujet humain mais seulement le système directement. On trouve un certain nombre de techniques dans la littérature, que nous allons présenter brièvement ici (de manière non exhaustive).
 	
-	% Cf. Papadakis et al., 2011: A system to measure, control and minimize end to end head tracking latency in immersive simulation
-	\par pendule \citep{liang_temporal-spatial_1991}
+	\par Une première méthode pour déterminer la latence d'un système est décrite chez  \citep{liang_temporal-spatial_1991} et implique l'utilisation d'un pendule, d'un pendule fixe, d'une caméra, d'un module de tracking (ici, <<~Isotrack~>>) et d'un écran de retour (Fig. \ref{fig:liang_pendulum}). La technique revient à faire osciller un pendule devant une base fixée verticalement (type fil à plomb). Un système de tracking est associé au pendule et affiche, via l'écran de retour, ses mesures horodatées de position du pendule. Avec une caméra placée dans l'axe des pendules on peut, en analysant la vidéo image par image, on peut mesurer l'écart de temps entre la mesure indiquant que le pendule est alignée avec la référence et l'image montrant effectivement l'alignement entre les deux.
 	
-	\par oscilloscope \citep{jacoby_improved_1996}
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.75]{Figures/LiangPendulum}
+		\caption{Méthode du pendule pour le calcul de la latence.}{Image tirée de \citep{liang_temporal-spatial_1991}}
+		\label{fig:liang_pendulum}
+	\end{figure}
 	
-	\par phonograph \citep{swindells_system_2000}
+	\par \citep{jacoby_improved_1996} utilisent également un pendule mais sans traitement vidéo a posteriori qui peut être un facteur d'imprécisions si la fréquence de capture d'image est trop basse (on risque de ne pas avoir l'image qui montre l'alignement parfait mais celle avec quelques degrés de plus ou de moins). Dans ce protocole, un ordinateur affiche une scène d'environ 1000 polygones non texturés et est relié à un système émetteur-receveur infrarouge. Le pendule coupe le rayon infrarouge à un certain point de sa course, ce qui a pour effet d'envoyer un ordre vers l'ordinateur qui doit modifier la couleur de certains de ces polygones. Un photodétecteur surveille en permanence l'écran et envoie un signal en tension lorsqu'il détecte le changement de couleur sur l'écran. Le système infrarouge et le photodétecteur sont tous deux cablés sur un oscilloscope qui permet de mesurer avec précision le temps entre leurs signaux respectifs.
 	
-	\par vga signals \citep{ellis_generalizeability_2004}
+	\par Il existe d'autres techniques mises au point qui n'impliquent pas de pendule et de mouvement oscillatoire. \citep{swindells_system_2000} génèrent un mouvement cyclique et périodique à l'aide de la table tournante d'un lecteur de vinyles. Un disque tracké est placé sur la table tournante et son mouvement est reproduit dans une scène virtuelle (Fig. \ref{fig:swindells_phonograph}). L'écart angulaire est mesuré entre le disque réel et le disque virtuel via des prises photo ou vidéo. La vitesse de rotation étant fixée et donc connue, on peut alors en déduire le temps de latence généré par le système.
 	
-	\par analyse vidéo \citep{steed_simple_2008}
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.75]{Figures/SwindellsPhonograph}
+		\caption{Méthode de la table tournante pour le calcul de la latence.}{Image tirée de \citep{swindells_system_2000}. La position du disque physique est appliqué au disque dans la scène virtuelle. Les deux images sont superposées et on mesure l'écart angulaire entre les deux. A partir de la vitesse de rotation on peut remonter à la latence.}
+		\label{fig:swindells_phonograph}
+	\end{figure}
 	
-	\par photodiodes \citep{di_luca_new_2010}
+	\par \citep{steed_simple_2008} proposent une autre méthode de pendule tracké, annoncée plus simples que les précédentes. Une diode électroluminescente rouge est fixée à un pendule et trackée grâce à un système optique. Le mouvement de la diode rouge est reproduit en vert sur un écran placé derrière le pendule tandis qu'une caméra filme l'ensemble. A partir de la vidéo, on peut être en mesure de reproduire les sinusoïdes qui décrivent les mouvements des diodes réelles et virtuelles et ainsi en déduire la latence du système en prenant le temps crête à crête.
 	
-	\par encoder \citep{papadakis_system_2011}
+	\par Si les méthodes décrites jusqu'à présent sont très abstraites par rapport au déroulement réel d'une application en VR, \citep{di_luca_new_2010} proposent une technique applicable à plusieurs objets, que ce soit des lunettes 3D, un objet quelconque ou un casque de Réalité Virtuelle. La méthode nécessite deux photodétecteurs: le premier placé sur l'objet à tracker et le second au niveau de l'écran qui servira à afficher l'image pour le sujet: dans la cas d'un casque, les deux photorécepteurs seront placés sur le même objet (mais à des positions différents) alors que dans le cas d'un CAVE, les photorécepteurs seront distants. On affiche dans la direction du premier photorécepteur (celui sur l'objet tracké) un gradient lumineux (un dégradé du noir vers le blanc typiquement) fixe. Si on déplace l'objet tracké dans le sens du gradient, on pourra obtenir l'équivalent de sa <<~position~>> via sa valeur de luminosité capturée. De l'autre côté, le deuxième photodétecteur est dirigé vers l'écran destiné à l'utilisateur sur lequel on affiche une nuance de gris (uniforme sur tout l'écran) en fonction des informations de tracking que l'on reçoit. En comparant le temps auquel le photorécepteur passe devant une nuance de gris donnée et le temps où l'écran final affiche cette nuance de gris, on obtient la latence globale du système.
 	
-	\par Bien que, dans l'idéal et pour maximiser la précision dans les mesures, il faudrait utiliser un oscilloscope, nous utilisons une méthode par la vidéo pour mesurer la latence de nos propres systèmes ; la précision étant suffisante pour notre application (voir chapitre suivant).
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.65]{Figures/DiLucaGradient}
+		\caption{Méthode des gradients pour le calcul de la latence.}{Le cadre rouge représente la zone réellement mesurée par le photorécepteur tandis que le grand cadre vert montre la couleur affichée par l'écran final, ce qui correspond à une <<~position~>> sur le gradient fixe représentée par le cadre vert en pointillés. La différence entre les deux petits cadres permet de calculer la latence du système.}
+		\label{fig:di_luca_gradient}
+	\end{figure}
+	
+	\par Néanmoins, les méthodes impliquant des pendules ont un défaut majeur: les 6 axes de mouvements sont autorisés, ce qui donne un mouvement avec une composante fondamentale ainsi que de petites composantes qui peuvent influer sur le résultat final en raison de la petite quantité parcourue supérieure par rapport à la théorie. \citep{papadakis_system_2011} proposent donc une méthode similaire au plateau tournant, avec un un système limité à 3 degrés de liberté dont 2 fixés. Une rotation est donc générée avec un servo-moteur et contrôlée avec un encodeur, le tout relié à un oscilloscope. L'environnement virtuel lisant les valeurs de l'encodeur est programmé de telle manière que, lorsque certains seuils de rotation sont franchis, il affiche un changement graphique (un carré de couleur blanche devient noir et inversement). Une photodiode placée au niveau de l'écran surveille ce carré et renvoie un signal à l'oscilloscope en cas de changement. Le reste de la scène virtuelle est un environnement lourd en polygones (environ 140000) et soumis à des calculs de lumière complexes afin de se rapprocher des usages normaux. On relève enfin la mesure de la latence sur l'oscilloscope avec le temps entre le passage de seuil au niveau de l'encodeur, et le changement de couleur au niveau de la photodiode.
+	
+	\par Bien que, dans l'idéal et pour maximiser la précision dans les mesures, il faudrait utiliser un oscilloscope, nous utilisons une méthode par la vidéo semblable à celle proposée par \citep{steed_simple_2008}, pour mesurer la latence de nos propres systèmes ; la précision étant suffisante pour notre application (voir chapitre suivant).
 	
 	
 \chapter{Mise en place du dispositif expérimental}
@@ -94,24 +112,72 @@
 	\end{itemize}	
 	
 	\section{Tâche à effectuer}
-	\par The subjects were confronted to an ecological situation and asked to perform a typical daily task such as looking at precise locations in a vehicle, during short amounts of time. The immersion was done through the mean of a 4 faces CAVE-like display system, with the subject seated at $1~m$ far from the main screen. The subjects were to perform an identical routine at different levels of latency. The simulation ran at a smooth 60 frames per second. Performance indicators beforehandly established were transparently recorded during the routines. In addition, multiple questionnaires were filled throughout the entire experiment: immersion tendency \cite{witmer_measuring_1998}, presence \cite{witmer_measuring_1998} and simulator sickness questionnaires (Kennedy's SSQ). The scientifically verified french translation of the questionnaires were used \cite{bouchard_revising_2007, bouchard_side_2009, bouchard_exploring_2011}.
-
+	\par Les sujets étaient confrontés à une situation écologique, c'est à dire sensée représenter la vie <<~réelle~>>, et il leur était demandé de réaliser une tâche de tous les jours telle que regarder à des endroits précis dans le cockpit d'une voiture, pendant de courts laps de temps.
+	
+	\subsection{Moyens immersifs}	
+	\par Un des objectifs de l'expérimentation étant de faire également une comparaison entre plusieurs moyens immersifs,	on fait passer nos sujets dans un casque de Réalité Virtuelle (un Oculus Rift) et dans un simulateur de type CAVE.
+	
+	\par Le CAVE est le même que pour les précédentes expérimentations, que ce soit pour le contraste et la luminance que pour la conduite suivie de questionnaires. Les sujets sont donc assis dans un CAVE 4 faces à 1 mètre de distance de la face principale (avant). Les sujets n'étaient pas assis sur un siège de voiture comme dans nos autres expérimentations mais sur un siège normal. Ce changement est dû à plusieurs raisons: aucune tâche de conduite n'était nécessaire, pour garder la continuité avec la chaise utilisée pendant les essais dans le casque, et pour des facilités de manœuvre. Les sujets n'étaient donc équipés que des lunettes de stéréoscopie et d'une manette de jeu faisant office d'interface de contrôle. Du point de vue des performances graphiques, l'application utilisée pendant l'expérimentation tournait à une valeur constante de 60 images par seconde.
+	
+	\par La partie casque de Réalité Virtuelle s'appuyait sur un Oculus Rift de type CV1 (Commercial Version 1, voir Fig. \ref{fig:oculus_rift}). L'utilisation du casque se faisait assis à une table disposée dans un des coins du CAVE, hors de vue des sujets passant dans le simulateur. L'assise se faisait au moyen d'une chaise parfaitement similaire à la première pour assurer une continuité entre les deux. La caméra de tracking était placée sur la table, cette dernière servant aussi à répondre aux différents questionnaires (voir ensuite). De cette manière, les sujets pouvaient enchainer les deux moyens immersifs sans coupure. En terme de performances, l'application était stabilisée à 90 images par seconde.
+	
+	\par L'environnement virtuel était commun au CAVE et au casque: le sujet était assis au volant d'une voiture (modèle <<~officiel~>> modélisé par Renault), à l'arrêt dans un <<~paysage~>> constitué de l'intérieur des bâtiments de Renault. Le paysage était réalisé au moyen d'un photo 360 degrés pour un maximum de photo-réalisme et pour limiter le nombre de pixels dans la scène (déjà bien chargée par le modèle de la voiture). Les lumières et réflexions des miroirs étaient pré-calculées pour limiter au maximum l'impact sur le temps de calcul des images.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.65]{Figures/OculusRift}
+		\caption{Oculus Rift et ses accessoires.}{De gauche à droite: la caméra permettant de tracker le casque, le casque vu de face (version CV1) et la manette de Xbox associée.}
+		\label{fig:oculus_rift}
+	\end{figure}
+	
+	\subsection{Modus operandi}
 	\par Precisely, the subjects are immersed in a realistic-looking car and its environment. They were  asked to visually aim at given points in the car, in a random order. The aiming was helped with a game-like virtual reticle follwing the movements of the head. The target to aim were indicated through the mean of a white arrow pointing one out of four possible directions (left, up, right and down). Whenever the subjects assumed to be at the center of the designated target, they would hit a button on a joystick they held in their hands. There were four different possible targets, bounded to the direction of the arrow: the left and right mirrors, the rear view mirror and the central display. The routine was made of 24 targets to hit (6 times each of the 4 targets) presented in a random order. The subjects were asked to replace their gaze at the arrow location after every aiming routine. The software automatically and transparently recorded the hit position on the target (x-axis and y-axis coordinates) and the hit time. The hit position was then used to compute how far from the center of the target the subject shot. The output is relative to the size of the target and thus given between 0 and 1 on both axes.
-
-	% Figure Expe.png
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.9]{Figures/ExpeLatency}
+		\caption{Environnement virtuel pour l'expérimentation sur la latence.}{L'image est tirée du point de vue du sujet, la flèche blanche indique la cible à viser (ici, le rétroviseur gauche) tandis que la croix rouge (le viseur) est alignée avec la direction de la tête.}
+		\label{fig:apparatus_latency}
+	\end{figure}
 
 	\par The same 24 targets aiming routine was performed twice: once at the standard running capability of the immersive system (reference setup) and once in a degraded state of the system, latency-wise. The order was alternated between subjects in order to limit any bias. Latency was added on the tracking of the head. Technically, the tracking is correctly performed but delayed in time. We did not degrade the frame rate to be able to keep a high frame rate and thus a smooth (but late) simulation.
 
 	\par The latency offset we added in our experiment is based on the different values that were presented previously in the Research Question section. In order to stay within the range of the performance interaction threshold, we chose to add an amount of $60~ms$ within the tracking loop of the head (Fig. \ref{fig:added_latency_intheloop}).
+	
+	\subsection{Mesures}
+	\par Tout au long du passage d'un sujet, un certain nombre de paramètres sont mesurés ou relevés. Certains de manière complètement transparente vis à vis du sujet et donc à priori objectives, d'autres via des questionnaires remplis au fur et à mesure de la session. C'est sur la base de ces données que l'on pourra mener des études statistiques.
+	
+	\par Le première type de mesure concerne: le temps global mis pour toucher l'ensemble des cibles, l'ordre des cibles, le temps par cible, et enfin, la précision relative en valeur absolue de la visée. Cette dernière est découpée selon l'axe horizontal (x) et l'axe vertical (y) (voir Fig. \ref{fig:x_y_precision_latency}) et est calculée de manière relative par rapport à la taille de la cible: si le sujet arrive à viser précisément le centre de la cible, il obtiendra un résultat de (0,0) alors que s'il vise dans un des angles il obtiendra un résultat de 1 sur les deux axes (toutes les mesures sont prises en valeur absolue).
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.65]{Figures/XYPrecision}
+		\caption{Précisions en X et Y pour l'expérimentation sur la latence.}{Le point rouge correspond au centre théorique de la cible à viser (ici le rétroviseur gauche) tandis que le point vert représente le point réel que le sujet a visé.}
+		\label{fig:x_y_precision_latency}
+	\end{figure}
+	
+	\par Le sujet est également amené à remplir des questionnaires tout au long de l'expérimentation, avec notamment les questionnaires de propension à l'immersion \citep{witmer_measuring_1998}, de présence \citep{witmer_measuring_1998} et de mal du simulateur de Kennedy (SSQ). Tous les sujets commencent par un questionnaire de propension à l'immersion et un questionnaire de mal du simulateur, pour établir leur état <<~de base~>>. Après chaque passage dans le casque ou dans le CAVE, les sujets doivent remplir à nouveau un questionnaire de mal du simulateur. Après la meilleure condition (c'est à dire celle qui propose la latence la plus basse) dans le casque, les sujets remplissent un questionnaire de présence. De même pour le CAVE. Les questionnaires utilisés étant en anglais, on utilise les versions traduites et vérifiées par \cite{bouchard_revising_2007, bouchard_side_2009, bouchard_exploring_2011}. Ces derniers sont disponibles en annexes.
+	
+	\par Les questionnaires sont sous-divisés en catégories qui ne nous sont pas toutes utiles. Le questionnaire de cyber-malaise (SSQ) comporte les axes <<~nausée~>> et <<~oculomoteur~>>, que l'on conserve tous les deux car on ne se concentre pas sur un type spécifique de mal du simulateur.
+	
+	\par Le questionnaire de propension à l'immersion (ITQ) est divisé en 4 axes: <<~focus~>>, <<~implication~>>, <<~émotions~>> et <<~jeu~>>. On ne conserve que les questions liées aux deux premiers axes car les suivants ne sont pas cohérents avec notre expérimentation.
+	
+	\par Enfin, le questionnaire de présence (PQ) est divisé en 7 axes, dont deux optionnels (que l'on marquera d'une astérisque *): <<~réalisme~>>, <<~possibilité d'agir~>>, <<~qualité de l'interface~>>, <<~possibilité d'examiner~>>, <<~auto-évaluation de la performance~>>, et <<~auditif*~>>, <<~haptique*~>>. Encore une fois, on ne garde que les axes cohérents avec l'expérimentation avec notamment ceux sur le réalisme, la possibilité d'agir et l'auto-évaluation de la performance.
 		
-	\section{Méthode de latence artificielle}
+	\section{Ajout de latence artificielle}
+	\subsection{Dans le CAVE}	
 	\par The addition of latency was made by applying a filter in the tracking software. The filter was set with a negative amount of anticipation time.
+	
+	\subsection{Dans le casque}
+	\par une méthode différente: pourquoi ?
+	
+	\par la méthode en question
 	
 	\section{Mesures préliminaires}
 	\par In order to properly conduct our experiment, some values needed to be verified upstream. We had to measure the total amount of latency, with and without added latency (and hence verify that the filter is well applied). There exists a lot of different techniques to measure end-to-end latency \cite{papadakis_system_2011}. Since our system tracks the VR glasses, we chose to apply a color tint to the 3D environment, based on the height difference of the tracked device (compared to the height at the previous frame). For a positive difference (actual height greater than previous-frame height) the world was tinted green while for a negative diffrence (actual height smaller than previous-frame height) the world was tinted red. We then applied a sinusoidal vertical movement to the glasses and filmed the output (glasses + screens) at 120~Hz. By running frame by frame the thus obtained video, we could count the number of frames between a real change of direction of the glasses' movement (ascendent or descendent) and its display (which was characterized by a tint change of the 3D environment). The precision is hence half a frame, which means $4~ms$. Our measurements report a total amount of latency of $160~ms$ for the reference system, and a correct addition of $60~ms$ in the tracking loop, which leads to a total amount of latency of $220~ms$ for the degraded setup.
 	
 \chapter{Résultats}
-	\par In our experiment, there were 12 subjects, 6 men and 6 women, aging from 23 to 54 years-old, with a mean value of $31$ y.o. and a standard deviation pf $\sigma = 11$ y.o.. 9 of them declared being familiar to Virtual Reality or playing video games (Fig. \ref{fig:population}).
+	\par Pour notre expérimentation, nous avons réuni 32 sujets, 17 hommes et 15 femmes. 2 sujets parmi les hommes n'ont pas vu leur résultats retenus pour différentes raisons: l'un n'a pas pu faire tous les segments proposés tandis que l'autre fermait les yeux pour contrer le mal du simulateur. On termine donc avec 30 sujets ayant des données exploitables, à parité homme femme parfaite. Les sujets étaient âgés de 23 à 54 ans, avec un âge moyen de $31$ ans (écart-type: $\sigma = 11$ ans).
 
 	% Figure population
 	
