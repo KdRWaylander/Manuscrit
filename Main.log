@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  30 MAY 2018 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  13 JUN 2018 18:19
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -999,14 +999,14 @@ Underfull \vbox (badness 3547) has occurred while \output is active []
 Underfull \vbox (badness 3815) has occurred while \output is active []
 
  [6]
-<Figures/LiangPendulum.png, id=277, 365.86688pt x 347.79938pt>
+<Figures/LiangPendulum.png, id=287, 365.86688pt x 347.79938pt>
 File: Figures/LiangPendulum.png Graphic file (type png)
 
 <use Figures/LiangPendulum.png>
 Package pdftex.def Info: Figures/LiangPendulum.png used on input line 72.
 (pdftex.def)             Requested size: 274.39948pt x 260.84889pt.
 
-<Figures/SwindellsPhonograph.png, id=286, 319.94531pt x 227.34938pt>
+<Figures/SwindellsPhonograph.png, id=296, 319.94531pt x 227.34938pt>
 File: Figures/SwindellsPhonograph.png Graphic file (type png)
 
 <use Figures/SwindellsPhonograph.png>
@@ -1014,7 +1014,7 @@ Package pdftex.def Info: Figures/SwindellsPhonograph.png used on input line 83.
 
 (pdftex.def)             Requested size: 239.95839pt x 170.51161pt.
  [7] [8 <./Figures/LiangPendulum.png> <./Figures/SwindellsPhonograph.png>]
-<Figures/DiLucaGradient.png, id=308, 642.4pt x 401.5pt>
+<Figures/DiLucaGradient.png, id=318, 642.4pt x 401.5pt>
 File: Figures/DiLucaGradient.png Graphic file (type png)
 
 <use Figures/DiLucaGradient.png>
@@ -1027,42 +1027,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapitre 2.
 [11
 
-] <Figures/OculusRift.png, id=329, 642.4pt x 331.2375pt>
+] <Figures/OculusRift.png, id=339, 642.4pt x 331.2375pt>
 File: Figures/OculusRift.png Graphic file (type png)
 
 <use Figures/OculusRift.png>
 Package pdftex.def Info: Figures/OculusRift.png used on input line 128.
 (pdftex.def)             Requested size: 417.55505pt x 215.30182pt.
  [12]
-<Figures/ExpeLatency.png, id=334, 495.7722pt x 282.3348pt>
+<Figures/ExpeLatency.png, id=345, 495.7722pt x 282.3348pt>
 File: Figures/ExpeLatency.png Graphic file (type png)
 
 <use Figures/ExpeLatency.png>
-Package pdftex.def Info: Figures/ExpeLatency.png used on input line 138.
+Package pdftex.def Info: Figures/ExpeLatency.png used on input line 144.
 (pdftex.def)             Requested size: 446.19084pt x 254.09895pt.
 
+Overfull \hbox (2.77213pt too wide) in paragraph at lines 151--152
+\T1/pnc/m/n/10.95 le fonc-tion-ne-ment à leur la-tence no-mi-nale. On ajoute en
+-suite, pour cha-cun des deux moyens
+ []
 
-LaTeX Warning: Reference `fig:added_latency_intheloop' on page 13 undefined on 
-input line 145.
-
-[13 <./Figures/OculusRift.png>]
-<Figures/XYPrecision.png, id=342, 651.3936pt x 362.3136pt>
+[13 <./Figures/OculusRift.png>] [14 <./Figures/ExpeLatency.png>]
+<Figures/XYPrecision.png, id=361, 651.3936pt x 362.3136pt>
 File: Figures/XYPrecision.png Graphic file (type png)
 
 <use Figures/XYPrecision.png>
-Package pdftex.def Info: Figures/XYPrecision.png used on input line 154.
+Package pdftex.def Info: Figures/XYPrecision.png used on input line 177.
 (pdftex.def)             Requested size: 423.40082pt x 235.50104pt.
+ [15 <./Figures/XYPrecision.png>] [16] [17]
+<Figures/LatencyMeasureTechnique.png, id=388, 524.1984pt x 391.7034pt>
+File: Figures/LatencyMeasureTechnique.png Graphic file (type png)
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14 <./Figures/ExpeLatency.png>]
-Underfull \vbox (badness 2529) has occurred while \output is active []
-
- [15 <./Figures/XYPrecision.png>] [16]
+<use Figures/LatencyMeasureTechnique.png>
+Package pdftex.def Info: Figures/LatencyMeasureTechnique.png used on input line
+ 222.
+(pdftex.def)             Requested size: 419.35928pt x 313.36314pt.
+ [18 <./Figures/LatencyMeasureTechnique.png>]
 Chapitre 3.
-) [17
+) [19
 
-] [18]
+] [20]
 \openout2 = `Chapitres/EXPE2-CONCL.aux'.
 
  (Chapitres/EXPE2-CONCL.tex
@@ -1070,42 +1073,38 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-) [19
+) [21
 
 
 
-] (Main.bbl [20
+] (Main.bbl [22
 
 
 
-] [21] [22])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
+] [23])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
  [0]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (Main.aux (Chapitres/EXPE2.aux)
 (Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: EDB5E430C3651500ADD8973112D862E8;1969.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
+(rerunfilecheck)             Checksum: AE1732328843C6015D19D0244A0EC58D;1969.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10241 strings out of 493634
- 151472 string characters out of 3131976
- 264390 words of memory out of 3000000
- 13285 multiletter control sequences out of 15000+200000
+ 10188 strings out of 493634
+ 150071 string characters out of 3131976
+ 264124 words of memory out of 3000000
+ 13244 multiletter control sequences out of 15000+200000
  40179 words of font info for 62 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,12n,48p,1470b,5744s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,48p,1470b,5711s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Administrator/AppData
@@ -1115,9 +1114,9 @@ msy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (29 pages, 2436248 bytes).
+Output written on Main.pdf (30 pages, 3489782 bytes).
 PDF statistics:
  462 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 255 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 90 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

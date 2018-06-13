@@ -131,7 +131,13 @@
 	\end{figure}
 	
 	\subsection{Modus operandi}
-	\par Precisely, the subjects are immersed in a realistic-looking car and its environment. They were  asked to visually aim at given points in the car, in a random order. The aiming was helped with a game-like virtual reticle follwing the movements of the head. The target to aim were indicated through the mean of a white arrow pointing one out of four possible directions (left, up, right and down). Whenever the subjects assumed to be at the center of the designated target, they would hit a button on a joystick they held in their hands. There were four different possible targets, bounded to the direction of the arrow: the left and right mirrors, the rear view mirror and the central display. The routine was made of 24 targets to hit (6 times each of the 4 targets) presented in a random order. The subjects were asked to replace their gaze at the arrow location after every aiming routine. The software automatically and transparently recorded the hit position on the target (x-axis and y-axis coordinates) and the hit time. The hit position was then used to compute how far from the center of the target the subject shot. The output is relative to the size of the target and thus given between 0 and 1 on both axes.
+	\par Les sujets sont immergés dans une voiture et un environnement photo-réaliste. La voiture est un modèle 3D de Captur récupéré en interne chez Renault, garantissant ainsi le bonne modélisation de la géométrie et des matériaux. Afin de limiter le nombre de triangles dans la scène 3D et donc la lourdeur pour le calcul de l'image (déjà conséquent avec le modèle de la voiture), le reste de l'environnement est remplacé par une photo 360 degrés calibrée pour générer la bonne quantité et qualité de lumière, une <<~HDR~>>.
+	
+	\par Il leur était demandé de viser visuellement des endroits précis (des <<~cibles~>>) dans la voiture, dans un ordre aléatoire. La visée est aidée avec un réticule semblable à ce qui se fait dans les jeux vidéo, attaché au mouvement de la tête. Les cibles à viser étaient indiquée par une flèche blanche pointant une direction parmi 4 possibles (à gauche, à droite, en haut et en bas). Chaque direction de la flèche était associée à une cible: vers la gauche pour le rétroviseur gauche, vers la droite pour le rétroviseur droit, vers le haut pour le rétroviseur central et vers le bas pour la console centrale (l'écran tactile).
+	
+	\par Aussitôt que les sujets estimaient être au centre de la cible désignée, ils avaient pour consigne d'appuyer sur un bouton (toujours le même) sur une manette de jeu (voir Fig. \ref{fig:oculus_rift}) qu'ils tenaient entre leurs mains. Chaque séquence dans le casque ou dans le CAVE était composée de 24 cibles à viser successivement (6 fois chacune des 4 cibles, mélangé aléatoirement). Les sujets devaient replacer leur réticule (et par conséquent la position de leur tête) à une position neutre après chaque visée: à l'endroit d'apparition de la flèche blanche.
+	
+	\par A chaque fois que les sujets appuyaient sur la manette et qu'ils étaient (par la biais du réticule) dans la cible désignée, le programme déclenchait une série de mesures (temps de passage, précision sur les axes vertical et horizontal, ...) qui sont décrites plus précisément dans la section suivante. Dans le cas d'un appui sur la manette sans cible désignée, en dehors de toute cible ou sur la mauvaise cible, rien ne se passait.
 	
 	\begin{figure}
 		\centering
@@ -139,10 +145,27 @@
 		\caption{Environnement virtuel pour l'expérimentation sur la latence.}{L'image est tirée du point de vue du sujet, la flèche blanche indique la cible à viser (ici, le rétroviseur gauche) tandis que la croix rouge (le viseur) est alignée avec la direction de la tête.}
 		\label{fig:apparatus_latency}
 	\end{figure}
-
-	\par The same 24 targets aiming routine was performed twice: once at the standard running capability of the immersive system (reference setup) and once in a degraded state of the system, latency-wise. The order was alternated between subjects in order to limit any bias. Latency was added on the tracking of the head. Technically, the tracking is correctly performed but delayed in time. We did not degrade the frame rate to be able to keep a high frame rate and thus a smooth (but late) simulation.
-
-	\par The latency offset we added in our experiment is based on the different values that were presented previously in the Research Question section. In order to stay within the range of the performance interaction threshold, we chose to add an amount of $60~ms$ within the tracking loop of the head (Fig. \ref{fig:added_latency_intheloop}).
+	
+	\par La même séquence de 24 cibles (avec néanmoins un ordre différent puisque celui-ci était tiré aléatoirement au début de chaque séquence) était répétée 6 fois: 4 fois dans le casque et 2 fois dans le CAVE. Là encore, l'ordre de passage était mélangé aléatoirement entre les sujets pour éviter tout biais. Pour éviter de nombreux aller-retours et une re-calibration avant chaque passage, les séquences dans le casque et dans le CAVE étaient groupées: le sujet pouvait commencer aléatoirement par le casque ou pas le CAVE, puis les modalités pour chaque équipement étaient vécues dans un ordre aléatoire. La différence entre chaque modalité pour le casque comme le CAVE était la quantité de latence globale par rapport au tracking des mouvements de la tête (d'où la manière de déplacer le réticule).
+	
+	\par Les deux premières modalité de latence sont évidemment, pour le CAVE et pour le casque, le fonctionnement à leur latence nominale. On ajoute ensuite, pour chacun des deux moyens immersifs, un offset de $60~ms$ de latence. La quantité de latence ajoutée a été choisie en fonction de la littérature, pour être au dessus du seuil de perception et ainsi s'assurer une influence de la latence sur les sujets. Les techniques déployées pour ajouter artificiellement de la latence sont décrites dans une section suivante (Paragraphe \ref{sec:ajout_latence_artificielle}). Les deux dernières modalité de latence sont pour le casque de Réalité Virtuelle: sa latence nominale étant bien moins élevée que celle du CAVE, on peut donc le <<~ralentir~>> jusqu'à atteindre les latences nominale et après ajout de latence du CAVE. On se retrouve donc avec 6 expériences différentes de latence (Tab. \ref{tab:latence_casque_cave_expe}).
+	
+	\begin{table}[h]	
+		\centering
+		\caption{Mesures de latence (en ms) pour le casque et le CAVE.}
+		\label{tab:latence_casque_cave_expe}
+		\begin{tabular}{c|c|l}
+			\textbf{Système} & \textbf{Latence}\\
+			CAVE & $160~ms$ & latence nominale\\
+			CAVE & $220~ms$ & latence dégradée\\
+			Oculus Rift & $45~ms$ & latence nominale\\
+			Oculus Rift & $105~ms$ & latence dégradée\\
+			Oculus Rift & $160~ms$ & latence niveau nominal du CAVE\\
+			Oculus Rift & $220~ms$ & latence niveau dégradé du CAVE\\
+		\end{tabular}
+	\end{table}
+	
+	\par Il aura été nécessaire de faire des mesures préliminaires pour déterminer les latences nominales de nos deux système ainsi que vérifier les valeurs des offsets ajoutés. Ces mesures et la méthode mise en oeuvre (inspirée des techniques vues précédemment) sont détaillées plus bas (Paragraphe \ref{sec:mesures_prelim_latence}).
 	
 	\subsection{Mesures}
 	\par Tout au long du passage d'un sujet, un certain nombre de paramètres sont mesurés ou relevés. Certains de manière complètement transparente vis à vis du sujet et donc à priori objectives, d'autres via des questionnaires remplis au fur et à mesure de la session. C'est sur la base de ces données que l'on pourra mener des études statistiques.
@@ -165,19 +188,44 @@
 	\par Enfin, le questionnaire de présence (PQ) est divisé en 7 axes, dont deux optionnels (que l'on marquera d'une astérisque *): <<~réalisme~>>, <<~possibilité d'agir~>>, <<~qualité de l'interface~>>, <<~possibilité d'examiner~>>, <<~auto-évaluation de la performance~>>, et <<~auditif*~>>, <<~haptique*~>>. Encore une fois, on ne garde que les axes cohérents avec l'expérimentation avec notamment ceux sur le réalisme, la possibilité d'agir et l'auto-évaluation de la performance.
 		
 	\section{Ajout de latence artificielle}
-	\subsection{Dans le CAVE}	
-	\par The addition of latency was made by applying a filter in the tracking software. The filter was set with a negative amount of anticipation time.
+	\label{sec:ajout_latence_artificielle}
+	\par L'ajout de latence artificielle a été déployé de deux manières différentes, pour le casque et le CAVE. Cet écart vient des logiciels utilisés pour afficher l'image dans le CAVE. Un logiciel tierce était employé pour transformer et multiplier les points du vue (1 par face du simulateur), logiciel qui recréait sa propre arborescence et son propre système de caméra tandis que l'affichage dans le casque pouvait se faire de manière plus directe avec nos propres paramètres.
 	
 	\subsection{Dans le casque}
-	\par une méthode différente: pourquoi ?
+	\par On utilise le SDK de SteamVR pour afficher notre environnement 3D dans le casque de Réalité Virtuelle. Celui-ci utilise des scripts qui à la fois récupèrent les données issues des capteurs (pour suivre le mouvement de la tête) et à la fois calculent les pyramides de vision et la déformation de l'image pour être projetée à travers les lentilles. Nous avons essayé dans un premier temps de modifier directement le script de position en y insérant une temporisation entre le moment où les informations des capteurs sont prises, et le moment où elles sont appliquées. Cette méthode ne donnant pas de résultats, nous avons du contourner le problème.
 	
-	\par la méthode en question
+	\par Nous avons donc créé une seconde caméra, paramétrée de manière à pouvoir afficher dans le casque, mais dont la position n'est pas mise à jour avec les informations des capteurs. En lieu et place, nous avons créé notre propre script qui prend la position et la rotation dans l'espace de la première caméra, stocke le tout pendant un temps que l'on spécifie, après quoi il applique ces données à la seconde caméra. En parallèle, on force la seconde caméra à s'afficher par dessus la première en permanence. On a donc la caméra originelle qui remplit son travail de récupération des informations des capteurs et qui suit parfaitement les mouvements de l'utilisateur, et une deuxième caméra dont on voit les images et qui calque son mouvement, avec du retard, sur la première caméra.
+	
+	% Figure caméra suiveuse
+	
+	\par Cette technique nous laisse la plus grande liberté quant au temps maximal de latence que l'on veut ajouter mais est limitée en précision par le frame rate de l'application: la récupération des informations se fait à chaque calcul d'une nouvelle image. Dans notre cas, l'application tournant à 90 images par seconde, l'imprécision moyenne était donc d'une demi-frame, soit $5~ms$. Au regard des valeurs de latence que l'on ajoute, cela implique un pourcentage d'erreur de 8\% dans la situation la plus critique.
+	
+	\subsection{Dans le CAVE}	
+	\par Dans le cas du CAVE, la captation des mouvements de l'utilisateur se fait avec un logiciel extérieur (Dtrack 2, de A.R.T.) qui communique ensuite ses données à l'application qui transpose notre simulation en affichage immersif (MiddleVR). Dtrack permet, via des filtres, une anticipation des mouvements qui sont trackés. Si l'on peut régler la puissance de l'anticipation, on peut également lui donner des valeurs négatives, créant ainsi du retard dans les transmissions des données de position et de rotation. C'est cette méthode que l'on utilise dans le CAVE pour générer de la latence artificielle.
+	
+	% Figure filtre
 	
 	\section{Mesures préliminaires}
-	\par In order to properly conduct our experiment, some values needed to be verified upstream. We had to measure the total amount of latency, with and without added latency (and hence verify that the filter is well applied). There exists a lot of different techniques to measure end-to-end latency \cite{papadakis_system_2011}. Since our system tracks the VR glasses, we chose to apply a color tint to the 3D environment, based on the height difference of the tracked device (compared to the height at the previous frame). For a positive difference (actual height greater than previous-frame height) the world was tinted green while for a negative diffrence (actual height smaller than previous-frame height) the world was tinted red. We then applied a sinusoidal vertical movement to the glasses and filmed the output (glasses + screens) at 120~Hz. By running frame by frame the thus obtained video, we could count the number of frames between a real change of direction of the glasses' movement (ascendent or descendent) and its display (which was characterized by a tint change of the 3D environment). The precision is hence half a frame, which means $4~ms$. Our measurements report a total amount of latency of $160~ms$ for the reference system, and a correct addition of $60~ms$ in the tracking loop, which leads to a total amount of latency of $220~ms$ for the degraded setup.
+	\label{sec:mesures_prelim_latence}
+	\par Une fois les techniques d'ajout de latence déployées, nous avons mis en œuvre, en nous inspirant de ce qui avait été fait dans la littérature et qui a été présenté précédemment, une technique pour mesurer la latence de nos systèmes de Réalité Virtuelle, en condition d'expérimentation. Cette dernière n'étant de nature psychophysique pure et ne visant pas à déterminer très précisément des seuils, nous nous accommodons d'une technique <<~moins~>> précise qu'une technique à l'oscilloscope.
+	
+	\par Nous avons donc opté pour un procédé filmé à grande vitesse. La mesure de la latence se faisant ensuite en analysant la vidéo image par image pour déterminer l'écart entre le début d'un mouvement et sa prise en compte et son affichage par le logiciel. On filme à 120 images par seconde avec un smartphone.
+	
+	\par L'objectif est donc de mesurer la latence tout en restant dans les même conditions que pendant l'expérimentation. On place donc un objet (un plan) dans l'habitacle de la voiture qui sera chargé d'afficher les variations de l'objet tracké: les lunettes de stéréoscopie pour le CAVE et le masque entier pour le casque. Ce plan se colore en vert lorsqu'il détecte que le mouvement de l'objet tracké est ascendant (c'est à dire lorsque la coordonnée sur l'axe vertical de l'objet tracké supérieure à sa valeur de l'image précédente), et se colore en rouge lorsqu'il détecte l'inverse.
+	
+	\par On demande ensuite à une personne d'imprimer verticalement un mouvement sinusoïdal à l'objet tracké et on filme avec dans le plan ce dernier ainsi que le plan changeant de couleur. On peut donc déterminer visuellement quand est ce que l'opérateur commence un mouvement ascendant ou descendant, puis compter le nombre d'image vidéo jusqu'au changement de couleur du plan, signifiant la prise en compte du changement. Plus le nombre d'images entre les deux marqueurs est grand, plus la latence est importante: il s'écoule $8~ms$ entre chaque image de la vidéo. On peut donc mesurer facilement la latence de nos outils, avec une précision d'une demi-image, soit $4~ms$.
+	
+	\par Les résultats de nos mesures sont synthétisés en Table \ref{tab:latence_casque_cave_expe}. On peut donc ainsi débuter une campagne de mesure sur des sujets, dont les résultats sont développés dans le chapitre suivant.
+	
+	\begin{figure}
+		\centering
+		\includegraphics[scale=.8]{Figures/LatencyMeasureTechnique}
+		\caption{Technique de mesure de la latence.}{On compte le nombre d'image de la vidéo ralentie entre le début du mouvement (ici, vertical ascendant) et la prise en compte du mouvement par le logiciel, signalée par le passage d'une texture du rouge au vert.}
+		\label{fig:mesure_latence_video}
+	\end{figure}
 	
 \chapter{Résultats}
-	\par Pour notre expérimentation, nous avons réuni 32 sujets, 17 hommes et 15 femmes. 2 sujets parmi les hommes n'ont pas vu leur résultats retenus pour différentes raisons: l'un n'a pas pu faire tous les segments proposés tandis que l'autre fermait les yeux pour contrer le mal du simulateur. On termine donc avec 30 sujets ayant des données exploitables, à parité homme femme parfaite. Les sujets étaient âgés de 23 à 54 ans, avec un âge moyen de $31$ ans (écart-type: $\sigma = 11$ ans).
+	\par Pour notre expérimentation, nous avons réuni 32 sujets, 17 hommes et 15 femmes. 2 sujets parmi les hommes n'ont pas vu leur résultats retenus pour différentes raisons: l'un n'a pas pu faire tous les segments proposés (mal du simulateur trop élevé) tandis que l'autre fermait les yeux pour contrer ce même mal du simulateur. On termine donc avec 30 sujets ayant des données exploitables, à parité homme femme parfaite. Les sujets étaient âgés de 23 à 54 ans, avec un âge moyen de $31$ ans (écart-type: $\sigma = 11$ ans).
 
 	% Figure population
 	
