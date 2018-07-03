@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  15 JUN 2018 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  3 JUL 2018 19:07
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -591,31 +591,35 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\m
+ultirow.sty"
+\bigstrutjot=\dimen131
+)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lettrine\l
 ettrine.sty"
 File: lettrine.sty 2015/08/31 v1.9 (Daniel Flipo)
 \c@DefaultLines=\count110
 \c@DefaultDepth=\count111
-\DefaultFindent=\dimen131
-\DefaultNindent=\dimen132
-\DefaultSlope=\dimen133
-\DiscardVskip=\dimen134
+\DefaultFindent=\dimen132
+\DefaultNindent=\dimen133
+\DefaultSlope=\dimen134
+\DiscardVskip=\dimen135
 \L@lbox=\box29
 \L@tbox=\box30
 \c@L@lines=\count112
 \c@L@depth=\count113
-\L@Pindent=\dimen135
-\L@Findent=\dimen136
-\L@Nindent=\dimen137
-\L@lraise=\dimen138
-\L@first=\dimen139
-\L@next=\dimen140
-\L@slope=\dimen141
-\L@height=\dimen142
-\L@novskip=\dimen143
-\LettrineWidth=\dimen144
-\LettrineHeight=\dimen145
-\LettrineDepth=\dimen146
+\L@Pindent=\dimen136
+\L@Findent=\dimen137
+\L@Nindent=\dimen138
+\L@lraise=\dimen139
+\L@first=\dimen140
+\L@next=\dimen141
+\L@slope=\dimen142
+\L@height=\dimen143
+\L@novskip=\dimen144
+\LettrineWidth=\dimen145
+\LettrineHeight=\dimen146
+\LettrineDepth=\dimen147
 
 Loading lettrine.cfg
 
@@ -664,7 +668,7 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 uxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen147
+\@linkdim=\dimen148
 \Hy@linkcounter=\count114
 \Hy@pagecounter=\count115
 
@@ -695,10 +699,10 @@ y"
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen148
+\XeTeXLinkMargin=\dimen149
 \Fld@menulength=\count118
-\Field@Width=\dimen149
-\Fld@charsize=\dimen150
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -730,7 +734,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip72
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 149.
+Package hyperref Info: Option `colorlinks' set `true' on input line 150.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\bigfoot\pe
 rpage.sty"
@@ -752,8 +756,8 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count126
 \calc@Bcount=\count127
-\calc@Adimen=\dimen151
-\calc@Bdimen=\dimen152
+\calc@Adimen=\dimen152
+\calc@Bdimen=\dimen153
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
@@ -784,8 +788,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-\AM@pagewidth=\dimen153
-\AM@pageheight=\dimen154
+\AM@pagewidth=\dimen154
+\AM@pageheight=\dimen155
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\p
 ppdftex.def"
@@ -796,8 +800,8 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks26
 \c@AM@survey=\count129
 \AM@templatesizebox=\box32
-)) (Main.aux (Chapitres/EXPE2.aux) (Chapitres/EXPE2-MANIP.aux)
-(Chapitres/EXPE2-CONCL.aux))
+)) (Main.aux (Chapitres/PREAMB.aux) (Chapitres/EXPE2.aux)
+(Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -828,13 +832,13 @@ LaTeX Info: Redefining \up on input line 10.
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count130
-\scratchdimen=\dimen155
+\scratchdimen=\dimen156
 \scratchbox=\box33
 \nofMPsegments=\count131
 \nofMParguments=\count132
 \everyMPshowfont=\toks27
 \MPscratchCnt=\count133
-\MPscratchDim=\dimen156
+\MPscratchDim=\dimen157
 \MPnumerator=\count134
 \makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks28
@@ -911,6 +915,39 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <17.28> not available
 
 
 {C:/Users/Administrator/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\openout2 = `Chapitres/PREAMB.aux'.
+
+ (Chapitres/PREAMB.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+[2
+
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
+[][] 
+ []
+
+[3
+
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
+[][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 23.
+
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
+pnc.fd"
+File: omspnc.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
+) [4
+
+]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
 [][] 
  []
@@ -923,14 +960,15 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 
 Underfull \vbox (badness 3954) has occurred while \output is active []
 
- [2
+ [5
+
 
 ])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
 
-[3]
+[6]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
@@ -939,7 +977,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [4
+ [7
 
 ]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
@@ -950,9 +988,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
- [5
-
-] [6
+ [8
 
 ]
 \openout2 = `Chapitres/EXPE2.aux'.
@@ -963,6 +999,7 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
  [1
+
 
 
 ]
@@ -979,27 +1016,18 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 Chapitre 1.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 10.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
-pnc.fd"
-File: omspnc.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
- [3
+[3
 
 
 
-] [4] [5] [6]
-<Figures/LiangPendulum.png, id=295, 365.86688pt x 347.79938pt>
+] [4] [5] [6] <Figures/LiangPendulum.png, id=320, 365.86688pt x 347.79938pt>
 File: Figures/LiangPendulum.png Graphic file (type png)
 
 <use Figures/LiangPendulum.png>
 Package pdftex.def Info: Figures/LiangPendulum.png used on input line 72.
 (pdftex.def)             Requested size: 274.39948pt x 260.84889pt.
  [7]
-<Figures/SwindellsPhonograph.png, id=316, 319.94531pt x 227.34938pt>
+<Figures/SwindellsPhonograph.png, id=340, 319.94531pt x 227.34938pt>
 File: Figures/SwindellsPhonograph.png Graphic file (type png)
 
 <use Figures/SwindellsPhonograph.png>
@@ -1010,7 +1038,7 @@ Package pdftex.def Info: Figures/SwindellsPhonograph.png used on input line 83.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./Figures/LiangPendulum.png>]
-<Figures/DiLucaGradient.png, id=330, 642.4pt x 401.5pt>
+<Figures/DiLucaGradient.png, id=354, 642.4pt x 401.5pt>
 File: Figures/DiLucaGradient.png Graphic file (type png)
 
 <use Figures/DiLucaGradient.png>
@@ -1021,14 +1049,14 @@ Package pdftex.def Info: Figures/DiLucaGradient.png used on input line 94.
 Chapitre 2.
 [11
 
-] <Figures/OculusRift.png, id=350, 642.4pt x 331.2375pt>
+] <Figures/OculusRift.png, id=375, 642.4pt x 331.2375pt>
 File: Figures/OculusRift.png Graphic file (type png)
 
 <use Figures/OculusRift.png>
 Package pdftex.def Info: Figures/OculusRift.png used on input line 129.
 (pdftex.def)             Requested size: 417.55505pt x 215.30182pt.
  [12]
-<Figures/ExpeLatency.png, id=358, 495.7722pt x 282.3348pt>
+<Figures/ExpeLatency.png, id=383, 495.7722pt x 282.3348pt>
 File: Figures/ExpeLatency.png Graphic file (type png)
 
 <use Figures/ExpeLatency.png>
@@ -1041,14 +1069,14 @@ Overfull \hbox (2.77213pt too wide) in paragraph at lines 150--151
  []
 
 [13 <./Figures/OculusRift.png>] [14 <./Figures/ExpeLatency.png>]
-<Figures/XYPrecision.png, id=374, 651.3936pt x 362.3136pt>
+<Figures/XYPrecision.png, id=398, 651.3936pt x 362.3136pt>
 File: Figures/XYPrecision.png Graphic file (type png)
 
 <use Figures/XYPrecision.png>
 Package pdftex.def Info: Figures/XYPrecision.png used on input line 176.
 (pdftex.def)             Requested size: 423.40082pt x 235.50104pt.
  [15 <./Figures/XYPrecision.png>] [16] [17]
-<Figures/LatencyMeasureTechnique.png, id=401, 524.1984pt x 391.7034pt>
+<Figures/LatencyMeasureTechnique.png, id=426, 524.1984pt x 391.7034pt>
 File: Figures/LatencyMeasureTechnique.png Graphic file (type png)
 
 <use Figures/LatencyMeasureTechnique.png>
@@ -1057,61 +1085,83 @@ Package pdftex.def Info: Figures/LatencyMeasureTechnique.png used on input line
 (pdftex.def)             Requested size: 419.35928pt x 313.36314pt.
  [18 <./Figures/LatencyMeasureTechnique.png>]
 Chapitre 3.
-<Figures/ITQvPQ.png, id=408, 361.8318pt x 216.81pt>
-File: Figures/ITQvPQ.png Graphic file (type png)
- <use Figures/ITQvPQ.png>
-Package pdftex.def Info: Figures/ITQvPQ.png used on input line 236.
-(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
 
+Overfull \hbox (5.9096pt too wide) in paragraph at lines 245--246
+[]\T1/pnc/m/n/10.95 Initialement, les su-jets ré-pondent à un ques-tion-naire d
+e pro-pen-sion à l'im-mer-sion (moyenne
+ []
 
-LaTeX Warning: Reference `fig:precision' on page 19 undefined on input line 241
-.
+[19
 
+] <Figures/CavePrecisionResults.png, id=443, 361.35pt x 216.81pt>
+File: Figures/CavePrecisionResults.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:precision' on page 19 undefined on input line 243
-.
-
-<Figures/CompletionTime.png, id=410, 361.35pt x 216.81pt>
-File: Figures/CompletionTime.png Graphic file (type png)
-
-<use Figures/CompletionTime.png>
-Package pdftex.def Info: Figures/CompletionTime.png used on input line 247.
+<use Figures/CavePrecisionResults.png>
+Package pdftex.def Info: Figures/CavePrecisionResults.png used on input line 25
+3.
 (pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
- [19
 
-] [20 <./Figures/ITQvPQ.png> <./Figures/CompletionTime.png>]
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 264.
- [21]) [22]
+<Figures/CaveCompletionTimeResults.png, id=444, 361.35pt x 216.81pt>
+File: Figures/CaveCompletionTimeResults.png Graphic file (type png)
+
+<use Figures/CaveCompletionTimeResults.png>
+Package pdftex.def Info: Figures/CaveCompletionTimeResults.png used on input li
+ne 260.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
+
+Underfull \vbox (badness 6047) has occurred while \output is active []
+
+ [20 <./Figures/CavePrecisionResults.png>]
+<Figures/CasquePrecisionResults.png, id=457, 361.35pt x 216.81pt>
+File: Figures/CasquePrecisionResults.png Graphic file (type png)
+
+<use Figures/CasquePrecisionResults.png>
+Package pdftex.def Info: Figures/CasquePrecisionResults.png used on input line 
+293.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
+
+<Figures/CasqueCompletionTimeResults.png, id=458, 361.8318pt x 216.81pt>
+File: Figures/CasqueCompletionTimeResults.png Graphic file (type png)
+
+<use Figures/CasqueCompletionTimeResults.png>
+Package pdftex.def Info: Figures/CasqueCompletionTimeResults.png used on input 
+line 300.
+(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
+ [21 <./Figures/CaveCompletionTimeResults.png>] [22 <./Figures/CasquePrecisionR
+esults.png> <./Figures/CasqueCompletionTimeResults.png>] <Figures/ITQvPQ.png, i
+d=471, 361.8318pt x 216.81pt>
+File: Figures/ITQvPQ.png Graphic file (type png)
+
+<use Figures/ITQvPQ.png>
+Package pdftex.def Info: Figures/ITQvPQ.png used on input line 314.
+(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
+ [23 <./Figures/ITQvPQ.png>]) [24]
 \openout2 = `Chapitres/EXPE2-CONCL.aux'.
 
- (Chapitres/EXPE2-CONCL.tex
+
+(Chapitres/EXPE2-CONCL.tex
 Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-) [23
+) [25
 
 
 
-] (Main.bbl [24
+] (Main.bbl [26
 
 
 
-] [25])
+] [27])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
  [0]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (Main.aux (Chapitres/EXPE2.aux)
-(Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux))
+ (Main.aux (Chapitres/PREAMB.aux)
+(Chapitres/EXPE2.aux) (Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 416D8C17DE69FB00A0218EC4C1BA4190;1990.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 03488D943E67F64CEF76653EF987AB47;2052.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
@@ -1119,25 +1169,30 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 ### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10213 strings out of 493634
- 150495 string characters out of 3131976
- 264448 words of memory out of 3000000
- 13260 multiletter control sequences out of 15000+200000
- 44630 words of font info for 67 fonts, out of 3000000 for 9000
+ 10275 strings out of 493634
+ 151960 string characters out of 3131976
+ 265557 words of memory out of 3000000
+ 13290 multiletter control sequences out of 15000+200000
+ 46123 words of font info for 71 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,11n,48p,1580b,5712s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,48p,1580b,5728s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Administrator/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/A
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/A
 dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (32 pages, 3542042 bytes).
+mr10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Administrator/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/A
+dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on Main.pdf (36 pages, 3611454 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 109 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
