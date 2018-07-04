@@ -69,7 +69,7 @@
 	
 	\begin{figure}
 		\centering
-		\includegraphics[scale=.75]{Figures/LiangPendulum}
+		\includegraphics[scale=.6]{Figures/LiangPendulum}
 		\caption{Méthode du pendule pour le calcul de la latence.}{Image tirée de \citep{liang_temporal-spatial_1991}}
 		\label{fig:liang_pendulum}
 	\end{figure}
@@ -91,7 +91,7 @@
 	
 	\begin{figure}
 		\centering
-		\includegraphics[scale=.65]{Figures/DiLucaGradient}
+		\includegraphics[scale=.5]{Figures/DiLucaGradient}
 		\caption{Méthode des gradients pour le calcul de la latence.}{Le cadre rouge représente la zone réellement mesurée par le photorécepteur tandis que le grand cadre vert montre la couleur affichée par l'écran final, ce qui correspond à une <<~position~>> sur le gradient fixe représentée par le cadre vert en pointillés. La différence entre les deux petits cadres permet de calculer la latence du système.}
 		\label{fig:di_luca_gradient}
 	\end{figure}
@@ -223,12 +223,13 @@
 		\label{fig:mesure_latence_video}
 	\end{figure}
 	
-\chapter{Résultats}
+\chapter{Conclusions expérimentales}
 	\par Pour notre expérimentation, nous avons réuni 32 sujets, 17 hommes et 15 femmes. 2 sujets parmi les hommes n'ont pas vu leur résultats retenus pour différentes raisons: l'un n'a pas pu faire tous les segments proposés (mal du simulateur trop élevé) tandis que l'autre fermait les yeux pour contrer ce même mal du simulateur. On termine donc avec 30 sujets ayant des données exploitables, à parité homme femme parfaite. Les sujets étaient âgés de 23 à 54 ans, avec un âge moyen de $31$ ans (écart-type: $\sigma = 11$ ans).
 	
 	\par On présente ici tous les résultats de l'expérimentation, et leurs implications. On traite d'abord séparément le CAVE et le casque, avant de les analyser ensembles. On met enfin en avant les enseignements que l'on peut en retirer pour le critère de latence.
 	
-	\section{Dans le CAVE}
+	\section{Résultats}
+	\subsection{Dans le CAVE}
 	\par De manière générale, tous les résultats numériques (moyennes et écarts-types) relatif aux modalités dans le CAVE sont résumés en Table \ref{tab:resultats_cave_latence}, avec QPI: Questionnaire de propension à l'immersion, QEP: Questionnaire de présence, SSQ: Questionnaire de cyber-malaise, X et Y: précision sur les axes respectifs et t: temps de complétion.
 	
 	\begin{table}[h]	
@@ -242,11 +243,11 @@
 		\end{tabular}
 	\end{table}
 	
-	\par Initialement, les sujets répondent à un questionnaire de propension à l'immersion (moyenne des réponses: $43.83$).	Après leur passage à la condition nominale du CAVE, les sujets répondent également à un questionnaire de présence (moyenne des réponses: $67.50$). Il ne semble pas exister ($p = 0.07$) de corrélation statistique\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté, $Qobs = 1.91$.} entre les deux qui nous permettrait de prévoir le degré d'immersion d'un sujet sur la base d'un QPI.
+	\par Initialement, les sujets répondent à un questionnaire de propension à l'immersion (moyenne des réponses: $43.83$).	Après leur passage à la condition nominale du CAVE, les sujets répondent également à un questionnaire de présence (moyenne des réponses: $67.50 \pm 11.33$, Fig. \ref{fig:itq_pq}). Il ne semble pas exister ($p = 0.07$) de corrélation statistique\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté, $Qobs = 1.91$.} entre les deux qui nous permettrait de prévoir le degré d'immersion d'un sujet sur la base d'un QPI.
 	
 	\par A l'issue de chaque passage dans le CAVE, en condition nominale et en condition dégradée de latence, les sujets ont répondu à un questionnaire d'auto-évaluation du cyber-malaise. Celui-ci donne des valeurs moyennes de respectivement $3.37$ pour la modalité sans latence ajoutée, et de $4.60$ pour la modalité avec latence ; soit une augmentation de $36.5\%$ du cyber-malaise avec la latence. Il existe une corrélation statistique\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté, $Qobs = 4.08$.} ($p = 0.0003$) positive-forte ($\rho = 0.61$) entre les deux jeux de valeurs: les sujets les plus malades dans la modalité la plus faible en latence, l'étaient encore plus avec l'augmentation de la latence.
 	
-	\par Dans le cas du CAVE sans latence ajoutée (Fig. \ref{fig:cave_precision} et Tab. \ref{tab:resultats_cave_latence}), la précision relative sur les deux axes (horizontal et vertical) est quasiment la même ($0.18$ contre $0.17$). Cet écart s'accentue néanmoins lorsque la latence augmente avec des valeurs moyennes de $0.22$ et de $0.19$ pour les axes horizontal et vertical respectivement. Le temps de complétion (Fig. \ref{fig:cave_completion_time} et Tab. \ref{tab:resultats_cave_latence}) est lui beaucoup plus sensible au changement de latence avec une valeur moyenne entre les sujets qui passe de $101.49~s$ à $128.61~s$ pour réaliser l'ensemble de la tâche.
+	\par Dans le cas du CAVE sans latence ajoutée (Fig. \ref{fig:cave_precision} et Table \ref{tab:resultats_cave_latence}), la précision relative sur les deux axes (horizontal et vertical) est quasiment la même ($0.18$ contre $0.17$). Cet écart s'accentue néanmoins lorsque la latence augmente avec des valeurs moyennes de $0.22$ et de $0.19$ pour les axes horizontal et vertical respectivement. Le temps de complétion (Fig. \ref{fig:cave_completion_time} et Table \ref{tab:resultats_cave_latence}) est lui beaucoup plus sensible au changement de latence avec une valeur moyenne entre les sujets qui passe de $101.49~s$ à $128.61~s$ pour réaliser l'ensemble de la tâche.
 
 	\begin{figure}
 		\centering
@@ -263,11 +264,13 @@
 	\end{figure}
 	
 	\par Du point de vue statistique, en utilisant un test de Student pour échantillons appariés (29 degrés de liberté), on montre que la latence influence la performance de manière globale ; que ce soit pour la précision sur l'axe horizontal ($p = 0.00009$), la précision sur l'axe vertical ($p = 0.015$) ou le temps de complétion ($p = 3 \times 10^{-11}$). Néanmoins, le mal du simulateur échoue au test statistique avec une p-value de $p = 0.099$. Si les sujets sont gênés par l'évolution de la latence pour viser le centre des cibles, ils sont nettement moins perturbés et ne deviennent pas significativement plus malades.
+	
+	\par Dans l'explication de ces résultats, un paramètre dont il faut tenir compte est le critère de vitesse qui a été demandé pour passer l'ensemble des cibles. Maintenir un rythme élevé pendant l'expérience implique moins de soin apporté à la précision de la visée. Par conséquent, nos résultats montrent une moins bonne précision par rapport à ce qui aurait pu être atteint si l'ordre aurait été de simplement viser le centre des cibles. Dans le cas actuel du CAVE, la précision moyenne des sujets au-dessus de la médiane du temps d'achèvement (dans la configuration de latence plus élevée) est supérieure à la précision moyenne des sujets en dessous de la médiane du temps d'achèvement : 0,26 contre 0,21 sur l'axe horizontal et 0,23 contre 0,16 sur l'axe vertical. Par conséquent, outre le temps d'interaction, un rythme plus élevé dans des conditions de latence plus élevées entraîne une plus grande imprécision. 
 
 	\par Ces deux modalités dans le CAVE ne sont évidemment pas suffisantes pour tirer des conclusions définitives et il nous reste à explorer les résultats propres au casque qui, qui plus est, bénéficie de niveaux de latence bien moins élevés, mais aussi la comparaison entre les systèmes immersifs, à latence équivalente.
 	
-	\section{Dans le casque}
-	\par De même que précédemment, tous les résultats numériques (moyennes et écarts-types) relatif aux modalités dans le casque sont résumés en Table \ref{tab:resultats_casque_latence}.
+	\subsection{Dans le casque}
+	\par De même que précédemment, tous les résultats numériques (moyennes et écarts-types) relatif aux modalités dans le casque sont résumés en Table \ref{tab:resultats_casque_latence}. On constate une influence statistique\footnote{Méthode: test de Friedman, 3 paramètres.} de la latence sur le cyber-malaise ($p < 2 \times 10^{-7}$) et sur toutes les modalités de la performance: précision sur l'axe horizontal ($p = 0.034$), sur l'axe vertical ($p = 0.024$), et le temps de complétion ($p < 8 \times 10^{-10}$).
 	
 	\begin{table}[h]	
 		\centering
@@ -282,11 +285,13 @@
 		\end{tabular}
 	\end{table}
 	
-	\par qsd
+	\par Là encore, après leur passage à la condition nominale de latence, les sujets répondent à un questionnaire de présence (moyenne des réponses: $70.07 \pm 10.83$, Fig. \ref{fig:itq_pq}). On compare ces résultats à ceux du questionnaire de propension à l'immersion initialement rempli. Il ne semble là non plus pas exister ($p = 0.31$) de corrélation statistique\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté, $Qobs = 1.03$.} entre les deux.
 	
-	\par qsd
+	\par On s'intéresse ensuite à la comparaison deux à deux des conditions de latence dans le casque: l'éventail de niveaux de latence étant plus large, on pourra déterminer plus précisément le comportement de la performance en fonction de l'évolution de la latence. Tous les tests réalisés le sont avec la méthode du test de Student pour échantillons appariés (29 degrés de liberté).
 	
-	\par qsd
+	\par Du point de vue de la précision horizontale, la latence n'a statistiquement d'effet ($p = 0.043$) qu'à partir de la 3ème et dernière comparaison deux à deux: entre 105 et 160~ms de latence ajoutée. Les autres confrontations (passage de 0 à 60~ms de latence ajoutée et passage de 60 à 105~ms) ne présentent aucun résultat statistique ($p = 0.90$ et $p = 0.23$ respectivement). On constate néanmoins des différences sur les résultats moyens, à partir de la 3ème décimale.
+	
+	\par Pour la précision verticale, la tendance est inverse: statistiquement, la latence a un effet dès la première comparaison ($p = 0.0004$) puis cesse ($p = 0.27$ et $p = 0.20$ pour les deux dernières comparaisons). Il semblerait alors que la performance de visée, dans ce cas particulier de visée rapide avec le mouvement de la tête, varie non-linéairement mais par effet de palier. Les deux mouvements, horizontal et vertical, semblent ne pas avoir la même sensibilité: le premier possède son palier aux alentours des 100~ms de latence ajoutée, tandis que le second se situe autour de 60~ms ajoutées.
 	
 	\begin{figure}
 		\centering
@@ -295,6 +300,8 @@
 		\label{fig:casque_precision}
 	\end{figure}
 	
+	\par Ensuite, le temps de complétion montre une influence statistique de la latence plus erratique que la précision avec des tests validés pour la première ($p = 0.0003$) et la troisième ($p = 0.005$) comparaison, mais pas pour la deuxième ($p = 0.26$).
+	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/CasqueCompletionTimeResults.png}
@@ -302,32 +309,51 @@
 		\label{fig:casque_completion_time}
 	\end{figure}
 	
-	\par qsd
+	
+	\par Enfin, on constate un comportement différent des mesures de précision pour l'évolution du cyber-malaise: ce dernier semble évoluer graduellement en fonction de la latence, là où dans le casque on ne relevait pas d'influence statistique, toutes les confrontations deux à deux présentent des résultats positifs: $p = 0.014$ pour le passage de 0 à 60~ms ajoutées, $p = 0.036$ pour le passage de 60 à 105~ms et $p = 0.067$ pour le dernier passage, bien que la corrélation soit plus faible. Numériquement, on constate une évolution de 38 et 35\% dans les deux premiers cas, puis une augmentation de 19\% à la fin.
+	
+	\par Plus la vitesse des mouvements de la tête est élevée, plus la latence influence l'expérience de l'utilisateur, tant au niveau de la dégradation de la précision que de l'augmentation du mal des simulateurs. Les sujets étaient confrontés à un choix : soit ils ralentissaient leurs mouvements pour augmenter la précision, soit ils gardaient un bon rythme au détriment de la précision et du mal du simulateur. Les sujets semblent développer leur propre stratégie pour contrer le décalage de la latence, en se basant sur le niveau de cette dernière. Par conséquent, pour assurer la meilleure expérience utilisateur et minimiser le cyber-malaise, il peut être conseillé de suggérer des mouvements petits et lents aux utilisateurs quotidiens des techniques d'immersion.	
 	
 	\par Maintenant que l'on a détaillé les résultats propres à chaque système et à chaque niveau de latence, on s'intéresse à comparer les systèmes entre eux, lorsqu'ils ont le même niveau de latence et lorsque la latence varie de la même quantité. Au delà des valeurs de performance, on s'intéresse également aux valeurs de présence et de cyber-malaise.
 	
-	\section{Analyse croisée}
-	\par The immersion tendency questionnaire (Fig. \ref{fig:itq_pq}) gave back an average value of $44.58$ out of $70$ (standard-deviation: $\sigma = 8.81$)
+	\subsection{Analyse croisée}
+	\par Tous les tests statistiques présentés dans cette partie ont été réalisé avec la méthode du test de Student pour échantillons appariés (29 paramètres).	
+	
+	\par La première comparaison concerne la troisième modalité du casque et la première du CAVE. Dans cette configuration, les deux dispositifs offrent la même quantité de latence ($160~ms$). Confronter les résultats de nos sujets reviendra alors à regarder l'influence du dispositif immersif sur la tâche à réaliser. Du côté de la précision, on ne trouve aucun résultat statistique ($p = 0.41$ pour l'axe horizontal, $p = 0.79$ pour l'axe vertical) venant étayer l'hypothèse d'une influence du système immersif. Néanmoins, l'influence du changement de système est statistiquement avérée dans le cas du temps de complétion ($p = 0.0006$) avec une augmentation de $7\%$ du temps total nécessaire pour viser les 24 cibles dans le CAVE et dans le cas du cyber-malaise ($p = 0.001$) avec une augmentation de $85\%$ lorsque l'on passe dans le casque !
+	
+	\par Dans le cas du casque et du simulateur à 220~ms de latence totale, l'influence statistique ($p = 10^{-10}$) du changement de système sur le temps de complétion est corrélée avec une variation encore plus forte: les sujets sont $30\%$ plus lents pour terminer la séquence de visée dans le CAVE, par rapport au casque. On retrouve encore une fois une influence statistique ($p = 0.015$) sur le mal du simulateur avec une valeur moyenne supérieure de $60\%$ dans le casque par rapport au CAVE. A la différence de la précédente comparaison, il existe cette fois un lien statistique entre le changement de système et la précision de visée sur l'axe horizontal ($p = 0.0006$) avec une valeur $16\%$ plus grande dans le cas du CAVE. L'influence sur la précision sur l'axe vertical est elle toujours non vérifiée par les tests ($p = 0.49$).
+	
+	\par Ensuite, on compare encore les deux systèmes immersifs, mais cette fois seulement en terme de variation de performance lorsque l'on augmente la latence de 60~ms. Les moyennes de ces variations sont résumées en Table \ref{tab:resultats_delta_casque_cave}. A l'instar de la comparaison casque/CAVE en conditions de latence dégradées, on observe une influence statistique du changement de système combiné à une augmentation de latence de 60~ms sur deux des trois modalités de la performance: sur la précision horizontale ($p = 0.007$) et sur le temps de complétion ($p = 6 \times 10^{-9}$). Cela revient à dire que lorsque l'on change de système, du casque au CAVE, en augmentant la latence, la performance est deux fois perdante: d'abord de par le changement de système, mais également par le changement de latence (plus encore que simplement par un changement de latence).
+	
+	\begin{table}[h]	
+		\centering
+		\caption{Expérimentation latence: résultats moyens et écarts-types dans le casque.}
+		\label{tab:resultats_delta_casque_cave}
+		\begin{tabular}{c|c|c|c|c}
+			& $\Delta_{60}X$ & $\Delta_{60}~Y$ & $\Delta_{60}~t$ & $\Delta_{60}~SSQ$\\ \hline
+			Casque & 0.001 & 0.029 & 5.11 & 1.27\\
+			CAVE & 0.039 & 0.06 & 27.15 & 1.23\\
+		\end{tabular}
+	\end{table}
+	
+	\par On observe une forte augmentation des valeurs de cyber-malaise entre toutes les configurations (environ 120\% entre les deux modalités dans le CAVE ou les deux cas extrêmes dans le casque, par exemple). Il est à noter que les valeurs moyennes de mal du simulateur pour les versions les plus dégradées en latence sont fortement influencées par des valeurs de cyber-malaise très élevées pour quelques sujets. Cela s'explique par la contribution, en plus du conflit classique vergence-accommodation, du conflit visio-vestibulaire: plus la latence est grande, plus la disparité entre la vision et la conscience du mouvement par le système vestibulaire est importante et donc le mal du simulateur.	
+	
+	\par Dans le cas du casque, l'effet du conflit visio-vestibulaire est amplifié: les sujets ne voient pas leur corps. Selon nous, ce problème reste le principal facteur de mal du simulateur dans le casque, et la raison de la relative tranquillité dans le CAVE. Dans le simulateur, lorsque l'on tourne la tête, si l'image bouge avec du retard, le cerveau peut se raccrocher au fait d'avoir quand même vu le corps <<~bouger~>> (lorsque l'on tourne la tête à droite, si l'on fait abstraction de l'environnement, cela revient à garder la tête fixe en faisant tourner le corps vers la gauche). Le cerveau peut décréter qu'une partie des informations visuelles est incohérente et peut s'en protéger. Dans le casque, néanmoins, le flux visuel est entièrement remplacé et lorsque l'on bouge la tête, on ne peut se référer qu'à nos centrales inertielles et l'image ayant du retard. Le cerveau ne peut pas alors déjuger cette dernière, et le mal du simulateur est plus important.
+	
+	\par Enfin, si on a déjà vu dans les deux sections précédentes qu'il ne semble pas être possible d'extrapoler la présence dans le casque ou dans le CAVE à partir de la propension à l'immersion (Fig. \ref{fig:itq_pq}), on vérifie néanmoins l'existence d'une corrélation\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté.} négative-forte entre la présence et le cyber-malaise vérifiée, pour les deux moyens immersifs (pour le CAVE: $p = 0.022$ avec $\rho = -0.42$ ; pour le casque: $p = 0.030$ avec $\rho = -0.40$). Bien que cela puisse sembler évident, on a la confirmation que lorsque la présence augmente, le mal du simulateur diminue, et inversement.
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/ITQvPQ.png}
-		\caption{Comparison of the Immersive Tendency Questionnaire and the Presence Questionnaire for all 12 subjects.}
+		\caption{Scores moyens des questionnaires de propension à l'immersion (QPI) et de présence (QEP).}
 		\label{fig:itq_pq}
 	\end{figure}
 	
-	\par Unfortunatly, we were not able to predict the presence feeling based on the immersive tendency questionnaire answers. The statistical correlation between the two could not be demonstrated. However, this may be heavily resting on the system's specifications.
-	
-	\section{Discussion}
-	\par Our results show a statistical influence of the latency on the accuracy. When the increase of latency happend, the subjects were 26\% more inaccurate on the lateral movements and 5\% less accurate on the vertical movements. The inequality between the two axes could be explained by the greater movement amplitude needed to reach the left and right targets (left and right mirrors, between 40 et 60 degrees) compared to the amplitude needed to reach the top and bottom targets (central mirror and central display, 15 degrees). A larger movement means a longer interaction time with the latency and hence a higher imprecision.
-	
-	\par + non perception de son corps dans le casque
-	
-	\par The more speed in the head movements, the more latency influences user experience ; both in accuracy degradation and in simulator sickness increase. The subjects were facing a choice: either they would slown down their movements to achieve better first intention target aiming or they would keep a good  pace to the detriment of accuracy and sickness. The subjects seem to develop their own strategy to counter the offset of latency, based on how heavily they were burdened by latency. As a result, to ensure the best user experience and the minimize the effect of sickening, it might be advised to suggest slow and small movements to the daily users of the immersives techniques.
-
-	\par Another great parameter that must be taken into account is the fast completion of the 24-targets routine that was asked. Keeping a high pace during the experiment implies less care given to to accuracy of the aiming. Hence, our results show a poorer accuracy compared to what could have been reached whether the order would have been to simply aim at the center of the targets. The average accuracy of the subjects above the median of completion time (in the higher latency setup) is greater than the average accuracy of the subjects below the completion time median: $0.26$ against $0.21$ on the horizontal axis and $0.23$ against $0.16$ on the vertical axis. Hence, as well as the interaction time, a higher pace under higher latency condition leads to a higher imprecision. 
-
-	\par Our results also show a statistical influence of latency on the global completion time (with an increase of 26\% over the degraded setup) and the time per target, which is directly linked. Finally, we can observe a large increase of the SSQ values between the two setups (+121\%). However, the statistical significance is just above the threshold showing a weak correlation. This can be explained by the average SSQ degraded setup value being bumped by very high sickness values from a few subjects. On top of the classic vergence-accommodation conflict that causes sickening, there is an other conflict that contributes here to the increase of simulator sickness: the visio-vestibular conflict. The more latency, the more disparity between vision and consciousness of the movement by the vestibular system and hence sickness.	
+	\par Nos résultats montrent une influence statistique de la latence sur la précision. Lorsque la latence augmente, les sujets sont plus imprécis sur les mouvements latéraux que sur les mouvements verticaux. La différence entre les deux axes s'explique par la plus grande amplitude de mouvement nécessaire pour atteindre les cibles gauche et droite (miroirs gauche et droit, entre 40 et 60 degrés) par rapport à l'amplitude nécessaire pour atteindre les cibles supérieure et inférieure (miroir central et affichage central, 15 degrés). Un mouvement plus grand signifie un temps d'interaction plus long avec la latence et donc une plus grande imprécision.
 	
 	\section{Apport au score de réalisme}
-	\par qsd
+	\par On possède désormais un certain nombre de clefs supplémentaires pour la compréhension de la relation entre la latence et l'expérience utilisateur en immersion ; au minimum du point de vue d'une tâche relativement cohérente avec celles que l'on effectue réellement. Outre les seuils de perception de la latence que l'on a vu en introduction de cette partie expérimentale, des valeurs de latence semble se dégager.
+	
+	\par Par rapport au fonctionnement de notre système de notation, il semble difficile de ne pas attribuer la note maximale au seuil de perception de la latence, à savoir $15~ms$. De notre expérimentation, deux seuils de performance semblaient se dégager grâce aux casques: un premier relatif aux mouvements horizontaux entre 105 et 106~ms de latence ajoutée, et un deuxième, pour les mouvements verticaux, plus sensible, entre 0 et 60~ms de latence ajoutée. De part la valeur nominale de latence du casque, le seuil le plus critique est donc pour une latence totale d'environ 105~ms. C'est la valeur que nous retiendrons pour la performance standard dans notre notation.
+	
+	\par Néanmoins, notre expérimentation n'a pas permis de mettre en avant un seuil limite au delà duquel la tâche n'était plus réalisable, ce qui complique l'attribution d'une note minimale au critère de latence. En première approche, il peut toutefois être envisagé de l'associer à une latence qui tend vers l'infini.
