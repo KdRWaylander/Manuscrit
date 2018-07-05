@@ -1,7 +1,13 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: authordate1.bst
+A level-1 auxiliary file: Chapitres/PREAMB.aux
 A level-1 auxiliary file: Chapitres/INTRO.aux
+A level-1 auxiliary file: Chapitres/EXPE2.aux
+A level-1 auxiliary file: Chapitres/EXPE2-MANIP.aux
+A level-1 auxiliary file: Chapitres/EXPE2-CONCL.aux
 A level-1 auxiliary file: Chapitres/CONCL.aux
-I found no \citation commands---while reading file Main.aux
-I found no \bibdata command---while reading file Main.aux
-(There were 2 error messages)
+Database file #1: References/refs.bib
+Warning--can't use both author and editor fields in hale_handbook_2015
+Warning--empty booktitle in bouchard_revising_2007
+Warning--empty booktitle in regan_real-time_1999
+(There were 3 warnings)
