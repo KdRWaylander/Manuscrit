@@ -2,12 +2,17 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: authordate1.bst
 A level-1 auxiliary file: Chapitres/PREAMB.aux
 A level-1 auxiliary file: Chapitres/INTRO.aux
-A level-1 auxiliary file: Chapitres/EXPE2.aux
-A level-1 auxiliary file: Chapitres/EXPE2-MANIP.aux
-A level-1 auxiliary file: Chapitres/EXPE2-CONCL.aux
+A level-1 auxiliary file: Chapitres/SDR-DISP.aux
+A level-1 auxiliary file: Chapitres/SDR-IMM.aux
 A level-1 auxiliary file: Chapitres/CONCL.aux
 Database file #1: References/refs.bib
-Warning--can't use both author and editor fields in hale_handbook_2015
-Warning--empty booktitle in bouchard_revising_2007
-Warning--empty booktitle in regan_real-time_1999
-(There were 3 warnings)
+Warning--can't use both author and editor fields in international_commission_on_illumination_analytic_1981
+Warning--empty booktitle in deering_limits_1998
+Warning--empty institution in devisme_optimisation_2004
+Warning--empty school in dhondt_emotion_2011
+Warning--empty booktitle in dodgson_variation_2004
+Warning--empty booktitle in feng_han_investigation_2010
+Warning--empty booktitle in kemeny_driving_2014
+Warning--empty booktitle in langlois_adas_2013
+Warning--empty booktitle in woods_image_1993
+(There were 9 warnings)

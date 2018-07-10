@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  5 JUL 2018 17:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  10 JUL 2018 17:35
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -801,8 +801,7 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count129
 \AM@templatesizebox=\box32
 )) (Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux)
-(Chapitres/EXPE2.aux) (Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux)
-(Chapitres/CONCL.aux))
+(Chapitres/SDR-DISP.aux) (Chapitres/SDR-IMM.aux) (Chapitres/CONCL.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -958,29 +957,31 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
-
-Underfull \vbox (badness 4217) has occurred while \output is active []
-
  [5
 
 
-])
+] [6])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
-
-[6]
+ [7]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
-(Main.lof)
+(Main.lof
+Overfull \hbox (1.71983pt too wide) in paragraph at lines 15--15
+ [][] [][][]\T1/pnc/m/n/10.95 Variation de la dis-tance in-ter-ocu-laire sur la
+ po-pu-la-tion. Image ti-rée de [[][]Dodg- 
+ []
+
+[8
+
+])
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [7
-
-]
+ [9]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][] 
  []
@@ -989,7 +990,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
- [8
+ [10
 
 ]
 \openout2 = `Chapitres/INTRO.aux'.
@@ -1008,170 +1009,214 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ])
 [2]
-\openout2 = `Chapitres/EXPE2.aux'.
+\openout2 = `Chapitres/SDR-DISP.aux'.
 
- (Chapitres/EXPE2.tex
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
+ (Chapitres/SDR-DISP.tex
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 9.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [3
 
 
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
-[][] 
- []
+<Figures/EyeContrastSensitivity.png, id=366, 366.9961pt x 339.89484pt>
+File: Figures/EyeContrastSensitivity.png Graphic file (type png)
 
-) [4
-
-]
-\openout2 = `Chapitres/EXPE2-MANIP.aux'.
-
- (Chapitres/EXPE2-MANIP.tex
-Chapitre 1.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
-[5
-
-
-
-] [6] [7] [8] <Figures/LiangPendulum.png, id=340, 365.86688pt x 347.79938pt>
-File: Figures/LiangPendulum.png Graphic file (type png)
-
-<use Figures/LiangPendulum.png>
-Package pdftex.def Info: Figures/LiangPendulum.png used on input line 72.
-(pdftex.def)             Requested size: 219.52182pt x 208.68123pt.
- [9]
-<Figures/SwindellsPhonograph.png, id=360, 319.94531pt x 227.34938pt>
-File: Figures/SwindellsPhonograph.png Graphic file (type png)
-
-<use Figures/SwindellsPhonograph.png>
-Package pdftex.def Info: Figures/SwindellsPhonograph.png used on input line 83.
-
-(pdftex.def)             Requested size: 239.95839pt x 170.51161pt.
-
-<Figures/DiLucaGradient.png, id=367, 642.4pt x 401.5pt>
-File: Figures/DiLucaGradient.png Graphic file (type png)
-
-<use Figures/DiLucaGradient.png>
-Package pdftex.def Info: Figures/DiLucaGradient.png used on input line 94.
-(pdftex.def)             Requested size: 321.19922pt x 200.7495pt.
+<use Figures/EyeContrastSensitivity.png>
+Package pdftex.def Info: Figures/EyeContrastSensitivity.png used on input line 
+14.
+(pdftex.def)             Requested size: 330.29341pt x 305.90251pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10 <./Figures/LiangPendulum.png>] [11 <./Figures/SwindellsPhonograph.png> <./
-Figures/DiLucaGradient.png>] [12]
-Chapitre 2.
-[13
+ [4 <./Figures/EyeContrastSensitivity.png>]
+<Figures/CourbesReaExemple.png, id=382, 765.0984pt x 310.761pt>
+File: Figures/CourbesReaExemple.png Graphic file (type png)
 
-] <Figures/OculusRift.png, id=395, 642.4pt x 331.2375pt>
-File: Figures/OculusRift.png Graphic file (type png)
+<use Figures/CourbesReaExemple.png>
+Package pdftex.def Info: Figures/CourbesReaExemple.png used on input line 32.
+(pdftex.def)             Requested size: 382.54826pt x 155.38011pt.
+ [5]
+<Figures/MouvementBetaEffetPhi.png, id=398, 663.9204pt x 405.6756pt>
+File: Figures/MouvementBetaEffetPhi.png Graphic file (type png)
 
-<use Figures/OculusRift.png>
-Package pdftex.def Info: Figures/OculusRift.png used on input line 129.
-(pdftex.def)             Requested size: 417.55505pt x 215.30182pt.
- [14]
-<Figures/ExpeLatency.png, id=403, 495.7722pt x 282.3348pt>
-File: Figures/ExpeLatency.png Graphic file (type png)
+<use Figures/MouvementBetaEffetPhi.png>
+Package pdftex.def Info: Figures/MouvementBetaEffetPhi.png used on input line 4
+8.
+(pdftex.def)             Requested size: 365.15735pt x 223.12227pt.
+ [6 <./Figures/CourbesReaExemple.png>]
+[7 <./Figures/MouvementBetaEffetPhi.png>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 71.
 
-<use Figures/ExpeLatency.png>
-Package pdftex.def Info: Figures/ExpeLatency.png used on input line 143.
-(pdftex.def)             Requested size: 446.19084pt x 254.09895pt.
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
+cr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+) <Figures/FPS.png, id=441, 401.5pt x 401.5pt>
+File: Figures/FPS.png Graphic file (type png)
+ <use Figures/FPS.png>
+Package pdftex.def Info: Figures/FPS.png used on input line 86.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
 
-Overfull \hbox (2.77213pt too wide) in paragraph at lines 150--151
-\T1/pnc/m/n/10.95 le fonc-tion-ne-ment à leur la-tence no-mi-nale. On ajoute en
--suite, pour cha-cun des deux moyens
- []
+[8] [9 <./Figures/FPS.png (PNG copy)>]
+<Figures/GamutBT2020.png, id=480, 297.36093pt x 321.45094pt>
+File: Figures/GamutBT2020.png Graphic file (type png)
 
-[15 <./Figures/OculusRift.png>] [16 <./Figures/ExpeLatency.png>]
-<Figures/XYPrecision.png, id=418, 651.3936pt x 362.3136pt>
-File: Figures/XYPrecision.png Graphic file (type png)
+<use Figures/GamutBT2020.png>
+Package pdftex.def Info: Figures/GamutBT2020.png used on input line 121.
+(pdftex.def)             Requested size: 267.62236pt x 289.30316pt.
 
-<use Figures/XYPrecision.png>
-Package pdftex.def Info: Figures/XYPrecision.png used on input line 176.
-(pdftex.def)             Requested size: 423.40082pt x 235.50104pt.
- [17 <./Figures/XYPrecision.png>] [18] [19]
-<Figures/LatencyMeasureTechnique.png, id=446, 524.1984pt x 391.7034pt>
-File: Figures/LatencyMeasureTechnique.png Graphic file (type png)
+Underfull \vbox (badness 6658) has occurred while \output is active []
 
-<use Figures/LatencyMeasureTechnique.png>
-Package pdftex.def Info: Figures/LatencyMeasureTechnique.png used on input line
- 221.
-(pdftex.def)             Requested size: 419.35928pt x 313.36314pt.
- [20 <./Figures/LatencyMeasureTechnique.png>]
-Chapitre 3.
+ [10 <./Figures/GamutBT2020.png>] <Figures/Color.png, id=487, 301.125pt x 301.1
+25pt>
+File: Figures/Color.png Graphic file (type png)
+
+<use Figures/Color.png>
+Package pdftex.def Info: Figures/Color.png used on input line 143.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+ [11 <./Figures/Color.png>]
+<Figures/ChampVisionHorizontal.png, id=498, 820.9872pt x 352.1958pt>
+File: Figures/ChampVisionHorizontal.png Graphic file (type png)
+
+<use Figures/ChampVisionHorizontal.png>
+Package pdftex.def Info: Figures/ChampVisionHorizontal.png used on input line 1
+66.
+(pdftex.def)             Requested size: 410.4926pt x 176.09747pt.
+
+Underfull \vbox (badness 1776) has occurred while \output is active []
+
+ [12 <./Figures/ChampVisionHorizontal.png>]
+<Figures/ChampVisionVertical.png, id=510, 518.8986pt x 514.0806pt>
+File: Figures/ChampVisionVertical.png Graphic file (type png)
+
+<use Figures/ChampVisionVertical.png>
+Package pdftex.def Info: Figures/ChampVisionVertical.png used on input line 184
+.
+(pdftex.def)             Requested size: 311.34155pt x 308.45074pt.
+ [13 <./Figures/ChampVisionVertical.png>]
+<Figures/FOV.png, id=521, 301.125pt x 301.125pt>
+File: Figures/FOV.png Graphic file (type png)
+ <use Figures/FOV.png>
+Package pdftex.def Info: Figures/FOV.png used on input line 208.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+ [14 <./Figures/FOV.png>] <Figures/AcuityICD9CM.png, id=529, 681.2652pt x 474.5
+73pt>
+File: Figures/AcuityICD9CM.png Graphic file (type png)
+
+<use Figures/AcuityICD9CM.png>
+Package pdftex.def Info: Figures/AcuityICD9CM.png used on input line 222.
+(pdftex.def)             Requested size: 408.76227pt x 284.74599pt.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 238.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[15 <./Figures/AcuityICD9CM.png>]
+<Figures/AcuityMono.png, id=549, 401.5pt x 401.5pt>
+File: Figures/AcuityMono.png Graphic file (type png)
 
-Overfull \hbox (5.9096pt too wide) in paragraph at lines 246--247
-[]\T1/pnc/m/n/10.95 Initialement, les su-jets ré-pondent à un ques-tion-naire d
-e pro-pen-sion à l'im-mer-sion (moyenne
- []
+<use Figures/AcuityMono.png>
+Package pdftex.def Info: Figures/AcuityMono.png used on input line 264.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+ [16]
+<Figures/FractionVariation.png, id=569, 387.3672pt x 279.9258pt>
+File: Figures/FractionVariation.png Graphic file (type png)
 
+<use Figures/FractionVariation.png>
+Package pdftex.def Info: Figures/FractionVariation.png used on input line 286.
+(pdftex.def)             Requested size: 387.36626pt x 279.92511pt.
+
+<Figures/ANSURIPD.png, id=570, 876.27374pt x 432.86719pt>
+File: Figures/ANSURIPD.png Graphic file (type png)
+
+<use Figures/ANSURIPD.png>
+Package pdftex.def Info: Figures/ANSURIPD.png used on input line 293.
+(pdftex.def)             Requested size: 438.13579pt x 216.43306pt.
+ [17 <./Figures/AcuityMono.png (PNG copy)>] [18 <./Figures/FractionVariation.pn
+g> <./Figures/ANSURIPD.png>]
+<Figures/StereoAcuity.png, id=595, 301.125pt x 301.125pt>
+File: Figures/StereoAcuity.png Graphic file (type png)
+
+<use Figures/StereoAcuity.png>
+Package pdftex.def Info: Figures/StereoAcuity.png used on input line 324.
+(pdftex.def)             Requested size: 271.00998pt x 271.00998pt.
+) [19] [20 <./Figures/StereoAcuity.png>]
+\openout2 = `Chapitres/SDR-IMM.aux'.
+
+
+(Chapitres/SDR-IMM.tex
+Chapitre 2.
 [21
-
-] <Figures/CavePrecisionResults.png, id=467, 361.35pt x 216.81pt>
-File: Figures/CavePrecisionResults.png Graphic file (type png)
-
-<use Figures/CavePrecisionResults.png>
-Package pdftex.def Info: Figures/CavePrecisionResults.png used on input line 25
-4.
-(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
-
-<Figures/CaveCompletionTimeResults.png, id=468, 361.35pt x 216.81pt>
-File: Figures/CaveCompletionTimeResults.png Graphic file (type png)
-
-<use Figures/CaveCompletionTimeResults.png>
-Package pdftex.def Info: Figures/CaveCompletionTimeResults.png used on input li
-ne 261.
-(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
- [22 <./Figures/CavePrecisionResults.png>] [23 <./Figures/CaveCompletionTimeRes
-ults.png>]
-<Figures/CasquePrecisionResults.png, id=488, 361.35pt x 216.81pt>
-File: Figures/CasquePrecisionResults.png Graphic file (type png)
-
-<use Figures/CasquePrecisionResults.png>
-Package pdftex.def Info: Figures/CasquePrecisionResults.png used on input line 
-298.
-(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
-
-<Figures/CasqueCompletionTimeResults.png, id=489, 361.8318pt x 216.81pt>
-File: Figures/CasqueCompletionTimeResults.png Graphic file (type png)
-
-<use Figures/CasqueCompletionTimeResults.png>
-Package pdftex.def Info: Figures/CasqueCompletionTimeResults.png used on input 
-line 307.
-(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
- [24] [25 <./Figures/CasquePrecisionResults.png> <./Figures/CasqueCompletionTim
-eResults.png>]
-Overfull \hbox (3.4936pt too wide) in paragraph at lines 326--327
-\T1/pnc/m/n/10.95 terme de va-ria-tion de per-for-mance lorsque l'on aug-mente 
-la la-tence de 60 ms. Les moyennes
- []
-
-[26] <Figures/ITQvPQ.png, id=508, 410.4936pt x 225.0006pt>
-File: Figures/ITQvPQ.png Graphic file (type png)
-
-<use Figures/ITQvPQ.png>
-Package pdftex.def Info: Figures/ITQvPQ.png used on input line 347.
-(pdftex.def)             Requested size: 362.37569pt x 198.63626pt.
- [27]) [28 <./Figures/ITQvPQ.png>]
-\openout2 = `Chapitres/EXPE2-CONCL.aux'.
-
-
-(Chapitres/EXPE2-CONCL.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
-[][] 
- []
-
-) [29
 
 
 
 ]
+Underfull \vbox (badness 1953) has occurred while \output is active []
+
+ [22]
+<Figures/RecouvrementFOR.png, id=634, 1229.0718pt x 482.2818pt>
+File: Figures/RecouvrementFOR.png Graphic file (type png)
+
+<use Figures/RecouvrementFOR.png>
+Package pdftex.def Info: Figures/RecouvrementFOR.png used on input line 42.
+(pdftex.def)             Requested size: 430.18158pt x 168.80115pt.
+ [23 <./Figures/RecouvrementFOR.png>]
+<Figures/StereoActiveAnaglyphGlasses.png, id=647, 501.875pt x 170.6375pt>
+File: Figures/StereoActiveAnaglyphGlasses.png Graphic file (type png)
+
+<use Figures/StereoActiveAnaglyphGlasses.png>
+Package pdftex.def Info: Figures/StereoActiveAnaglyphGlasses.png used on input 
+line 63.
+(pdftex.def)             Requested size: 401.50053pt x 136.51016pt.
+
+<Figures/StereoTechnoScore.png, id=650, 361.35pt x 216.81pt>
+File: Figures/StereoTechnoScore.png Graphic file (type png)
+
+<use Figures/StereoTechnoScore.png>
+Package pdftex.def Info: Figures/StereoTechnoScore.png used on input line 77.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./Figures/StereoActiveAnaglyphGlasses.png>]
+<Figures/TrackingCameraBody.png, id=658, 739.563pt x 276.5532pt>
+File: Figures/TrackingCameraBody.png Graphic file (type png)
+
+<use Figures/TrackingCameraBody.png>
+Package pdftex.def Info: Figures/TrackingCameraBody.png used on input line 87.
+(pdftex.def)             Requested size: 443.74123pt x 165.9332pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./Figures/StereoTechnoScore.png>]
+Underfull \vbox (badness 1231) has occurred while \output is active []
+
+ [26 <./Figures/TrackingCameraBody.png>]
+<Figures/EyeTrackerTobii.png, id=680, 273.71552pt x 120.45pt>
+File: Figures/EyeTrackerTobii.png Graphic file (type png)
+
+<use Figures/EyeTrackerTobii.png>
+Package pdftex.def Info: Figures/EyeTrackerTobii.png used on input line 116.
+(pdftex.def)             Requested size: 273.71483pt x 120.44969pt.
+
+<Figures/RedressementPlansVision.png, id=681, 493.0922pt x 363.60844pt>
+File: Figures/RedressementPlansVision.png Graphic file (type png)
+
+<use Figures/RedressementPlansVision.png>
+Package pdftex.def Info: Figures/RedressementPlansVision.png used on input line
+ 123.
+(pdftex.def)             Requested size: 369.81824pt x 272.70566pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+[28 <./Figures/EyeTrackerTobii.png> <./Figures/RedressementPlansVision.png>])
+[29]
 \openout2 = `Chapitres/CONCL.aux'.
 
  (Chapitres/CONCL.tex
@@ -1179,29 +1224,78 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
+[30
+
+
+
+] <Figures/ScoreRealismeMini.png, id=708, 383.031pt x 251.9814pt>
+File: Figures/ScoreRealismeMini.png Graphic file (type png)
+
+<use Figures/ScoreRealismeMini.png>
+Package pdftex.def Info: Figures/ScoreRealismeMini.png used on input line 18.
+(pdftex.def)             Requested size: 383.03006pt x 251.98077pt.
+ [31 <./Figures/ScoreRealismeMini.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+<Figures/ResultatsScoreApplication.png, id=719, 361.35pt x 216.81pt>
+File: Figures/ResultatsScoreApplication.png Graphic file (type png)
+
+<use Figures/ResultatsScoreApplication.png>
+Package pdftex.def Info: Figures/ResultatsScoreApplication.png used on input li
+ne 43.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreIRIS.png, id=721, 361.35pt x 216.81pt>
+File: Figures/RadarScoreIRIS.png Graphic file (type png)
+
+<use Figures/RadarScoreIRIS.png>
+Package pdftex.def Info: Figures/RadarScoreIRIS.png used on input line 53.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreP3I.png, id=723, 361.35pt x 216.81pt>
+File: Figures/RadarScoreP3I.png Graphic file (type png)
+
+<use Figures/RadarScoreP3I.png>
+Package pdftex.def Info: Figures/RadarScoreP3I.png used on input line 63.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreVIVE.png, id=725, 361.35pt x 216.81pt>
+File: Figures/RadarScoreVIVE.png Graphic file (type png)
+
+<use Figures/RadarScoreVIVE.png>
+Package pdftex.def Info: Figures/RadarScoreVIVE.png used on input line 73.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreHololens.png, id=727, 361.35pt x 216.81pt>
+File: Figures/RadarScoreHololens.png Graphic file (type png)
+
+<use Figures/RadarScoreHololens.png>
+Package pdftex.def Info: Figures/RadarScoreHololens.png used on input line 83.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30
+ [33 <./Figures/ResultatsScoreApplication.png>] [34 <./Figures/RadarScoreIRIS.p
+ng> <./Figures/RadarScoreP3I.png>] [35 <./Figures/RadarScoreVIVE.png> <./Figure
+s/RadarScoreHololens.png>]) [36] (Main.bbl
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
+ [37
 
 
 
-])
-[31] (Main.bbl [32
-
-
-
-] [33])
+] [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
  [0]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (Main.aux (Chapitres/PREAMB.aux)
-(Chapitres/INTRO.aux) (Chapitres/EXPE2.aux) (Chapitres/EXPE2-MANIP.aux)
-(Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux))
+ (Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux) (Chapitres/SDR-DISP.aux
+) (Chapitres/SDR-IMM.aux)
+(Chapitres/CONCL.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 219D746CBF1D57E831AF9F2FA7411B43;2240.
+(rerunfilecheck)             Checksum: C39DD0A6C1966161E4C178F4DADFBA1E;3469.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
@@ -1209,30 +1303,34 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 ### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10314 strings out of 493634
- 152542 string characters out of 3131976
- 267610 words of memory out of 3000000
- 13302 multiletter control sequences out of 15000+200000
- 49771 words of font info for 74 fonts, out of 3000000 for 9000
+ 10533 strings out of 493634
+ 157458 string characters out of 3131976
+ 268528 words of memory out of 3000000
+ 13447 multiletter control sequences out of 15000+200000
+ 55187 words of font info for 80 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,12n,51p,1576b,5768s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,53p,1501b,5922s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Administrator/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/A
-dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Administrator/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/A
-dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msy8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (42 pages, 3624366 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
+Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Admin
+istrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
+<C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntr
+sbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on Main.pdf (49 pages, 4205038 bytes).
 PDF statistics:
- 608 PDF objects out of 1000 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 848 PDF objects out of 1000 (max. 8388607)
+ 181 named destinations out of 1000 (max. 500000)
+ 483 words of extra memory for PDF output out of 10000 (max. 10000000)
 
