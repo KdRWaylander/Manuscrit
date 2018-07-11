@@ -1,90 +1,58 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Aurat, }2016]{aurat_immersion_2016}
-Aurat, David. 2016.
-\newblock {\em Immersion {Visuelle} {Tridimensionnelle} {Haute} {Performance}
-  par {Suivi} du {Mouvement} des {Yeux}}.
-\newblock Informatique {Temps} {Réel}, {Robotique} \& {Automatique},
-  Université de Recherche Paris Scienes et Lettres (PSL Research University),
-  Paris, France.
+\bibitem[\protect\citename{{ANSES}, }2014]{anses_effets_2014}
+{ANSES}. 2014.
+\newblock {\em Effets {Sanitaires} {Potentiels} des {Technologies}
+  {Audiovisuelles} en 3D {Stéréoscopique}}.
+\newblock Rapport d'{Expertise} {Collective}.
 
-\bibitem[\protect\citename{Bear {\em et~al.}, }2007]{bear_neurosciences:_2007}
-Bear, Mark~F, Connors, Barry~W, \& Paradiso, Michael~A. 2007.
-\newblock {\em Neurosciences: à la découverte du cerveau}.
-\newblock Paris: Éditions Pradel.
+\bibitem[\protect\citename{Bradley, }1999]{bradley_wavelet_1999}
+Bradley, A.P. 1999.
+\newblock A wavelet visible difference predictor.
+\newblock {\em IEEE Transactions on Image Processing}, {\bf 8}(5), 717--730.
 
-\bibitem[\protect\citename{Blackwell,
-  }1981]{international_commission_on_illumination_analytic_1981}
-Blackwell, H.~R. 1981.
-\newblock {\em An {Analytic} model for describing the influence of lighting
-  parameters upon visual performance}.
-\newblock Publication {CIE}, nos.  no. 19/2.1--19/2.2.
-\newblock Paris, France: Bureau central de la CIE.
+\bibitem[\protect\citename{Burt \& Adelson, }1983]{burt_laplacian_1983}
+Burt, P., \& Adelson, E. 1983.
+\newblock The {Laplacian} {Pyramid} as a {Compact} {Image} {Code}.
+\newblock {\em IEEE Transactions on Communications}, {\bf 31}(4), 532--540.
 
-\bibitem[\protect\citename{Brooks, }1999]{brooks_whats_1999}
-Brooks, F.P. 1999.
-\newblock What's real about virtual reality?
-\newblock {\em IEEE Computer Graphics and Applications}, {\bf 19}(6), 16--27.
+\bibitem[\protect\citename{Burton {\em et~al.}, }1993]{burton_aging_1993}
+Burton, Kerri~B., Owsley, Cynthia, \& Sloane, Michael~E. 1993.
+\newblock Aging and neural spatial contrast sensitivity: {Photopic} vision.
+\newblock {\em Vision Research}, {\bf 33}(7), 939--946.
 
-\bibitem[\protect\citename{Bullier, }2001]{bullier_integrated_2001}
-Bullier, Jean. 2001.
-\newblock Integrated model of visual processing.
-\newblock {\em Brain Research Reviews}, {\bf 36}(2-3), 96--107.
+\bibitem[\protect\citename{Daly, }1992]{daly_visible_1992}
+Daly, Scott~J. 1992 (Aug.).
+\newblock Visible differences predictor: an algorithm for the assessment of
+  image fidelity.
 
-\bibitem[\protect\citename{de~Lange~Dzn, }1958a]{de_lange_dzn_research_1958}
-de~Lange~Dzn, H. 1958a.
-\newblock Research into the {Dynamic} {Nature} of the {Human} {Fovea}-{Cortex}
-  {Systems} with {Intermittent} and {Modulated} {Light} {I} {Attenuation}
-  {Characteristics} with {White} and {Colored} {Light}.
-\newblock {\em Journal of the Optical Society of America}, {\bf 48}(11), 777.
+\bibitem[\protect\citename{Deeley {\em et~al.}, }1991]{deeley_simple_1991}
+Deeley, Robin~J., Drasdo, Neville, \& Charman, W.~Neil. 1991.
+\newblock A simple parametric model of the human ocular modulation transfer
+  function.
+\newblock {\em Ophthalmic and Physiological Optics}, {\bf 11}(1), 91--93.
 
-\bibitem[\protect\citename{de~Lange~Dzn, }1958b]{de_lange_dzn_research_1958-1}
-de~Lange~Dzn, H. 1958b.
-\newblock Research into the {Dynamic} {Nature} of the {Human} {Fovea}-{Cortex}
-  {Systems} with {Intermittent} and {Modulated} {Light} {II} {Phase} {Shift} in
-  {Brightness} and {Delay} in {Color} {Perception}.
-\newblock {\em Journal of the Optical Society of America}, {\bf 48}(11), 784.
+\bibitem[\protect\citename{Drago {\em et~al.}, }2003]{drago_perceptual_2003}
+Drago, Frédéric, Martens, William~L., Myszkowski, Karol, \& Seidel,
+  Hans-Peter. 2003.
+\newblock Perceptual {Evaluation} of {Tone} {Mapping} {Operators}.
+\newblock {\em Pages  1--1 of:} {\em {ACM} {SIGGRAPH} 2003 {Sketches} \&
+  {Applications}}.
+\newblock {SIGGRAPH} '03.
+\newblock New York, NY, USA: ACM.
 
-\bibitem[\protect\citename{Deering, }1998]{deering_limits_1998}
-Deering, Michael~F. 1998.
-\newblock The {Limits} of {Human} {Vision}.
-\newblock  vol. 2.
+\bibitem[\protect\citename{Fairchild, }1998]{fairchild_color_1998}
+Fairchild, Mark~D. 1998.
+\newblock {\em Color appearance models}. First edition edn.
+\newblock Wiley-{IS}\&{T} series in imaging science and technology.
+\newblock Chichester, West Sussex: Wiley.
 
-\bibitem[\protect\citename{Devisme, }2004]{devisme_optimisation_2004}
-Devisme, Céline. 2004.
-\newblock {\em Optimisation du {Traitement} des {Indices} de {Profondeur} pour
-  {Application} à la {Vision} {Artificielle} - {Cas} de la {Disparité}
-  {Horizontale}}.
-\newblock Mémoire.
-
-\bibitem[\protect\citename{D'hondt, }2011]{dhondt_emotion_2011}
-D'hondt, Fabien. 2011.
-\newblock {\em Emotion et {Espace} {Visuel}: {Approche} {Neuromagnétique},
-  {Neurosomatique} et {Comportementale}}.
-\newblock Ph.D. thesis.
-
-\bibitem[\protect\citename{Dodgson, }2004]{dodgson_variation_2004}
-Dodgson, Neil~A. 2004 (May).
-\newblock Variation and {Extrema} of {Human} {Interpupillary} {Distance}.
-
-\bibitem[\protect\citename{Driscoll {\em et~al.}, }1978]{driscoll_eyes_1978}
-Driscoll, Walter~G., Vaughan, William, \& {Optical Society of America} (eds).
-  1978.
-\newblock The {Eyes} and {Vision}.
-\newblock {\em In:} Driscoll, Walter~G., Vaughan, William, \& {Optical Society
-  of America} (eds), {\em Handbook of optics}.
-\newblock New York: McGraw-Hill.
-
-\bibitem[\protect\citename{Fauster \& Wien, }2007]{fauster_stereoscopic_2007}
-Fauster, L., \& Wien, T.~U. 2007.
-\newblock Stereoscopic {Techniques} in {Computer} {Graphics}.
-\newblock {\em Tu Wien}.
-
-\bibitem[\protect\citename{{Feng Han} {\em et~al.},
-  }2010]{feng_han_investigation_2010}
-{Feng Han}, {Tao Xu}, {Chaoping Tian}, \& {Zhenjie Hou}. 2010.
-\newblock Investigation on human visual response latency.
-\newblock IEEE.
+\bibitem[\protect\citename{Ferwerda {\em et~al.}, }1996]{ferwerda_model_1996}
+Ferwerda, James~A., Pattanaik, Sumanta~N., Shirley, Peter, \& Greenberg,
+  Donald~P. 1996.
+\newblock A {Model} of {Visual} {Adaptation} for {Realistic} {Image}
+  {Synthesis}.
+\newblock ACM.
 
 \bibitem[\protect\citename{Fuchs {\em et~al.}, }2003]{fuchs_traite_2003}
 Fuchs, Philippe, Moreau, Guillaume, \& Berthoz, Alain. 2003.
@@ -92,98 +60,144 @@ Fuchs, Philippe, Moreau, Guillaume, \& Berthoz, Alain. 2003.
 \newblock  Vol. 1.
 \newblock Paris: Les Presses de l'École des Mines.
 
-\bibitem[\protect\citename{Gross {\em et~al.}, }2008]{gross_human_2008}
-Gross, Herbert, Blechinger, Fritz, Achtner, Bertram, \& Gross, Herbert. 2008.
-\newblock Human {Eye}.
-\newblock {\em In:} {\em Survey of {Optical} {Instruments}}.
-\newblock Handbook of {Optical} {Systems}, no.  ed. by Herbert Gross ; Vol. 4.
-\newblock Weinheim: Wiley-VCH.
+\bibitem[\protect\citename{Glassner, }1995]{glassner_principles_1995}
+Glassner, Andrew~S. 1995.
+\newblock {\em Principles of {Digital} {Image} {Synthesis}}.
+\newblock The {Morgan} {Kaufmann} series in computer graphics and geometric
+  modeling.
+\newblock San Francisco: Morgan Kaufmann.
 
-\bibitem[\protect\citename{Kemeny, }2014]{kemeny_driving_2014}
-Kemeny, Andras. 2014.
-\newblock From driving simulation to virtual reality.
+\bibitem[\protect\citename{Hunt, }1995]{hunt_reproduction_1995}
+Hunt, Robert W.~G. 1995.
+\newblock {\em The {Reproduction} of {Color}}. 5th edition edn.
+\newblock Kingston-upon-Thames: Fountain Press.
+
+\bibitem[\protect\citename{Kilbride {\em et~al.}, }1986]{kilbride_foveal_1986}
+Kilbride, Paul~E., Hutman, Lucinda~P., Fishman, Marlene, \& Read, John~S. 1986.
+\newblock Foveal cone pigment density difference in the aging human eye.
+\newblock {\em Vision Research}, {\bf 26}(2), 321--325.
+
+\bibitem[\protect\citename{Liou \& Brennan, }1997]{liou_anatomically_1997}
+Liou, Hwey-Lan, \& Brennan, Noel~A. 1997.
+\newblock Anatomically {Accurate}, {Finite} {Model} {Eye} for {Optical}
+  {Modeling}.
+\newblock {\em Journal of the Optical Society of America A}, {\bf 14}(8), 1684.
+
+\bibitem[\protect\citename{Lubin, }1995]{lubin_visual_1995}
+Lubin, Jeffrey. 1995.
+\newblock A {Visual} {Discrimination} {Model} for {Imaging} {System} {Design}
+  and {Evaluation}.
+\newblock {\em Pages  245--283 of:} {\em Vision {Models} for {Target}
+  {Detection} and {Recognition}}.
+
+\bibitem[\protect\citename{Lukin, }2009]{lukin_improved_2009}
+Lukin, A. 2009.
+\newblock Improved visible differences predictor using a complex cortex
+  transform.
+
+\bibitem[\protect\citename{Mantiuk {\em et~al.}, }2004]{mantiuk_visible_2004}
+Mantiuk, R., Myszkowski, K., \& Seidel, H.-P. 2004.
+\newblock Visible difference predicator for high dynamic range images.
+\newblock  vol. 3.
+\newblock IEEE.
+
+\bibitem[\protect\citename{Mantiuk {\em et~al.},
+  }2005]{mantiuk_predicting_2005}
+Mantiuk, Rafal, Daly, Scott~J., Myszkowski, Karol, \& Seidel, Hans-Peter. 2005
+  (Mar.).
+\newblock Predicting visible differences in high dynamic range images: model
+  and its calibration.
+
+\bibitem[\protect\citename{Mantiuk \& Ramponi, }2015]{mantiuk_human_2015}
+Mantiuk, Rafal~K., \& Ramponi, Giovanni. 2015.
+\newblock Human {Vision} {Model} {Including} {Age} {Dependencies}.
+
+\bibitem[\protect\citename{Moon \& Spencer, }1944]{moon_visual_1944}
+Moon, Parry, \& Spencer, Domina~Eberle. 1944.
+\newblock Visual {Data} {Applied} to {Lighting} {Design}.
+\newblock {\em Journal of the Optical Society of America}, {\bf 34}(10), 605.
+
+\bibitem[\protect\citename{Moreau \& Tisseau, }2006]{moreau_traite_2006}
+Moreau, Guillaume, \& Tisseau, Jacques. 2006.
+\newblock {\em Le {Traité} de la {Réalité} {Virtuelle}. {Volume} 3.}
+\newblock  Vol. 3.
+\newblock Paris: École des mines de Paris.
+\newblock OCLC: 288965251.
+
+\bibitem[\protect\citename{Neveu, }2012]{neveu_impact_2012}
+Neveu, Pascaline. 2012.
+\newblock {\em Impact des {Dispositifs} de {Visualisation} en {Relief} sur les
+  {Composantes} {Oculimotrices} d'{Accocmmodation} et de {Vergence}}.
+\newblock Psychologie, Université de Paris 8 - Vincennes - Saint-Denis.
+
+\bibitem[\protect\citename{Owsley {\em et~al.}, }1983]{owsley_contrast_1983}
+Owsley, Cynthia, Sekuler, Robert, \& Siemsen, Dennis. 1983.
+\newblock Contrast sensitivity throughout adulthood.
+\newblock {\em Vision Research}, {\bf 23}(7), 689--699.
+
+\bibitem[\protect\citename{Pattanaik {\em et~al.},
+  }1998]{pattanaik_multiscale_1998}
+Pattanaik, Sumata~N., Ferwerda, James~A., Fairchild, Mark~D., \& Greenberg,
+  Donald~P. 1998.
+\newblock A {Multiscale} {Model} of {Adaptation} and {Spatial} {Vision} for
+  {Realistic} {Image} {Display}.
+
+\bibitem[\protect\citename{Peli, }1990]{peli_contrast_1990}
+Peli, Eli. 1990.
+\newblock Contrast in {Complex} {Images}.
+\newblock {\em Journal of the Optical Society of America A}, {\bf 7}(10), 2032.
+
+\bibitem[\protect\citename{Pokorny {\em et~al.}, }1987]{pokorny_aging_1987}
+Pokorny, Joel, Smith, Vivianne~C., \& Lutze, Margaret. 1987.
+\newblock Aging of the human lens.
+\newblock {\em Applied Optics}, {\bf 26}(8), 1437.
+
+\bibitem[\protect\citename{Rushmeier {\em et~al.},
+  }1995]{rushmeier_comparing_1995}
+Rushmeier, H., Ward, G., Piatko, C., Sanders, P., \& Rust, B. 1995.
+\newblock Comparing {Real} and {Synthetic} {Images}: {Some} {Ideas} {About}
+  {Metrics}.
+\newblock  82--91.
+
+\bibitem[\protect\citename{Sagawa \& Takahashi, }2001]{sagawa_spectral_2001}
+Sagawa, Ken, \& Takahashi, Yasuro. 2001.
+\newblock Spectral luminous efficiency as a function of age.
+\newblock {\em Journal of the Optical Society of America A}, {\bf 18}(11),
+  2659.
+
+\bibitem[\protect\citename{Spencer {\em et~al.},
+  }1995]{spencer_physically-based_1995}
+Spencer, Greg, Shirley, Peter, Zimmerman, Kurt, \& Greenberg, Donald~P. 1995.
+\newblock Physically-based glare effects for digital images.
 \newblock ACM Press.
 
-\bibitem[\protect\citename{Kuehni, }2015]{kuehni_how_2015}
-Kuehni, Rolf~G. 2015.
-\newblock How many object colors can we distinguish?
-\newblock {\em Color Research \& Application}, July.
+\bibitem[\protect\citename{Vos \& van~den Berg, }1999]{vos_cie_1999}
+Vos, J.J., \& van~den Berg, T.J. 1999.
+\newblock {\em {CIE} 135/1-6 {Disability} {Glare}}.
+\newblock Technical {Report}. CIE.
 
-\bibitem[\protect\citename{Landis, }1954]{landis_determinants_1954}
-Landis, Carney. 1954.
-\newblock Determinants of the {Critical} {Flicker}-{Fusion} {Threshold}.
-\newblock {\em Physiological Reviews}, {\bf 34}(2), 259--286.
+\bibitem[\protect\citename{Watson \& Solomon, }1997]{watson_model_1997}
+Watson, Andrew~B., \& Solomon, Joshua~A. 1997.
+\newblock Model of visual contrast gain control and pattern masking.
+\newblock {\em Journal of the Optical Society of America A}, {\bf 14}(9), 2379.
 
-\bibitem[\protect\citename{Langlois, }2013]{langlois_adas_2013}
-Langlois, Sabine. 2013.
-\newblock {ADAS} {HMI} using peripheral vision.
-\newblock ACM Press.
+\bibitem[\protect\citename{Watson \& Yellott, }2012]{watson_unified_2012}
+Watson, Andrew~B., \& Yellott, John~I. 2012.
+\newblock A {Unified} {Formula} {For} {Light}-adapted {Pupil} {Size}.
+\newblock {\em Investigative Ophthalmology \& Visual Science}, {\bf 53}(14),
+  143--143.
 
-\bibitem[\protect\citename{Linhares {\em et~al.}, }2008]{linhares_number_2008}
-Linhares, João Manuel~Maciel, Pinto, Paulo~Daniel, \& Nascimento, Sérgio
-  Miguel~Cardoso. 2008.
-\newblock The number of discernible colors in natural scenes.
-\newblock {\em Journal of the Optical Society of America A}, {\bf 25}(12),
-  2918.
+\bibitem[\protect\citename{Westheimer, }1986]{westheimer_eye_1986}
+Westheimer, Gerald. 1986.
+\newblock The {Eye} as an {Optical} {Instrument}.
+\newblock {\em In:} {\em Handbook of {Perception} and {Human} {Performance}},
+  vol. 1.
 
-\bibitem[\protect\citename{Nichols \& Lederman,
-  }1980]{de_lauretis_flicker_1980}
-Nichols, Bill, \& Lederman, Susan~J. 1980.
-\newblock Flicker and {Motion} in {Film}.
-\newblock {\em Pages  96--105 of:} de~Lauretis, Teresa, \& Heath, Stephen
-  (eds), {\em The {Cinematic} {Apparatus}}.
-\newblock London: Palgrave Macmillan UK.
-
-\bibitem[\protect\citename{Perales {\em et~al.},
-  }2008]{perales_calculation_2008}
-Perales, Esther, Martínez-Verdú, Francisco, \& Viqueira, Valentín. 2008.
-\newblock Calculation of number of distinguishable colours by real normal
-  observers.
-\newblock {\em Conference on Colour in Graphics, Imaging, and Vision}, {\bf
-  2008}(1), 80--84.
-
-\bibitem[\protect\citename{Pointer, }1980]{pointer_gamut_1980}
-Pointer, M.~R. 1980.
-\newblock The {Gamut} of {Real} {Surface} {Colours}.
-\newblock {\em Color Research \& Application}, {\bf 5}(3), 145--155.
-
-\bibitem[\protect\citename{Pointer \& Attridge, }1998]{pointer_number_1998}
-Pointer, M.~R., \& Attridge, G.~G. 1998.
-\newblock The number of discernible colours.
-\newblock {\em Color Research \& Application}, {\bf 23}(1), 52--54.
-
-\bibitem[\protect\citename{Rea, }1986]{rea_toward_1986}
-Rea, Mark~S. 1986.
-\newblock Toward a {Model} of {Visual} {Performance}: {Foundations} and {Data}.
-\newblock {\em Journal of the Illuminating Engineering Society}, {\bf 15}(2),
-  41--57.
-
-\bibitem[\protect\citename{Rea \& Ouellette, }1991]{rea_relative_1991}
-Rea, Mark~S., \& Ouellette, Michael~J. 1991.
-\newblock Relative visual performance: {A} basis for application.
-\newblock {\em Lighting Research and Technology}, {\bf 23}(3), 135--144.
-
-\bibitem[\protect\citename{Ungerleider \& Mishkin, }1982]{ingle_two_1982}
-Ungerleider, Leslie~G., \& Mishkin, Mortimer. 1982.
-\newblock Two {Cortical} {Visual} {Systems}.
-\newblock {\em In:} Ingle, David, Goodale, Melvyn~A., \& Mansfield, Richard
-  J.~W. (eds), {\em Analysis of visual behavior}.
-\newblock Cambridge, Mass: MIT Press.
-
-\bibitem[\protect\citename{Vidal {\em et~al.},
-  }2016]{vidal_color-difference_2016}
-Vidal, Q., Michelin, S., Laborie, B., \& Kemeny, A. 2016.
-\newblock Color-{Difference} {Assessment} and {Enhancement} for {Driving}
-  {Headlight} {Simulation}.
-\newblock {\em SIMULATION}, {\bf 92}(5), 427--435.
-
-\bibitem[\protect\citename{Wen, }2006]{wen_display_2006}
-Wen, Senfar. 2006.
-\newblock Display gamut comparison with number of discernible colors.
-\newblock {\em Journal of Electronic Imaging}, {\bf 15}(4), 043001--043001--8.
-
-\bibitem[\protect\citename{Woods {\em et~al.}, }1993]{woods_image_1993}
-Woods, Andrew~J., Docherty, Tom, \& Koch, Rolf. 1993 (Sept.).
-\newblock Image distortions in stereoscopic video systems.
+\bibitem[\protect\citename{Wyszecki \& Stiles, }2000]{wyszecki_color_2000}
+Wyszecki, Günter, \& Stiles, W.~S. 2000.
+\newblock {\em Color {Science}: {Concepts} and {Methods}, {Quantitative}
+  {Data}, and {Formulae}}. Wiley classics library ed edn.
+\newblock Wiley classics library.
+\newblock New York: John Wiley \& Sons.
 
 \end{thebibliography}

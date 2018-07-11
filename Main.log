@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  10 JUL 2018 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  11 JUL 2018 18:35
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -800,8 +800,11 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks26
 \c@AM@survey=\count129
 \AM@templatesizebox=\box32
-)) (Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux)
-(Chapitres/SDR-DISP.aux) (Chapitres/SDR-IMM.aux) (Chapitres/CONCL.aux))
+)
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\chngcntr\c
+hngcntr.sty"
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+)) (Main.aux (Chapitres/MDLVI.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -915,39 +918,6 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <17.28> not available
 
 
 {C:/Users/Administrator/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `Chapitres/PREAMB.aux'.
-
- (Chapitres/PREAMB.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
-[][] 
- []
-
-[2
-
-
-]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 11--11
-[][] 
- []
-
-[3
-
-]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
-[][] 
- []
-
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 23.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
-pnc.fd"
-File: omspnc.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
-) [4
-
-]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 19--19
 [][] 
  []
@@ -957,31 +927,30 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
- [5
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 11.
 
+Underfull \vbox (badness 4193) has occurred while \output is active []
 
-] [6])
+ [2
+
+])
 \tf@toc=\write4
 \openout4 = `Main.toc'.
 
- [7]
+
+[3]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
-(Main.lof
-Overfull \hbox (1.71983pt too wide) in paragraph at lines 15--15
- [][] [][][]\T1/pnc/m/n/10.95 Variation de la dis-tance in-ter-ocu-laire sur la
- po-pu-la-tion. Image ti-rée de [[][]Dodg- 
- []
-
-[8
-
-])
+(Main.lof)
 \tf@lof=\write5
 \openout5 = `Main.lof'.
 
- [9]
+ [4
+
+]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][] 
  []
@@ -990,312 +959,122 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
- [10
+ [5
+
+] [6
 
 ]
-\openout2 = `Chapitres/INTRO.aux'.
+\openout2 = `Chapitres/MDLVI.aux'.
 
- (Chapitres/INTRO.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
-[][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+ (Chapitres/MDLVI.tex
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
  [1
 
 
+]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 2--2
+[][] 
+ []
 
-])
-[2]
-\openout2 = `Chapitres/SDR-DISP.aux'.
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 7.
 
- (Chapitres/SDR-DISP.tex
-Chapitre 1.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 9.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3
-
-
+("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
+pnc.fd"
+File: omspnc.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+ [2
 
 ]
-<Figures/EyeContrastSensitivity.png, id=366, 366.9961pt x 339.89484pt>
-File: Figures/EyeContrastSensitivity.png Graphic file (type png)
+Chapitre 1.
 
-<use Figures/EyeContrastSensitivity.png>
-Package pdftex.def Info: Figures/EyeContrastSensitivity.png used on input line 
-14.
-(pdftex.def)             Requested size: 330.29341pt x 305.90251pt.
+Package natbib Warning: Citation `rushmeier_qsd_1995' on page 3 undefined on in
+put line 28.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[3
 
- [4 <./Figures/EyeContrastSensitivity.png>]
-<Figures/CourbesReaExemple.png, id=382, 765.0984pt x 310.761pt>
-File: Figures/CourbesReaExemple.png Graphic file (type png)
-
-<use Figures/CourbesReaExemple.png>
-Package pdftex.def Info: Figures/CourbesReaExemple.png used on input line 32.
-(pdftex.def)             Requested size: 382.54826pt x 155.38011pt.
- [5]
-<Figures/MouvementBetaEffetPhi.png, id=398, 663.9204pt x 405.6756pt>
-File: Figures/MouvementBetaEffetPhi.png Graphic file (type png)
-
-<use Figures/MouvementBetaEffetPhi.png>
-Package pdftex.def Info: Figures/MouvementBetaEffetPhi.png used on input line 4
-8.
-(pdftex.def)             Requested size: 365.15735pt x 223.12227pt.
- [6 <./Figures/CourbesReaExemple.png>]
-[7 <./Figures/MouvementBetaEffetPhi.png>]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 71.
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 33.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
 cr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) <Figures/FPS.png, id=441, 401.5pt x 401.5pt>
-File: Figures/FPS.png Graphic file (type png)
- <use Figures/FPS.png>
-Package pdftex.def Info: Figures/FPS.png used on input line 86.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
+)
+LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/pnc/b/it' tried instead on input line 39.
+ [4] [5]
+<Figures/FerwerdaAdaptationSteps.png, id=221, 370.38374pt x 652.68843pt>
+File: Figures/FerwerdaAdaptationSteps.png Graphic file (type png)
 
-[8] [9 <./Figures/FPS.png (PNG copy)>]
-<Figures/GamutBT2020.png, id=480, 297.36093pt x 321.45094pt>
-File: Figures/GamutBT2020.png Graphic file (type png)
-
-<use Figures/GamutBT2020.png>
-Package pdftex.def Info: Figures/GamutBT2020.png used on input line 121.
-(pdftex.def)             Requested size: 267.62236pt x 289.30316pt.
-
-Underfull \vbox (badness 6658) has occurred while \output is active []
-
- [10 <./Figures/GamutBT2020.png>] <Figures/Color.png, id=487, 301.125pt x 301.1
-25pt>
-File: Figures/Color.png Graphic file (type png)
-
-<use Figures/Color.png>
-Package pdftex.def Info: Figures/Color.png used on input line 143.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
- [11 <./Figures/Color.png>]
-<Figures/ChampVisionHorizontal.png, id=498, 820.9872pt x 352.1958pt>
-File: Figures/ChampVisionHorizontal.png Graphic file (type png)
-
-<use Figures/ChampVisionHorizontal.png>
-Package pdftex.def Info: Figures/ChampVisionHorizontal.png used on input line 1
-66.
-(pdftex.def)             Requested size: 410.4926pt x 176.09747pt.
-
-Underfull \vbox (badness 1776) has occurred while \output is active []
-
- [12 <./Figures/ChampVisionHorizontal.png>]
-<Figures/ChampVisionVertical.png, id=510, 518.8986pt x 514.0806pt>
-File: Figures/ChampVisionVertical.png Graphic file (type png)
-
-<use Figures/ChampVisionVertical.png>
-Package pdftex.def Info: Figures/ChampVisionVertical.png used on input line 184
-.
-(pdftex.def)             Requested size: 311.34155pt x 308.45074pt.
- [13 <./Figures/ChampVisionVertical.png>]
-<Figures/FOV.png, id=521, 301.125pt x 301.125pt>
-File: Figures/FOV.png Graphic file (type png)
- <use Figures/FOV.png>
-Package pdftex.def Info: Figures/FOV.png used on input line 208.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
- [14 <./Figures/FOV.png>] <Figures/AcuityICD9CM.png, id=529, 681.2652pt x 474.5
-73pt>
-File: Figures/AcuityICD9CM.png Graphic file (type png)
-
-<use Figures/AcuityICD9CM.png>
-Package pdftex.def Info: Figures/AcuityICD9CM.png used on input line 222.
-(pdftex.def)             Requested size: 408.76227pt x 284.74599pt.
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 238.
+<use Figures/FerwerdaAdaptationSteps.png>
+Package pdftex.def Info: Figures/FerwerdaAdaptationSteps.png used on input line
+ 69.
+(pdftex.def)             Requested size: 370.38283pt x 652.68684pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Float too large for page by 9.50055pt on input line 72.
 
-[15 <./Figures/AcuityICD9CM.png>]
-<Figures/AcuityMono.png, id=549, 401.5pt x 401.5pt>
-File: Figures/AcuityMono.png Graphic file (type png)
-
-<use Figures/AcuityMono.png>
-Package pdftex.def Info: Figures/AcuityMono.png used on input line 264.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
- [16]
-<Figures/FractionVariation.png, id=569, 387.3672pt x 279.9258pt>
-File: Figures/FractionVariation.png Graphic file (type png)
-
-<use Figures/FractionVariation.png>
-Package pdftex.def Info: Figures/FractionVariation.png used on input line 286.
-(pdftex.def)             Requested size: 387.36626pt x 279.92511pt.
-
-<Figures/ANSURIPD.png, id=570, 876.27374pt x 432.86719pt>
-File: Figures/ANSURIPD.png Graphic file (type png)
-
-<use Figures/ANSURIPD.png>
-Package pdftex.def Info: Figures/ANSURIPD.png used on input line 293.
-(pdftex.def)             Requested size: 438.13579pt x 216.43306pt.
- [17 <./Figures/AcuityMono.png (PNG copy)>] [18 <./Figures/FractionVariation.pn
-g> <./Figures/ANSURIPD.png>]
-<Figures/StereoAcuity.png, id=595, 301.125pt x 301.125pt>
-File: Figures/StereoAcuity.png Graphic file (type png)
-
-<use Figures/StereoAcuity.png>
-Package pdftex.def Info: Figures/StereoAcuity.png used on input line 324.
-(pdftex.def)             Requested size: 271.00998pt x 271.00998pt.
-) [19] [20 <./Figures/StereoAcuity.png>]
-\openout2 = `Chapitres/SDR-IMM.aux'.
-
-
-(Chapitres/SDR-IMM.tex
+[6] [7 <./Figures/FerwerdaAdaptationSteps.png>]
 Chapitre 2.
-[21
+<Figures/FlowChartPattanaik.png, id=240, 602.25pt x 179.2296pt>
+File: Figures/FlowChartPattanaik.png Graphic file (type png)
+
+<use Figures/FlowChartPattanaik.png>
+Package pdftex.def Info: Figures/FlowChartPattanaik.png used on input line 90.
+(pdftex.def)             Requested size: 451.68639pt x 134.42184pt.
+ [8
+
+] [9 <./Figures/FlowChartPattanaik.png>] [10]
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 187.
+ [11] <Figures/PattanaikFullModel.png, id=335, 261.6286pt x 523.2348pt>
+File: Figures/PattanaikFullModel.png Graphic file (type png)
+
+<use Figures/PattanaikFullModel.png>
+Package pdftex.def Info: Figures/PattanaikFullModel.png used on input line 230.
+
+(pdftex.def)             Requested size: 327.03493pt x 654.0419pt.
 
 
+LaTeX Warning: Float too large for page by 9.93036pt on input line 233.
 
-]
-Underfull \vbox (badness 1953) has occurred while \output is active []
+[12] [13 <./Figures/PattanaikFullModel.png>]
+Chapitre 3.
+[14
 
- [22]
-<Figures/RecouvrementFOR.png, id=634, 1229.0718pt x 482.2818pt>
-File: Figures/RecouvrementFOR.png Graphic file (type png)
-
-<use Figures/RecouvrementFOR.png>
-Package pdftex.def Info: Figures/RecouvrementFOR.png used on input line 42.
-(pdftex.def)             Requested size: 430.18158pt x 168.80115pt.
- [23 <./Figures/RecouvrementFOR.png>]
-<Figures/StereoActiveAnaglyphGlasses.png, id=647, 501.875pt x 170.6375pt>
-File: Figures/StereoActiveAnaglyphGlasses.png Graphic file (type png)
-
-<use Figures/StereoActiveAnaglyphGlasses.png>
-Package pdftex.def Info: Figures/StereoActiveAnaglyphGlasses.png used on input 
-line 63.
-(pdftex.def)             Requested size: 401.50053pt x 136.51016pt.
-
-<Figures/StereoTechnoScore.png, id=650, 361.35pt x 216.81pt>
-File: Figures/StereoTechnoScore.png Graphic file (type png)
-
-<use Figures/StereoTechnoScore.png>
-Package pdftex.def Info: Figures/StereoTechnoScore.png used on input line 77.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [24 <./Figures/StereoActiveAnaglyphGlasses.png>]
-<Figures/TrackingCameraBody.png, id=658, 739.563pt x 276.5532pt>
-File: Figures/TrackingCameraBody.png Graphic file (type png)
-
-<use Figures/TrackingCameraBody.png>
-Package pdftex.def Info: Figures/TrackingCameraBody.png used on input line 87.
-(pdftex.def)             Requested size: 443.74123pt x 165.9332pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25 <./Figures/StereoTechnoScore.png>]
-Underfull \vbox (badness 1231) has occurred while \output is active []
-
- [26 <./Figures/TrackingCameraBody.png>]
-<Figures/EyeTrackerTobii.png, id=680, 273.71552pt x 120.45pt>
-File: Figures/EyeTrackerTobii.png Graphic file (type png)
-
-<use Figures/EyeTrackerTobii.png>
-Package pdftex.def Info: Figures/EyeTrackerTobii.png used on input line 116.
-(pdftex.def)             Requested size: 273.71483pt x 120.44969pt.
-
-<Figures/RedressementPlansVision.png, id=681, 493.0922pt x 363.60844pt>
-File: Figures/RedressementPlansVision.png Graphic file (type png)
-
-<use Figures/RedressementPlansVision.png>
-Package pdftex.def Info: Figures/RedressementPlansVision.png used on input line
- 123.
-(pdftex.def)             Requested size: 369.81824pt x 272.70566pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27]
-[28 <./Figures/EyeTrackerTobii.png> <./Figures/RedressementPlansVision.png>])
-[29]
-\openout2 = `Chapitres/CONCL.aux'.
-
- (Chapitres/CONCL.tex
-Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+] [15]
+Overfull \hbox (6.0pt too wide) in paragraph at lines 282--282
 [][] 
  []
 
-[30
+) [16
+
+] (Main.bbl [17
 
 
 
-] <Figures/ScoreRealismeMini.png, id=708, 383.031pt x 251.9814pt>
-File: Figures/ScoreRealismeMini.png Graphic file (type png)
+] [18]
+Underfull \hbox (badness 1946) in paragraph at lines 170--173
+[]\T1/pnc/m/n/10.95 Spencer, Greg, Shir-ley, Pe-ter, Zim-mer-man, Kurt, & Green
+-berg, Do-nald P. 1995.
+ []
 
-<use Figures/ScoreRealismeMini.png>
-Package pdftex.def Info: Figures/ScoreRealismeMini.png used on input line 18.
-(pdftex.def)             Requested size: 383.03006pt x 251.98077pt.
- [31 <./Figures/ScoreRealismeMini.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+)
 
- [32]
-<Figures/ResultatsScoreApplication.png, id=719, 361.35pt x 216.81pt>
-File: Figures/ResultatsScoreApplication.png Graphic file (type png)
+Package natbib Warning: There were undefined citations.
 
-<use Figures/ResultatsScoreApplication.png>
-Package pdftex.def Info: Figures/ResultatsScoreApplication.png used on input li
-ne 43.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-<Figures/RadarScoreIRIS.png, id=721, 361.35pt x 216.81pt>
-File: Figures/RadarScoreIRIS.png Graphic file (type png)
-
-<use Figures/RadarScoreIRIS.png>
-Package pdftex.def Info: Figures/RadarScoreIRIS.png used on input line 53.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-<Figures/RadarScoreP3I.png, id=723, 361.35pt x 216.81pt>
-File: Figures/RadarScoreP3I.png Graphic file (type png)
-
-<use Figures/RadarScoreP3I.png>
-Package pdftex.def Info: Figures/RadarScoreP3I.png used on input line 63.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-<Figures/RadarScoreVIVE.png, id=725, 361.35pt x 216.81pt>
-File: Figures/RadarScoreVIVE.png Graphic file (type png)
-
-<use Figures/RadarScoreVIVE.png>
-Package pdftex.def Info: Figures/RadarScoreVIVE.png used on input line 73.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-<Figures/RadarScoreHololens.png, id=727, 361.35pt x 216.81pt>
-File: Figures/RadarScoreHololens.png Graphic file (type png)
-
-<use Figures/RadarScoreHololens.png>
-Package pdftex.def Info: Figures/RadarScoreHololens.png used on input line 83.
-(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [33 <./Figures/ResultatsScoreApplication.png>] [34 <./Figures/RadarScoreIRIS.p
-ng> <./Figures/RadarScoreP3I.png>] [35 <./Figures/RadarScoreVIVE.png> <./Figure
-s/RadarScoreHololens.png>]) [36] (Main.bbl
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
- [37
-
-
-
-] [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
- [0]
+[0]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (Main.aux (Chapitres/PREAMB.aux) (Chapitres/INTRO.aux) (Chapitres/SDR-DISP.aux
-) (Chapitres/SDR-IMM.aux)
-(Chapitres/CONCL.aux))
+ (Main.aux (Chapitres/MDLVI.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: C39DD0A6C1966161E4C178F4DADFBA1E;3469.
+(rerunfilecheck)             Checksum: 92C276E1D17DB498E2C5EB136ACD8820;894.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
@@ -1303,13 +1082,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 ### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10533 strings out of 493634
- 157458 string characters out of 3131976
- 268528 words of memory out of 3000000
- 13447 multiletter control sequences out of 15000+200000
- 55187 words of font info for 80 fonts, out of 3000000 for 9000
+ 10265 strings out of 493634
+ 151866 string characters out of 3131976
+ 268762 words of memory out of 3000000
+ 13310 multiletter control sequences out of 15000+200000
+ 59978 words of font info for 83 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,12n,53p,1501b,5922s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,15n,48p,1157b,5651s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
@@ -1326,11 +1105,12 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Admin
 istrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
 <C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntr
-sbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (49 pages, 4205038 bytes).
+sbk/uncbi8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on Main.pdf (25 pages, 833042 bytes).
 PDF statistics:
- 848 PDF objects out of 1000 (max. 8388607)
- 181 named destinations out of 1000 (max. 500000)
- 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 94 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 

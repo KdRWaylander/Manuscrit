@@ -1,54 +1,14 @@
 \select@language {french}
-\contentsline {chapter}{Table des figures}{viii}{chapter*.5}
-\contentsline {chapter}{Liste des tableaux}{x}{chapter*.6}
-\contentsline {part}{Introduction g\IeC {\'e}n\IeC {\'e}rale}{1}{chapter*.7}
-\contentsline {chapter}{\numberline {1}Indices de vision}{3}{chapter.0.1}
-\contentsline {section}{\numberline {1.1}Contraste \& luminosit\IeC {\'e}}{3}{section.0.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Fonction de sensibilit\IeC {\'e} au contraste (CSF)}{4}{subsection.0.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Performance visuelle relative}{5}{subsection.0.1.1.2}
-\contentsline {subsubsection}{Mod\IeC {\`e}le de la CIE}{5}{subsubsection*.8}
-\contentsline {subsubsection}{Mod\IeC {\`e}les de Rea et Ouellette}{5}{subsubsection*.9}
-\contentsline {subsubsection}{Vers une v\IeC {\'e}rification exp\IeC {\'e}rimentale}{5}{subsubsection*.10}
-\contentsline {section}{\numberline {1.2}Images par seconde}{6}{section.0.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Minimum de fonctionnement}{6}{subsection.0.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Ph\IeC {\'e}nom\IeC {\`e}ne de scintillement (flickering)}{6}{subsection.0.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}Maximum de fonctionnement}{7}{subsection.0.1.2.3}
-\contentsline {subsubsection}{L'hypoth\IeC {\`e}se des deux voies}{7}{subsubsection*.11}
-\contentsline {subsubsection}{Les pilotes de l'US Air Force}{8}{subsubsection*.12}
-\contentsline {subsection}{\numberline {1.2.4}Fonction de notation du crit\IeC {\`e}re}{8}{subsection.0.1.2.4}
-\contentsline {section}{\numberline {1.3}Couleurs}{8}{section.0.1.3}
-\contentsline {subsection}{\numberline {1.3.1}D\IeC {\'e}nombrement des couleurs visibles}{8}{subsection.0.1.3.1}
-\contentsline {subsection}{\numberline {1.3.2}Les espaces colorim\IeC {\'e}triques}{9}{subsection.0.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}Indice de rendu des couleurs (IRC)}{10}{subsection.0.1.3.3}
-\contentsline {subsection}{\numberline {1.3.4}Fonction de notation du crit\IeC {\`e}re}{11}{subsection.0.1.3.4}
-\contentsline {section}{\numberline {1.4}Champ de vision}{11}{section.0.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Axe horizontal}{12}{subsection.0.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Axe vertical}{13}{subsection.0.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Pond\IeC {\'e}ration}{13}{subsection.0.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Fonction de notation du crit\IeC {\`e}re}{14}{subsection.0.1.4.4}
-\contentsline {section}{\numberline {1.5}Acuit\IeC {\'e} monoscopique}{14}{section.0.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Premi\IeC {\`e}re approche}{14}{subsection.0.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}Deuxi\IeC {\`e}me approche}{15}{subsection.0.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Fonction de notation du crit\IeC {\`e}re}{16}{subsection.0.1.5.3}
-\contentsline {section}{\numberline {1.6}Acuit\IeC {\'e} st\IeC {\'e}r\IeC {\'e}oscopique}{16}{section.0.1.6}
-\contentsline {subsection}{\numberline {1.6.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation}{16}{subsection.0.1.6.1}
-\contentsline {subsubsection}{Mod\IeC {\`e}le usuel}{16}{subsubsection*.13}
-\contentsline {subsubsection}{Limites et solution d'am\IeC {\'e}lioration}{17}{subsubsection*.14}
-\contentsline {subsection}{\numberline {1.6.2}Fonction de notation du crit\IeC {\`e}re}{19}{subsection.0.1.6.2}
-\contentsline {subsubsection}{Cas g\IeC {\'e}n\IeC {\'e}ral}{19}{subsubsection*.15}
-\contentsline {subsubsection}{Cas du CAVE}{19}{subsubsection*.16}
-\contentsline {chapter}{\numberline {2}Indices d'immersion}{21}{chapter.0.2}
-\contentsline {section}{\numberline {2.1}Latence}{21}{section.0.2.1}
-\contentsline {section}{\numberline {2.2}Champ de regard}{22}{section.0.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Champ horizontal \& champ vertical}{22}{subsection.0.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Pond\IeC {\'e}ration}{22}{subsection.0.2.2.2}
-\contentsline {section}{\numberline {2.3}St\IeC {\'e}r\IeC {\'e}oscopie}{23}{section.0.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Fonctionnement}{23}{subsection.0.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Fonction de notation du crit\IeC {\`e}re}{24}{subsection.0.2.3.2}
-\contentsline {section}{\numberline {2.4}Tracking}{25}{section.0.2.4}
-\contentsline {section}{\numberline {2.5}Uniformit\IeC {\'e}}{26}{section.0.2.5}
-\contentsline {section}{\numberline {2.6}Orientation des cam\IeC {\'e}ras}{27}{section.0.2.6}
-\contentsline {subsection}{\numberline {2.6.1}Mim\IeC {\'e}tisme du fonctionnement oculaire}{27}{subsection.0.2.6.1}
-\contentsline {subsection}{\numberline {2.6.2}Fonction de notation du crit\IeC {\`e}re}{29}{subsection.0.2.6.2}
-\contentsline {part}{Discussion g\IeC {\'e}n\IeC {\'e}rale et perspectives}{30}{chapter*.17}
-\contentsline {part}{Bibliographie}{37}{figure.0.2.12}
+\contentsline {chapter}{Table des figures}{iv}{chapter*.2}
+\contentsline {chapter}{Liste des tableaux}{v}{chapter*.3}
+\contentsline {part}{I\hspace {1em}Premi\IeC {\`e}re approche: mod\IeC {\`e}les de vision}{1}{part.1}
+\contentsline {chapter}{Introduction}{2}{chapter*.4}
+\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'Art}{3}{chapter.1.1}
+\contentsline {section}{\numberline {1.1}Mod\IeC {\`e}les principaux}{4}{section.1.1.1}
+\contentsline {section}{\numberline {1.2}P\IeC {\'e}rennit\IeC {\'e}s des mod\IeC {\`e}les principaux}{4}{section.1.1.2}
+\contentsline {section}{\numberline {1.3}Mod\IeC {\`e}les de Mantiuk \textit {et al.} [2004, 2005, 2015]}{4}{section.1.1.3}
+\contentsline {section}{\numberline {1.4}Reproduction de tons}{5}{section.1.1.4}
+\contentsline {chapter}{\numberline {2}Mod\IeC {\`e}le de Pattanaik \textit {et al.}}{8}{chapter.1.2}
+\contentsline {chapter}{\numberline {3}Mod\IeC {\`e}le de Mantiuk \& Ramponi}{14}{chapter.1.3}
+\contentsline {chapter}{Conclusion}{16}{chapter*.5}
+\contentsline {part}{Bibliographie}{17}{chapter*.5}

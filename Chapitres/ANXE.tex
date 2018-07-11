@@ -1,7 +1,57 @@
 \part*{ANNEXES}
 \addcontentsline{toc}{part}{ANNEXES}
-\newpage
-
+\newpage	
+	
+	\chapter*{Lois et effets en colorimétrie}
+	\addcontentsline{toc}{chapter}{Lois et effets en colorimétrie}
+	
+	\par On décrit ici un certain nombre de principes établis pour la perception de la couleur.
+				
+		\section*{Lois de Grassman}
+		\par Hermann Grassmann (1809 - 1877) énonce trois lois fondamentales du comportement des couleurs en 1953. Ces lois linéaires ne sont toutefois pas universelles et présentent encore des défauts dans la zone des courtes longueurs d'onde tandis que la primaire bleue est jugée trop inhibitrice \citep{le_grand_optique_1972}.
+		
+		\par La première loi stipule que toute sensation colorée (couleur) peut être reproduite par le mélange de trois primaires fixées (Eq. \ref{eq:eq_grassmann_1}).		
+		\begin{equation}
+			\{C\} \equiv R \cdot \{R\} + V \cdot \{V\} + B \cdot \{B\} \equiv \left( \begin{array}{ccc} R \\ V \\ B \end{array} \right)
+			\label{eq:eq_grassmann_1}
+		\end{equation}
+		
+		\par La seconde loi stipule que toute couleur produite par la somme de deux couleurs est égale à la somme de ces deux couleurs (Eq. \ref{eq:eq_grassmann_2}).
+		\begin{equation}
+			\{C\} \equiv \{C_1\} + \{C_2\} \equiv \left( \begin{array}{ccc} R_1 + R_2 \\ V_1 + V_2 \\ B_1 + B_2 \end{array} \right)
+			\label{eq:eq_grassmann_2}
+		\end{equation}
+		
+		\par Enfin, la troisième loi de Grassmann indique que si on augmente ou diminue une couleur dans une certaine proportion, cela revient à modifier chaque composante de la couleur par cette même proportion (Eq. \ref{eq:eq_grassmann_3}).
+		\begin{equation}
+			\{C'\} \equiv k \cdot \{C\} \equiv \left( \begin{array}{ccc} k \cdot R \\ k \cdot V \\ k \cdot B \end{array} \right)
+			\label{eq:eq_grassmann_3}
+		\end{equation}
+		
+		\section*{Loi d'Abney}
+		\par Si quatre couleurs A, B et X, Y ont la même luminosité perçue deux à deux alors les mélanges additif de A et X et de B et Y auront la même luminosité perçue.		
+		
+		\par Cette loi n'est valable que dans certaines conditions très précises: en vision scotopique (vision de nuit) \citep{le_grand_optique_1972}, lors de comparaison de couleurs par papillotement (alternance courte et rapide de couleurs) \citep{seve_science_2009} ou en vision photopique (vision de jour) pour des angles de vision très restreints et des lumières très peu saturées.
+		
+		\section*{Effet Purkinje}
+		\par Le spectre d'efficacité de vision des couleurs dépend de la luminosité, il se décale en fonction de la valeur de la luminosité: lorsqu'elle est forte, l'œil humain distingue mieux les couleurs rouges tandis que lorsqu'elle est faible, les couleurs bleues sont mieux perçues \citep{le_grand_optique_1972}.
+		
+		\section*{Effet Helmholtz-Kohlrausch}
+		\par La luminance perçue des couleurs varie, à luminance constante, en fonction de la teinte et de la saturation. Plus une couleur est saturée/teintée, plus elle est lumineuse \citep{le_grand_optique_1972}.
+		
+		Il en découle que le calcul de la luminosité ne devrait pas se faire sur la base seule de la composante Luminance.
+		
+		\section*{Effet Stiles-Crawford}
+		\par On note une perte de luminosité en bordure de champ visuel, ce qui induit des couleurs altérées en périphérie \citep{damelincourt_eclairage_2010}.
+		
+		\section*{Loi de Rico}		
+		\par Pour les petits angles de vision (inférieurs à 1,72 degrés, soit 30 millirad), l'acuité visuelle dépendrait du contraste \citep{damelincourt_eclairage_2010}:
+		
+		$\begin{cases}
+			C_s \cdot \alpha^2 = cste, & \alpha \leq 0.17^\circ\\
+			C_s \cdot \alpha = cste, & 0.17^\circ < \alpha \leq 1.72^\circ
+		\end{cases}$	
+	
 	\chapter*{Calcul de la performance visuelle, méthode des temps de réaction}
 	\addcontentsline{toc}{chapter}{Calcul de la performance visuelle, méthode des temps de réaction}
 	

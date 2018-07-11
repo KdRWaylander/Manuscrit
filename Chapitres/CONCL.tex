@@ -33,6 +33,8 @@
 	\par D'autres critères cependant, tels que la quotité de couleur, la stéréoscopie et le tracking se sont vus attribuer une fonction de notation (linéaire ou binaire) que l'on juge insuffisante à terme ; ces notations sont fonctionnelles mais doivent être raffinées. On a présenté, par exemple dans le cas de la stéréoscopie, une piste d'amélioration de la fonction de notation, basée sur la technologie utilisée.
 	
 	\par La plus grande partie de futurs travaux reste la pondération du modèle. Si on propose des ordres de grandeur, il sera nécessaire, dans une second temps, d'avancer des propositions chiffrées, amenant plus de finesse pour départager les critères. Ces pondérations chiffrés seront très dépendantes du cas d'utilisation et permettront de prendre en compte certains scénarios spécifiques (comme la haute vitesse par exemple).
+	
+	\par Enfin, on peut également envisager une ouverture du score à d'autres types de systèmes, comme par exemple les systèmes de Réalité Augmentée qui apparaissent de plus en plus sur le marché. De même, le modèle pourrait être étoffé avec l'inclusion d'autres paradigmes qui composent l'expérience utilisateur: la présence, l'immersion, le confort, etc.
 
 \section*{Application du score de réalisme}
 \par Si la thèse a pour l'instant eu une application soit théorique, soit pratique mais au service de la théorie, il manque encore une application purement pratique de notre modèle de score. Or, on est désormais globalement en mesure d'appliquer notre modèle de score de réalisme visuel, à l'exception de deux critères, intrinsèquement liés, que sont le critère de contraste et luminance et le critère d'uniformité. On sélectionne des moyens immersifs présents chez Renault et on leur applique, sur chacun de leurs critères, les fonctions de notation déployées au cours de la thèse. Pour les critères non-aboutis, on utilise des estimations guidées par la littérature, à défaut de pouvoir les noter directement. De même, pour la pondération, on applique un coefficient uniforme de $2$ pour les critères <<~forts~>> et de $1$ pour les critères <<~faibles~>>. On sélectionne les systèmes suivants: deux CAVEs de chez Renault (nommés IRIS et P3I), un casque de Réalité Virtuelle grand public mais utilisé fréquemment dans l'industrie (HTC Vive) et un casque de Réalité Augmentée (Hololens). Techniquement, notre modèle de score n'est pas conçu pour une application en Réalité Augmentée, mais il peut être intéressant d'en tester les limites sur de tels dispositifs. Les résultats généraux de notation sont représentés en Fig. \ref{fig:resultats_score_application}.
@@ -45,7 +47,7 @@
 	\label{fig:resultats_score_application}
 \end{figure}
 
-\par IRIS est un dispositif de type CAVE et possède 5 faces de $3~m$ d'arête. Il est le fleuron des technologies d'affichage immersif chez Renault. L'image de chaque face est affichée à l'aide de deux projecteurs 4K haute luminosité. Ces caractéristiques hors-norme permettent à IRIS d'avoir d'excellente notes que ce soit pour le contraste (80), le champ de vision (100), les acuités (98 et 67). Tous les calculs nécessitants la position de l'utilisateur sont fait par rapport à la position usuelle d'utilisation, c'est à dire à $1.30~m$ de la face avant, centré en largeur et avec une hauteur de tête à $1~m$ du sol. ....  \ref{fig:radar_score_iris}
+\par IRIS est un dispositif de type CAVE et possède 5 faces de $3~m$ d'arête. Il est le fleuron des technologies d'affichage immersif chez Renault. L'image de chaque face est affichée à l'aide de deux projecteurs 4K haute luminosité fonctionnant à $120~Hz$. Ces caractéristiques hors-norme permettent à IRIS d'avoir d'excellente notes que ce soit pour le contraste (80), le champ de vision (100), les acuités (98 et 67). Tous les calculs nécessitants la position de l'utilisateur sont fait par rapport à la position usuelle d'utilisation, c'est à dire à $1.30~m$ de la face avant, centré en largeur et avec une hauteur de tête à $1~m$ du sol. La latence moyenne est mesurée autour de $80~ms$. Toutes les notes sont résumées en Fig. \ref{fig:radar_score_iris}.
 
 \begin{figure}
 	\renewcommand\thefigure{III}
@@ -55,7 +57,7 @@
 	\label{fig:radar_score_iris}
 \end{figure}
 
-\par P3I \ref{fig:radar_score_p3i}
+\par P3I est également un dispositif de type CAVE, que l'on connait bien car il a servi à la réalisation de nos expérimentations. On a donc déjà présenté ses caractéristiques principales, que ce soit en taille, résolution ou latence. Pour les calculs de champs et d'acuité on se place dans les mêmes conditions que pour IRIS, c'est à dire à $1.30~m$ de la face avant, centré en largeur et avec une hauteur de tête à $1~m$ du sol. Les notes de P3I pour les différents critères du modèle sont synthétisées en Fig. \ref{fig:radar_score_p3i}.
 
 \begin{figure}
 	\renewcommand\thefigure{IV}
@@ -65,7 +67,7 @@
 	\label{fig:radar_score_p3i}
 \end{figure}
 
-\par VIVE \ref{fig:radar_score_vive}
+\par On s'intéresse ensuite à un classique des casque de Réalité Virtuelle grand public mais largement présent dans le paysage industriel de la VR: le HTC Vive. Il possède un champ de vision horizontal de 110 degrés pour un écran de 3.6 pouces. Si ce dernier est donc légèrement plus petit que dans les solutions de type CAVE, il bénéficie néanmoins d'un champ de regard total. De manière analogue à l'Oculus Rift que l'on a utilisé pour notre expérimentation, le Vive fonctionne avec un taux de rafraichissement de $90~Hz$ et une latence mesurée d'environ $45~ms$. On retrouve le détail des notes du Vive en Fig. \ref{fig:radar_score_vive}.
 
 \begin{figure}
 	\renewcommand\thefigure{V}
@@ -75,7 +77,7 @@
 	\label{fig:radar_score_vive}
 \end{figure}
 
-\par Hololens \ref{fig:radar_score_hololens}
+\par Enfin, on applique notre modèle de score à l'Hololens de Microsoft, avec la particularité que ce dernier est un casque de Réalité Augmentée et non pas de Réalité Virtuelle. Il possède un champ de vision très réduit (30 par 17.5 degrés) pour une résolution assez faible (720p), ce qui explique ses notes assez faibles dans la partie indices de vision. C'est une ici une limite de notre score de réalisme lorsqu'on l'applique à un système de RA: en réalité le champ de vision est maximal car le casque ne fait que rajouter des informations sur la vision naturelle mais notre modèle juge la partie affichage seulement car elle représente l'intégralité de la vision en Réalité Virtuelle. Néanmoins, le score est rattrapé par la partie indices d'immersion car le casque possède les mêmes qualités que ses homologues de Réalité Virtuelle: la stéréoscopie, une forme de tracking et surtout un champ de regard maximal avec la capacité d'orienter la tête dans n'importe quelle direction. Toutes ses notes sont résumées en Fig. \ref{fig:radar_score_hololens}.
 
 \begin{figure}
 	\renewcommand\thefigure{VI}
@@ -85,11 +87,11 @@
 	\label{fig:radar_score_hololens}
 \end{figure}
 
-\par Conclusion et discussion
+\par Pour conclure, on remarque déjà que la hiérarchie des notes est cohérente avec notre ressenti d'utilisateur. On note également que les indices d'immersion (la partie gauche des diagrammes radar) sont en moyenne très bien notés: la différence se fait donc plutôt au niveau des indices de vision (partie droite des diagrammes radar), zone où les CAVEs sont globalement meilleurs. D'un point de vue purement stimulation visuelle, les CAVEs semblent plus recommandés. Néanmoins, d'autres critères interviennent aussi (portabilité, coût, ...) et on ne doit pas se limiter aux indices visuels seuls pour effectuer un choix de système. Cela nous mène à décrire des cas concrets d'utilisation du score de réalisme.
 
 \section*{Perspectives d'utilisation}
 \par Pour terminer ce manuscrit, on propose de présenter des idées concrètes d'utilisation de notre score de réalisme. Le premier usage étant évidemment celui de l'aide à la conception ou à la mise à jour des systèmes immersifs. Lorsque que l'on doit par exemple améliorer les caractéristiques d'un système de RV, les critères disposant déjà d'une bonne note ne seront pas à traiter en premier. De même, une partie du système ayant atteint le score maximal, ne nécessite à priori pas d'amélioration, à moins que cette dernière ait un effet direct sur un autre critère.
 
 \par On peut ensuite imaginer un usage visant à déterminer la lisibilité dans un simulateur: en pondérant tous les critères liés à cette tâche (acuités, contraste et luminance, fluidité en cas de haute vitesse) et en réglant la pondération des critères moins inutiles à 0. On pourra alors estimer quel moyen immersif est le plus adapté à des expérimentations impliquant de petits détails au loin comme la lecture en amont de panneaux d'autoroute (destination, limitations de vitesse, ...).
 
-\par Enfin, il existe depuis 2016 une initiative permettant de mettre en location ses systèmes immersifs pour un usage quelconque: VR-BNB. Les entreprises (ou laboratoires) créent alors une page décrivant le système qu'elles mettent à disposition: on peut imaginer intégrer sur cette page, ou dans les critères de recherche, le score de réalisme dudit système, en pondération globale ou pondéré dans un cas d'utilisation spécifique. Les futurs utilisateurs auraient alors plus d'indications sur la capacité du système qu'ils envisagent de louer à répondre à leurs besoins expérimentaux. % Date et nom ?
+\par Enfin, il existe depuis 2016 une initiative permettant de mettre en location ses systèmes immersifs pour un usage quelconque: VR-BNB. Les entreprises (ou laboratoires) créent alors une page décrivant le système qu'elles mettent à disposition: on peut imaginer intégrer sur cette page, ou dans les critères de recherche, le score de réalisme dudit système, en pondération globale ou pondéré dans un cas d'utilisation spécifique. Les futurs utilisateurs auraient alors plus d'indications sur la capacité du système qu'ils envisagent de louer à répondre à leurs besoins expérimentaux.
