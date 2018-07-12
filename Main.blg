@@ -1,18 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: authordate1.bst
-A level-1 auxiliary file: Chapitres/MDLVI.aux
+A level-1 auxiliary file: Chapitres/INTRO.aux
+A level-1 auxiliary file: Chapitres/EXPE2.aux
+A level-1 auxiliary file: Chapitres/EXPE2-MANIP.aux
+A level-1 auxiliary file: Chapitres/EXPE2-CONCL.aux
+A level-1 auxiliary file: Chapitres/CONCL.aux
 Database file #1: References/refs.bib
-Warning--I didn't find a database entry for "rushmeier_qsd_1995"
-Warning--empty institution in anses_effets_2014
-Warning--empty booktitle in daly_visible_1992
-Warning--empty booktitle in ferwerda_model_1996
-Warning--empty publisher in lubin_visual_1995
-Warning--empty booktitle in lukin_improved_2009
-Warning--empty booktitle in mantiuk_visible_2004
-Warning--empty booktitle in mantiuk_predicting_2005
-Warning--empty booktitle in mantiuk_human_2015
-Warning--empty journal in pattanaik_multiscale_1998
-Warning--empty journal in rushmeier_comparing_1995
-Warning--empty booktitle in spencer_physically-based_1995
-Warning--empty publisher in westheimer_eye_1986
-(There were 13 warnings)
+Warning--can't use both author and editor fields in hale_handbook_2015
+Warning--empty booktitle in bouchard_revising_2007
+Warning--empty booktitle in regan_real-time_1999
+(There were 3 warnings)

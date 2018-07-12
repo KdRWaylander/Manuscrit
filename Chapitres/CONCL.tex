@@ -13,7 +13,6 @@
 	\par Le groupe d'indices de vision se compose des critères suivants: contraste et luminance, nombre d'images par seconde, quotité de couleurs affichables, taille du champ de vision, acuités monoscopique et stéréoscopique. Parallèlement, les critères d'immersion sont les suivants: latence, taille du champ de regard, stéréoscopie, tracking, uniformité des surfaces d'affichage et convergence des caméras. Enfin, on propose une pondération par ordres de grandeur (fort ou faible) pour chaque critère.
 	
 	\begin{figure}
-		\renewcommand\thefigure{I}
 		\centering
 		\includegraphics[scale=1]{Figures/ScoreRealismeMini}
 		\caption{Rappel de la modélisation du score de réalisme.}
@@ -40,7 +39,6 @@
 \par Si la thèse a pour l'instant eu une application soit théorique, soit pratique mais au service de la théorie, il manque encore une application purement pratique de notre modèle de score. Or, on est désormais globalement en mesure d'appliquer notre modèle de score de réalisme visuel, à l'exception de deux critères, intrinsèquement liés, que sont le critère de contraste et luminance et le critère d'uniformité. On sélectionne des moyens immersifs présents chez Renault et on leur applique, sur chacun de leurs critères, les fonctions de notation déployées au cours de la thèse. Pour les critères non-aboutis, on utilise des estimations guidées par la littérature, à défaut de pouvoir les noter directement. De même, pour la pondération, on applique un coefficient uniforme de $2$ pour les critères <<~forts~>> et de $1$ pour les critères <<~faibles~>>. On sélectionne les systèmes suivants: deux CAVEs de chez Renault (nommés IRIS et P3I), un casque de Réalité Virtuelle grand public mais utilisé fréquemment dans l'industrie (HTC Vive) et un casque de Réalité Augmentée (Hololens). Techniquement, notre modèle de score n'est pas conçu pour une application en Réalité Augmentée, mais il peut être intéressant d'en tester les limites sur de tels dispositifs. Les résultats généraux de notation sont représentés en Fig. \ref{fig:resultats_score_application}.
 
 \begin{figure}
-	\renewcommand\thefigure{II}
 	\centering
 	\includegraphics[scale=1]{Figures/ResultatsScoreApplication}
 	\caption{Score de réalisme pour les quatre systèmes testés.}
@@ -50,7 +48,6 @@
 \par IRIS est un dispositif de type CAVE et possède 5 faces de $3~m$ d'arête. Il est le fleuron des technologies d'affichage immersif chez Renault. L'image de chaque face est affichée à l'aide de deux projecteurs 4K haute luminosité fonctionnant à $120~Hz$. Ces caractéristiques hors-norme permettent à IRIS d'avoir d'excellente notes que ce soit pour le contraste (80), le champ de vision (100), les acuités (98 et 67). Tous les calculs nécessitants la position de l'utilisateur sont fait par rapport à la position usuelle d'utilisation, c'est à dire à $1.30~m$ de la face avant, centré en largeur et avec une hauteur de tête à $1~m$ du sol. La latence moyenne est mesurée autour de $80~ms$. Toutes les notes sont résumées en Fig. \ref{fig:radar_score_iris}.
 
 \begin{figure}
-	\renewcommand\thefigure{III}
 	\centering
 	\includegraphics[scale=1]{Figures/RadarScoreIRIS}
 	\caption{Diagramme radar des critères du score pour IRIS.}
@@ -60,7 +57,6 @@
 \par P3I est également un dispositif de type CAVE, que l'on connait bien car il a servi à la réalisation de nos expérimentations. On a donc déjà présenté ses caractéristiques principales, que ce soit en taille, résolution ou latence. Pour les calculs de champs et d'acuité on se place dans les mêmes conditions que pour IRIS, c'est à dire à $1.30~m$ de la face avant, centré en largeur et avec une hauteur de tête à $1~m$ du sol. Les notes de P3I pour les différents critères du modèle sont synthétisées en Fig. \ref{fig:radar_score_p3i}.
 
 \begin{figure}
-	\renewcommand\thefigure{IV}
 	\centering
 	\includegraphics[scale=1]{Figures/RadarScoreP3I}
 	\caption{Diagramme radar des critères du score pour P3I.}
@@ -70,7 +66,6 @@
 \par On s'intéresse ensuite à un classique des casque de Réalité Virtuelle grand public mais largement présent dans le paysage industriel de la VR: le HTC Vive. Il possède un champ de vision horizontal de 110 degrés pour un écran de 3.6 pouces. Si ce dernier est donc légèrement plus petit que dans les solutions de type CAVE, il bénéficie néanmoins d'un champ de regard total. De manière analogue à l'Oculus Rift que l'on a utilisé pour notre expérimentation, le Vive fonctionne avec un taux de rafraichissement de $90~Hz$ et une latence mesurée d'environ $45~ms$. On retrouve le détail des notes du Vive en Fig. \ref{fig:radar_score_vive}.
 
 \begin{figure}
-	\renewcommand\thefigure{V}
 	\centering
 	\includegraphics[scale=1]{Figures/RadarScoreVIVE}
 	\caption{Diagramme radar des critères du score pour le casque VIVE.}
@@ -80,7 +75,6 @@
 \par Enfin, on applique notre modèle de score à l'Hololens de Microsoft, avec la particularité que ce dernier est un casque de Réalité Augmentée et non pas de Réalité Virtuelle. Il possède un champ de vision très réduit (30 par 17.5 degrés) pour une résolution assez faible (720p), ce qui explique ses notes assez faibles dans la partie indices de vision. C'est une ici une limite de notre score de réalisme lorsqu'on l'applique à un système de RA: en réalité le champ de vision est maximal car le casque ne fait que rajouter des informations sur la vision naturelle mais notre modèle juge la partie affichage seulement car elle représente l'intégralité de la vision en Réalité Virtuelle. Néanmoins, le score est rattrapé par la partie indices d'immersion car le casque possède les mêmes qualités que ses homologues de Réalité Virtuelle: la stéréoscopie, une forme de tracking et surtout un champ de regard maximal avec la capacité d'orienter la tête dans n'importe quelle direction. Toutes ses notes sont résumées en Fig. \ref{fig:radar_score_hololens}.
 
 \begin{figure}
-	\renewcommand\thefigure{VI}
 	\centering
 	\includegraphics[scale=1]{Figures/RadarScoreHololens}
 	\caption{Diagramme radar des critères du score pour le casque Hololens.}

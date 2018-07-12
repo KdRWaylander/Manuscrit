@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  11 JUL 2018 18:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  12 JUL 2018 18:15
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -804,7 +804,8 @@ File: pppdftex.def 2017/08/14 v0.5k Pdfpages driver for pdfTeX (AM)
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\chngcntr\c
 hngcntr.sty"
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
-)) (Main.aux (Chapitres/MDLVI.aux))
+)) (Main.aux (Chapitres/INTRO.aux) (Chapitres/EXPE2.aux)
+(Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
@@ -927,10 +928,8 @@ LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/pnc/b/it' tried instead on input line 11.
 
-Underfull \vbox (badness 4193) has occurred while \output is active []
+Underfull \vbox (badness 4217) has occurred while \output is active []
 
  [2
 
@@ -944,13 +943,17 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 20--20
 [][] 
  []
 
-(Main.lof)
-\tf@lof=\write5
-\openout5 = `Main.lof'.
+(Main.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4
 
-]
+])
+\tf@lof=\write5
+\openout5 = `Main.lof'.
+
+
+[5]
 Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 [][] 
  []
@@ -959,122 +962,274 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 21--21
 \tf@lot=\write6
 \openout6 = `Main.lot'.
 
- [5
-
-] [6
+ [6
 
 ]
-\openout2 = `Chapitres/MDLVI.aux'.
+\openout2 = `Chapitres/INTRO.aux'.
 
- (Chapitres/MDLVI.tex
+ (Chapitres/INTRO.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+
+])
+[2]
+\openout2 = `Chapitres/EXPE2.aux'.
+
+ (Chapitres/EXPE2.tex
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/pnc/b/n' tried instead on input line 1.
- [1
+ [3
+
 
 
 ]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 2--2
+Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 [][] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+pnc on input line 7.
+) [4
+
+]
+\openout2 = `Chapitres/EXPE2-MANIP.aux'.
+
+ (Chapitres/EXPE2-MANIP.tex
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pnc/b/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for OMS+pnc on input line 10.
 
 ("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\oms
 pnc.fd"
 File: omspnc.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
- [2
-
-]
-Chapitre 1.
-
-Package natbib Warning: Citation `rushmeier_qsd_1995' on page 3 undefined on in
-put line 28.
-
-[3
-
-]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 33.
-
-("C:\Users\Administrator\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\t1p
-cr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <17.28> not available
-(Font)              Font shape `T1/pnc/b/it' tried instead on input line 39.
- [4] [5]
-<Figures/FerwerdaAdaptationSteps.png, id=221, 370.38374pt x 652.68843pt>
-File: Figures/FerwerdaAdaptationSteps.png Graphic file (type png)
-
-<use Figures/FerwerdaAdaptationSteps.png>
-Package pdftex.def Info: Figures/FerwerdaAdaptationSteps.png used on input line
- 69.
-(pdftex.def)             Requested size: 370.38283pt x 652.68684pt.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [5
 
 
-LaTeX Warning: Float too large for page by 9.50055pt on input line 72.
 
-[6] [7 <./Figures/FerwerdaAdaptationSteps.png>]
+] [6] [7] [8]
+<Figures/LiangPendulum.png, id=344, 365.86688pt x 347.79938pt>
+File: Figures/LiangPendulum.png Graphic file (type png)
+
+<use Figures/LiangPendulum.png>
+Package pdftex.def Info: Figures/LiangPendulum.png used on input line 72.
+(pdftex.def)             Requested size: 219.52182pt x 208.68123pt.
+ [9]
+<Figures/SwindellsPhonograph.png, id=364, 319.94531pt x 227.34938pt>
+File: Figures/SwindellsPhonograph.png Graphic file (type png)
+
+<use Figures/SwindellsPhonograph.png>
+Package pdftex.def Info: Figures/SwindellsPhonograph.png used on input line 83.
+
+(pdftex.def)             Requested size: 239.95839pt x 170.51161pt.
+
+<Figures/DiLucaGradient.png, id=371, 642.4pt x 401.5pt>
+File: Figures/DiLucaGradient.png Graphic file (type png)
+
+<use Figures/DiLucaGradient.png>
+Package pdftex.def Info: Figures/DiLucaGradient.png used on input line 94.
+(pdftex.def)             Requested size: 321.19922pt x 200.7495pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./Figures/LiangPendulum.png>] [11 <./Figures/SwindellsPhonograph.png> <./
+Figures/DiLucaGradient.png>] [12]
 Chapitre 2.
-<Figures/FlowChartPattanaik.png, id=240, 602.25pt x 179.2296pt>
-File: Figures/FlowChartPattanaik.png Graphic file (type png)
+[13
 
-<use Figures/FlowChartPattanaik.png>
-Package pdftex.def Info: Figures/FlowChartPattanaik.png used on input line 90.
-(pdftex.def)             Requested size: 451.68639pt x 134.42184pt.
- [8
+] <Figures/OculusRift.png, id=399, 642.4pt x 331.2375pt>
+File: Figures/OculusRift.png Graphic file (type png)
 
-] [9 <./Figures/FlowChartPattanaik.png>] [10]
-LaTeX Font Info:    Font shape `T1/pnc/bx/n' in size <10> not available
-(Font)              Font shape `T1/pnc/b/n' tried instead on input line 187.
- [11] <Figures/PattanaikFullModel.png, id=335, 261.6286pt x 523.2348pt>
-File: Figures/PattanaikFullModel.png Graphic file (type png)
+<use Figures/OculusRift.png>
+Package pdftex.def Info: Figures/OculusRift.png used on input line 129.
+(pdftex.def)             Requested size: 417.55505pt x 215.30182pt.
+ [14]
+<Figures/ExpeLatency.png, id=407, 495.7722pt x 282.3348pt>
+File: Figures/ExpeLatency.png Graphic file (type png)
 
-<use Figures/PattanaikFullModel.png>
-Package pdftex.def Info: Figures/PattanaikFullModel.png used on input line 230.
+<use Figures/ExpeLatency.png>
+Package pdftex.def Info: Figures/ExpeLatency.png used on input line 143.
+(pdftex.def)             Requested size: 446.19084pt x 254.09895pt.
 
-(pdftex.def)             Requested size: 327.03493pt x 654.0419pt.
+Overfull \hbox (2.77213pt too wide) in paragraph at lines 150--151
+\T1/pnc/m/n/10.95 le fonc-tion-ne-ment à leur la-tence no-mi-nale. On ajoute en
+-suite, pour cha-cun des deux moyens
+ []
 
+[15 <./Figures/OculusRift.png>] [16 <./Figures/ExpeLatency.png>]
+<Figures/XYPrecision.png, id=422, 651.3936pt x 362.3136pt>
+File: Figures/XYPrecision.png Graphic file (type png)
 
-LaTeX Warning: Float too large for page by 9.93036pt on input line 233.
+<use Figures/XYPrecision.png>
+Package pdftex.def Info: Figures/XYPrecision.png used on input line 176.
+(pdftex.def)             Requested size: 423.40082pt x 235.50104pt.
+ [17 <./Figures/XYPrecision.png>] [18] [19]
+<Figures/LatencyMeasureTechnique.png, id=450, 524.1984pt x 391.7034pt>
+File: Figures/LatencyMeasureTechnique.png Graphic file (type png)
 
-[12] [13 <./Figures/PattanaikFullModel.png>]
+<use Figures/LatencyMeasureTechnique.png>
+Package pdftex.def Info: Figures/LatencyMeasureTechnique.png used on input line
+ 219.
+(pdftex.def)             Requested size: 419.35928pt x 313.36314pt.
+ [20 <./Figures/LatencyMeasureTechnique.png>]
 Chapitre 3.
-[14
 
-] [15]
-Overfull \hbox (6.0pt too wide) in paragraph at lines 282--282
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (5.9096pt too wide) in paragraph at lines 244--245
+[]\T1/pnc/m/n/10.95 Initialement, les su-jets ré-pondent à un ques-tion-naire d
+e pro-pen-sion à l'im-mer-sion (moyenne
+ []
+
+[21
+
+] <Figures/CavePrecisionResults.png, id=471, 361.35pt x 216.81pt>
+File: Figures/CavePrecisionResults.png Graphic file (type png)
+
+<use Figures/CavePrecisionResults.png>
+Package pdftex.def Info: Figures/CavePrecisionResults.png used on input line 25
+2.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
+
+<Figures/CaveCompletionTimeResults.png, id=472, 361.35pt x 216.81pt>
+File: Figures/CaveCompletionTimeResults.png Graphic file (type png)
+
+<use Figures/CaveCompletionTimeResults.png>
+Package pdftex.def Info: Figures/CaveCompletionTimeResults.png used on input li
+ne 259.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
+ [22 <./Figures/CavePrecisionResults.png>] [23 <./Figures/CaveCompletionTimeRes
+ults.png>]
+<Figures/CasquePrecisionResults.png, id=491, 361.35pt x 216.81pt>
+File: Figures/CasquePrecisionResults.png Graphic file (type png)
+
+<use Figures/CasquePrecisionResults.png>
+Package pdftex.def Info: Figures/CasquePrecisionResults.png used on input line 
+296.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
+
+<Figures/CasqueCompletionTimeResults.png, id=492, 361.8318pt x 216.81pt>
+File: Figures/CasqueCompletionTimeResults.png Graphic file (type png)
+
+<use Figures/CasqueCompletionTimeResults.png>
+Package pdftex.def Info: Figures/CasqueCompletionTimeResults.png used on input 
+line 305.
+(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
+ [24] [25 <./Figures/CasquePrecisionResults.png> <./Figures/CasqueCompletionTim
+eResults.png>]
+Overfull \hbox (3.4936pt too wide) in paragraph at lines 324--325
+\T1/pnc/m/n/10.95 terme de va-ria-tion de per-for-mance lorsque l'on aug-mente 
+la la-tence de 60 ms. Les moyennes
+ []
+
+[26] <Figures/ITQvPQ.png, id=512, 410.4936pt x 225.0006pt>
+File: Figures/ITQvPQ.png Graphic file (type png)
+
+<use Figures/ITQvPQ.png>
+Package pdftex.def Info: Figures/ITQvPQ.png used on input line 345.
+(pdftex.def)             Requested size: 362.37569pt x 198.63626pt.
+ [27]) [28 <./Figures/ITQvPQ.png>]
+\openout2 = `Chapitres/EXPE2-CONCL.aux'.
+
+
+(Chapitres/EXPE2-CONCL.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-) [16
-
-] (Main.bbl [17
+) [29
 
 
 
-] [18]
-Underfull \hbox (badness 1946) in paragraph at lines 170--173
-[]\T1/pnc/m/n/10.95 Spencer, Greg, Shir-ley, Pe-ter, Zim-mer-man, Kurt, & Green
--berg, Do-nald P. 1995.
+]
+\openout2 = `Chapitres/CONCL.aux'.
+
+ (Chapitres/CONCL.tex
+Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
+[][] 
  []
 
-)
+[30
 
-Package natbib Warning: There were undefined citations.
 
+
+] <Figures/ScoreRealismeMini.png, id=532, 383.031pt x 251.9814pt>
+File: Figures/ScoreRealismeMini.png Graphic file (type png)
+
+<use Figures/ScoreRealismeMini.png>
+Package pdftex.def Info: Figures/ScoreRealismeMini.png used on input line 17.
+(pdftex.def)             Requested size: 383.03006pt x 251.98077pt.
+ [31 <./Figures/ScoreRealismeMini.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+<Figures/ResultatsScoreApplication.png, id=544, 361.35pt x 216.81pt>
+File: Figures/ResultatsScoreApplication.png Graphic file (type png)
+
+<use Figures/ResultatsScoreApplication.png>
+Package pdftex.def Info: Figures/ResultatsScoreApplication.png used on input li
+ne 43.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreIRIS.png, id=546, 361.35pt x 216.81pt>
+File: Figures/RadarScoreIRIS.png Graphic file (type png)
+
+<use Figures/RadarScoreIRIS.png>
+Package pdftex.def Info: Figures/RadarScoreIRIS.png used on input line 52.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+Underfull \vbox (badness 4819) has occurred while \output is active []
+
+ [33 <./Figures/ResultatsScoreApplication.png>]
+<Figures/RadarScoreP3I.png, id=553, 361.35pt x 216.81pt>
+File: Figures/RadarScoreP3I.png Graphic file (type png)
+
+<use Figures/RadarScoreP3I.png>
+Package pdftex.def Info: Figures/RadarScoreP3I.png used on input line 61.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreVIVE.png, id=555, 361.35pt x 216.81pt>
+File: Figures/RadarScoreVIVE.png Graphic file (type png)
+
+<use Figures/RadarScoreVIVE.png>
+Package pdftex.def Info: Figures/RadarScoreVIVE.png used on input line 70.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+
+<Figures/RadarScoreHololens.png, id=557, 361.35pt x 216.81pt>
+File: Figures/RadarScoreHololens.png Graphic file (type png)
+
+<use Figures/RadarScoreHololens.png>
+Package pdftex.def Info: Figures/RadarScoreHololens.png used on input line 79.
+(pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
+ [34 <./Figures/RadarScoreIRIS.png>]
+[35 <./Figures/RadarScoreP3I.png> <./Figures/RadarScoreVIVE.png>]) [36 <./Figur
+es/RadarScoreHololens.png>] (Main.bbl [37
+
+
+
+] [38])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
-[0]
+ [0]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
- (Main.aux (Chapitres/MDLVI.aux))
+ (Main.aux
+(Chapitres/INTRO.aux) (Chapitres/EXPE2.aux) (Chapitres/EXPE2-MANIP.aux)
+(Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 92C276E1D17DB498E2C5EB136ACD8820;894.
+(rerunfilecheck)             Checksum: A2D23F676D7ED680D6BDCFA455E54DAA;2241.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
  )
 (\end occurred inside a group at level 1)
@@ -1082,35 +1237,30 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 66.
 ### simple group (level 1) entered at line 130 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10265 strings out of 493634
- 151866 string characters out of 3131976
- 268762 words of memory out of 3000000
- 13310 multiletter control sequences out of 15000+200000
- 59978 words of font info for 83 fonts, out of 3000000 for 9000
+ 10366 strings out of 493634
+ 153989 string characters out of 3131976
+ 268015 words of memory out of 3000000
+ 13344 multiletter control sequences out of 15000+200000
+ 49771 words of font info for 74 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 44i,15n,48p,1157b,5651s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,12n,53p,1577b,5789s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
 /enc/dvips/fontname/8r.enc}<C:/Users/Administrator/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Administrator/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/
-Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi8.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
-Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Administrator/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Admin
-istrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb>
-<C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntr
-sbk/uncbi8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on Main.pdf (25 pages, 833042 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Administrator/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/A
+dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Administrator/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/A
+dministrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/ncntrsbk/uncb8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on Main.pdf (45 pages, 3747641 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,13 +1,31 @@
 \BOOKMARK [0][-]{chapter*.2}{Table des figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{Liste des tableaux}{}% 2
-\BOOKMARK [-1][-]{part.1}{I Premi\350re approche: mod\350les de vision}{}% 3
-\BOOKMARK [0][-]{chapter*.4}{Introduction}{part.1}% 4
-\BOOKMARK [0][-]{chapter.1.1}{\311tat de l'Art}{part.1}% 5
-\BOOKMARK [1][-]{section.1.1.1}{Mod\350les principaux}{chapter.1.1}% 6
-\BOOKMARK [1][-]{section.1.1.2}{P\351rennit\351s des mod\350les principaux}{chapter.1.1}% 7
-\BOOKMARK [1][-]{section.1.1.3}{Mod\350les de Mantiuk et al. [2004, 2005, 2015]}{chapter.1.1}% 8
-\BOOKMARK [1][-]{section.1.1.4}{Reproduction de tons}{chapter.1.1}% 9
-\BOOKMARK [0][-]{chapter.1.2}{Mod\350le de Pattanaik et al.}{part.1}% 10
-\BOOKMARK [0][-]{chapter.1.3}{Mod\350le de Mantiuk \046 Ramponi}{part.1}% 11
-\BOOKMARK [0][-]{chapter*.5}{Conclusion}{part.1}% 12
-\BOOKMARK [-1][-]{chapter*.5}{Bibliographie}{}% 13
+\BOOKMARK [-1][-]{chapter*.4}{Introduction g\351n\351rale}{}% 3
+\BOOKMARK [-1][-]{part.1}{I Exp\351rimentation: latence}{}% 4
+\BOOKMARK [0][-]{chapter*.5}{Introduction}{part.1}% 5
+\BOOKMARK [0][-]{chapter.1.1}{Contexte}{part.1}% 6
+\BOOKMARK [1][-]{section.1.1.1}{D\351finition et mesure des effets de la latence}{chapter.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.1.1}{D\351finitions}{section.1.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.1.2}{La performance comme outil de mesure}{section.1.1.1}% 9
+\BOOKMARK [1][-]{section.1.1.2}{Perception de la latence}{chapter.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.2.1}{Notions de psychom\351trie}{section.1.1.2}% 11
+\BOOKMARK [2][-]{subsection.1.1.2.2}{Dans la litt\351rature}{section.1.1.2}% 12
+\BOOKMARK [1][-]{section.1.1.3}{Mesure de la latence}{chapter.1.1}% 13
+\BOOKMARK [0][-]{chapter.1.2}{Mise en place du dispositif exp\351rimental}{part.1}% 14
+\BOOKMARK [1][-]{section.1.2.1}{T\342che \340 effectuer}{chapter.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.1.1}{Moyens immersifs}{section.1.2.1}% 16
+\BOOKMARK [2][-]{subsection.1.2.1.2}{D\351tail de la t\342che}{section.1.2.1}% 17
+\BOOKMARK [2][-]{subsection.1.2.1.3}{Mesures}{section.1.2.1}% 18
+\BOOKMARK [1][-]{section.1.2.2}{Ajout de latence artificielle}{chapter.1.2}% 19
+\BOOKMARK [2][-]{subsection.1.2.2.1}{Dans le casque}{section.1.2.2}% 20
+\BOOKMARK [2][-]{subsection.1.2.2.2}{Dans le CAVE}{section.1.2.2}% 21
+\BOOKMARK [1][-]{section.1.2.3}{Mesures pr\351liminaires}{chapter.1.2}% 22
+\BOOKMARK [0][-]{chapter.1.3}{Conclusions exp\351rimentales}{part.1}% 23
+\BOOKMARK [1][-]{section.1.3.1}{R\351sultats}{chapter.1.3}% 24
+\BOOKMARK [2][-]{subsection.1.3.1.1}{Dans le CAVE}{section.1.3.1}% 25
+\BOOKMARK [2][-]{subsection.1.3.1.2}{Dans le casque}{section.1.3.1}% 26
+\BOOKMARK [2][-]{subsection.1.3.1.3}{Analyse crois\351e}{section.1.3.1}% 27
+\BOOKMARK [1][-]{section.1.3.2}{Apport au score de r\351alisme}{chapter.1.3}% 28
+\BOOKMARK [0][-]{chapter*.6}{Conclusion}{part.1}% 29
+\BOOKMARK [-1][-]{chapter*.7}{Discussion g\351n\351rale et perspectives}{}% 30
+\BOOKMARK [-1][-]{figure.1.3.18}{Bibliographie}{}% 31

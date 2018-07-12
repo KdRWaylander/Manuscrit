@@ -3,23 +3,23 @@
 	\par Les sections suivantes décrivent brièvement le contexte et les premiers travaux de Rea qui l'ont mené à proposer sa propre modélisation de la performance visuelle \citep{rea_toward_1986, rea_toward_1987}, définie comme étant la vitesse et la précision atteintes pendant la réalisation d'une tache visuelle.
 	
 	\subsection{Modèle précurseur}	
-	\par Le premier modèle de Rea est directement inspiré de l'effet de compression proposé par  \citep{naka_attempt_1966} qui modélise qu'à partir d'un certain niveau d'intensité, lorsque l'intensité du stimulus augmente la réponse sensorielle associée augmente de moins en moins jusqu'à atteindre une forme de plateau (Fig. \ref{fig:compression_effect}) Les différentes courbes représentent les longueurs d'onde des lumières de couleur utilisées. Cet effet est modélisé de la manière suivante: $\frac{R}{R_{max}} = \frac{I^n}{I^n + k^n}$.
+	\par Le premier modèle de Rea est directement inspiré de l'effet de compression proposé par \cite{naka_attempt_1966} qui modélise qu'à partir d'un certain niveau d'intensité, lorsque l'intensité du stimulus augmente, la réponse sensorielle associée augmente de moins en moins jusqu'à atteindre une forme de plateau (voir Fig. \ref{fig:compression_effect}). Les différentes courbes représentent les longueurs d'onde des lumières de couleur utilisées. Cet effet est modélisé de la manière suivante: $\frac{R}{R_{max}} = \frac{I^n}{I^n + k^n}$.
 	
-	\par Dans cette équation, le rapport de la réponse sensorielle ($R$) sur la réponse sensorielle maximale ($R_{max}$) est égal au rapport de l'intensité $I$ montée à une puissance $n$ déterminée sur la somme de cette même intensité $I$ montée à la puissance $n$ et d'une intensité $k$, également montée à la puissance $n$, telle que la réponse à l'intensité $k$ est égale à la moitié de la réponse sensorielle maximale: $R(k) = \frac{R_{max}}{2}$.
+	\par Dans cette équation, le rapport de la réponse sensorielle ($R$) sur la réponse sensorielle maximale ($R_{max}$) est égal au rapport de l'intensité $I$ montée à une puissance $n$ déterminée sur la somme de cette même intensité $I$ montée à la puissance $n$ et d'une intensité $k$, également montée à la puissance $n$. La réponse à l'intensité $k$ est égale à la moitié de la réponse sensorielle maximale: $R(k) = \frac{R_{max}}{2}$.
 	
 	\par On peut faire l'analogie suivante pour donner un bon exemple de l'effet de compression: si dans une pièce on allume une deuxième ampoule d'égale intensité, la sensation de luminosité va grandement augmenter. Au contraire, si on rajoute une ampoule dans une pièce dans laquelle déjà mille ampoules sont allumées, la différence de luminosité perçue sera minime.	
 	
 	\begin{figure}
 		\centering
 		\includegraphics[scale=.6]{Figures/CompressionEffect}
-		\caption{Illustration de l'effet de compression. Image tirée de \citep{naka_attempt_1966}}
+		\caption{Illustration de l'effet de compression.}{Image tirée de \citep{naka_attempt_1966}}
 		\label{fig:compression_effect}
 	\end{figure} 
 	
 	\subsection{Application à la performance visuelle}
-	\par Rea s'est imposé deux règles pour la conception de son modèle: la performance visuelle doit être issue d'une performance à la réalisation d'un tache et le modèle doit être cohérent avec la littérature, notamment avec l'effet de compression que l'on vient de décrire.
+	\par Rea s'est imposé deux règles pour la conception de son modèle: la performance visuelle doit être issue d'une performance à la réalisation d'un tache, et le modèle doit être cohérent avec la littérature, notamment avec l'effet de compression que l'on vient de décrire.
 	
-	\par Le stimulus est décrit (Eq. \ref{eq:rea_contraste}) comme la différence entre le seuil de contraste $C_t$, calculé avec la formule de Blackwell (Eq. \ref{eq:rea_contraste_blackwell}), qui représente le contraste minimal à partir duquel le perception devient possible en fonction de la luminosité du fond ($L_B$) et le contraste visuel $C_V$ qui correspond au contraste entre la luminosité du fond et la luminosité de la tache visuelle (Eq. \ref{eq:rea_contraste_blackwell}).
+	\par Le stimulus est décrit (Eq. \ref{eq:rea_contraste}) comme la différence entre le seuil de contraste $C_t$, calculé avec la formule de Blackwell (Eq. \ref{eq:rea_contraste_blackwell}), qui représente le contraste minimal à partir duquel le perception devient possible en fonction de la luminosité du fond ($L_B$) et le contraste visuel $C_V$ qui correspond au contraste entre la luminosité du fond et la luminosité de la tache visuelle ($L_T$) (Eq. \ref{eq:rea_contraste_blackwell}).
 	
 	\begin{equation}
 		C_t = 0.048\left[\left(\frac{0.308}{L_B}\right)^{0.4} + 1.0\right]^{2.5}
@@ -78,16 +78,16 @@
 	\par Rea et Ouellette complètent la démarche initiale de Rea en proposant une méthode pour établir la performance visuelle d'un sujet, basée sur la mesure et la prédiction des temps de réaction de ce dernier à l'apparition d'un stimulus visuel calibré \citep{rea_visual_1988, rea_relative_1991}. C'est cette modélisation que l'on va chercher à traduire en réalité virtuelle afin de déterminer si elle est utilisable dans le cadre de notre score de réalisme, pour le critère de contraste et de luminance.
 	
 	\subsection{Protocole expérimental}
-	\par L'objectif était de mesurer le temps de réaction des sujets à l'apparition d'une cible sur un écran. La couleur de la cible était calibrée pour obtenir un contraste choisi par rapport au fond sur lequel elle était affichée (l'écran, en l'occurrence).
+	\par L'objectif était de mesurer le temps de réaction de sujets à l'apparition d'une cible sur un écran. La couleur de la cible était calibrée pour obtenir un contraste choisi par rapport au fond sur lequel elle était affichée.
 	
 	\par L'expérimentation était découpée en deux parties: une première série de mesures pour des cibles plus foncées que le fond sur lequel elles étaient présentées (méthode décrémentale) puis une autre série de mesures avec des cibles plus claires que le fond de présentation (méthode incrémentale).
 	
-	\par Les cibles, un carré, étaient présentées à $1.68~m$ de l'œil du sujet sur un écran occupant $12~degrés$ de champ de vision horizontal et $7~degré$ de champ de vision vertical. Toutes les cibles étaient vues avec l'œil gauche, à travers un filtre neutre réglable et avec l'ajout d'une voile lumineux artificiel directement au niveau de l'œil (Fig. \ref{fig:rea_apparatus}).
+	\par Les cibles, un carré, étaient présentées à $1.68~m$ de l'œil du sujet sur un écran occupant 12 degrés de champ de vision horizontal et 7 degrés de champ de vision vertical. Toutes les cibles étaient vues avec l'œil gauche, à travers un filtre neutre réglable et avec l'ajout d'une voile lumineux artificiel directement au niveau de l'œil (Fig. \ref{fig:rea_apparatus}).
 	
 	\begin{figure}
 		\centering
 		\includegraphics[scale=.75]{Figures/ReactionTimeApparatus}
-		\caption{Installation de l'expérimentation de Rea et Ouellette. Image tirée de \citep{rea_visual_1988}}
+		\caption{Installation de l'expérimentation de Rea et Ouellette.}{Image tirée de \citep{rea_visual_1988}}
 		\label{fig:rea_apparatus}
 	\end{figure}
 	
@@ -99,7 +99,7 @@
 	
 	\par Avec $T$ la valeur de transmittance du filtre (entre 0 et 1), $L_b$ la luminance du fond de l'écran, $L_t$ la luminance du carré à détecter et $L_v$ la luminance de voile ajoutée artificiellement. $L_a$ représente quand à elle la valeur de la luminance d'adaptation, c'est à dire la valeur pour laquelle l'œil et tout le système optique se sont réglés (avec par exemple l'adaptation du diamètre pupillaire).
 	
-	\par Chaque apparition de cible était espacée d'une temporisation de $1.5~seconde$ puis d'une temporisation aléatoire variant entre 1 et 3 secondes. La taille de la tache visuelle était variable entre $0.20$ et $280 \times 10^{-5}~steradians$.
+	\par Chaque apparition de cible était espacée d'une temporisation de 1.5 secondes puis d'une temporisation aléatoire variant entre 1 et 3 secondes. La taille de la tache visuelle était variable entre $0.20$ et $280 \times 10^{-5}~steradians$\footnote{Unité sans dimension. un angle solide d'un stéradian délimite sur la sphère unité à partir du centre de cette sphère une surface d'aire 1.}.
 	
 	\par Chaque sujet a enregistré $19200$ mesures de temps de réaction pour la partie décrémentale et $3625$ mesures pour la partie incrémentale.
 	
@@ -129,6 +129,6 @@
 		\label{eq:rea_ouellette_linear_transformation}
 	\end{equation}
 	
-	\par Avec $RT_{ref}$ le temps de réaction <<~étalon~>> obtenu dans les meilleures conditions expérimentales, $RVP'$ la valeur maximale de performance visuelle pour le jeu commun de conditions expérimentales, $Delta T_{vis}'$ la meilleure valeur pour le jeu commun et enfin $Delta T_{vis,r}$ l'estimation de $Delta T_{vis}$ au seuil de contraste de lisibilité.
+	\par Avec $RT_{ref}$ le temps de réaction <<~étalon~>> obtenu dans les meilleures conditions expérimentales, $RVP'$ la valeur maximale de performance visuelle pour le jeu commun de conditions expérimentales, $\Delta T_{vis}'$ la meilleure valeur pour le jeu commun et enfin $\Delta T_{vis,r}$ l'estimation de $\Delta T_{vis}$ au seuil de contraste de lisibilité.
 	
 	\par On sait donc désormais calculer la performance théorique et donc les temps de réaction théoriques à l'apparition d'une tache visuelle en fonction des conditions de luminance, de contraste et de taille de la cible. Il reste donc à mesurer empiriquement nos propres temps de réactions pour les comparer.

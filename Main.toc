@@ -1,14 +1,32 @@
 \select@language {french}
 \contentsline {chapter}{Table des figures}{iv}{chapter*.2}
-\contentsline {chapter}{Liste des tableaux}{v}{chapter*.3}
-\contentsline {part}{I\hspace {1em}Premi\IeC {\`e}re approche: mod\IeC {\`e}les de vision}{1}{part.1}
-\contentsline {chapter}{Introduction}{2}{chapter*.4}
-\contentsline {chapter}{\numberline {1}\IeC {\'E}tat de l'Art}{3}{chapter.1.1}
-\contentsline {section}{\numberline {1.1}Mod\IeC {\`e}les principaux}{4}{section.1.1.1}
-\contentsline {section}{\numberline {1.2}P\IeC {\'e}rennit\IeC {\'e}s des mod\IeC {\`e}les principaux}{4}{section.1.1.2}
-\contentsline {section}{\numberline {1.3}Mod\IeC {\`e}les de Mantiuk \textit {et al.} [2004, 2005, 2015]}{4}{section.1.1.3}
-\contentsline {section}{\numberline {1.4}Reproduction de tons}{5}{section.1.1.4}
-\contentsline {chapter}{\numberline {2}Mod\IeC {\`e}le de Pattanaik \textit {et al.}}{8}{chapter.1.2}
-\contentsline {chapter}{\numberline {3}Mod\IeC {\`e}le de Mantiuk \& Ramponi}{14}{chapter.1.3}
-\contentsline {chapter}{Conclusion}{16}{chapter*.5}
-\contentsline {part}{Bibliographie}{17}{chapter*.5}
+\contentsline {chapter}{Liste des tableaux}{vi}{chapter*.3}
+\contentsline {part}{Introduction g\IeC {\'e}n\IeC {\'e}rale}{1}{chapter*.4}
+\contentsline {part}{I\hspace {1em}Exp\IeC {\'e}rimentation: latence}{3}{part.1}
+\contentsline {chapter}{Introduction}{4}{chapter*.5}
+\contentsline {chapter}{\numberline {1}Contexte}{5}{chapter.1.1}
+\contentsline {section}{\numberline {1.1}D\IeC {\'e}finition et mesure des effets de la latence}{5}{section.1.1.1}
+\contentsline {subsection}{\numberline {1.1.1}D\IeC {\'e}finitions}{5}{subsection.1.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}La performance comme outil de mesure}{6}{subsection.1.1.1.2}
+\contentsline {section}{\numberline {1.2}Perception de la latence}{7}{section.1.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Notions de psychom\IeC {\'e}trie}{7}{subsection.1.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Dans la litt\IeC {\'e}rature}{8}{subsection.1.1.2.2}
+\contentsline {section}{\numberline {1.3}Mesure de la latence}{9}{section.1.1.3}
+\contentsline {chapter}{\numberline {2}Mise en place du dispositif exp\IeC {\'e}rimental}{13}{chapter.1.2}
+\contentsline {section}{\numberline {2.1}T\IeC {\^a}che \IeC {\`a} effectuer}{13}{section.1.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Moyens immersifs}{14}{subsection.1.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}D\IeC {\'e}tail de la t\IeC {\^a}che}{14}{subsection.1.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Mesures}{17}{subsection.1.2.1.3}
+\contentsline {section}{\numberline {2.2}Ajout de latence artificielle}{18}{section.1.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Dans le casque}{18}{subsection.1.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Dans le CAVE}{19}{subsection.1.2.2.2}
+\contentsline {section}{\numberline {2.3}Mesures pr\IeC {\'e}liminaires}{19}{section.1.2.3}
+\contentsline {chapter}{\numberline {3}Conclusions exp\IeC {\'e}rimentales}{21}{chapter.1.3}
+\contentsline {section}{\numberline {3.1}R\IeC {\'e}sultats}{21}{section.1.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Dans le CAVE}{21}{subsection.1.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Dans le casque}{23}{subsection.1.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Analyse crois\IeC {\'e}e}{26}{subsection.1.3.1.3}
+\contentsline {section}{\numberline {3.2}Apport au score de r\IeC {\'e}alisme}{28}{section.1.3.2}
+\contentsline {chapter}{Conclusion}{29}{chapter*.6}
+\contentsline {part}{Discussion g\IeC {\'e}n\IeC {\'e}rale et perspectives}{30}{chapter*.7}
+\contentsline {part}{Bibliographie}{37}{figure.1.3.18}

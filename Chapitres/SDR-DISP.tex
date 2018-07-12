@@ -1,13 +1,13 @@
 \chapter{Indices de vision}
-	\par Nous allons maintenant présenter les différents indices placés dans la catégorie <<~vision~>>, c'est à dire les indices fournis par l'environnement immersif qui participent uniquement à la vision et pas à l'immersion. Ces indices sont les caractéristiques perçues par un œil fixe et immobile à un instant $t$ dans le simulateur. On présente d'abord les valeurs clefs trouvables dans la littérature puis leur association aux valeurs clefs (0, 80 et 100) du modèle, la génération de l'équation permettant d'attribuer la note entre 0 et 100 au critère et, quand c'est possible, le tracé de cette fonction.
+	\par Nous allons maintenant présenter les différents indices placés dans la catégorie <<~vision~>>, c'est à dire les indices fournis par l'environnement immersif qui participent uniquement à la vision et non pas à l'immersion. Ces indices sont les caractéristiques perçues par un œil fixe et immobile à un instant $t$ dans le simulateur. On présente d'abord les valeurs clefs trouvables dans la littérature puis leur association à ces mêmes valeurs clefs (0, 80 et 100) du modèle, la génération de l'équation permettant d'attribuer la note entre 0 et 100 au critère et, quand c'est possible, le tracé de cette fonction.
 	
 	\section{Contraste \& luminosité}
 	\par Le contraste est théoriquement défini comme la différence en luminosité (ou en couleur) entre les parties claires et les parties sombres d'une image ou d'un objet. Le contraste est un élément très important du système de vision humain, notamment car ce dernier est plus sensible au contraste entre deux niveaux de lumière qu'à un niveau absolu. Comme il peut être fait classiquement en psychophysique, ce stimulus peut être divisé en deux parties: sa magnitude (la valeur brute) et sa résolution (son <<~pas~>> d'évolution).
 	
-	\par On a pu voir les différentes approches théoriques pour le définir dans la première partie de ce manuscrit. Néanmoins il existe une d'autres approches de la gestion du contraste et de la luminance comme par exemple la fonction de sensibilité ou des modèles de performance visuelle. C'est vers cette piste qu'on s'oriente initialement.
+	\par On a pu voir les différentes approches théoriques pour le définir dans la première partie de ce manuscrit. Néanmoins il existe une d'autres approches de la gestion du contraste et de la luminance comme par exemple la fonction de sensibilité ou des modèles de performance visuelle. C'est vers ces pistes qu'on s'oriente.
 	
 	\subsection{Fonction de sensibilité au contraste (CSF)}
-	\par On a déjà donné une brève description des fonctions de sensibilité (CSF - Contrast Sensitiviy Functions en anglais) à la fin du chapitre sur le fonctionnement de la vision. Pour rappel, les CSF sont des courbes traçant le seuil à partir duquel l'œil humain est capable de distinguer une différence entre deux niveaux de gris. La Fig. \ref{fig:fonction_sensibilite_contraste} en est un exemple pour les trois domaines de luminosité: photopique (jour), scotopique (nuit) et mésopique (entre-deux). Tout ce qui se trouve sous la courbe est visible.
+	\par Les fonctions de sensibilité au contraste (CSF, pour <<~Contrast Sensibility Functions~>>) sont des courbes traçant le seuil à partir duquel l'œil humain est capable de distinguer une différence entre deux niveaux de gris. La Fig. \ref{fig:fonction_sensibilite_contraste} en est un exemple pour les trois domaines de luminosité: photopique (jour), scotopique (nuit) et mésopique (entre-deux). Tout ce qui se trouve sous la courbe est visible. Elles fonctionnent sur des mesures de seuil en cycles par degré (cpd). Les cpd sont la quantité d'alternance noir-blanc contenue dans un degré visuel.
 	
 	\begin{figure}
 		\centering
@@ -16,10 +16,10 @@
 		\label{fig:fonction_sensibilite_contraste}
 	\end{figure}
 	
-	\par Bien que très intéressantes, ces courbes ne sont pas suffisantes car elles ne donnent qu'un seuil en dessous duquel on voit et au dessus duquel on ne voit pas. On ne peut en tirer aucune information sur la facilité ou la qualité de vision en dessous du seuil. Que l'on soit très proche ou très éloigné du seuil revient au même: on est dans la catégorie <<~voit~>>. On s'intéresse donc à d'autres approches sur le contraste qui nous permettrait de détailler ce qu'il se passe dans la partie visible du contraste. On va donc maintenant présenter le concept de performance visuelle.
+	\par Dans un premier temps, on estime que ces courbes ne sont pas suffisantes car elles ne donnent qu'un seuil en dessous duquel la perception est possible et au dessus duquel elle ne l'est pas. On ne peut en tirer aucune information sur la facilité ou la qualité de vision en dessous du seuil. Que l'on soit très proche ou très éloigné du seuil revient au même: on est dans la catégorie <<~voit~>>. On s'intéresse donc à d'autres approches sur le contraste qui nous permettraient de détailler ce qu'il se passe dans la partie visible du contraste. On s'oriente donc sur le concept de performance visuelle, que nous allons maintenant présenter.
 	
 	\subsection{Performance visuelle relative}	
-	\par La performance visuelle relative (RVP - Relative Visual Performance en anglais) est définie comme la capacité du système visuel humain à réaliser une tâche donnée, capacité transposée dans une valeur comprise entre 0 et 1. Les paramètres d'entrée du modèle sont la luminance et le contraste pour une valeur de sortie unique et sous la forme d'une valeur (comprise entre 0 et 1, donc). De nombreux modèles de performance visuelle ont été développés, notamment dans les années 80, mais deux d'entre eux peuvent être particulièrement mis en avant : le modèle de la CIE (Commission International de l'Eclairage) \citep{international_commission_on_illumination_analytic_1981} et le modèle de Rea \citep{rea_toward_1986}.
+	\par La performance visuelle relative (RVP - Relative Visual Performance en anglais) est définie comme la capacité du système visuel humain à réaliser une tâche donnée, capacité transposée dans une valeur numérique comprise entre 0 et 1. Les paramètres d'entrée du modèle sont en général la luminance et le contraste pour une valeur de sortie unique et sous la forme d'une valeur (comprise entre 0 et 1, donc). De nombreux modèles de performance visuelle ont été développés, notamment dans les années 80, mais deux d'entre eux peuvent être particulièrement mis en avant : le modèle de la CIE (Commission International de l'Eclairage) \citep{international_commission_on_illumination_analytic_1981} et le modèle de Rea \citep{rea_toward_1986}.
 	
 	\subsubsection{Modèle de la CIE}
 	\par Le modèle de la CIE a été construit sur la base d'un grand nombre de résultats expérimentaux issus de nombreux chercheurs différents. Leur but était d'arriver à un outil pour aider à choisir les meilleurs conditions d'illumination pour les ateliers d'usine de manière à ce que les ouvriers travaillent au rendement maximal. En plus de la luminance et du contraste, le modèle nécessite également l'âge et le <<~niveau de demande de la tâche~>> comme paramètres d'entrée.
@@ -35,13 +35,13 @@
 	\end{figure}
 	
 	\subsubsection{Vers une vérification expérimentale}
-	\par Néanmoins, ces deux modèles n'ont pas été pensés pour la Réalité Virtuelle et pourraient ne pas s'inscrire dans pour une utilisation directe dans notre modèle de score de réalisme, en lieu et place du critère de luminance et de contraste. Une expérimentation a été réalisée pour confirmer ou infirmer cette hypothèse, notamment à propos du modèle de Rea (\textit{cf.} partie suivante). L'objectif serait de de mettre à l'échelle entre 0 et 100 les résultats entre 0 et 1 du modèle de performance visuelle. Il est à noter que dans son modèle la CIE définit la valeur de 0.8 (80 ramené à notre échelle) comme la performance standard, ce qui colle parfaitement avec nos bases de modélisation.
+	\par Néanmoins, ces deux modèles n'ont pas été pensés pour la Réalité Virtuelle et pourraient ne pas s'inscrire dans pour une utilisation directe dans notre modèle de score de réalisme, en lieu et place du critère de luminance et de contraste. Une expérimentation a été réalisée pour confirmer ou infirmer cette hypothèse, notamment à propos du modèle de Rea (voir partie suivante). L'objectif serait de de mettre à l'échelle entre 0 et 100 les résultats entre 0 et 1 du modèle de performance visuelle. Il est à noter que dans son modèle la CIE définit la valeur de 0.8 (80 ramené à notre échelle) comme la performance standard.
 	
 	\section{Images par seconde}	
 	\par Attribuer des valeurs spécifiques, discrètes, aux phénomènes qui composent la vision peut sembler peu naturel tant le processus de vision est continu \citep{bear_neurosciences:_2007}. Néanmoins, c'est un exercice auquel on se risque et il existe un certain nombre d'effets notables qui n'apparaissent qu'à certains nombres d'images par seconde (frame rate).
 	
 	\subsection{Minimum de fonctionnement}
-	\par Premièrement, la perception du mouvement n'est pas basée (comme cela a été suspecté pendant longtemps) sur la persistance rétinienne mais sur deux illusions perceptuelles: l'effet \textit{phi} et le mouvement \textit{bêta} \citep{de_lauretis_flicker_1980}, voir Fig. \ref{fig:beta_phi}. La persitance rétinienne est un phénomène passif laissant une image rémanente sur la rétine pendant un court instant. L'effet phi est une illusion de mouvement, cette fois active dans le cerveau et le traitement des images, pour un système en boucle fermée, comme les guirlandes de noël. Le mouvement bêta est lui aussi une illusion d'optique active mais pour les système ouverts. Ces effets commencent à partir de 16 images par seconde, en dessous de cette valeur, aucun mouvement n'est perçu, seulement une suite distincte d'images.
+	\par Premièrement, la perception du mouvement n'est pas basée (comme cela a été suspecté pendant longtemps) sur la persistance rétinienne mais sur deux illusions perceptuelles: l'effet \textit{phi} et le mouvement \textit{bêta} \citep{de_lauretis_flicker_1980}. La persitance rétinienne est un phénomène passif laissant une image rémanente sur la rétine pendant un court instant. L'effet phi est une illusion de mouvement, cette fois active, dans le cerveau et le traitement des images, pour un système en boucle fermée. Le mouvement bêta est lui aussi une illusion d'optique active mais pour les système ouverts. Ces effets sont illustrés en Fig. \ref{fig:beta_phi}). Ils apparaissent à partir de 16 images par seconde. En dessous de cette valeur, aucun mouvement n'est perçu, seulement une suite distincte d'images.
 	
 	\begin{figure}
 		\centering
@@ -65,17 +65,17 @@
 	\subsection{Maximum de fonctionnement}
 	
 	\subsubsection{L'hypothèse des deux voies}
-	\par D'autres valeurs viennent des voies dorsale et ventrale. Comme pour les fonctions de sensibilité au contraste, la théorie des deux voie à déjà été abordée dans la première partie, chapitre sur le fonctionnement de la vision. Pour rappel, la théorie de deux voies est le postulat principal pour expliquer la manière dont le cerveau traite les informations visuelles arrivant des nerfs optiques. Une fois dans le cerveau, l'information est divisée en deux boucles de traitement \citep{ingle_two_1982,dhondt_emotion_2011}. La première, la voie dorsale ou pariétale, est la boucle <<~où~>> et s'occupe d'extraire la direction et le mouvement du flux d'image qui arrivent. L'autre voie, la voie ventrale ou temporale, dite boucle du <<~quoi~>>, s'occupe d'extraire la forme, la couleur et la texture. Les deux voies fonctionnent supposément à des fréquences autour de, respectivement, 200~Hz et 25~Hz, ce qui est corrélé par le fait que l'une est rapide et l'autre lente \citep{dhondt_emotion_2011}, par le nombre de cortex différents par lesquels ces voies passent \citep{dhondt_emotion_2011} et par les latences propres de chaque cortex \citep{bullier_integrated_2001} ; cependant, aucunes valeurs précises n'ont été scientifiquement établies.
+	\par D'autres valeurs viennent des voies dorsale et ventrale. Pour rappel, la théorie de deux voies est le postulat principal permettant d'expliquer la manière dont le cerveau traite les informations visuelles arrivant des nerfs optiques. Une fois dans le cerveau, l'information est divisée en deux boucles de traitement \citep{ingle_two_1982,dhondt_emotion_2011}. La première, la voie dorsale ou pariétale, est la boucle <<~où~>> et s'occupe d'extraire la direction et le mouvement du flux d'image qui arrive. L'autre voie, la voie ventrale ou temporale, dite boucle du <<~quoi~>>, s'occupe d'extraire la forme, la couleur et la texture. Les deux voies fonctionnent supposément à des fréquences autour de, respectivement, 200~Hz et 25~Hz, ce qui est corrélé par le fait que l'une est rapide et l'autre lente \citep{dhondt_emotion_2011}, par le nombre de cortex différents par lesquels ces voies passent \citep{dhondt_emotion_2011} et par les latences propres de chaque cortex \citep{bullier_integrated_2001} ; cependant, aucunes valeurs précises n'ont été scientifiquement établies.
 	
 	\subsubsection{Les pilotes de l'US Air Force}	
 	Parallèlement, l'US Air Force aurait conduit des expériences sur ses pilotes de chasse pendant lesquelles ceux-ci étaient capables de reconnaitre un modèle d'avion sur des images flashées à 1/220ème de seconde\footnote{Human Eye Frames Per Second. Dans \textit{AMO.net America's Multimedia Online}. Vu sur \url{http://amo.net/nt/02-21-01fps.html}}. Même si cela ne constitue pas une preuve scientifique en tant que telle, cela vient renforcer l'hypothèse des deux voies sur la fréquence maximale associable au traitement visuel. A la différence du minimum de fonctionnement où des phénomènes sont clairement établis avec des fréquences de fonctionnement claires, on ne peut ici fonctionner que sur des approximations.
 		
 	\subsection{Fonction de notation du critère}
-	\par Ainsi, en utilisant les trois valeurs clefs précédemment présentées: le nom minimal de frame rate pour percevoir le mouvement (16~Hz), la fréquence critique de clignotement (70~Hz) et la fréquence supposée de la voie dorsale (200~Hz), on peut assembler un modèle mathématique et en tirer une courbe. Dans le cas de ce critère, avec $f$ le nombre d'images par seconde du système de visualisation, on présente l'équation suivante (Eq. \ref{eq:fps_score}), dont le tracé est donné en Fig. \ref{fig:score_fps}:
+	\par Ainsi, en utilisant les trois valeurs clefs précédemment présentées: le nombre minimal de frame rate pour percevoir le mouvement (16~Hz), la fréquence critique de clignotement (70~Hz) et la fréquence supposée de la voie dorsale (200~Hz), on peut assembler un modèle mathématique et en tirer une courbe. Dans le cas de ce critère, avec $f$ le nombre d'images par seconde du système de visualisation, on présente l'équation suivante (Eq. \ref{eq:fps_score}), dont le tracé est donné en Fig. \ref{fig:score_fps}:
 	\begin{equation}
 		F_{FPS}(f) = \begin{cases}
 		0 & f < 16\\
-		126.5 - \frac{367.1}{\sqrt{f - 7.6}} & else\\
+		126.5 - \frac{367.1}{\sqrt{f - 7.6}} & sinon\\
 		100 & f > 200
 		\end{cases}
 		\label{eq:fps_score}
@@ -88,18 +88,18 @@
 		\label{fig:score_fps}
 	\end{figure}
 
-	\par Finalement, il doit être noté que toutes ces valeurs clefs sont définies pour un œil unique et donc qu'elles doivent être multipliées par deux dans le cas d'un usage en stéréoscopie pour une imagerie 3D. De plus, ces fréquences sont les nombres d'images par seconde effectifs, c'est à dire ceux qui sont réellement affichés par l'écran et non pas les nombres d'images par seconde du hardware (en sortie de carte graphique par exemple) qui sont en général plus élevés à cause de principe de Shannon.
+	\par Finalement, il doit être noté que toutes ces valeurs clefs sont définies pour un œil unique et donc qu'elles doivent être multipliées par deux dans le cas d'un usage en stéréoscopie active (c'est à dire avec une image sur deux présentée à chaque œil) pour une imagerie 3D. De plus, ces fréquences sont les nombres d'images par seconde effectifs, c'est à dire ceux qui sont réellement affichés par l'écran et non pas les nombres d'images par seconde du hardware (en sortie de carte graphique par exemple) qui sont en général plus élevés à cause de principe de Shannon (plusieurs occurrences d'un signal sont nécessaires pour son échantillonnage).
 	
 	\section{Couleurs}
 	\subsection{Dénombrement des couleurs visibles}	
 	\par La première approche serait d' essayer d'estimer le nombre de couleurs réellement visibles (discernables) par un œil humain. Cette entreprise a été tentée un certain nombre de fois \citep{kuehni_how_2015, linhares_number_2008, perales_calculation_2008, pointer_gamut_1980, pointer_number_1998, wen_display_2006} sans jamais faire preuve d'un succès éclatant: les estimations varient entre 100.000 et 10 millions de couleurs visibles.
 	
-	\par Les estimations se font mathématiquement: soit en utilisant les équations de différentiation des couleurs, soit en recalculant des observateurs réels pour les comparer à l'observateur idéal établi par la CIE (\textit{cf.} première partie et le chapitre sur la couleur).
+	\par Les estimations se font mathématiquement: soit en utilisant les équations de différentiation des couleurs, soit en recalculant des observateurs réels pour les comparer à l'observateur idéal établi par la CIE (voir la première partie et le chapitre sur la couleur).
 	
 	\subsection{Les espaces colorimétriques}
 	\par A défaut d'avoir une estimation validée du nombre de couleurs perceptibles et de pouvoir proposer une méthode pour calculer facilement ce même nombre dans un simulateur pour ensuite les comparer, on se tourne vers les espaces colorimétriques.
 	
-	\par En 1931, la Commission Internationale de l'Eclairage (CIE) a établi la définition de l'espace colorimétrique RGB. Cet espace de coouleur représente l'ensemble des couleurs (non dénombrées) qui peuvent être vues par un observateur normal possédant les trois types de cônes. Cependant, il n'existe encore aucune technique pour afficher 100\% des couleurs théoriquement incluses dans l'espace RGB. Chaque système utilise une fraction de cet espace de couleur qu'on appelle <<~gamut~>> et qui dépend de trois (ou plus suivant les espaces) couleurs primaires choisies spécifiquement par la norme. Dans la table suivante (Table. \ref{tab:gamut}), on présente un certain nombre de normes avec la proportion d'espace colorimétrique couverte par leur gamut. Il est à noter que dans le cas de la norme ProPhoto RGB, 13\% des couleurs atteignables sont en fait des couleurs imaginaires à cause de couleurs primaires qui sont prises hors de l'espace RGB de 1931. Empiriquement, l'acceptation commence à partir d'Adobe RGB. Fig. \ref{fig:multi_gamut}
+	\par En 1931, la Commission Internationale de l'Eclairage (CIE) a établi la définition de l'espace colorimétrique RGB. Cet espace de couleur représente l'ensemble des couleurs (non dénombrées) qui peuvent être vues par un observateur normal possédant les trois types de cônes. Cependant, il n'existe encore aucune technique pour afficher 100\% des couleurs théoriquement incluses dans l'espace RGB. Chaque système utilise une fraction de cet espace de couleur qu'on appelle <<~gamut~>> et qui dépend de trois (ou plus suivant les espaces) couleurs primaires choisies spécifiquement par la norme. Dans la table suivante (Table. \ref{tab:gamut}), on présente un certain nombre de normes avec la proportion d'espace colorimétrique couverte par leur gamut. Il est à noter que dans le cas de la norme ProPhoto RGB, 13\% des couleurs atteignables sont en fait des couleurs imaginaires à cause de couleurs primaires qui sont prises hors de l'espace RGB de 1931. Empiriquement, l'acceptation commence à partir d'Adobe RGB. Fig. \ref{fig:multi_gamut}
 
 	\begin{table}[h]	
 		\centering
@@ -124,10 +124,12 @@
 	\end{figure}
 	
 	\subsection{Indice de rendu des couleurs (IRC)}
-	\par Pas mal mais caractérise la lumières émise par le projo plutôt que les couleurs affichées sur l'écran (si l'écran n'est pas parfaitement blanc + influence des autres écrans que se passe-t-il ?)
+	\par La piste de l'indice de rendu des couleurs (IRC) est une piste élégante, qui, à l'instar du critère de contraste et de luminosité propose une méthode donnant directement une valeur entre 0 et 1 et donc transposable au score de réalisme.
+	
+	\par Néanmoins, l'IRC est une valeur qui compare le spectre lumineux d'une lampe (dans notre cas, cela pourrait être un projecteur dans un simulateur) avec le spectre d'une lampe de référence, sensé être complet. C'est donc principalement deux problèmes qui nous empêchent d'implémenter cette solution dans notre modèle: l'indice est dévolu aux lampes et non aux écrans, ce qui restreindrait le champ d'action de notre score de réalisme ; et surtout, la comparaison est faite par rapport à une lampe idéale et non par rapport au système visuel humain. On laisse donc de côté cette piste pour revenir à une modélisation plus simple mais plus proche de l'objectif fixé de proximité avec le système visuel humain. 
 	
 	\subsection{Fonction de notation du critère}
-	\par Notre proposition de notation pour le critère de couleur est réduite à une fonction linéaire entre le score et le pourcentage de couverture de l'espace RGB 1931 auquel le système peut prétendre (Fig. \ref{fig:score_color}). Ce pourcentage vient directement de-s espace-s colorimétrique-s impliqué-s dans la chaine de rendu et d'affichage. La fonction de score pour ce critère est donc, avec $c$ le pourcentage de couverture de RBB 1931 par le gamut:
+	\par Notre proposition de notation pour le critère de couleur est donc réduite à une fonction linéaire entre le score et le pourcentage de couverture de l'espace RGB 1931 auquel le système peut prétendre (Fig. \ref{fig:score_color}). Ce pourcentage vient directement de-s espace-s colorimétrique-s impliqué-s dans la chaine de rendu et d'affichage. La fonction de score pour ce critère est donc, avec $c$ le pourcentage de couverture de RBB 1931 par le gamut:
 	 \begin{equation}
 		F_{color}(c) = \begin{cases}
 		c &\\
@@ -148,7 +150,7 @@
 	\section{Champ de vision}
 	\par Le champ de vision (FOV - Field of View en anglais) est défini comme la portion d'espace qu'une personne peut voir à un instant t, sans bouger la tête. Il ne doit pas être confondu avec le champ de regard (FOR - Field of Regard en anglais) qui est la portion d'espace totale que l'on peut voir au cours du temps lorsque les mouvements de la tête et des yeux sont pris en compte.
 
-	\par Le champ de vision se décompose en deux orientations: l'axe vertical et l'axe horizontal. On propose deux sets de valeurs, un par axe, pour la notation. Les deux axes seront ensuite pondérés l'un par rapport à l'autre. On fait l'hypothèse que cette pondération se fait par rapport à leur taille respective. La valeur du champ de vision que l'on mesure pour introduire dans le score doit être prise pour la position standard du sujet dans l'environnement immersif (que ce soit la position du corps ou l'orientation de la tête).
+	\par Le champ de vision se décompose en deux orientations: l'axe vertical et l'axe horizontal. On propose deux ensembles de valeurs, un par axe, pour la notation. Les deux axes seront ensuite pondérés l'un par rapport à l'autre. On fait l'hypothèse que cette pondération se fait par rapport à leur taille respective. La valeur du champ de vision que l'on mesure pour introduire dans le score doit être prise pour la position standard du sujet dans l'environnement immersif (que ce soit la position du corps ou l'orientation de la tête).
 	
 	\subsection{Axe horizontal}
 	\par Certaines des valeurs les plus communes admises pour le champ de vision horizontal sont recensées chez \citep{devisme_optimisation_2004}. Sur l'angle d'azimut (horizontal), avec les deux yeux, un être humain normal peux voir sur 170 à 190 degrés. A l'intérieur de cet angle d'azimut, seuls 120 degrés (centrés) permettent de voir binoculairement. La vision binoculaire est possible grâce à la superposition des portions d'espace vues par chaque oeil simultanément. L'acuité maximale est atteinte dans la zone fovéale soit entre 3 et 5 degrés de portion d'espace, au centre de la vision. La lecture n'est possible que dans un angle de 20 degrés tandis que la reconnaissance des formes est possible jusqu'à 40 degrés et la reconnaissance des couleurs jusqu'à 60 degrés. Ces différentes valeurs sont résumées dans la Fig. \ref{fig:champ_vision_horizontal}. L'équation propre à l'axe horizontal est, avec $h$ la valeur en degrés du champ de vision horizontal (H-FOV) calculé dans le système immersif (Eq. \ref{eq:score_h_fov}):
@@ -187,7 +189,7 @@
 	\end{figure}
 	
 	\subsection{Pondération}
-	\par On pose notre propre hypothèse d'égale importance des axes verticaux et horizontaux dans le champ de vision. On pondère alors les deux sous-critères en fonction de leur taille maximale respective (180 degrés pour l'axe horizontal et 130 pour l'axe vertical) (Eq. \ref{eq:coeff_fov}):
+	\par On pose notre propre hypothèse d'égale importance des axes verticaux et horizontaux dans le champ de vision. Cette hypothèse est une sorte de <<~cas général~>>. On verra par la suite que l'on sera amené à la modifier. On pondère donc les deux sous-critères en fonction de leur taille maximale respective (180 degrés pour l'axe horizontal et 130 pour l'axe vertical) (Eq. \ref{eq:coeff_fov}):
 	\begin{equation}
 		\begin{cases}	
 			k_h = \frac{180}{180 + 130} = 0.58\\
@@ -215,37 +217,37 @@
 	\subsection{Première approche}	
 	\par Notre première approche était de se raccrocher à un tableau établi par la <<~classification internationale des maladies~>> (CIM), publié par l'Organisation Mondiale de la Santé (OMS). L'objectif est de permettre l'analyse systématique des maladies et autres affections du corps. On s'intéresse ici à la partie relative aux trouble de la vision et plus particulièrement à l'acuité. On utilise la version cliniquement modifiée de la 9ème révision de cette classification, ICD-9-CM, sortie en 1975. La 10ème révision, ICD-10 ne faisant pas encore l'unanimité et ne rajoutant que d'autres entrées sans modifier celle ci.
 	
-	\par La figure \ref{fig:icd_9_cdm} montre les différentes acuités possibles pour l'œil humain (encadré en bleu), associées avec le type de vision et surtout un score équivalent (encadré en bleu). Ce score est néanmoins peu adapté à notre utilisation, d'abord parce qu'il dépasse la note de 100 mais surtout parce qu'il englobe des acuités bien trop faibles pour être transposées en taille de pixel dans un simulateur. De plus il correspond à des défauts de vision plus qu'à des capacités de vision. On s'oriente alors vers une autre approche.
+	\par La Fig. \ref{fig:icd_9_cdm} montre les différentes acuités possibles pour l'œil humain (encadré en bleu), associées avec le type de vision et surtout un score équivalent (encadré en bleu). Ce score est néanmoins peu adapté à notre utilisation, d'abord parce qu'il dépasse la note de 100 mais surtout parce qu'il englobe des acuités bien trop faibles pour être transposées en taille de pixel dans un simulateur. De plus il correspond à des défauts de vision plus qu'à des capacités de vision. On s'oriente alors vers une autre approche.
 	
 	\begin{figure}
 		\centering
 		\includegraphics[scale=.6]{Figures/AcuityICD9CM}
-		\caption{Classification ICD-9-CM}
+		\caption{Classification ICD-9-CM}{On cherche à établir un lien entre les colonnes encadrées: l'acuité, et le score.}
 		\label{fig:icd_9_cdm}
 	\end{figure}
 	
 	\subsection{Deuxième approche}
-	\par L'acuité monoscopique est la précision de l'œil humain, sa résolution ; c'est à dire à quel point la plus petite chose qui peut être vue doit être petit ou bien quelle est le plus petit écart perceptible entre deux motifs. Ce concept peut être directement lié à la taille du pixel sur un écran: plus le pixel est petit plus l'image est précise. Néanmoins, à partir d'une certaine taille, le pixel devient plus petit que la résolution de l'œil et devient alors invisible, et donc, pas forcément très utile.
+	\par L'acuité monoscopique est la précision de l'œil humain, sa résolution ; c'est à dire à quel point la plus petite chose qui peut être vue peut être petite ou bien quelle est le plus petit écart perceptible entre deux motifs. Ce concept peut être directement lié à la taille du pixel sur un écran: plus le pixel est petit plus l'image est précise. Néanmoins, à partir d'une certaine taille, le pixel devient plus petit que la résolution de l'œil et devient alors invisible, et donc, pas forcément très utile.
 	
-	\par Habituellement, on estime que le système visuel humain a une acuité monoscopique comprise entre 30 secondes d'arc et 2 minutes d'arc, avec une moyenne à 1 minute d'arc \citep{fuchs_traite_2003}. Ces valeurs peuvent être, dans des conditions photopiques d'éclairage, raffinées en fonction de la tâche \citep{gross_human_2008} (Cf. Table \ref{tab:acuity}).
+	\par Habituellement, on estime que le système visuel humain a une acuité monoscopique comprise entre 30 secondes d'arc et 2 minutes d'arc, avec une moyenne à 1 minute d'arc \citep{fuchs_traite_2003}. Ces valeurs peuvent être, dans des conditions photopiques d'éclairage, raffinées en fonction de la tâche \citep{gross_human_2008} (voir Tab. \ref{tab:acuity}).
 
 	\begin{table}[h]
 		\centering
-		\caption{Acuity of the eye, \citep{gross_human_2008}}
+		\caption{Acuité de l'œil, \citep{gross_human_2008}}
 		\label{tab:acuity}
 		\small
 		\begin{tabular}{ll}
 			\multicolumn{1}{c}{\bfseries Task} & \multicolumn{1}{c}{\bfseries Acuity}\\
-			Pattern recognition & 5'\\
-			Grating resolution & 2'\\
-			Two-points (same colors) resolution & 1'\\
-			Two-points (inverted colors) resolution & 30"\\
-			Vernier acuity (small parallel straight lines) & 10"\\
-			Stereoscopic resolution of depth & 5"\\
+			Reconnaissance de forme & 5'\\
+			Résolution d'une grille & 2'\\
+			Résolution deux points (couleurs identiques) & 1'\\
+			Résolution deux points (couleurs inversées) & 30"\\
+			Acuité de Vernier (fines lignes droites parallèles) & 10"\\
+			Acuité stéréoscopique & 5"\\
 		\end{tabular}
 	\end{table}
 	
-	\par La résolution de Vernier n'est atteignable que dans certains conditions spécifiques et l'acuité stéréoscopique est un sujet à part, traité avec une autre approche, et qui est traité dans la section suivante. De plus, Deering a montré que la plus petite résolution possible sur un écran est de 28 secondes d'arc\citep{deering_limits_1998}. C'est pourquoi on ne retient que les valeurs entre 5 minutes d'arc et 30 secondes d'arc.
+	\par La résolution de Vernier n'est atteignable que dans certains conditions spécifiques et l'acuité stéréoscopique est un sujet à part, traité avec une autre approche, décrite dans la section suivante. De plus, Deering a montré que la plus petite résolution possible sur un écran est de 28 secondes d'arc \citep{deering_limits_1998}. C'est pourquoi on ne retient que les valeurs entre 5 minutes d'arc et 30 secondes d'arc.
 	
 	\subsection{Fonction de notation du critère}
 	\par L'équation qui est proposée depuis ces valeurs, avec $\alpha$ l'angle sous lequel le pixel est vu, en minute d'arc (Eq. \ref{eq:mono_acuity_score}, tracé en Fig. \ref{fig:score_mono_acuity}) est la suivante:
@@ -272,7 +274,7 @@
 	\par L'acuité stéréoscopique est la capacité du système visuel humain à percevoir une différence de profondeur entre deux plans, à une distance donnée. C'est une caractéristique qui est largement connue et décrite dans la littérature. Sa description mathématique vient d'une analyse géométrique simple \citep{fuchs_traite_2003,gross_human_2008}. Le modèle globalement accepté est le suivant (Eq. \ref{eq:stereo_model}):
 
 	\begin{equation}	
-		\Delta r = 0.001 r^2
+		\Delta r = 0.001 \times r^2
 		\label{eq:stereo_model}
 	\end{equation}
 	 
@@ -295,7 +297,7 @@
 		\label{fig:variation_dio_population}
 	\end{figure}
 	
-	\par De plus, un processus standardisé pour mesurer la valeur de $\Delta r$ d'un système serait difficile à mettre en place car il faudrait faire passer un test à un certain nombre de sujets puis en extraire le seuil moyen expérimental, ce qui sort du cahier des charges du score de réalisme. En travaillant la relation qui décrit ce même modèle d'acuité stéréoscopique (Eq. \ref{eq:limiting_angle}) \citep{gross_human_2008}, le seuil physiologique de vision apparait comme une valeur essentiel pour la vision stéréoscopique tout en étant relié à la fois au système visuel humain et au système d'affiche du système, le tout en étant facilement et objectivement mesurable. 
+	\par De plus, un processus standardisé pour mesurer la valeur de $\Delta r$ d'un système serait difficile à mettre en place car il faudrait faire passer un test à un certain nombre de sujets puis en extraire le seuil moyen expérimental, ce qui sort du cahier des charges du score de réalisme. En travaillant la relation qui décrit ce même modèle d'acuité stéréoscopique (Eq. \ref{eq:limiting_angle}) \citep{gross_human_2008}, le seuil physiologique de vision apparait comme une valeur essentielle pour la vision stéréoscopique tout en étant reliée à la fois au système visuel humain et au système d'affiche du système ; le tout en étant facilement et objectivement mesurable. 
 	
 	\begin{equation}	
 		\Delta \nu_{min} = \frac{d_{IPD} * \Delta r}{r^2}
@@ -311,13 +313,13 @@
 	\begin{equation}
 		F_{stereo\_acuity}(x,r) = \begin{cases}
 		100 & \alpha < \Delta \nu_{min}\\
-		100 * \frac{\Delta \nu_{min}}{\alpha} & else\\
+		100 \times \frac{\Delta \nu_{min}}{\alpha} & sinon\\
 		\end{cases}
 		\label{eq:stereo_acuity_score}
 	\end{equation}
 	
 	\subsubsection{Cas du CAVE}	
-	\par Dans un cas d'application CAVE, la luminance varie en général entre $10^{-1}$ et $10^{+1}~cd/m^2$, ce qui donne un $\Delta \nu_{min}$ moyen de $8~arcsecs$. Cette valeur est obtenue graphiquement en moyennenant les valeurs d'angle stéréoscopique limite pour toutes les valeurs de luminance possible dans un CAVE. L'évolution de l'angle stéréoscopique limite en fonction de la luminance vient d'une figure tracée p.67 dans \citep{gross_human_2008}. Dans ce cas d'utilisation, le CAVE, la fonction est tracée en Fig. \ref{fig:stereo_acuity}.
+	\par Dans un cas d'application CAVE, la luminance varie en général entre $10^{-1}$ et $10^{2}~cd/m^2$, ce qui donne un $\Delta \nu_{min}$ moyen de $8~arcsecs$. Cette valeur est obtenue graphiquement en moyennenant les valeurs d'angle stéréoscopique limite pour toutes les valeurs de luminance possible dans un CAVE. L'évolution de l'angle stéréoscopique limite en fonction de la luminance vient d'une figure tracée p.67 dans \citep{gross_human_2008}. Dans ce cas d'utilisation, le CAVE, la fonction est tracée en Fig. \ref{fig:stereo_acuity}.
 	
 	\begin{figure}
 		\centering
