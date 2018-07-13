@@ -236,10 +236,25 @@
 	
 	\par Au final, nos résultats ne correspondent pas du tout avec les prévisions de Rea et Ouellette mais convergent néanmoins vers les même valeurs. Bien que nous ayons fait de notre mieux pour traduire l'expérimentation initiale dans notre simulateur, il existe néanmoins toujours des différences fondamentales entre les prévisions et les mesures.
 	
-	\par remise en cause de l'hypothèse sur la luminance d'adaptation et fragilité des modèles de vision en mésopique
+	\par Dans un premier temps, on peut remettre en cause notre hypothèse sur la luminance d'adaptation et rappeler la fragilité des modèles de vision en conditions mésopiques. Pour calculer les niveaux de gris nécessaires pour afficher très exactement les contrastes que l'on désirait, nous avons simplifié l'équation en faisant l'hypothèse que la luminance d'adaptation se résumait en la luminance de fond. La moindre écart a donc une influence directe sur les niveaux de contraste proposés aux sujets. De plus, et notamment pour les luminances les plus sombres, on se trouve dans la zone mésopique, réputée pour sa fragilité. Si ces raisons peuvent expliquer la différence entre nos valeurs pratiques et les valeurs théoriques, elles n'expliquent pas la constance des sujets: non seulement ils étaient capables de voir mais ils étaient également performants à tous les niveaux.
 	
-	\par corrélation statistique entre les données
+	\par Si graphiquement les résultats semblent en effet diverger en basses conditions de contraste et de luminance, on vérifie néanmoins la possible corrélation statistique entre les données mesurées et les données prévues par le modèle de Rea. Il apparait (Tab. \ref{tab:rvp_pearson_correlation}) que seules les données de la première condition (background gris 0) ne sont pas corrélées. Toutes les autres présentent une corrélation positive-forte avec les données théoriques. Ces résultats montrent donc qu'il existe un lien entre les données mais sans pouvoir l'expliciter.
 	
-	\par papier taille du background
+	\begin{table}[h]	
+		\centering
+		\caption{Résultats statistiques de la corrélation entré données mesurées et données théoriques.}
+		\label{tab:rvp_pearson_correlation}
+		\begin{tabular}{ccccccc}
+			\textbf{Arrière-plan} & \textbf{0} & \textbf{32} & \textbf{80} & \textbf{128} & \textbf{176} & \textbf{255}\\
+			\textbf{Qobs} & $0.853$ & $2.469$ & $2.281$ & $2.514$ & $4.4249$ & $2.715$\\
+			\textbf{p-value} & $0.412$ & $0.031$ & $0.043$ & $0.029$ & $0.001$ & $0.020$\\
+			\textbf{rhô} & $0.249$ & $0.597$ & $0.567$ & $0.604$ & $0.788$ & $0.634$\\
+			\textbf{DDL} & $11$ & $11$ & $11$ & $11$ & $11$ & $11$\\
+		\end{tabular}
+	\end{table}
 	
-	\par conclusion: modèle partiellement valide dans la partie haute, modification nécessaire en partie basse, non-rejet du modèle mais modif nécessaire, en tout cas pour les CAVEs
+	\par La littérature nous donne des éléments pour compléter les corrélations statistiques: la taille de l'arrière-plan et la luminance qui en découle auraient une influence sur la sensibilité au contraste (voir paragraphe suivant). Or l'expérimentation de Rea et Ouellette a été réalisée sur un petit écran (12x7 degrés visuels) tandis que notre expérimentation (et la Réalité Virtuelle en général) l'était sur un écran remplissant l'intégralité du champ de vision. Nos sujets auraient alors été meilleurs que ceux de l'expérimentation initiale à cause de la taille de l'affichage.
+	
+	\par \cite{mccann_effects_1980} ont montré que la sensibilité au contraste est affectée par la luminance d'arrière plan: elle change nettement en fonction de la largeur de l'arrière-plan et est meilleure dans le cas d'un grand arrière-plan uniforme. Parallèlement, des résultats montrent que la visibilité de la cible au seuil de contraste est affectée de manière significative par l'étendue spatiale et le luminance en périphérie du champ de vision. Néanmoins, pour un contraste élevé, l'influence de la taille de l'arrière-plan immédiat s'estompe \citep{nakamura_effect_2003}.
+	
+	\par En conclusion, il semblerait que le modèle soit partiellement valide. Dans la partie haute, là où la taille de l'affichage n'a pas d'influence, les résultats convergent. Des modifications du modèle seraient alors nécessaire en partie basse, pour la Réalité Virtuelle, pour prendre en compte la taille (visuelle) de l'affichage.
