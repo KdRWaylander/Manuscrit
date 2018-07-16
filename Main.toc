@@ -143,7 +143,7 @@
 \contentsline {section}{\numberline {4.2}Mesures r\IeC {\'e}elles}{136}{section.4.4.2}
 \contentsline {section}{\numberline {4.3}Analyse et discussion}{139}{section.4.4.3}
 \contentsline {chapter}{Conclusion}{141}{chapter*.22}
-\contentsline {part}{V\hspace {1em}Exp\IeC {\'e}rimentation: latence}{142}{part.5}
+\contentsline {part}{V\hspace {1em}Partie exp\IeC {\'e}rimentale: latence}{142}{part.5}
 \contentsline {chapter}{Introduction}{143}{chapter*.23}
 \contentsline {chapter}{\numberline {1}Contexte}{144}{chapter.5.1}
 \contentsline {section}{\numberline {1.1}D\IeC {\'e}finition et mesure des effets de la latence}{144}{section.5.1.1}
