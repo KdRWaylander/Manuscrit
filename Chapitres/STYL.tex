@@ -4,7 +4,6 @@
 	
 % BIBLIOGRAPHIE (A load avant frenchb/babel sinon warning)
 	\usepackage[square,sort,semicolon]{natbib}
-%	\usepackage[sectionbib]{chapterbib}
 	\bibliographystyle{authordate1}
 	\usepackage[nottoc]{tocbibind} %Pour que la biblio soit dans le sommaire
 
@@ -119,6 +118,16 @@
 % PARAGRAPHE SPACING
 	\setlength{\parskip}{\baselineskip}
 	\setlength{\parindent}{0pt}
+	
+% PAGE DE GARDE
+	\usepackage{lmodern}
+	\usepackage{ae,aecompl}
+	\usepackage{eso-pic}	% Nécessaire pour mettre des images en arrière plan
+	\usepackage{array}		% Permet d'écrite 'THESE' de haut en bas
+	\usepackage[letterspace=-60]{microtype}
+	\renewcommand{\rmdefault}{pnc} 
+	\renewcommand{\sfdefault}{pag} 
+	\renewcommand{\ttdefault}{pcr}
 	
 % ECRITURE MATHEMATIQUE
 	\usepackage{amsmath}

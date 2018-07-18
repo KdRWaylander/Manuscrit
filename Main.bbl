@@ -1,25 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Adelstein {\em et~al.}, }2003]{adelstein_head_2003}
-Adelstein, Bernard~D., Lee, Thomas~G., \& Ellis, Stephen~R. 2003.
-\newblock Head {Tracking} {Latency} in {Virtual} {Environments}:
-  {Psychophysics} and a {Model}.
-\newblock {\em Proceedings of the Human Factors and Ergonomics Society Annual
-  Meeting}, {\bf 47}(20), 2083--2087.
-
-\bibitem[\protect\citename{Čadík, }2004]{cadik_human_2004}
-Čadík, Martin. 2004.
-\newblock Human {Perception} and {Comupter} {Graphics}.
-\newblock {\em In:} {\em in {Czech} {Technical} {University} {Postgraduate}
-  {Study} {Report}}.
-
-\bibitem[\protect\citename{Allison {\em et~al.}, }2001]{allison_tolerance_2001}
-Allison, R.~S., Harris, L.~R., Jenkin, M., Jasiobedzka, U., \& Zacher, J.~E.
-  2001 (Mar.).
-\newblock Tolerance of temporal delay in virtual environments.
-\newblock {\em Pages  247--254 of:} {\em Proceedings {IEEE} {Virtual} {Reality}
-  2001}.
-
 \bibitem[\protect\citename{{ANSES}, }2014]{anses_effets_2014}
 {ANSES}. 2014.
 \newblock {\em Effets {Sanitaires} {Potentiels} des {Technologies}
@@ -50,11 +30,6 @@ Bear, Mark~F, Connors, Barry~W, \& Paradiso, Michael~A. 2007.
 \newblock {\em Neurosciences: à la découverte du cerveau}.
 \newblock Paris: Éditions Pradel.
 
-\bibitem[\protect\citename{Beghdadi {\em et~al.}, }2013]{beghdadi_survey_2013}
-Beghdadi, A., Larabi, M.-C., Bouzerdoum, A., \& Iftekharuddin, K.M. 2013.
-\newblock A survey of perceptual image processing methods.
-\newblock {\em Signal Processing: Image Communication}, {\bf 28}(8), 811--831.
-
 \bibitem[\protect\citename{Beretta, }2000]{beretta_understanding_2000}
 Beretta, Giordano. 2000.
 \newblock {\em Understanding {Color}}.
@@ -74,74 +49,11 @@ Blackwell, H.~R. 1981.
 \newblock Publication {CIE}, nos.  no. 19/2.1--19/2.2.
 \newblock Paris, France: Bureau central de la CIE.
 
-\bibitem[\protect\citename{Blackwell \& Blackwell, }1971]{blackwell_ieri:_1971}
-Blackwell, O.~Mortenson, \& Blackwell, H.~Richard. 1971.
-\newblock {IERI}: {Visual} {Performance} {Data} for 156 {Normal} {Observers} of
-  {Various} {Ages}.
-\newblock {\em Journal of the Illuminating Engineering Society}, {\bf 1}(1),
-  3--13.
-
-\bibitem[\protect\citename{Blade \& Padgett, }2015]{hale_handbook_2015}
-Blade, Richard~A., \& Padgett, Mary~Lou. 2015.
-\newblock {\em Handbook of virtual environments: design, implementation, and
-  applications}. Second edition edn.
-\newblock Human factors and ergonomics.
-\newblock Boca Raton: CRC Press, Taylor \& Francis Group.
-
-\bibitem[\protect\citename{Bonnet, }1986]{bonnet_manuel_1986}
-Bonnet, Claude. 1986.
-\newblock {\em Manuel {Pratique} de {Psychophysique}}.
-\newblock Collection {U}.
-\newblock Paris: A. Colin.
-
-\bibitem[\protect\citename{Bouchard {\em et~al.},
-  }2007]{bouchard_revising_2007}
-Bouchard, S., Robillard, G., \& Renaud, P. 2007.
-\newblock Revising the factor structure of the {Simulator} {Sickness}
-  {Questionnaire}.
-\newblock  vol. 5.
-
-\bibitem[\protect\citename{Bouchard {\em et~al.}, }2009]{bouchard_side_2009}
-Bouchard, S., St-Jacques, J., Renaud, P., \& Wiederhold, B.~K. 2009.
-\newblock Side effects of imersions in virtual reality for people suffering
-  from anxiety disorders.
-\newblock {\em Journal of Cybertherapy and Rehabilitation}, {\bf 2}(2),
-  127--137.
-
-\bibitem[\protect\citename{Bouchard {\em et~al.},
-  }2011]{bouchard_exploring_2011}
-Bouchard, S., Robillard, G., Renaud, P., \& Bernier, F. 2011.
-\newblock Exploring new dimensions in the assessment of virtual reality induced
-  sude-effects.
-\newblock {\em Journal of Computer and Information Technology}, {\bf 1}(3),
-  20--32.
-
-\bibitem[\protect\citename{Bradley, }1999]{bradley_wavelet_1999}
-Bradley, A.P. 1999.
-\newblock A wavelet visible difference predictor.
-\newblock {\em IEEE Transactions on Image Processing}, {\bf 8}(5), 717--730.
-
-\bibitem[\protect\citename{Brooks, }1999]{brooks_whats_1999}
-Brooks, F.P. 1999.
-\newblock What's real about virtual reality?
-\newblock {\em IEEE Computer Graphics and Applications}, {\bf 19}(6), 16--27.
-
-\bibitem[\protect\citename{Bullier, }2001]{bullier_integrated_2001}
-Bullier, Jean. 2001.
-\newblock Integrated model of visual processing.
-\newblock {\em Brain Research Reviews}, {\bf 36}(2-3), 96--107.
-
 \bibitem[\protect\citename{Burdea \& Coiffet, }1993]{burdea_realite_1993}
 Burdea, Grigore, \& Coiffet, Philippe. 1993.
 \newblock {\em La réalité virtuelle}.
 \newblock Paris: Hermès.
 \newblock OCLC: 695543592.
-
-\bibitem[\protect\citename{Burgess, }1999]{burgess_rose_1999}
-Burgess, Arthur~E. 1999.
-\newblock The {Rose} model, revisited.
-\newblock {\em Journal of the Optical Society of America}, {\bf 16}(3),
-  633--646.
 
 \bibitem[\protect\citename{Burkhardt, }2003]{burkhardt_realite_2003}
 Burkhardt, J.-M. 2003.
@@ -155,26 +67,11 @@ Burkhardt, Jean-Marie, Lourdeaux, Domitile, \& Fuchs, Philippe. 1999 (Dec.).
   conduite aux op{\'e}rations en milieu ferroviaire}.
 \newblock {\em In:} {\em {Colloque R{\'e}alit{\'e} Virtuelle et Cognition}}.
 
-\bibitem[\protect\citename{Burt \& Adelson, }1983]{burt_laplacian_1983}
-Burt, P., \& Adelson, E. 1983.
-\newblock The {Laplacian} {Pyramid} as a {Compact} {Image} {Code}.
-\newblock {\em IEEE Transactions on Communications}, {\bf 31}(4), 532--540.
-
-\bibitem[\protect\citename{Burton {\em et~al.}, }1993]{burton_aging_1993}
-Burton, Kerri~B., Owsley, Cynthia, \& Sloane, Michael~E. 1993.
-\newblock Aging and neural spatial contrast sensitivity: {Photopic} vision.
-\newblock {\em Vision Research}, {\bf 33}(7), 939--946.
-
 \bibitem[\protect\citename{Cook {\em et~al.}, }1994]{cook_aging_1994}
 Cook, Christopher~A., Koretz, Jane~F., Pfahnl, Arnold, Hyun, John, \& Kaufman,
   Paul~L. 1994.
 \newblock Aging of the human crystalline lens and anterior segment.
 \newblock {\em Vision Research}, {\bf 34}(22), 2945--2954.
-
-\bibitem[\protect\citename{Daly, }1992]{daly_visible_1992}
-Daly, Scott~J. 1992 (Aug.).
-\newblock Visible differences predictor: an algorithm for the assessment of
-  image fidelity.
 
 \bibitem[\protect\citename{Damelincourt {\em et~al.},
   }2010]{damelincourt_eclairage_2010}
@@ -183,31 +80,6 @@ Damelincourt, Jean-Jacques, Zissis, Georges, Corbé, Christian, \& Paule,
 \newblock {\em Eclairage d'intérieur et ambiances visuelles}.
 \newblock Optique \& {Vision}.
 \newblock Paris: Tec\&Doc.
-
-\bibitem[\protect\citename{de~Lange~Dzn, }1958a]{de_lange_dzn_research_1958}
-de~Lange~Dzn, H. 1958a.
-\newblock Research into the {Dynamic} {Nature} of the {Human} {Fovea}-{Cortex}
-  {Systems} with {Intermittent} and {Modulated} {Light} {I} {Attenuation}
-  {Characteristics} with {White} and {Colored} {Light}.
-\newblock {\em Journal of the Optical Society of America}, {\bf 48}(11), 777.
-
-\bibitem[\protect\citename{de~Lange~Dzn, }1958b]{de_lange_dzn_research_1958-1}
-de~Lange~Dzn, H. 1958b.
-\newblock Research into the {Dynamic} {Nature} of the {Human} {Fovea}-{Cortex}
-  {Systems} with {Intermittent} and {Modulated} {Light} {II} {Phase} {Shift} in
-  {Brightness} and {Delay} in {Color} {Perception}.
-\newblock {\em Journal of the Optical Society of America}, {\bf 48}(11), 784.
-
-\bibitem[\protect\citename{Deeley {\em et~al.}, }1991]{deeley_simple_1991}
-Deeley, Robin~J., Drasdo, Neville, \& Charman, W.~Neil. 1991.
-\newblock A simple parametric model of the human ocular modulation transfer
-  function.
-\newblock {\em Ophthalmic and Physiological Optics}, {\bf 11}(1), 91--93.
-
-\bibitem[\protect\citename{Deering, }1998]{deering_limits_1998}
-Deering, Michael~F. 1998.
-\newblock The {Limits} of {Human} {Vision}.
-\newblock  vol. 2.
 
 \bibitem[\protect\citename{Devisme, }2004]{devisme_optimisation_2004}
 Devisme, Céline. 2004.
@@ -222,13 +94,6 @@ D'hondt, Fabien. 2011.
   {Neurosomatique} et {Comportementale}}.
 \newblock Ph.D. thesis.
 
-\bibitem[\protect\citename{Di~Luca, }2010]{di_luca_new_2010}
-Di~Luca, Massimiliano. 2010.
-\newblock New {Method} to {Measure} {End}-to-{End} {Delay} of {Virtual}
-  {Reality}.
-\newblock {\em Presence: Teleoperators and Virtual Environments}, {\bf 19}(6),
-  569--584.
-
 \bibitem[\protect\citename{Dobelle, }2000]{dobelle_artificial_2000}
 Dobelle, Wm.~H. 2000.
 \newblock Artificial {Vision} for the {Blind} by {Connecting} a {Television}
@@ -239,15 +104,6 @@ Dobelle, Wm.~H. 2000.
 Dodgson, Neil~A. 2004 (May).
 \newblock Variation and {Extrema} of {Human} {Interpupillary} {Distance}.
 
-\bibitem[\protect\citename{Drago {\em et~al.}, }2003]{drago_perceptual_2003}
-Drago, Frédéric, Martens, William~L., Myszkowski, Karol, \& Seidel,
-  Hans-Peter. 2003.
-\newblock Perceptual {Evaluation} of {Tone} {Mapping} {Operators}.
-\newblock {\em Pages  1--1 of:} {\em {ACM} {SIGGRAPH} 2003 {Sketches} \&
-  {Applications}}.
-\newblock {SIGGRAPH} '03.
-\newblock New York, NY, USA: ACM.
-
 \bibitem[\protect\citename{Driscoll {\em et~al.}, }1978]{driscoll_eyes_1978}
 Driscoll, Walter~G., Vaughan, William, \& {Optical Society of America} (eds).
   1978.
@@ -256,37 +112,12 @@ Driscoll, Walter~G., Vaughan, William, \& {Optical Society of America} (eds).
   of America} (eds), {\em Handbook of optics}.
 \newblock New York: McGraw-Hill.
 
-\bibitem[\protect\citename{Ellis {\em et~al.}, }1999]{ellis_sensor_1999}
-Ellis, S.~R., Adelstein, B.~D., Baumeler, S., Jense, G.~J., \& Jacoby, R.~H.
-  1999 (Mar.).
-\newblock Sensor spatial distortion, visual latency, and update rate effects on
-  3D tracking in virtual environments.
-\newblock {\em Pages  218--221 of:} {\em Proceedings {IEEE} {Virtual} {Reality}
-  ({Cat}. {No}. 99CB36316)}.
-
-\bibitem[\protect\citename{Fairchild, }1998]{fairchild_color_1998}
-Fairchild, Mark~D. 1998.
-\newblock {\em Color appearance models}. First edition edn.
-\newblock Wiley-{IS}\&{T} series in imaging science and technology.
-\newblock Chichester, West Sussex: Wiley.
-
 \bibitem[\protect\citename{Fairchild, }2005]{fairchild_human_2005}
 Fairchild, Mark~D. 2005.
 \newblock Human {Color} {Vision}.
 \newblock {\em Pages  1--34 of:} {\em Color appearance models}, 2nd ed edn.
 \newblock Wiley-{IS}\&{T} series in imaging science and technology.
 \newblock Chichester, West Sussex, England ; Hoboken, NJ: J. Wiley.
-
-\bibitem[\protect\citename{Fauster \& Wien, }2007]{fauster_stereoscopic_2007}
-Fauster, L., \& Wien, T.~U. 2007.
-\newblock Stereoscopic {Techniques} in {Computer} {Graphics}.
-\newblock {\em Tu Wien}.
-
-\bibitem[\protect\citename{{Feng Han} {\em et~al.},
-  }2010]{feng_han_investigation_2010}
-{Feng Han}, {Tao Xu}, {Chaoping Tian}, \& {Zhenjie Hou}. 2010.
-\newblock Investigation on human visual response latency.
-\newblock IEEE.
 
 \bibitem[\protect\citename{Ferwerda {\em et~al.}, }1996]{ferwerda_model_1996}
 Ferwerda, James~A., Pattanaik, Sumanta~N., Shirley, Peter, \& Greenberg,
@@ -295,32 +126,11 @@ Ferwerda, James~A., Pattanaik, Sumanta~N., Shirley, Peter, \& Greenberg,
   {Synthesis}.
 \newblock ACM.
 
-\bibitem[\protect\citename{Fiard {\em et~al.}, }2014]{fiard_initial_2014}
-Fiard, Gaelle, Selmi, Sonia-Yuki, Promayon, Emmanuel, Vadcard, Lucile,
-  Descotes, Jean-Luc, \& Troccaz, Jocelyne. 2014.
-\newblock Initial {Validation} of a {Virtual}-{Reality} {Learning}
-  {Environment} for {Prostate} {Biopsies}: {Realism} {Matters}!
-\newblock {\em Journal of Endourology}, {\bf 28}(4), 453--458.
-
-\bibitem[\protect\citename{Fucentese {\em et~al.},
-  }2015]{fucentese_evaluation_2015}
-Fucentese, Sandro~F., Rahm, Stefan, Wieser, Karl, Spillmann, Jonas, Harders,
-  Matthias, \& Koch, Peter~P. 2015.
-\newblock Evaluation of a virtual-reality-based simulator using passive haptic
-  feedback for knee arthroscopy.
-\newblock {\em Knee Surgery, Sports Traumatology, Arthroscopy}, {\bf 23}(4),
-  1077--1085.
-
 \bibitem[\protect\citename{Fuchs {\em et~al.}, }2003]{fuchs_traite_2003}
 Fuchs, Philippe, Moreau, Guillaume, \& Berthoz, Alain. 2003.
 \newblock {\em Le {Traité} de la {Réalité} {Virtuelle}. {Volume} 1.}
 \newblock  Vol. 1.
 \newblock Paris: Les Presses de l'École des Mines.
-
-\bibitem[\protect\citename{Geisler, }2003]{geisler_ideal_2003}
-Geisler, Wilson~S. 2003.
-\newblock Ideal {Observer} {Analysis}.
-\newblock {\em The Visual Neurosciences}, {\bf 10}(7).
 
 \bibitem[\protect\citename{Glassner, }1995]{glassner_principles_1995}
 Glassner, Andrew~S. 1995.
@@ -362,19 +172,6 @@ Hoorn, J.F., Konijn, E.A., \& Van~der Veer, G.C. 2003.
 \newblock {\em Upgrade-Human-Computer Interaction: Overcoming Barriers}, {\bf
   4}(1), 18--25.
 
-\bibitem[\protect\citename{Hunt, }1995]{hunt_reproduction_1995}
-Hunt, Robert W.~G. 1995.
-\newblock {\em The {Reproduction} of {Color}}. 5th edition edn.
-\newblock Kingston-upon-Thames: Fountain Press.
-
-\bibitem[\protect\citename{Jacoby {\em et~al.}, }1996]{jacoby_improved_1996}
-Jacoby, Richard~H., Adelstein, Bernard~Dov, \& Ellis, Stephen~R. 1996.
-\newblock Improved temporal response in virtual environments through system
-  hardware and software reorganization.
-\newblock {\em Pages  271--285 of:} {\em Stereoscopic {Displays} and {Virtual}
-  {Reality} {Systems} {III}},  vol. 2653.
-\newblock International Society for Optics and Photonics.
-
 \bibitem[\protect\citename{James \& Kim, }2010]{kaiser_dorsal_2010}
 James, Thomas~W., \& Kim, Sunah. 2010.
 \newblock Dorsal and {Ventral} {Cortical} {Pathways} for {Visuo}-haptic {Shape}
@@ -389,36 +186,10 @@ Judd, Deane~Brewster, \& Wyszecki, Günter. 1975.
 \newblock Wiley series in pure and applied optics.
 \newblock New York: Wiley.
 
-\bibitem[\protect\citename{Kemeny, }2014]{kemeny_driving_2014}
-Kemeny, Andras. 2014.
-\newblock From driving simulation to virtual reality.
-\newblock ACM Press.
-
 \bibitem[\protect\citename{Kilbride {\em et~al.}, }1986]{kilbride_foveal_1986}
 Kilbride, Paul~E., Hutman, Lucinda~P., Fishman, Marlene, \& Read, John~S. 1986.
 \newblock Foveal cone pigment density difference in the aging human eye.
 \newblock {\em Vision Research}, {\bf 26}(2), 321--325.
-
-\bibitem[\protect\citename{Kingdom \& Prins,
-  }2010]{kingdom_psychophysics:_2010}
-Kingdom, Frederick, \& Prins, Nicolaas. 2010.
-\newblock {\em Psychophysics: {A} {Practical} {Introduction}}.
-\newblock Boston, MA: Elsevier.
-
-\bibitem[\protect\citename{Kuehni, }2015]{kuehni_how_2015}
-Kuehni, Rolf~G. 2015.
-\newblock How many object colors can we distinguish?
-\newblock {\em Color Research \& Application}, July.
-
-\bibitem[\protect\citename{Landis, }1954]{landis_determinants_1954}
-Landis, Carney. 1954.
-\newblock Determinants of the {Critical} {Flicker}-{Fusion} {Threshold}.
-\newblock {\em Physiological Reviews}, {\bf 34}(2), 259--286.
-
-\bibitem[\protect\citename{Langlois, }2013]{langlois_adas_2013}
-Langlois, Sabine. 2013.
-\newblock {ADAS} {HMI} using peripheral vision.
-\newblock ACM Press.
 
 \bibitem[\protect\citename{Le~Grand, }1972]{le_grand_optique_1972}
 Le~Grand, Yves. 1972.
@@ -426,159 +197,27 @@ Le~Grand, Yves. 1972.
 \newblock  Vol. 2.
 \newblock Masson \& Cie.
 
-\bibitem[\protect\citename{Liang {\em et~al.},
-  }1991]{liang_temporal-spatial_1991}
-Liang, Jiandong, Shaw, Chris, \& Green, Mark. 1991.
-\newblock On {Temporal}-spatial {Realism} in the {Virtual} {Reality}
-  {Environment}.
-\newblock {\em Pages  19--25 of:} {\em Proceedings of the 4th {Annual} {ACM}
-  {Symposium} on {User} {Interface} {Software} and {Technology}}.
-\newblock {UIST} '91.
-\newblock New York, NY, USA: ACM.
-
-\bibitem[\protect\citename{Linhares {\em et~al.}, }2008]{linhares_number_2008}
-Linhares, João Manuel~Maciel, Pinto, Paulo~Daniel, \& Nascimento, Sérgio
-  Miguel~Cardoso. 2008.
-\newblock The number of discernible colors in natural scenes.
-\newblock {\em Journal of the Optical Society of America A}, {\bf 25}(12),
-  2918.
-
 \bibitem[\protect\citename{Liou \& Brennan, }1997]{liou_anatomically_1997}
 Liou, Hwey-Lan, \& Brennan, Noel~A. 1997.
 \newblock Anatomically {Accurate}, {Finite} {Model} {Eye} for {Optical}
   {Modeling}.
 \newblock {\em Journal of the Optical Society of America A}, {\bf 14}(8), 1684.
 
-\bibitem[\protect\citename{Lubin, }1995]{lubin_visual_1995}
-Lubin, Jeffrey. 1995.
-\newblock A {Visual} {Discrimination} {Model} for {Imaging} {System} {Design}
-  and {Evaluation}.
-\newblock {\em Pages  245--283 of:} {\em Vision {Models} for {Target}
-  {Detection} and {Recognition}}.
-
-\bibitem[\protect\citename{Lukin, }2009]{lukin_improved_2009}
-Lukin, A. 2009.
-\newblock Improved visible differences predictor using a complex cortex
-  transform.
-
-\bibitem[\protect\citename{Mania {\em et~al.}, }2004]{mania_perceptual_2004}
-Mania, Katerina, Adelstein, Bernard~D., Ellis, Stephen~R., \& Hill, Michael~I.
-  2004.
-\newblock Perceptual {Sensitivity} to {Head} {Tracking} {Latency} in {Virtual}
-  {Environments} with {Varying} {Degrees} of {Scene} {Complexity}.
-\newblock {\em Pages  39--47 of:} {\em Proceedings of the 1st {Symposium} on
-  {Applied} {Perception} in {Graphics} and {Visualization}}.
-\newblock {APGV} '04.
-\newblock New York, NY, USA: ACM.
-
-\bibitem[\protect\citename{Mantiuk {\em et~al.}, }2004]{mantiuk_visible_2004}
-Mantiuk, R., Myszkowski, K., \& Seidel, H.-P. 2004.
-\newblock Visible difference predicator for high dynamic range images.
-\newblock  vol. 3.
-\newblock IEEE.
-
-\bibitem[\protect\citename{Mantiuk {\em et~al.},
-  }2005]{mantiuk_predicting_2005}
-Mantiuk, Rafal, Daly, Scott~J., Myszkowski, Karol, \& Seidel, Hans-Peter. 2005
-  (Mar.).
-\newblock Predicting visible differences in high dynamic range images: model
-  and its calibration.
-
-\bibitem[\protect\citename{Mantiuk \& Ramponi, }2015]{mantiuk_human_2015}
-Mantiuk, Rafal~K., \& Ramponi, Giovanni. 2015.
-\newblock Human {Vision} {Model} {Including} {Age} {Dependencies}.
-
-\bibitem[\protect\citename{Mazur \& Reising, }1990]{mazur_relative_1990}
-Mazur, Kim~M., \& Reising, John~M. 1990.
-\newblock The {Relative} {Effectiveness} of {Three} {Visual} {Depth} {Cues} in
-  a {Dynamic} {Air} {Situation} {Display}.
-\newblock {\em Proceedings of the Human Factors Society Annual Meeting}, {\bf
-  34}(1), 16--20.
-
-\bibitem[\protect\citename{McCann \& Hall, }1980]{mccann_effects_1980}
-McCann, John~J., \& Hall, John~A. 1980.
-\newblock Effects of average-luminance surrounds on the visibility of sine-wave
-  gratings.
-\newblock {\em J. Opt. Soc. Am.}, {\bf 70}(2), 212--219.
-
-\bibitem[\protect\citename{Meehan {\em et~al.}, }2003]{meehan_effect_2003}
-Meehan, M., Razzaque, S., Whitton, M.~C., \& Brooks, F.~P. 2003 (Mar.).
-\newblock Effect of latency on presence in stressful virtual environments.
-\newblock {\em Pages  141--148 of:} {\em {IEEE} {Virtual} {Reality}, 2003.
-  {Proceedings}.}
-
-\bibitem[\protect\citename{Mehrabi {\em et~al.}, }2013]{mehrabi_making_2013}
-Mehrabi, Mostafa, Peek, Edward~M., Wuensche, Burkhard~C., \& Lutteroth,
-  Christof. 2013.
-\newblock Making 3D work: a classification of visual depth cues, 3D display
-  technologies and their applications.
-\newblock {\em Pages  91--100 of:} {\em Proceeding {AUIC} '13 {Proceedings} of
-  the {Fourteenth} {Australasian} {User} {Interface} {Conference}},  vol. 139.
-\newblock Melbourne, Australia: ACM.
-
 \bibitem[\protect\citename{Michelson, }1995]{michelson_studies_1995}
 Michelson, Albert~A. 1995.
 \newblock {\em Studies in optics}. Dover ed edn.
 \newblock New York: Dover Publications.
-
-\bibitem[\protect\citename{Mikkola {\em et~al.}, }2010]{mikkola_relative_2010}
-Mikkola, Maija, Boev, Atanas, \& Gotchev, Atanas. 2010.
-\newblock Relative importance of depth cues on portable autostereoscopic
-  display.
-\newblock ACM Press.
 
 \bibitem[\protect\citename{Mishkin {\em et~al.}, }1983]{mishkin_object_1983}
 Mishkin, Mortimer, Ungerleider, Leslie~G., \& Macko, Kathleen~A. 1983.
 \newblock Object vision and spatial vision: two cortical pathways.
 \newblock {\em Trends in Neurosciences}, {\bf 6}(Jan.), 414--417.
 
-\bibitem[\protect\citename{Moon \& Spencer, }1944]{moon_visual_1944}
-Moon, Parry, \& Spencer, Domina~Eberle. 1944.
-\newblock Visual {Data} {Applied} to {Lighting} {Design}.
-\newblock {\em Journal of the Optical Society of America}, {\bf 34}(10), 605.
-
-\bibitem[\protect\citename{Moorthy \& Bovik, }2013]{moorthy_survey_2013}
-Moorthy, Anush~K., \& Bovik, Alan~C. 2013 (Mar.).
-\newblock A survey on 3D quality of experience and 3D quality assessment.
-
-\bibitem[\protect\citename{Moorthy {\em et~al.},
-  }2013]{moorthy_subjective_2013}
-Moorthy, Anush~Krishna, Su, Che-Chun, Mittal, Anish, \& Bovik, Alan~Conrad.
-  2013.
-\newblock Subjective evaluation of stereoscopic image quality.
-\newblock {\em Signal Processing: Image Communication}, {\bf 28}(8), 870--883.
-
-\bibitem[\protect\citename{Moreau \& Tisseau, }2006]{moreau_traite_2006}
-Moreau, Guillaume, \& Tisseau, Jacques. 2006.
-\newblock {\em Le {Traité} de la {Réalité} {Virtuelle}. {Volume} 3.}
-\newblock  Vol. 3.
-\newblock Paris: École des mines de Paris.
-\newblock OCLC: 288965251.
-
-\bibitem[\protect\citename{Naka \& Rushton, }1966]{naka_attempt_1966}
-Naka, K.~I., \& Rushton, W. A.~H. 1966.
-\newblock An attempt to analyse colour reception by electrophysiology.
-\newblock {\em The Journal of Physiology}, {\bf 185}(3), 556--586.
-
-\bibitem[\protect\citename{Nakamura \& Akashi, }2003]{nakamura_effect_2003}
-Nakamura, Yoshiki, \& Akashi, Yukio. 2003.
-\newblock The Effect of Immediate Background Size on Target Detection.
-\newblock {\em Journal of the Illuminating Engineering Society}, {\bf 32}(2),
-  74--87.
-
 \bibitem[\protect\citename{Neveu, }2012]{neveu_impact_2012}
 Neveu, Pascaline. 2012.
 \newblock {\em Impact des {Dispositifs} de {Visualisation} en {Relief} sur les
   {Composantes} {Oculimotrices} d'{Accocmmodation} et de {Vergence}}.
 \newblock Psychologie, Université de Paris 8 - Vincennes - Saint-Denis.
-
-\bibitem[\protect\citename{Nichols \& Lederman,
-  }1980]{de_lauretis_flicker_1980}
-Nichols, Bill, \& Lederman, Susan~J. 1980.
-\newblock Flicker and {Motion} in {Film}.
-\newblock {\em Pages  96--105 of:} de~Lauretis, Teresa, \& Heath, Stephen
-  (eds), {\em The {Cinematic} {Apparatus}}.
-\newblock London: Palgrave Macmillan UK.
 
 \bibitem[\protect\citename{Ogle, }1968]{ogle_optics:_1968}
 Ogle, Kenneth~N. 1968.
@@ -590,28 +229,10 @@ Owsley, Cynthia, Sekuler, Robert, \& Siemsen, Dennis. 1983.
 \newblock Contrast sensitivity throughout adulthood.
 \newblock {\em Vision Research}, {\bf 23}(7), 689--699.
 
-\bibitem[\protect\citename{Papadakis {\em et~al.},
-  }2011]{papadakis_system_2011}
-Papadakis, Giorgos, Mania, Katerina, \& Koutroulis, Eftichios. 2011.
-\newblock A {System} to {Measure}, {Control} and {Minimize} {End}-to-end {Head}
-  {Tracking} {Latency} in {Immersive} {Simulations}.
-\newblock {\em Pages  581--584 of:} {\em Proceedings of the 10th
-  {International} {Conference} on {Virtual} {Reality} {Continuum} and {Its}
-  {Applications} in {Industry}}.
-\newblock {VRCAI} '11.
-\newblock New York, NY, USA: ACM.
-
 \bibitem[\protect\citename{Patrick, }1992]{patrick_training:_1992}
 Patrick, John. 1992.
 \newblock {\em Training: {Research} and practice.}
 \newblock Academic Press.
-
-\bibitem[\protect\citename{Pattanaik {\em et~al.},
-  }1998]{pattanaik_multiscale_1998}
-Pattanaik, Sumata~N., Ferwerda, James~A., Fairchild, Mark~D., \& Greenberg,
-  Donald~P. 1998.
-\newblock A {Multiscale} {Model} of {Adaptation} and {Spatial} {Vision} for
-  {Realistic} {Image} {Display}.
 
 \bibitem[\protect\citename{Peli, }1990]{peli_contrast_1990}
 Peli, Eli. 1990.
@@ -622,65 +243,6 @@ Peli, Eli. 1990.
 Pelli, Denis~G., \& Bex, Peter. 2013.
 \newblock Measuring contrast sensitivity.
 \newblock {\em Vision Research}, {\bf 90}(Sept.), 10--14.
-
-\bibitem[\protect\citename{Perales {\em et~al.},
-  }2008]{perales_calculation_2008}
-Perales, Esther, Martínez-Verdú, Francisco, \& Viqueira, Valentín. 2008.
-\newblock Calculation of number of distinguishable colours by real normal
-  observers.
-\newblock {\em Conference on Colour in Graphics, Imaging, and Vision}, {\bf
-  2008}(1), 80--84.
-
-\bibitem[\protect\citename{Pointer, }1980]{pointer_gamut_1980}
-Pointer, M.~R. 1980.
-\newblock The {Gamut} of {Real} {Surface} {Colours}.
-\newblock {\em Color Research \& Application}, {\bf 5}(3), 145--155.
-
-\bibitem[\protect\citename{Pointer \& Attridge, }1998]{pointer_number_1998}
-Pointer, M.~R., \& Attridge, G.~G. 1998.
-\newblock The number of discernible colours.
-\newblock {\em Color Research \& Application}, {\bf 23}(1), 52--54.
-
-\bibitem[\protect\citename{Pokorny {\em et~al.}, }1987]{pokorny_aging_1987}
-Pokorny, Joel, Smith, Vivianne~C., \& Lutze, Margaret. 1987.
-\newblock Aging of the human lens.
-\newblock {\em Applied Optics}, {\bf 26}(8), 1437.
-
-\bibitem[\protect\citename{Rea, }1987]{rea_toward_1987}
-Rea, M.~S. 1987.
-\newblock Toward a {Model} of {Visual} {Performance}: {A} {Review} of
-  {Methodologies}.
-\newblock {\em Journal of the Illuminating Engineering Society}, {\bf 16}(1),
-  128--142.
-
-\bibitem[\protect\citename{Rea \& Ouellette, }1988]{rea_visual_1988}
-Rea, M.~S, \& Ouellette, M.~J. 1988.
-\newblock Visual performance using reaction times.
-\newblock {\em Lighting Research and Technology}, {\bf 20}(4), 139--153.
-
-\bibitem[\protect\citename{Rea, }1986]{rea_toward_1986}
-Rea, Mark~S. 1986.
-\newblock Toward a {Model} of {Visual} {Performance}: {Foundations} and {Data}.
-\newblock {\em Journal of the Illuminating Engineering Society}, {\bf 15}(2),
-  41--57.
-
-\bibitem[\protect\citename{Rea \& Ouellette, }1991]{rea_relative_1991}
-Rea, Mark~S., \& Ouellette, Michael~J. 1991.
-\newblock Relative visual performance: {A} basis for application.
-\newblock {\em Lighting Research and Technology}, {\bf 23}(3), 135--144.
-
-\bibitem[\protect\citename{Regan {\em et~al.}, }1999]{regan_real-time_1999}
-Regan, Matthew J.~P., Miller, Gavin S.~P., Rubin, Steven~M., \& Kogelnik,
-  Chris. 1999.
-\newblock A real-time low-latency hardware light-field renderer.
-\newblock ACM Press.
-
-\bibitem[\protect\citename{Reinhart {\em et~al.},
-  }1990]{reinhart_comparison_1990}
-Reinhart, William~F., Beaton, Robert~J., \& Snyder, Harry~L. 1990.
-\newblock Comparison of depth cues for relative depth judgments.
-\newblock  vol. 1256.
-\newblock International Society for Optics and Photonics.
 
 \bibitem[\protect\citename{Robertson, }1990]{robertson_historical_1990}
 Robertson, A.~R. 1990.
@@ -700,30 +262,6 @@ Rogé, Joceline, Pébayle, Thierry, Lambilliotte, Elina, Spitzenstetter,
 \newblock Influence of age, speed and duration of monotonous driving task in
   traffic on the driver’s useful visual field.
 \newblock {\em Vision Research}, {\bf 44}(23), 2737--2744.
-
-\bibitem[\protect\citename{Rogers \& Graham, }1979]{rogers_motion_1979}
-Rogers, Brian, \& Graham, Maureen. 1979.
-\newblock Motion {Parallax} as an {Independent} {Cue} for {Depth} {Perception}.
-\newblock {\em Perception}, {\bf 8}(2), 125--134.
-
-\bibitem[\protect\citename{Rose, }1948]{rose_sensitivity_1948}
-Rose, Albert. 1948.
-\newblock The {Sensitivity} {Performance} of the {Human} {Eye} on an {Absolute}
-  {Scale}*.
-\newblock {\em Journal of the Optical Society of America}, {\bf 38}(2), 196.
-
-\bibitem[\protect\citename{Rushmeier {\em et~al.},
-  }1995]{rushmeier_comparing_1995}
-Rushmeier, H., Ward, G., Piatko, C., Sanders, P., \& Rust, B. 1995.
-\newblock Comparing {Real} and {Synthetic} {Images}: {Some} {Ideas} {About}
-  {Metrics}.
-\newblock  82--91.
-
-\bibitem[\protect\citename{Sagawa \& Takahashi, }2001]{sagawa_spectral_2001}
-Sagawa, Ken, \& Takahashi, Yasuro. 2001.
-\newblock Spectral luminous efficiency as a function of age.
-\newblock {\em Journal of the Optical Society of America A}, {\bf 18}(11),
-  2659.
 
 \bibitem[\protect\citename{Schanda \& {International Commission on
   Illumination}, }2007]{schanda_colorimetry:_2007}
@@ -748,59 +286,12 @@ Sharma, Gaurav, Wu, Wencheng, \& Dalal, Edul~N. 2005.
   supplementary test data, and mathematical observations.
 \newblock {\em Color Research \& Application}, {\bf 30}(1), 21--30.
 
-\bibitem[\protect\citename{Spencer {\em et~al.},
-  }1995]{spencer_physically-based_1995}
-Spencer, Greg, Shirley, Peter, Zimmerman, Kurt, \& Greenberg, Donald~P. 1995.
-\newblock Physically-based glare effects for digital images.
-\newblock ACM Press.
-
-\bibitem[\protect\citename{Steed, }2008]{steed_simple_2008}
-Steed, Anthony. 2008.
-\newblock A {Simple} {Method} for {Estimating} the {Latency} of {Interactive},
-  {Real}-time {Graphics} {Simulations}.
-\newblock {\em Pages  123--129 of:} {\em Proceedings of the 2008 {ACM}
-  {Symposium} on {Virtual} {Reality} {Software} and {Technology}}.
-\newblock {VRST} '08.
-\newblock New York, NY, USA: ACM.
-
-\bibitem[\protect\citename{Stevens, }1957]{stevens_psychophysical_1957}
-Stevens, S.~S. 1957.
-\newblock On the psychophysical law.
-\newblock {\em Psychological Review}, {\bf 64}(3), 153--181.
-
 \bibitem[\protect\citename{Stoffregen {\em et~al.}, }2003]{stoffregen_one_2003}
 Stoffregen, Thomas~A., Bardy, Benoit~G., Smart, L.~J., \& Pagulayan, Randy.
   2003.
 \newblock One the {Nature} and {Evaluation} of {Fidelity} in {Virtual}
   {Environments}.
 \newblock {\em In:} {\em Virtual and {Adaptive} {Environments}}.
-
-\bibitem[\protect\citename{Surdick {\em et~al.}, }1994]{surdick_relevant_1994}
-Surdick, R.~Troy, Davis, Elizabeth~T., King, Robert~A., Corso, Gregory~M.,
-  Shapiro, Alexander, Hodges, Larry, \& Elliot, Kelly. 1994.
-\newblock Relevant {Cues} for the {Visual} {Perception} of {Depth}: {Is}
-  {Where} {You} {See} it {Where} it is?
-\newblock {\em Proceedings of the Human Factors and Ergonomics Society Annual
-  Meeting}, {\bf 38}(19), 1305--1309.
-
-\bibitem[\protect\citename{Surdick {\em et~al.},
-  }1997]{surdick_perception_1997}
-Surdick, R.~Troy, Davis, Elizabeth~T., King, Robert~A., \& Hodges, Larry~F.
-  1997.
-\newblock The {Perception} of {Distance} in {Simulated} {Visual} {Displays}:{A}
-  {Comparison} of the {Effectiveness} and {Accuracy} of {Multiple} {Depth}
-  {Cues} {Across} {Viewing} {Distances}.
-\newblock {\em Presence: Teleoperators and Virtual Environments}, {\bf 6}(5),
-  513--531.
-
-\bibitem[\protect\citename{Swindells {\em et~al.},
-  }2000]{swindells_system_2000}
-Swindells, Colin, Dill, John~C., \& Booth, Kellogg~S. 2000.
-\newblock System {Lag} {Tests} for {Augmented} and {Virtual} {Environments}.
-\newblock {\em Pages  161--170 of:} {\em Proceedings of the 13th {Annual} {ACM}
-  {Symposium} on {User} {Interface} {Software} and {Technology}}.
-\newblock {UIST} '00.
-\newblock New York, NY, USA: ACM.
 
 \bibitem[\protect\citename{Ungerleider \& Mishkin, }1982]{ingle_two_1982}
 Ungerleider, Leslie~G., \& Mishkin, Mortimer. 1982.
@@ -816,11 +307,6 @@ Vidal, Q., Michelin, S., Laborie, B., \& Kemeny, A. 2016.
   {Headlight} {Simulation}.
 \newblock {\em SIMULATION}, {\bf 92}(5), 427--435.
 
-\bibitem[\protect\citename{Vos \& van~den Berg, }1999]{vos_cie_1999}
-Vos, J.J., \& van~den Berg, T.J. 1999.
-\newblock {\em {CIE} 135/1-6 {Disability} {Glare}}.
-\newblock Technical {Report}. CIE.
-
 \bibitem[\protect\citename{Wandell, }1995]{wandell_foundations_1995}
 Wandell, Brian~A. 1995.
 \newblock {\em Foundations of vision}.
@@ -834,43 +320,16 @@ Ward, Greg. 1994.
 \newblock The {Graphics} gems series.
 \newblock Boston: AP Professional.
 
-\bibitem[\protect\citename{Watson \& Solomon, }1997]{watson_model_1997}
-Watson, Andrew~B., \& Solomon, Joshua~A. 1997.
-\newblock Model of visual contrast gain control and pattern masking.
-\newblock {\em Journal of the Optical Society of America A}, {\bf 14}(9), 2379.
-
 \bibitem[\protect\citename{Watson \& Yellott, }2012]{watson_unified_2012}
 Watson, Andrew~B., \& Yellott, John~I. 2012.
 \newblock A {Unified} {Formula} {For} {Light}-adapted {Pupil} {Size}.
 \newblock {\em Investigative Ophthalmology \& Visual Science}, {\bf 53}(14),
   143--143.
 
-\bibitem[\protect\citename{Watson {\em et~al.}, }1998]{watson_effects_1998}
-Watson, Benjamin, Walker, Neff, Ribarsky, William, \& Spaulding, Victoria.
-  1998.
-\newblock Effects of {Variation} in {System} {Responsiveness} on {User}
-  {Performance} in {Virtual} {Environments}.
-\newblock {\em Human Factors}, {\bf 40}(3), 403--414.
-
-\bibitem[\protect\citename{Wen, }2006]{wen_display_2006}
-Wen, Senfar. 2006.
-\newblock Display gamut comparison with number of discernible colors.
-\newblock {\em Journal of Electronic Imaging}, {\bf 15}(4), 043001--043001--8.
-
-\bibitem[\protect\citename{Westheimer, }1986]{westheimer_eye_1986}
-Westheimer, Gerald. 1986.
-\newblock The {Eye} as an {Optical} {Instrument}.
-\newblock {\em In:} {\em Handbook of {Perception} and {Human} {Performance}},
-  vol. 1.
-
 \bibitem[\protect\citename{Winkler, }1999]{winkler_issues_1999}
 Winkler, Stefan. 1999.
 \newblock Issues in vision modeling for perceptual video quality assessment.
 \newblock {\em Signal Processing}, {\bf 78}(2), 231--252.
-
-\bibitem[\protect\citename{Winkler, }2000]{winkler_quality_2000}
-Winkler, Stefan. 2000 (June).
-\newblock Quality {Metric} {Design}: a {Closer} {Look}.
 
 \bibitem[\protect\citename{Winkler \& Vandergheynst,
   }1999]{winkler_computing_1999}
@@ -878,17 +337,6 @@ Winkler, Stefan, \& Vandergheynst, Pierre. 1999.
 \newblock Computing Isotropic Local Contrast From Oriented Pyramid
   Decompositions.
 \newblock {\em Pages  420--424 of:} {\em in Proc. ICIP}.
-
-\bibitem[\protect\citename{Witmer \& Singer, }1998]{witmer_measuring_1998}
-Witmer, Bob~G., \& Singer, Michael~J. 1998.
-\newblock Measuring {Presence} in {Virtual} {Environments}: {A} {Presence}
-  {Questionnaire}.
-\newblock {\em Presence: Teleoperators and Virtual Environments}, {\bf 7}(3),
-  225--240.
-
-\bibitem[\protect\citename{Woods {\em et~al.}, }1993]{woods_image_1993}
-Woods, Andrew~J., Docherty, Tom, \& Koch, Rolf. 1993 (Sept.).
-\newblock Image distortions in stereoscopic video systems.
 
 \bibitem[\protect\citename{Wyszecki \& Stiles, }2000]{wyszecki_color_2000}
 Wyszecki, Günter, \& Stiles, W.~S. 2000.
