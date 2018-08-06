@@ -1,5 +1,5 @@
 % CLASSE PRINCIPALE DU DOCUMENT
-	\documentclass[a4paper,twoside,11pt,openany,fleqn]{book}
+	\documentclass[a4paper,twoside,11pt,openright,fleqn]{book}
 	% options: openright, openany
 	
 % BIBLIOGRAPHIE (A load avant frenchb/babel sinon warning)
@@ -180,10 +180,17 @@
 	%\usepackage{nomencl}
 	%\makenomenclature[title=Nomemclature, intoc]
 	
+% AJOUTER UNE PAGE BLANCHE
+	\newcommand{\blankpage}{
+	\newpage
+	\mbox{}
+	\newpage	
+	}
+	
 % RESET CHAPTER COUNTER FOR PARTS
-	\makeatletter
-	\@addtoreset{chapter}{part}
-	\makeatother
+	%\makeatletter
+	%\@addtoreset{chapter}{part}
+	%\makeatother
 	
 % NUMEROTATION DES FIGURES/TABLES/EQUATIONS INDEP DU CHAPITRE
 	\usepackage{chngcntr}

@@ -1,28 +1,116 @@
 \BOOKMARK [0][-]{chapter*.2}{Table des figures}{}% 1
 \BOOKMARK [0][-]{chapter*.3}{Liste des tableaux}{}% 2
-\BOOKMARK [-1][-]{part.1}{I \311tat de l'Art: Partie Th\351orique}{}% 3
-\BOOKMARK [0][-]{chapter.1.1}{D\351finition du r\351alisme}{part.1}% 4
-\BOOKMARK [1][-]{section.1.1.1}{Enjeux et probl\351matique}{chapter.1.1}% 5
-\BOOKMARK [1][-]{section.1.1.2}{D\351finitions usuelles}{chapter.1.1}% 6
-\BOOKMARK [1][-]{section.1.1.3}{D\351finitions dans le domaine de la R\351alit\351 Virtuelle}{chapter.1.1}% 7
-\BOOKMARK [1][-]{section.1.1.4}{D\351finition de la multi-sensorialit\351 3D}{chapter.1.1}% 8
-\BOOKMARK [1][-]{section.1.1.5}{Cadre d'\351tude}{chapter.1.1}% 9
-\BOOKMARK [0][-]{chapter.1.2}{Fonctionnement de la vision}{part.1}% 10
-\BOOKMARK [1][-]{section.1.2.1}{Structure de l'\234il}{chapter.1.2}% 11
-\BOOKMARK [1][-]{section.1.2.2}{Mod\351lisation de l'\234il}{chapter.1.2}% 12
-\BOOKMARK [1][-]{section.1.2.3}{Vision binoculaire}{chapter.1.2}% 13
-\BOOKMARK [1][-]{section.1.2.4}{Traitement post-r\351tinien}{chapter.1.2}% 14
-\BOOKMARK [0][-]{chapter.1.3}{Perception de la couleur}{part.1}% 15
-\BOOKMARK [1][-]{section.1.3.1}{Espaces colorim\351triques}{chapter.1.3}% 16
-\BOOKMARK [1][-]{section.1.3.2}{Observateurs standards}{chapter.1.3}% 17
-\BOOKMARK [1][-]{section.1.3.3}{Illuminants}{chapter.1.3}% 18
-\BOOKMARK [1][-]{section.1.3.4}{Equations de diff\351rentiations des couleurs}{chapter.1.3}% 19
-\BOOKMARK [0][-]{chapter.1.4}{Contraste}{part.1}% 20
-\BOOKMARK [1][-]{section.1.4.1}{D\351finitions math\351matiques}{chapter.1.4}% 21
-\BOOKMARK [1][-]{section.1.4.2}{Calcul de seuil}{chapter.1.4}% 22
-\BOOKMARK [1][-]{section.1.4.3}{M\351thodes classiques de calcul sur un \351cran}{chapter.1.4}% 23
-\BOOKMARK [0][-]{chapter.1.5}{Perception visuelle de la profondeur}{part.1}% 24
-\BOOKMARK [0][-]{chapter.1.6}{Influences Physiologiques}{part.1}% 25
-\BOOKMARK [1][-]{section.1.6.1}{Variations morphologiques}{chapter.1.6}% 26
-\BOOKMARK [1][-]{section.1.6.2}{\302ge}{chapter.1.6}% 27
-\BOOKMARK [-1][-]{figure.1.6.22}{Bibliographie}{}% 28
+\BOOKMARK [-1][-]{chapter*.4}{Introduction g\351n\351rale}{}% 3
+\BOOKMARK [-1][-]{part.1}{I \311tat de l'Art: Partie Th\351orique}{}% 4
+\BOOKMARK [0][-]{chapter.1}{D\351finition du r\351alisme}{part.1}% 5
+\BOOKMARK [1][-]{section.1.1}{Enjeux et probl\351matique}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{D\351finitions usuelles}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{D\351finitions dans le domaine de la R\351alit\351 Virtuelle}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{D\351finition de la multi-sensorialit\351 3D}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Cadre d'\351tude}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Fonctionnement de la vision}{part.1}% 11
+\BOOKMARK [1][-]{section.2.1}{Structure de l'\234il}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Mod\351lisation de l'\234il}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Vision binoculaire}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Traitement post-r\351tinien}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Perception de la couleur}{part.1}% 16
+\BOOKMARK [1][-]{section.3.1}{Espaces colorim\351triques}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Observateurs standards}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Illuminants}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Equations de diff\351rentiations des couleurs}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Contraste}{part.1}% 21
+\BOOKMARK [1][-]{section.4.1}{D\351finitions math\351matiques}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Calcul de seuil}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.3}{M\351thodes classiques de calcul sur un \351cran}{chapter.4}% 24
+\BOOKMARK [0][-]{chapter.5}{Perception visuelle de la profondeur}{part.1}% 25
+\BOOKMARK [0][-]{chapter.6}{Influences Physiologiques}{part.1}% 26
+\BOOKMARK [1][-]{section.6.1}{Variations morphologiques}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.2}{\302ge}{chapter.6}% 28
+\BOOKMARK [-1][-]{part.2}{II Premi\350re approche: mod\350les de vision}{}% 29
+\BOOKMARK [0][-]{chapter*.5}{Introduction}{part.2}% 30
+\BOOKMARK [0][-]{chapter.7}{\311tat de l'Art}{part.2}% 31
+\BOOKMARK [1][-]{section.7.1}{Mod\350les principaux}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.2}{P\351rennit\351 des mod\350les principaux}{chapter.7}% 33
+\BOOKMARK [1][-]{section.7.3}{Mod\350les de Mantiuk et al. [2004, 2005, 2015]}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.4}{Reproduction de tons}{chapter.7}% 35
+\BOOKMARK [0][-]{chapter.8}{Mod\350le de Pattanaik et al.}{part.2}% 36
+\BOOKMARK [0][-]{chapter.9}{Mod\350le de Mantiuk \046 Ramponi}{part.2}% 37
+\BOOKMARK [0][-]{chapter*.6}{Conclusion}{part.2}% 38
+\BOOKMARK [-1][-]{part.3}{III Deuxi\350me approche: score de r\351alisme}{}% 39
+\BOOKMARK [0][-]{chapter*.7}{Introduction}{part.3}% 40
+\BOOKMARK [0][-]{chapter.10}{Dans la litt\351rature}{part.3}% 41
+\BOOKMARK [1][-]{section.10.1}{Mod\350le de Rose}{chapter.10}% 42
+\BOOKMARK [1][-]{section.10.2}{Observateur id\351al \046 th\351orie de d\351tection du signal}{chapter.10}% 43
+\BOOKMARK [1][-]{section.10.3}{Tableau de Burdea \046 Coiffet}{chapter.10}% 44
+\BOOKMARK [0][-]{chapter.11}{Score de r\351alisme}{part.3}% 45
+\BOOKMARK [1][-]{section.11.1}{Ambition}{chapter.11}% 46
+\BOOKMARK [1][-]{section.11.2}{M\351thodologie}{chapter.11}% 47
+\BOOKMARK [0][-]{chapter.12}{Proposition de mod\350le}{part.3}% 48
+\BOOKMARK [1][-]{section.12.1}{Propositions pr\351liminaires}{chapter.12}% 49
+\BOOKMARK [1][-]{section.12.2}{Mod\350le d\351finitif}{chapter.12}% 50
+\BOOKMARK [0][-]{chapter.13}{Indices de vision}{part.3}% 51
+\BOOKMARK [1][-]{section.13.1}{Contraste \046 luminosit\351}{chapter.13}% 52
+\BOOKMARK [1][-]{section.13.2}{Images par seconde}{chapter.13}% 53
+\BOOKMARK [1][-]{section.13.3}{Couleurs}{chapter.13}% 54
+\BOOKMARK [1][-]{section.13.4}{Champ de vision}{chapter.13}% 55
+\BOOKMARK [1][-]{section.13.5}{Acuit\351 monoscopique}{chapter.13}% 56
+\BOOKMARK [1][-]{section.13.6}{Acuit\351 st\351r\351oscopique}{chapter.13}% 57
+\BOOKMARK [0][-]{chapter.14}{Indices d'immersion}{part.3}% 58
+\BOOKMARK [1][-]{section.14.1}{Latence}{chapter.14}% 59
+\BOOKMARK [1][-]{section.14.2}{Champ de regard}{chapter.14}% 60
+\BOOKMARK [1][-]{section.14.3}{St\351r\351oscopie}{chapter.14}% 61
+\BOOKMARK [1][-]{section.14.4}{Tracking}{chapter.14}% 62
+\BOOKMARK [1][-]{section.14.5}{Uniformit\351}{chapter.14}% 63
+\BOOKMARK [1][-]{section.14.6}{Orientation des cam\351ras}{chapter.14}% 64
+\BOOKMARK [0][-]{chapter.15}{Pond\351ration du mod\350le}{part.3}% 65
+\BOOKMARK [1][-]{section.15.1}{Contraste, luminance, taille et champs visuels}{chapter.15}% 66
+\BOOKMARK [1][-]{section.15.2}{Tracking, st\351r\351oscopie, convergence des cam\351ras et couleurs}{chapter.15}% 67
+\BOOKMARK [1][-]{section.15.3}{Conclusion}{chapter.15}% 68
+\BOOKMARK [0][-]{chapter.16}{Etude exp\351rimentale}{part.3}% 69
+\BOOKMARK [1][-]{section.16.1}{Objectif}{chapter.16}% 70
+\BOOKMARK [1][-]{section.16.2}{Apparatus}{chapter.16}% 71
+\BOOKMARK [1][-]{section.16.3}{R\351sultats}{chapter.16}% 72
+\BOOKMARK [1][-]{section.16.4}{Discussion}{chapter.16}% 73
+\BOOKMARK [0][-]{chapter*.17}{Conclusion}{part.3}% 74
+\BOOKMARK [-1][-]{part.4}{IV Partie exp\351rimentale: contraste et luminance}{}% 75
+\BOOKMARK [0][-]{chapter*.18}{Introduction}{part.4}% 76
+\BOOKMARK [0][-]{chapter.17}{Mod\350les de Rea}{part.4}% 77
+\BOOKMARK [1][-]{section.17.1}{Premi\350re mod\351lisation de la performance visuelle relative}{chapter.17}% 78
+\BOOKMARK [1][-]{section.17.2}{M\351thode des temps de r\351action}{chapter.17}% 79
+\BOOKMARK [0][-]{chapter.18}{Mesures pr\351liminaires}{part.4}% 80
+\BOOKMARK [1][-]{section.18.1}{Luminance globale \(luminance de fond\)}{chapter.18}% 81
+\BOOKMARK [1][-]{section.18.2}{Luminance de la cible \(luminance de tache\)}{chapter.18}% 82
+\BOOKMARK [1][-]{section.18.3}{Diam\350tre pupillaire}{chapter.18}% 83
+\BOOKMARK [1][-]{section.18.4}{Absorption des verres des lunettes 3D}{chapter.18}% 84
+\BOOKMARK [0][-]{chapter.19}{Protocole exp\351rimental}{part.4}% 85
+\BOOKMARK [1][-]{section.19.1}{Dispositif}{chapter.19}% 86
+\BOOKMARK [1][-]{section.19.2}{Choix des conditions exp\351rimentales}{chapter.19}% 87
+\BOOKMARK [0][-]{chapter.20}{R\351sultats}{part.4}% 88
+\BOOKMARK [1][-]{section.20.1}{Pr\351dictions du mod\350le th\351orique}{chapter.20}% 89
+\BOOKMARK [1][-]{section.20.2}{Mesures r\351elles}{chapter.20}% 90
+\BOOKMARK [1][-]{section.20.3}{Analyse et discussion}{chapter.20}% 91
+\BOOKMARK [0][-]{chapter*.19}{Conclusion}{part.4}% 92
+\BOOKMARK [-1][-]{part.5}{V Partie exp\351rimentale: latence}{}% 93
+\BOOKMARK [0][-]{chapter*.20}{Introduction}{part.5}% 94
+\BOOKMARK [0][-]{chapter.21}{Contexte}{part.5}% 95
+\BOOKMARK [1][-]{section.21.1}{D\351finition et mesure des effets de la latence}{chapter.21}% 96
+\BOOKMARK [1][-]{section.21.2}{Perception de la latence}{chapter.21}% 97
+\BOOKMARK [1][-]{section.21.3}{Mesure de la latence}{chapter.21}% 98
+\BOOKMARK [0][-]{chapter.22}{Mise en place du dispositif exp\351rimental}{part.5}% 99
+\BOOKMARK [1][-]{section.22.1}{T\342che \340 effectuer}{chapter.22}% 100
+\BOOKMARK [1][-]{section.22.2}{Ajout de latence artificielle}{chapter.22}% 101
+\BOOKMARK [1][-]{section.22.3}{Mesures pr\351liminaires}{chapter.22}% 102
+\BOOKMARK [0][-]{chapter.23}{Conclusions exp\351rimentales}{part.5}% 103
+\BOOKMARK [1][-]{section.23.1}{R\351sultats}{chapter.23}% 104
+\BOOKMARK [1][-]{section.23.2}{Apport au score de r\351alisme}{chapter.23}% 105
+\BOOKMARK [0][-]{chapter*.21}{Conclusion}{part.5}% 106
+\BOOKMARK [-1][-]{chapter*.22}{Discussion g\351n\351rale et perspectives}{}% 107
+\BOOKMARK [-1][-]{figure.23.92}{Bibliographie}{}% 108
+\BOOKMARK [-1][-]{part*.24}{ANNEXES}{}% 109
+\BOOKMARK [0][-]{appendix*.25}{Lois et effets en colorim\351trie}{part*.24}% 110
+\BOOKMARK [0][-]{appendix*.26}{Calcul de la performance visuelle, m\351thode des temps de r\351action}{part*.24}% 111
+\BOOKMARK [0][-]{appendix*.27}{Luminance de fond}{part*.24}% 112
+\BOOKMARK [0][-]{appendix*.28}{Questionnaires}{part*.24}% 113
+\BOOKMARK [1][-]{section*.29}{Questionnaire de Propension \340 l'Immersion - Version canadienne-fran\347aise}{appendix*.28}% 114
+\BOOKMARK [1][-]{section*.29}{Questionnaire de Cybermalaise - Version canadienne-fran\347aise}{appendix*.28}% 115
+\BOOKMARK [1][-]{section*.29}{Questionnaire de Pr\351sence - Version canadienne-fran\347aise}{appendix*.28}% 116

@@ -18,30 +18,30 @@
 	
 	% Introduction générale
 	\mainmatter
-%	\include{Chapitres/INTRO}
+	\include{Chapitres/INTRO}
 	
 	% Chapitres
 	\pagestyle{main}
 	\include{Chapitres/EDLA}
-%	\include{Chapitres/MDLVI}
-%	\include{Chapitres/SDR-INTRO}
-%		\include{Chapitres/SDR-GENE}
-%		\include{Chapitres/SDR-DISP}
-%		\include{Chapitres/SDR-IMM}
-%		\include{Chapitres/SDR-POND}
-%		\include{Chapitres/SDR-EXPE}
-%		\include{Chapitres/SDR-CONCL}
-%	\include{Chapitres/EXPE1}
-%		\include{Chapitres/EXPE1-REA}
-%		\include{Chapitres/EXPE1-PRELIM}
-%		\include{Chapitres/EXPE1-MANIP}
-%		\include{Chapitres/EXPE1-CONCL}
-%	\include{Chapitres/EXPE2}
-%		\include{Chapitres/EXPE2-MANIP}
-%		\include{Chapitres/EXPE2-CONCL}
+	\include{Chapitres/MDLVI}
+	\include{Chapitres/SDR-INTRO}
+		\include{Chapitres/SDR-GENE}
+		\include{Chapitres/SDR-DISP}
+		\include{Chapitres/SDR-IMM}
+		\include{Chapitres/SDR-POND}
+		\include{Chapitres/SDR-EXPE}
+		\include{Chapitres/SDR-CONCL}
+	\include{Chapitres/EXPE1}
+		\include{Chapitres/EXPE1-REA}
+		\include{Chapitres/EXPE1-PRELIM}
+		\include{Chapitres/EXPE1-MANIP}
+		\include{Chapitres/EXPE1-CONCL}
+	\include{Chapitres/EXPE2}
+		\include{Chapitres/EXPE2-MANIP}
+		\include{Chapitres/EXPE2-CONCL}
 	
 	% Conclusion générale	
-%	\include{Chapitres/CONCL}
+	\include{Chapitres/CONCL}
 
 	% Bibliographie
 	\backmatter
@@ -53,14 +53,15 @@
 	\appendix
 	\renewcommand{\thepage}{\alphalph{\value{page}}}
 	\setcounter{page}{0} %\setcounter{table}{0} \setcounter{figure}{0}
-%	\include{Chapitres/ANXE}
-%	\include{Chapitres/QUEST}
+	\include{Chapitres/ANXE}
+	\include{Chapitres/QUEST}
 
 	% Addendum
 	\pagestyle{empty}
 %	\include{Chapitres/PUBL}
 
 	% Quatrième de couverture
+	\blankpage
 	\includepdf[pages=-,pagecommand={}]{Illustrations/QuatriemeCouverture.pdf}
 
 \end{document}
