@@ -5,12 +5,12 @@
 	\par Le terme <<~modèle de vision~>> est très générique et représente en fait un assemblage de briques élémentaires, modulables en fonction des applications et de la finesse du modèle recherchée. Définitions possibles:
 	\begin{itemize}
 		\item \citep{moreau_traite_2006}: <<~Algorithme qui prend en entrée une image et qui renvoie l'interprétation qu'en fait le système visuel humain.~>>
-		\item \citep{pattanaik_multiscale_1998}: <<~Les modèles de vision ont pour objectif de relier la perception visuelle d'un observateur dans une scène virtuelle à la perception visuelle d'un sujet regardant un dispositif d'affichage. Le but final étant de spécifier une transformation dont l'objectif serait de corréler visuellement la scène virtuelle à l'image affichée.~>>
+		\item \citep{pattanaik_multiscale_1998}: <<~Les modèles de vision ont pour objectif de relier la perception visuelle d'un observateur virtuel à la perception visuelle d'un sujet réel regardant un dispositif d'affichage. Le but final étant de caractériser la correspondance visuelle entre la scène virtuelle et l'affichage réel.~>>
 	\end{itemize}
 	
 	\par Un modèle de vision est donc une construction théorique qui vise à reproduire et prédire le fonctionnement de la vision humaine. Le modèle va ainsi intégrer tout un système de modélisation du passage de la lumière dans l'œil, de la captation par la rétine puis du traitement de la lumière par le cerveau. Le modèle de vision est à différencier du prédicateur de vision en cela que ce dernier est inclus, avec d'autres sous-modèles, dans le modèle de vision. Un modèle de vision peut notamment aussi intégrer une prédiction des effets de l'âge mais aussi des comportements plus spécifiques comme le mécanisme d'attention visuelle, ou la reproduction de tons.
 	
-	\par Nous allons maintenant présenter dans les sections suivantes un état de l'Art partiel des modèles de vision, prédicateurs de vision et modèles de reproduction de tons, puis détailler deux modèles particulièrement intéressants:
+	\par Nous allons maintenant présenter dans les sections suivantes un état de l'art partiel des modèles de vision, prédicateurs de vision et modèles de reproduction de tons, puis détailler deux modèles particulièrement intéressants:
 	\begin{itemize}
 		\item Modèle de vision avec vieillissement du système optique \citep{mantiuk_human_2015}.
 		\item Prédicateur de vision chromatique complet \citep{pattanaik_multiscale_1998}.
@@ -19,7 +19,7 @@
 	\chapter{État de l'Art}
 	\par L'état de l'Art ici présenté n'a pas volonté d'être exhaustif sur tous les modèles de vision tant il en existe de types et de variations. On présente néanmoins des classiques ainsi que certaines de leurs ramifications.
 	
-	\par Si on a définit dans la section précédente le modèle de vision, il reste encore à déterminer les actions et objectifs de deux types de sous-modèles, le Visual Differences Predictor (VDP) et la reproduction de tons:
+	\par Si on a défini dans la section précédente le modèle de vision, il reste encore à déterminer les actions et objectifs de deux types de sous-modèles, le Visual Differences Predictor (VDP) et la reproduction de tons:
 	\begin{itemize}
 		\item La reproduction de tons, ou \textit{tonemapping}, est une technique qui vise à contrebalancer les limites techniques des capteurs d'image par rapport à l'œil humain. En effet, celui ci est -comme on a pu voir précédemment- capable d'intégrer en temps réel un très grand nombre de couleurs et surtout de grands écarts de luminosité, tandis qu'un capteur technologique est (grandement) limité. Le tonemapping est alors une technique pour ramener les informations hors-cadre du capteur dans son champ d'action.
 		\item Le VDP est un type d'algorithme qui est amené à donner, objectivement, les différences entre deux traitements d'une même image, par exemple entre l'image initiale et une image après compression. Si le VDP est modélisé sur le système visuel humain, on pourra savoir si les différences entre traitements d'image sont visibles à l'œil nu. Un VDP HDR aura pour objectif de s'assurer que l'interpolation des luminances non-affichables en luminances affichables est efficace.
@@ -76,7 +76,7 @@
 	\chapter{Modèle de Pattanaik \textit{et al.}}
 	\par Le modèle de vision proposé par \citep{pattanaik_multiscale_1998} se positionne face à deux problématiques majeures dans le domaine de l'imagerie informatique: afficher des images ayant un intervalle de luminosité très grand et surtout arriver à afficher des images qui correspondent à une perception similaire à celle de la vision humaine.
 	
-	\par Il part du principe que beaucoup de modèles ne sont capables de gérer que des scènes uniquement achromatiques en entrée et non pas des scènes avec des caractéristiques plus proches d'un scène naturelle: lumière du jour, amplitude de luminosité étendue, acuité non-uniforme de l'observateur, ...
+	\par Il part du principe que beaucoup de modèles ne sont capables de gérer que des informations achromatiques en entrée et font l'impasse sur des caractéristiques plus proches d'une scène naturelle: lumière du jour, amplitude de luminosité étendue, acuité non-uniforme de l'observateur, ...
 	
 	\par Les auteurs du modèle mettent donc en avant trois points clefs qu'il convient d'utiliser ou d'atteindre dans un modèle de vision:
 	\begin{itemize}
@@ -99,13 +99,13 @@
 		\item Décomposition de l'image via des filtres Gaussiens
 		\item Compensation de la dispersion optique dans l'œil, modèle de \citep{westheimer_eye_1986}
 		\item Compensation de l'éblouissement, modèle de \citep{spencer_physically-based_1995}
-		\item Échantillonnage spectral de tous les étages de la pyramide sauf le plus bas (dernier) \citep{fairchild_color_1998,wyszecki_color_2000}
+		\item Échantillonnage spectral de tous les étages de la pyramide sauf le plus bas \citep{fairchild_color_1998,wyszecki_color_2000}
 		\item Calibration des signaux d'entrée
 		\item Traitement spatial des images de chaque canal \citep{burt_laplacian_1983, peli_contrast_1990}
 		\item Conversion en canaux chromatiques et achromatique (théorie des processus antagoniques) \citep{hunt_reproduction_1995,fairchild_color_1998}
 		\item Passage par des transducteurs de contraste \citep{watson_model_1997}
 		\item Combinaison des signaux des cônes et des bâtonnets
-		\item Traitement de l'étage de la pyramide restant (dernier) \citep{fairchild_color_1998}
+		\item Traitement de l'étage de la pyramide restant (le plus bas, qui a été laissé de côté dans la quatrième étape) \citep{fairchild_color_1998}
 		\item Résultats du modèle visuel
 		\item Reconstruction de l'image par traitement inversé pour l'affichage
 	\end{itemize}
@@ -143,7 +143,7 @@
 		\label{eq:pattanaik_peli_adapted_contrast}
 	\end{equation}
 	
-	\par Les images contrastée obtenue juste avant, sont ensuite transformées encore, jusqu'au système $AC_1C_2$ qui reprend la Théorie des processus antagoniques, c'est à dire la découpage du traitement de l'image par le cerveau en un canal achromatique ($A$), et deux canaux chromatiques ($C_1$ et $C_2$), voir sections précédentes sur la couleur. La transformation se fait au moyen d'une banale matrice de passage \citep{hunt_reproduction_1995,fairchild_color_1998}:
+	\par Les images contrastées obtenues juste avant, sont ensuite transformées encore, jusqu'au système $AC_1C_2$ qui reprend la Théorie des processus antagoniques, c'est à dire la découpage du traitement de l'image par le cerveau en un canal achromatique ($A$), et deux canaux chromatiques ($C_1$ et $C_2$), voir sections précédentes sur la couleur. La transformation se fait au moyen d'une banale matrice de passage \citep{hunt_reproduction_1995,fairchild_color_1998}:
 	\begin{equation}
 		\left[ \begin{array}{c}A\\ C_1\\ C_2\end{array} \right] = \left[ \begin{array}{ccc}
 		2.0 & 1.0 & 0.05\\
@@ -255,7 +255,7 @@
 	
 	\par L'éblouissement (ou \textit{Sensibility Glare} en anglais) est une pollution lumineuse qui intervient en présence de lumière très vive directement dans le champ de vision. Cette pollution atténue les hautes fréquences spatiales et réduit le contraste perçu sur la rétine. La prise en compte de la sensibilité à l'éblouissement en fonction de l'âge est elle aussi étayée par un modèle de la CIE: \citep{vos_cie_1999}.
 	
-	\par Le diamètre pupillaire moyen tend à diminuer avec l'âge, on parle alors de \textit{myosis} (l'effet contraire étant la \textit{mydriase}). Ce phénomène a été modélisé par un grand nombre de chercheurs différents ; \citep{watson_unified_2012} proposent à la fois une review des différents modèles mais surtout un modèle unifié pour l'évolution du diamètre de la pupille. C'est ce modèle qui est utilisé dans le modèle de vision avec vieillissement de l'œil de \citep{mantiuk_human_2015}.
+	\par Le diamètre pupillaire moyen tend à diminuer avec l'âge, on parle alors de \textit{myosis} (l'effet contraire étant la \textit{mydriase}). Ce phénomène a été modélisé par un grand nombre de chercheurs différents ; \citep{watson_unified_2012} proposent à la fois une revue des différents modèles mais surtout un modèle unifié pour l'évolution du diamètre de la pupille. C'est ce modèle qui est utilisé dans le modèle de vision avec vieillissement de l'œil de \citep{mantiuk_human_2015}.
 	
 	\par Le modèle est le suivant (Eq. \ref{eq:diam_pupille_aging}):
 	\begin{equation}
@@ -267,7 +267,7 @@
 		\label{eq:diam_pupille_aging}
 	\end{equation}
 	
-	\par Avec $S$ le diamètre en question, $a$ l'âge de l'individu, $L$ le niveau de luminosité auquel l'œil est adapté (en $cd/m^2$) et $f$ la zone de champ.
+	\par Avec $S$ le diamètre pupillaire, $a$ l'âge de l'individu, $L$ le niveau de luminosité auquel l'œil est adapté (en $cd/m^2$) et $f$ la zone de champ.
 	
 	\par Ensuite, \citep{burton_aging_1993} ont mesuré la perte de sensibilité causée par l'affectation des récepteurs et des processus cognitifs entre des jeunes adultes et des personnes âgées. Ces mesures ont été réalisées avec un laser permettant d'ignorer le système optique et d'envoyer directement une image sur la rétine. Les résultats donnent de légères variations entre les populations d'âge différent. \citep{mantiuk_human_2015} proposent alors leur propre modèle empirique (Eq. \ref{eq:neural_component_model_mantiuk}):
 	\begin{equation}
@@ -282,8 +282,8 @@
 	\chapter*{Conclusion}
 	\addcontentsline{toc}{chapter}{Conclusion}
 	\markboth{CONCLUSION}{}
-	\par L'étude des modèles de visions et leurs traductions vers le domaine de l'informatique semble être un domaine déjà fortement décrit et bien maitrisé. Une contribution directe dans ce domaine n'est alors ni très évidente ni très pertinente. On pourrait à la rigueur tenter d'appliquer le modèle de Pattanaik \textit{et al.} en temps réel mais la portée scientifique semble limitée. On décide alors de laisser cette approche de côté pour en prendre une nouvelle.
+	\par L'étude des modèles de visions et leurs traductions vers le domaine de l'informatique semble être un domaine déjà fortement décrit et bien maitrisé. Une contribution directe dans ce domaine n'est alors ni très évidente ni très pertinente. On pourrait éventuellement tenter d'appliquer le modèle de Pattanaik \textit{et al.} en temps réel mais la portée scientifique semble limitée. On décide alors de laisser cette approche de côté pour en prendre une nouvelle.
 	
 	\par Plutôt que de s'intéresser à une capture d'image respectant le même processus que la vision humaine, on se penche sur un autre aspect jouant un rôle prépondérant dans le réalisme: l'affichage correct de ce qui a été capturé dans la scène 3D. En effet, si une fois l'image capturée proprement (via une mise en place du modèle de Pattanaik \textit{et al.} par exemple), si le système n'est pas capable de restituer l'image dans la même gamme de perception que celle de l'œil humain, le réalisme vis à vis de l'utilisateur sera amoindri.
 	
-	\par On propose alors, non pas de développer un modèle d'affichage, mais une méthode pour quantifier la qualité du système immersif, en fonction de la modélisation du système visuel humain.
+	\par On propose alors, non pas de développer un modèle d'affichage, mais une méthode pour quantifier la qualité du système d'affichage immersif, en fonction de la modélisation du système visuel humain.
