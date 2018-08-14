@@ -11,9 +11,9 @@
 	\section{Luminance globale (luminance de fond)}
 	\par La première étape est de mesurer la luminance globale du simulateur, toutes faces allumées. Dans notre expérimentation, le simulateur sert à la fois de support pour afficher les cibles visuelles à percevoir et à la fois de source principale de lumière, toutes autre lampe dans la pièce étant éteinte. Le luminance globale de l'expérimentation est donc la luminance des écrans, que l'on appellera ici <<~luminance de fond~>>. Elle sert pour les calculs de contraste, les cibles étant affichées directement sur une couleur uniforme sur l'écran.
 	
-	\par Même si il existe des manières théoriques de convertir une couleur et son code RGB associé en une luminance générée par l'écran, il est nécessaire pour nous de mesurer cette transformation. En effet, il existe un certain nombre de biais tels que l'influence des autres écrans sur l'écran mesuré, l'influence des sources mineures de lumière, la fatigue de la lampe du projecteur, la dégradation de l'écran. En mesurant la relation couleur luminance générée directement dans le simulateur, on se débarrasse de tous ces biais et on peut viser la fonction de transfert réelle.
+	\par Même si il existe des méthodes théoriques de convertir une couleur et son code RGB associé en une luminance générée par l'écran, il est nécessaire pour nous de mesurer cette transformation. En effet, il existe un certain nombre de biais tels que l'influence des autres écrans sur l'écran mesuré, l'influence des sources mineures de lumière, la fatigue de la lampe du projecteur, la dégradation de l'écran. En mesurant la relation couleur luminance générée directement dans le simulateur, on se débarrasse de tous ces biais et on peut viser la fonction de transfert réelle.
 	
-	\par On effectue l'intégralité de nos mesures sur la face avant du simulateur car l'expérimentation ne se déroulera que sur cette face. Néanmoins, toutes les autres faces du simulateur sont éclairées, comme dans les conditions expérimentale, afin de prendre en compte l'influence de la luminosité des faces latérales et de la face au sol sur la luminosité de la face avant. On utilise cinq points de mesure sur la face avant (répartis à la manière d'un dé à 6 faces), chaque mesure par point étant triplée pour éviter tout effet indésirable.
+	\par On effectue l'intégralité de nos mesures sur la face avant du simulateur car l'expérimentation ne se déroulera que sur cette face. Néanmoins, toutes les autres faces du simulateur sont éclairées, comme dans les conditions expérimentales, afin de prendre en compte l'influence de la luminosité des faces latérales et de la face au sol sur la luminosité de la face avant. On utilise cinq points de mesure sur la face avant (répartis en quinconce, à la manière d'un dé à 6 faces), chaque mesure par point étant triplée pour éviter tout effet indésirable.
 	
 	\par Les mesures ne sont faites que sur des nuances de gris. Pour ce faire, on affiche des couleurs dont les composantes R, G et B sont égales. Dans le simulateur, la couleur étant codée sur 8 bits, on peut afficher 256 nuances différentes: du noir le plus <<~pur~>> (Code RGB: $(0,~0,~0)$) au blanc le plus <<~pur~>> (Code RGB: $(255,~255,~255)$). Néanmoins, par soucis de praticité, on se limite à 17 nuances de gris en faisant des incréments de 16 en 16 dans le codage RGB des couleurs affichées. Par la suite, comme les trois composantes R, G et B sont toujours égales, on parlera de <<~niveau de gris~>> on se référant directement à la valeur des composantes. Par exemple, le noir sera appelé <<~gris 0~>> étant donné que ses trois composantes R, G et B sont égales à 0.
 	
@@ -33,7 +33,7 @@
 		\end{tabular}
 	\end{table}
 	
-	\par On peut alors ensuite tracer le graphe représentant l'évolution de la luminance globale du simulateur en fonction du niveau de gris affiché sur toutes ses faces (Fig. \ref{fig:evolution_luminance_background}). De cette courbe, on déduit alors une régression polynomiale d'ordre 3 ($R^2 = 1$) qui nous donne la relation mathématique (Eq. \ref{eq:regression_luminance_globale}) permettant d'anticiper la luminance en fonction du niveau de gris. Cela nous permettra par la suite le choisir précisément les couleurs à afficher pour obtenir le contraste désiré. Avec $L_G$ la luminance globale du simulateur et $g$ le niveau de gris normalisé, c'est à dire variant de 0 ($= 0/255$) à 1 ($= 255/255$).
+	\par On peut alors ensuite tracer le graphe représentant l'évolution de la luminance globale du simulateur en fonction du niveau de gris affiché sur toutes ses faces (Fig. \ref{fig:evolution_luminance_background}). De cette courbe, on déduit alors une régression polynomiale d'ordre 3 ($R^2 = 1$) qui nous donne la relation mathématique (Eq. \ref{eq:regression_luminance_globale}) permettant d'anticiper la luminance en fonction du niveau de gris. Cela nous permettra par la suite de choisir précisément les couleurs à afficher pour obtenir le contraste désiré. Avec $L_G$ la luminance globale du simulateur et $g$ le niveau de gris normalisé, c'est à dire variant de 0 ($= 0/255$) à 1 ($= 255/255$).
 	
 	\begin{equation}
 		L_G(g) = 0.69 - 18.37~g + 102.08~g^2 -40.78~g^3
@@ -122,7 +122,7 @@
 		\label{eq:ratio_mesure_eye_tracker}
 	\end{equation}
 	
-	\par De même que précédemment, on prend des mesures	dans cinq conditions de luminosité: condition de luminosité maximale, condition minimale et trois conditions intermédiaires. Les mesures sont disponibles dans en Table \ref{tab:mesure_pupillaire} et sur la Fig. \ref{fig:resultats_mesure_pupille}.
+	\par De même que précédemment, on prend des mesures	dans cinq conditions de luminosité: condition de luminosité maximale, condition minimale et trois conditions intermédiaires. Les mesures sont disponibles en Tab. \ref{tab:mesure_pupillaire} et sur la Fig. \ref{fig:resultats_mesure_pupille}.
 	
 	\begin{table}[h]	
 		\centering

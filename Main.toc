@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {3.1}Espaces colorim\IeC {\'e}triques}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}Observateurs standards}{25}{section.3.2}
 \contentsline {section}{\numberline {3.3}Illuminants}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Equations de diff\IeC {\'e}rentiations des couleurs}{28}{section.3.4}
+\contentsline {section}{\numberline {3.4}Equations de diff\IeC {\'e}rentiations des couleurs}{27}{section.3.4}
 \contentsline {chapter}{\numberline {4}Contraste}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}D\IeC {\'e}finitions math\IeC {\'e}matiques}{31}{section.4.1}
 \contentsline {section}{\numberline {4.2}Calcul de seuil}{32}{section.4.2}
@@ -52,9 +52,9 @@
 \contentsline {section}{\numberline {11.2}M\IeC {\'e}thodologie}{74}{section.11.2}
 \contentsline {chapter}{\numberline {12}Proposition de mod\IeC {\`e}le}{77}{chapter.12}
 \contentsline {section}{\numberline {12.1}Propositions pr\IeC {\'e}liminaires}{78}{section.12.1}
-\contentsline {subsection}{\numberline {12.1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_1})}{78}{subsection.12.1.1}
-\contentsline {subsection}{\numberline {12.1.2}Seconde mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_2})}{79}{subsection.12.1.2}
-\contentsline {subsection}{\numberline {12.1.3}Troisi\IeC {\`e}me mod\IeC {\'e}lisation (Fig. \ref {fig:mod\IeC {\`e}le_3})}{80}{subsection.12.1.3}
+\contentsline {subsection}{\numberline {12.1.1}Premi\IeC {\`e}re mod\IeC {\'e}lisation}{78}{subsection.12.1.1}
+\contentsline {subsection}{\numberline {12.1.2}Seconde mod\IeC {\'e}lisation}{79}{subsection.12.1.2}
+\contentsline {subsection}{\numberline {12.1.3}Troisi\IeC {\`e}me mod\IeC {\'e}lisation}{80}{subsection.12.1.3}
 \contentsline {section}{\numberline {12.2}Mod\IeC {\`e}le d\IeC {\'e}finitif}{82}{section.12.2}
 \contentsline {chapter}{\numberline {13}Indices de vision}{85}{chapter.13}
 \contentsline {section}{\numberline {13.1}Contraste \& luminosit\IeC {\'e}}{85}{section.13.1}

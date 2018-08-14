@@ -1,6 +1,6 @@
 \chapter{Modèles de Rea}
 	\section{Première modélisation de la performance visuelle relative}
-	\par Les sections suivantes décrivent brièvement le contexte et les premiers travaux de Rea qui l'ont mené à proposer sa propre modélisation de la performance visuelle \citep{rea_toward_1986, rea_toward_1987}, définie comme étant la vitesse et la précision atteintes pendant la réalisation d'une tache visuelle.
+	\par Les sections suivantes décrivent brièvement le contexte et les premiers travaux de Rea qui l'ont mené à proposer sa propre modélisation de la performance visuelle \citep{rea_toward_1986, rea_toward_1987}, définie comme étant la vitesse et la précision atteintes pendant la réalisation d'une tâche visuelle.
 	
 	\subsection{Modèle précurseur}	
 	\par Le premier modèle de Rea est directement inspiré de l'effet de compression proposé par \cite{naka_attempt_1966} qui modélise qu'à partir d'un certain niveau d'intensité, lorsque l'intensité du stimulus augmente, la réponse sensorielle associée augmente de moins en moins jusqu'à atteindre une forme de plateau (voir Fig. \ref{fig:compression_effect}). Les différentes courbes représentent les longueurs d'onde des lumières de couleur utilisées. Cet effet est modélisé de la manière suivante: $\frac{R}{R_{max}} = \frac{I^n}{I^n + k^n}$.
@@ -17,9 +17,9 @@
 	\end{figure} 
 	
 	\subsection{Application à la performance visuelle}
-	\par Rea s'est imposé deux règles pour la conception de son modèle: la performance visuelle doit être issue d'une performance à la réalisation d'un tache, et le modèle doit être cohérent avec la littérature, notamment avec l'effet de compression que l'on vient de décrire.
+	\par Rea s'est imposé deux règles pour la conception de son modèle: la performance visuelle doit être issue d'une performance à la réalisation d'une tâche, et le modèle doit être cohérent avec la littérature, notamment avec l'effet de compression que l'on vient de décrire.
 	
-	\par Le stimulus est décrit (Eq. \ref{eq:rea_contraste}) comme la différence entre le seuil de contraste $C_t$, calculé avec la formule de Blackwell (Eq. \ref{eq:rea_contraste_blackwell}), qui représente le contraste minimal à partir duquel le perception devient possible en fonction de la luminosité du fond ($L_B$) et le contraste visuel $C_V$ qui correspond au contraste entre la luminosité du fond et la luminosité de la tache visuelle ($L_T$) (Eq. \ref{eq:rea_contraste_blackwell}).
+	\par Le stimulus est décrit (Eq. \ref{eq:rea_contraste}) comme la différence entre le seuil de contraste $C_t$, calculé avec la formule de Blackwell (Eq. \ref{eq:rea_contraste_blackwell}), qui représente le contraste minimal à partir duquel la perception devient possible en fonction de la luminosité du fond ($L_B$) et le contraste visuel $C_V$ qui correspond au contraste entre la luminosité du fond et la luminosité de la tache visuelle ($L_T$) (Eq. \ref{eq:rea_contraste_blackwell}).
 	
 	\begin{equation}
 		C_t = 0.048\left[\left(\frac{0.308}{L_B}\right)^{0.4} + 1.0\right]^{2.5}
@@ -82,7 +82,7 @@
 	
 	\par L'expérimentation était découpée en deux parties: une première série de mesures pour des cibles plus foncées que le fond sur lequel elles étaient présentées (méthode décrémentale) puis une autre série de mesures avec des cibles plus claires que le fond de présentation (méthode incrémentale).
 	
-	\par Les cibles, un carré, étaient présentées à $1.68~m$ de l'œil du sujet sur un écran occupant 12 degrés de champ de vision horizontal et 7 degrés de champ de vision vertical. Toutes les cibles étaient vues avec l'œil gauche, à travers un filtre neutre réglable et avec l'ajout d'une voile lumineux artificiel directement au niveau de l'œil (Fig. \ref{fig:rea_apparatus}).
+	\par Les cibles, un carré, étaient présentées à $1.68~m$ de l'œil du sujet sur un écran occupant 12 degrés de champ de vision horizontal et 7 degrés de champ de vision vertical. Toutes les cibles étaient vues avec l'œil gauche, à travers un filtre neutre réglable et avec l'ajout d'un voile lumineux artificiel directement au niveau de l'œil (Fig. \ref{fig:rea_apparatus}).
 	
 	\begin{figure}
 		\centering
@@ -97,7 +97,7 @@
 		\label{eq:rea_ouellette_contraste}
 	\end{equation}
 	
-	\par Avec $T$ la valeur de transmittance du filtre (entre 0 et 1), $L_b$ la luminance du fond de l'écran, $L_t$ la luminance du carré à détecter et $L_v$ la luminance de voile ajoutée artificiellement. $L_a$ représente quand à elle la valeur de la luminance d'adaptation, c'est à dire la valeur pour laquelle l'œil et tout le système optique se sont réglés (avec par exemple l'adaptation du diamètre pupillaire).
+	\par Avec $T$ la valeur de transmittance du filtre (entre 0 et 1), $L_b$ la luminance du fond de l'écran, $L_t$ la luminance du carré à détecter et $L_v$ la luminance de voile ajoutée artificiellement. $L_a$ représente quant à elle la valeur de la luminance d'adaptation, c'est à dire la valeur pour laquelle l'œil et tout le système optique sont réglés (avec par exemple l'adaptation du diamètre pupillaire).
 	
 	\par Chaque apparition de cible était espacée d'une temporisation de 1.5 secondes puis d'une temporisation aléatoire variant entre 1 et 3 secondes. La taille de la tache visuelle était variable entre $0.20$ et $280 \times 10^{-5}~steradians$\footnote{Unité sans dimension. un angle solide d'un stéradian délimite sur la sphère unité à partir du centre de cette sphère une surface d'aire 1.}.
 	
@@ -118,7 +118,7 @@
 	
 	\par Cela permet d'avoir un comportement logique dans les résultats avec un temps de réaction qui diminue quand la performance augmente et inversement.
 	
-	\par De plus, cette performance $R$ liée au temps de réaction, ainsi calculée, peut être reliée au modèle initial de performance visuelle relative. Cela nécessite d'appliquer deux opérations sur l'ensemble des résultats mesurés dans les deux expérimentation pour les même conditions d'illumination, de contraste et de taille de cible: le calcul de $\Delta T_{vis}$: la variation du temps de réaction par rapport au temps obtenu dans les meilleures conditions expérimentales (Eq. \ref{eq:rea_ouellette_delta_t_vis}) et vient ensuite une transformation linéaire (Eq. \ref{eq:rea_ouellette_linear_transformation}):
+	\par De plus, cette performance $R$ liée au temps de réaction, ainsi calculée, peut être reliée au modèle initial de performance visuelle relative. Cela nécessite d'appliquer deux opérations sur l'ensemble des résultats mesurés dans les deux expérimentations pour les mêmes conditions d'illumination, de contraste et de taille de cible: le calcul de $\Delta T_{vis}$: la variation du temps de réaction par rapport au temps obtenu dans les meilleures conditions expérimentales (Eq. \ref{eq:rea_ouellette_delta_t_vis}). Vient ensuite une transformation linéaire (Eq. \ref{eq:rea_ouellette_linear_transformation}):
 	\begin{equation}
 		\Delta T_{vis} = RT_{ref} - RT
 		\label{eq:rea_ouellette_delta_t_vis}
