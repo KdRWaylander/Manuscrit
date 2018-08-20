@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  9 AUG 2018 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.4)  17 AUG 2018 11:11
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -910,17 +910,7 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 (Chapitres/EXPE1-REA.aux) (Chapitres/EXPE1-PRELIM.aux)
 (Chapitres/EXPE1-MANIP.aux) (Chapitres/EXPE1-CONCL.aux) (Chapitres/EXPE2.aux)
 (Chapitres/EXPE2-MANIP.aux) (Chapitres/EXPE2-CONCL.aux) (Chapitres/CONCL.aux)
-(Chapitres/ANXE.aux
-
-LaTeX Warning: Label `eq:anxe_step_50' multiply defined.
-
-
-LaTeX Warning: Label `eq:anxe_step_51' multiply defined.
-
-
-LaTeX Warning: Label `tab:mesure_luminance_fond' multiply defined.
-
-) (Chapitres/QUEST.aux))
+(Chapitres/ANXE.aux) (Chapitres/QUEST.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -938,13 +928,15 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Try loading font information for T1+pnc on input line 6.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pnc.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1pnc.fd"
 File: t1pnc.fd 2001/06/04 font definitions for T1/pnc.
 )
 LaTeX Info: Redefining \degres on input line 6.
 LaTeX Info: Redefining \dots on input line 6.
 LaTeX Info: Redefining \up on input line 6.
- (C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+
+(C:\Users\Ben\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count136
 \scratchdimen=\dimen159
@@ -2119,41 +2111,40 @@ ga-ris Mé-di-cal\T1/pnc/m/n/9 (+20) . Consulté le 20/09/2017, http ://www.vulga
 ris-
  []
 
-[77] <Figures/Modele1.png, id=2005, 512.1534pt x 342.5598pt>
-File: Figures/Modele1.png Graphic file (type png)
+[77] <Figures/Modele1_2.png, id=2005, 512.1534pt x 341.5962pt>
+File: Figures/Modele1_2.png Graphic file (type png)
 
-<use Figures/Modele1.png>
-Package pdftex.def Info: Figures/Modele1.png used on input line 154.
-(pdftex.def)             Requested size: 409.72327pt x 274.04819pt.
+<use Figures/Modele1_2.png>
+Package pdftex.def Info: Figures/Modele1_2.png used on input line 154.
+(pdftex.def)             Requested size: 409.72327pt x 273.27731pt.
  [78]
-<Figures/Modele2.png, id=2013, 538.1706pt x 288.1164pt>
-File: Figures/Modele2.png Graphic file (type png)
+<Figures/Modele2_2.png, id=2013, 484.6908pt x 294.3798pt>
+File: Figures/Modele2_2.png Graphic file (type png)
 
-<use Figures/Modele2.png>
-Package pdftex.def Info: Figures/Modele2.png used on input line 168.
-(pdftex.def)             Requested size: 430.53706pt x 230.49341pt.
- [79 <./Figures/Modele1.png>]
-<Figures/Modele3.png, id=2021, 391.7034pt x 655.7298pt>
-File: Figures/Modele3.png Graphic file (type png)
+<use Figures/Modele2_2.png>
+Package pdftex.def Info: Figures/Modele2_2.png used on input line 168.
+(pdftex.def)             Requested size: 387.75316pt x 235.50415pt.
+ [79 <./Figures/Modele1_2.png>]
+<Figures/Modele3_2.png, id=2021, 432.1746pt x 388.3308pt>
+File: Figures/Modele3_2.png Graphic file (type png)
 
-<use Figures/Modele3.png>
-Package pdftex.def Info: Figures/Modele3.png used on input line 182.
-(pdftex.def)             Requested size: 391.70244pt x 655.7282pt.
+<use Figures/Modele3_2.png>
+Package pdftex.def Info: Figures/Modele3_2.png used on input line 182.
+(pdftex.def)             Requested size: 432.17355pt x 388.32983pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./Figures/Modele2.png>] [81 <./Figures/Modele3.png>]
-<Figures/ModeleDefinitif.png, id=2038, 251.9814pt x 383.031pt>
-File: Figures/ModeleDefinitif.png Graphic file (type png)
+ [80 <./Figures/Modele2_2.png>] [81 <./Figures/Modele3_2.png>]
+<Figures/ModeleDefinitif_2.png, id=2038, 383.031pt x 251.9814pt>
+File: Figures/ModeleDefinitif_2.png Graphic file (type png)
 
-<use Figures/ModeleDefinitif.png>
-Package pdftex.def Info: Figures/ModeleDefinitif.png used on input line 205.
-(pdftex.def)             Requested size: 340.17557pt x 517.09291pt.
-) [82] [83 <./Figures/ModeleDefinitif.png>]
+<use Figures/ModeleDefinitif_2.png>
+Package pdftex.def Info: Figures/ModeleDefinitif_2.png used on input line 205.
+(pdftex.def)             Requested size: 421.3354pt x 277.18037pt.
+) [82] [83 <./Figures/ModeleDefinitif_2.png>]
 \openout2 = `Chapitres/SDR-DISP.aux'.
 
-
-(Chapitres/SDR-DISP.tex [84
+ (Chapitres/SDR-DISP.tex [84
 
 
 
@@ -2357,14 +2348,14 @@ Overfull \hbox (5.31407pt too wide) in paragraph at lines 6--6
  []
 
 [113] [114] [115]
-<Figures/ModeleDefinitifPondere.png, id=2463, 417.7206pt x 273.1806pt>
-File: Figures/ModeleDefinitifPondere.png Graphic file (type png)
+<Figures/ModeleDefinitifPondere_2.png, id=2463, 417.7206pt x 273.1806pt>
+File: Figures/ModeleDefinitifPondere_2.png Graphic file (type png)
 
-<use Figures/ModeleDefinitifPondere.png>
-Package pdftex.def Info: Figures/ModeleDefinitifPondere.png used on input line 
-84.
+<use Figures/ModeleDefinitifPondere_2.png>
+Package pdftex.def Info: Figures/ModeleDefinitifPondere_2.png used on input lin
+e 84.
 (pdftex.def)             Requested size: 417.71957pt x 273.17992pt.
-) [116 <./Figures/ModeleDefinitifPondere.png>]
+) [116 <./Figures/ModeleDefinitifPondere_2.png>]
 \openout2 = `Chapitres/SDR-EXPE.aux'.
 
  (Chapitres/SDR-EXPE.tex
@@ -3272,10 +3263,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 67.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 67.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 02846A0B97CE8AACA0D2C0FF3758DF2A;8476.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
  )
 (\end occurred inside a group at level 1)
@@ -3283,10 +3270,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 67.
 ### simple group (level 1) entered at line 139 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14893 strings out of 493323
- 234417 string characters out of 3139072
- 392972 words of memory out of 3000000
- 16684 multiletter control sequences out of 15000+200000
+ 14896 strings out of 493323
+ 234529 string characters out of 3139072
+ 393212 words of memory out of 3000000
+ 16687 multiletter control sequences out of 15000+200000
  137550 words of font info for 348 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,18n,53p,1772b,6330s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3314,7 +3301,7 @@ bk/uncb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncbi8a.pfb
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Program Files/MiKTeX 2
 .9/fonts/type1/urw/palatino/uplb8a.pfb>
-Output written on Main.pdf (252 pages, 14699923 bytes).
+Output written on Main.pdf (252 pages, 14663424 bytes).
 PDF statistics:
  3803 PDF objects out of 4296 (max. 8388607)
  803 named destinations out of 1000 (max. 500000)
