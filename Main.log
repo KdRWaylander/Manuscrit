@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  21 AUG 2018 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  22 AUG 2018 15:14
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -1526,7 +1526,7 @@ Overfull \hbox (1.29184pt too wide) detected at line 91
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1527) has occurred while \output is active []
 
  [18]
 Overfull \hbox (1.29184pt too wide) detected at line 93
@@ -1789,25 +1789,25 @@ LaTeX Font Info:    Font shape `OMS/pnc/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
  [5
 
-] <Figures/BokehIllustration.png, id=1041, 405.6756pt x 269.3262pt>
+] <Figures/BokehIllustration.png, id=1042, 405.6756pt x 269.3262pt>
 File: Figures/BokehIllustration.png Graphic file (type png)
 
 <use Figures/BokehIllustration.png>
 Package pdftex.def Info: Figures/BokehIllustration.png used on input line 29.
 (pdftex.def)             Requested size: 304.25595pt x 201.99416pt.
  [6] [7 <./Figures/BokehIllustration.png>]
-<Figures/AcceptationsRealisme.png, id=1071, 650.9118pt x 271.2534pt>
+<Figures/AcceptationsRealisme.png, id=1072, 650.9118pt x 271.7352pt>
 File: Figures/AcceptationsRealisme.png Graphic file (type png)
 
 <use Figures/AcceptationsRealisme.png>
 Package pdftex.def Info: Figures/AcceptationsRealisme.png used on input line 59
 .
-(pdftex.def)             Requested size: 423.08766pt x 176.3126pt.
+(pdftex.def)             Requested size: 423.08766pt x 176.62576pt.
 
-Underfull \vbox (badness 1082) has occurred while \output is active []
+Underfull \vbox (badness 1033) has occurred while \output is active []
 
  [8 <./Figures/AcceptationsRealisme.png>]
-<Figures/CadreEtude.png, id=1089, 642.7212pt x 304.9794pt>
+<Figures/CadreEtude.png, id=1090, 642.7212pt x 304.9794pt>
 File: Figures/CadreEtude.png Graphic file (type png)
 
 <use Figures/CadreEtude.png>
@@ -1817,51 +1817,57 @@ Package pdftex.def Info: Figures/CadreEtude.png used on input line 86.
 Chapitre 2.
 [11
 
-] [12] <Figures/SchemaOeil.png, id=1160, 732.7375pt x 431.6125pt>
+] [12] <Figures/SchemaOeil.png, id=1161, 732.7375pt x 431.6125pt>
 File: Figures/SchemaOeil.png Graphic file (type png)
 
 <use Figures/SchemaOeil.png>
 Package pdftex.def Info: Figures/SchemaOeil.png used on input line 130.
 (pdftex.def)             Requested size: 293.08981pt x 172.64194pt.
 
-<Figures/DensiteConesBatonnets.png, id=1161, 1003.75pt x 611.28375pt>
+<Figures/DensiteConesBatonnets.png, id=1162, 854.19125pt x 493.845pt>
 File: Figures/DensiteConesBatonnets.png Graphic file (type png)
 
 <use Figures/DensiteConesBatonnets.png>
 Package pdftex.def Info: Figures/DensiteConesBatonnets.png used on input line 1
 37.
-(pdftex.def)             Requested size: 351.31776pt x 213.95251pt.
- [13 <./Figures/SchemaOeil.png>]
-<Figures/PointsSystemeOptique.png, id=1172, 799.3062pt x 305.943pt>
+(pdftex.def)             Requested size: 427.09459pt x 246.92189pt.
+
+Underfull \vbox (badness 2680) has occurred while \output is active []
+
+ [13 <./Figures/SchemaOeil.png>] [14 <./Figures/DensiteConesBatonnets.png (PNG 
+copy)>]
+<Figures/PointsSystemeOptique.png, id=1177, 799.3062pt x 305.943pt>
 File: Figures/PointsSystemeOptique.png Graphic file (type png)
 
 <use Figures/PointsSystemeOptique.png>
 Package pdftex.def Info: Figures/PointsSystemeOptique.png used on input line 15
 5.
 (pdftex.def)             Requested size: 399.65211pt x 152.97112pt.
- [14 <./Figures/DensiteConesBatonnets.png>] <Figures/GullstrandModel.png, id=11
-87, 260.70734pt x 202.8378pt>
+ [15 <./Figures/PointsSystemeOptique.png>] <Figures/GullstrandModel.png, id=119
+4, 260.70734pt x 202.8378pt>
 File: Figures/GullstrandModel.png Graphic file (type png)
 
 <use Figures/GullstrandModel.png>
 Package pdftex.def Info: Figures/GullstrandModel.png used on input line 176.
 (pdftex.def)             Requested size: 325.88335pt x 253.54662pt.
 
-<Figures/LiouBrennanModel.png, id=1192, 388.07169pt x 195.55412pt>
+<Figures/LiouBrennanModel.png, id=1199, 388.07169pt x 195.55412pt>
 File: Figures/LiouBrennanModel.png Graphic file (type png)
 
 <use Figures/LiouBrennanModel.png>
 Package pdftex.def Info: Figures/LiouBrennanModel.png used on input line 183.
 (pdftex.def)             Requested size: 388.07072pt x 195.55363pt.
- [15 <./Figures/PointsSystemeOptique.png>]
-[16 <./Figures/GullstrandModel.png> <./Figures/LiouBrennanModel.png>]
-<Figures/HoropterePanum.png, id=1215, 472.76625pt x 325.215pt>
+ [16 <./Figures/GullstrandModel.png>]
+<Figures/HoropterePanum.png, id=1214, 472.76625pt x 325.215pt>
 File: Figures/HoropterePanum.png Graphic file (type png)
 
 <use Figures/HoropterePanum.png>
 Package pdftex.def Info: Figures/HoropterePanum.png used on input line 207.
 (pdftex.def)             Requested size: 260.02223pt x 178.86879pt.
- [17] [18 <./Figures/HoropterePanum.png>]
+
+Underfull \vbox (badness 7433) has occurred while \output is active []
+
+ [17 <./Figures/LiouBrennanModel.png>] [18 <./Figures/HoropterePanum.png>]
 <Figures/StructureRetinae.png, id=1250, 847.66687pt x 464.4853pt>
 File: Figures/StructureRetinae.png Graphic file (type png)
 
@@ -1926,14 +1932,16 @@ Package pdftex.def Info: Figures/StandardObsCurves.png used on input line 342.
 (pdftex.def)             Requested size: 321.19922pt x 194.727pt.
  [25 <./Figures/PhotopiqueMesopiqueScotopique.png>] [26 <./Figures/StandardObsC
 urves.png>]
-<Figures/IlluminantD65.png, id=1378, 732.48656pt x 450.9347pt>
+<Figures/IlluminantD65.png, id=1381, 732.48656pt x 450.9347pt>
 File: Figures/IlluminantD65.png Graphic file (type png)
 
 <use Figures/IlluminantD65.png>
 Package pdftex.def Info: Figures/IlluminantD65.png used on input line 409.
 (pdftex.def)             Requested size: 329.61589pt x 202.91873pt.
- [27] [28 <./Figures/IlluminantD65.png>]
-[29] [30
+
+Underfull \vbox (badness 1297) has occurred while \output is active []
+
+ [27 <./Figures/IlluminantD65.png>] [28] [29] [30
 
 ]
 Chapitre 4.
@@ -2131,13 +2139,13 @@ File: Figures/ImageBias.png Graphic file (type png)
 Package pdftex.def Info: Figures/ImageBias.png used on input line 88.
 (pdftex.def)             Requested size: 399.57713pt x 178.64978pt.
  [74 <./Figures/ImageBias.png>]
-<Figures/EDLAProcessScoreTarget.png, id=2014, 848.4498pt x 361.35pt>
+<Figures/EDLAProcessScoreTarget.png, id=2014, 846.5226pt x 370.0224pt>
 File: Figures/EDLAProcessScoreTarget.png Graphic file (type png)
 
 <use Figures/EDLAProcessScoreTarget.png>
 Package pdftex.def Info: Figures/EDLAProcessScoreTarget.png used on input line 
 106.
-(pdftex.def)             Requested size: 424.22386pt x 180.67456pt.
+(pdftex.def)             Requested size: 423.26025pt x 185.01074pt.
  [75 <./Figures/EDLAProcessScoreTarget.png>] [76
 
 ]
@@ -2210,7 +2218,7 @@ File: Figures/CourbesReaExemple.png Graphic file (type png)
 Package pdftex.def Info: Figures/CourbesReaExemple.png used on input line 32.
 (pdftex.def)             Requested size: 382.54826pt x 155.38011pt.
  [87]
-<Figures/MouvementBetaEffetPhi.png, id=2119, 663.9204pt x 405.6756pt>
+<Figures/MouvementBetaEffetPhi.png, id=2121, 663.9204pt x 405.6756pt>
 File: Figures/MouvementBetaEffetPhi.png Graphic file (type png)
 
 <use Figures/MouvementBetaEffetPhi.png>
@@ -2219,34 +2227,37 @@ Package pdftex.def Info: Figures/MouvementBetaEffetPhi.png used on input line 4
 (pdftex.def)             Requested size: 431.54315pt x 263.686pt.
  [88 <./Figures/CourbesReaExemple.png>]
 [89 <./Figures/MouvementBetaEffetPhi.png>]
-<Figures/FPS.png, id=2161, 401.5pt x 401.5pt>
+<Figures/FPS.png, id=2163, 401.5pt x 401.5pt>
 File: Figures/FPS.png Graphic file (type png)
  <use Figures/FPS.png>
 Package pdftex.def Info: Figures/FPS.png used on input line 83.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
  [90]
 [91 <./Figures/FPS.png (PNG copy)>]
-<Figures/GamutBT2020.png, id=2198, 297.36093pt x 321.45094pt>
+<Figures/GamutBT2020.png, id=2200, 297.36093pt x 321.45094pt>
 File: Figures/GamutBT2020.png Graphic file (type png)
 
 <use Figures/GamutBT2020.png>
 Package pdftex.def Info: Figures/GamutBT2020.png used on input line 118.
 (pdftex.def)             Requested size: 267.62236pt x 289.30316pt.
  [92 <./Figures/GamutBT2020.png>]
-<Figures/Color.png, id=2206, 301.125pt x 301.125pt>
+<Figures/Color.png, id=2208, 401.5pt x 401.5pt>
 File: Figures/Color.png Graphic file (type png)
  <use Figures/Color.png>
 Package pdftex.def Info: Figures/Color.png used on input line 142.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
 
-[93] <Figures/ChampVisionHorizontal.png, id=2219, 820.9872pt x 352.1958pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+<Figures/ChampVisionHorizontal.png, id=2220, 820.9872pt x 352.1958pt>
 File: Figures/ChampVisionHorizontal.png Graphic file (type png)
 
 <use Figures/ChampVisionHorizontal.png>
 Package pdftex.def Info: Figures/ChampVisionHorizontal.png used on input line 1
 65.
 (pdftex.def)             Requested size: 410.4926pt x 176.09747pt.
- [94 <./Figures/Color.png>]
+ [94 <./Figures/Color.png (PNG copy)>]
 <Figures/ChampVisionVertical.png, id=2232, 518.8986pt x 514.0806pt>
 File: Figures/ChampVisionVertical.png Graphic file (type png)
 
@@ -2255,16 +2266,13 @@ Package pdftex.def Info: Figures/ChampVisionVertical.png used on input line 183
 .
 (pdftex.def)             Requested size: 311.34155pt x 308.45074pt.
 
-<Figures/FOV.png, id=2235, 301.125pt x 301.125pt>
+<Figures/FOV.png, id=2235, 401.5pt x 401.5pt>
 File: Figures/FOV.png Graphic file (type png)
  <use Figures/FOV.png>
 Package pdftex.def Info: Figures/FOV.png used on input line 207.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
-
-Underfull \vbox (badness 1406) has occurred while \output is active []
-
  [95 <./Figures/ChampVisionHorizontal.png>]
-<Figures/AcuityICD9CM.png, id=2247, 681.2652pt x 474.573pt>
+<Figures/AcuityICD9CM.png, id=2248, 681.2652pt x 474.573pt>
 File: Figures/AcuityICD9CM.png Graphic file (type png)
 
 <use Figures/AcuityICD9CM.png>
@@ -2273,8 +2281,9 @@ Package pdftex.def Info: Figures/AcuityICD9CM.png used on input line 221.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96 <./Figures/ChampVisionVertical.png>] [97 <./Figures/FOV.png> <./Figures/Ac
-uityICD9CM.png>] <Figures/AcuityMono.png, id=2271, 401.5pt x 401.5pt>
+ [96 <./Figures/ChampVisionVertical.png>] [97 <./Figures/FOV.png (PNG copy)> <.
+/Figures/AcuityICD9CM.png>] <Figures/AcuityMono.png, id=2271, 401.5pt x 401.5pt
+>
 File: Figures/AcuityMono.png Graphic file (type png)
 
 <use Figures/AcuityMono.png>
@@ -2287,12 +2296,12 @@ Underfull \vbox (badness 6396) has occurred while \output is active []
 Underfull \vbox (badness 2735) has occurred while \output is active []
 
  [99 <./Figures/AcuityMono.png (PNG copy)>]
-<Figures/FractionVariation.png, id=2299, 387.849pt x 279.9258pt>
+<Figures/FractionVariation.png, id=2299, 461.5644pt x 279.9258pt>
 File: Figures/FractionVariation.png Graphic file (type png)
 
 <use Figures/FractionVariation.png>
 Package pdftex.def Info: Figures/FractionVariation.png used on input line 285.
-(pdftex.def)             Requested size: 387.84804pt x 279.92511pt.
+(pdftex.def)             Requested size: 415.40413pt x 251.93088pt.
 
 <Figures/ANSURIPD.png, id=2300, 876.27374pt x 432.86719pt>
 File: Figures/ANSURIPD.png Graphic file (type png)
@@ -2300,15 +2309,18 @@ File: Figures/ANSURIPD.png Graphic file (type png)
 <use Figures/ANSURIPD.png>
 Package pdftex.def Info: Figures/ANSURIPD.png used on input line 292.
 (pdftex.def)             Requested size: 438.13579pt x 216.43306pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [100 <./Figures/FractionVariation.png>]
-<Figures/StereoAcuity.png, id=2322, 301.125pt x 301.125pt>
+<Figures/StereoAcuity.png, id=2322, 401.5pt x 401.5pt>
 File: Figures/StereoAcuity.png Graphic file (type png)
 
 <use Figures/StereoAcuity.png>
 Package pdftex.def Info: Figures/StereoAcuity.png used on input line 323.
-(pdftex.def)             Requested size: 271.00998pt x 271.00998pt.
+(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
 ) [101 <./Figures/ANSURIPD.png (PNG copy)>]
-[102 <./Figures/StereoAcuity.png>]
+[102 <./Figures/StereoAcuity.png (PNG copy)>]
 \openout2 = `Chapitres/SDR-IMM.aux'.
 
  (Chapitres/SDR-IMM.tex
@@ -2321,7 +2333,7 @@ Chapitre 14.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [104]
-<Figures/RecouvrementFOR.png, id=2360, 1229.0718pt x 482.2818pt>
+<Figures/RecouvrementFOR.png, id=2359, 1229.0718pt x 482.2818pt>
 File: Figures/RecouvrementFOR.png Graphic file (type png)
 
 <use Figures/RecouvrementFOR.png>
@@ -2331,7 +2343,7 @@ Package pdftex.def Info: Figures/RecouvrementFOR.png used on input line 44.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [105 <./Figures/RecouvrementFOR.png>]
-<Figures/StereoActiveAnaglyphGlasses.png, id=2376, 501.875pt x 170.6375pt>
+<Figures/StereoActiveAnaglyphGlasses.png, id=2375, 501.875pt x 170.6375pt>
 File: Figures/StereoActiveAnaglyphGlasses.png Graphic file (type png)
 
 <use Figures/StereoActiveAnaglyphGlasses.png>
@@ -2342,28 +2354,28 @@ line 65.
 Underfull \vbox (badness 2486) has occurred while \output is active []
 
  [106 <./Figures/StereoActiveAnaglyphGlasses.png>]
-<Figures/StereoTechnoScore.png, id=2387, 361.35pt x 216.81pt>
+<Figures/StereoTechnoScore.png, id=2386, 361.35pt x 216.81pt>
 File: Figures/StereoTechnoScore.png Graphic file (type png)
 
 <use Figures/StereoTechnoScore.png>
 Package pdftex.def Info: Figures/StereoTechnoScore.png used on input line 79.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
  [107 <./Figures/StereoTechnoScore.png>]
-<Figures/TrackingCameraBody.png, id=2396, 739.563pt x 276.5532pt>
+<Figures/TrackingCameraBody.png, id=2395, 739.563pt x 276.5532pt>
 File: Figures/TrackingCameraBody.png Graphic file (type png)
 
 <use Figures/TrackingCameraBody.png>
 Package pdftex.def Info: Figures/TrackingCameraBody.png used on input line 89.
 (pdftex.def)             Requested size: 443.74123pt x 165.9332pt.
  [108 <./Figures/TrackingCameraBody.png>]
-[109] <Figures/EyeTrackerTobii.png, id=2419, 273.71552pt x 120.45pt>
+[109] <Figures/EyeTrackerTobii.png, id=2418, 273.71552pt x 120.45pt>
 File: Figures/EyeTrackerTobii.png Graphic file (type png)
 
 <use Figures/EyeTrackerTobii.png>
 Package pdftex.def Info: Figures/EyeTrackerTobii.png used on input line 118.
 (pdftex.def)             Requested size: 273.71483pt x 120.44969pt.
 
-<Figures/RedressementPlansVision.png, id=2420, 493.0922pt x 363.60844pt>
+<Figures/RedressementPlansVision.png, id=2419, 493.0922pt x 363.60844pt>
 File: Figures/RedressementPlansVision.png Graphic file (type png)
 
 <use Figures/RedressementPlansVision.png>
@@ -2387,7 +2399,7 @@ Overfull \hbox (5.31407pt too wide) in paragraph at lines 6--6
  []
 
 [113] [114] [115]
-<Figures/ModeleDefinitifPondere_2.png, id=2491, 417.7206pt x 273.1806pt>
+<Figures/ModeleDefinitifPondere_2.png, id=2490, 417.7206pt x 273.1806pt>
 File: Figures/ModeleDefinitifPondere_2.png Graphic file (type png)
 
 <use Figures/ModeleDefinitifPondere_2.png>
@@ -2410,19 +2422,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
 
 
-] <Figures/AidedScale.png, id=2507, 353.1594pt x 72.27pt>
+] <Figures/AidedScale.png, id=2506, 353.1594pt x 72.27pt>
 File: Figures/AidedScale.png Graphic file (type png)
 
 <use Figures/AidedScale.png>
 Package pdftex.def Info: Figures/AidedScale.png used on input line 31.
 (pdftex.def)             Requested size: 353.15851pt x 72.2698pt.
  [118 <./Figures/AidedScale.png>]
-<Figures/ResultsComparison.png, id=2516, 507.8172pt x 898.557pt>
+<Figures/ResultsComparison.png, id=2515, 452.4102pt x 809.424pt>
 File: Figures/ResultsComparison.png Graphic file (type png)
 
 <use Figures/ResultsComparison.png>
 Package pdftex.def Info: Figures/ResultsComparison.png used on input line 77.
-(pdftex.def)             Requested size: 355.4696pt x 628.98561pt.
+(pdftex.def)             Requested size: 316.68497pt x 566.59294pt.
 
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
@@ -2462,14 +2474,14 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 
 ]
 Chapitre 17.
-[129] <Figures/CompressionEffect.png, id=2580, 666.23906pt x 188.20313pt>
+[129] <Figures/CompressionEffect.png, id=2579, 666.23906pt x 188.20313pt>
 File: Figures/CompressionEffect.png Graphic file (type png)
 
 <use Figures/CompressionEffect.png>
 Package pdftex.def Info: Figures/CompressionEffect.png used on input line 14.
 (pdftex.def)             Requested size: 399.74652pt x 112.92273pt.
  [130 <./Figures/CompressionEffect.png>]
-[131] <Figures/ReactionTimeApparatus.png, id=2610, 406.51875pt x 389.95688pt>
+[131] <Figures/ReactionTimeApparatus.png, id=2609, 406.51875pt x 389.95688pt>
 File: Figures/ReactionTimeApparatus.png Graphic file (type png)
 
 <use Figures/ReactionTimeApparatus.png>
@@ -2485,30 +2497,30 @@ Package pdftex.def Info: Figures/ReactionTimeApparatus.png used on input line 8
 
 ]
 Chapitre 18.
-<Figures/ChromameterCS100.png, id=2640, 152.06813pt x 187.45032pt>
+<Figures/ChromameterCS100.png, id=2639, 152.06813pt x 187.45032pt>
 File: Figures/ChromameterCS100.png Graphic file (type png)
 
 <use Figures/ChromameterCS100.png>
 Package pdftex.def Info: Figures/ChromameterCS100.png used on input line 6.
 (pdftex.def)             Requested size: 152.06775pt x 187.44984pt.
  [135] [136 <./Figures/ChromameterCS100.png>] <Figures/EvolutionLuminanceGlobal
-e.png, id=2656, 569.4876pt x 320.397pt>
+e.png, id=2655, 569.0058pt x 319.9152pt>
 File: Figures/EvolutionLuminanceGlobale.png Graphic file (type png)
 
 <use Figures/EvolutionLuminanceGlobale.png>
 Package pdftex.def Info: Figures/EvolutionLuminanceGlobale.png used on input li
 ne 45.
-(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
+(pdftex.def)             Requested size: 426.7533pt x 239.9358pt.
  [137 <./Figures/EvolutionLuminanceGlobale.png>]
-<Figures/EvolutionLuminanceTarget.png, id=2665, 569.4876pt x 330.9966pt>
+<Figures/EvolutionLuminanceTarget.png, id=2664, 569.0058pt x 330.5148pt>
 File: Figures/EvolutionLuminanceTarget.png Graphic file (type png)
 
 <use Figures/EvolutionLuminanceTarget.png>
 Package pdftex.def Info: Figures/EvolutionLuminanceTarget.png used on input lin
 e 89.
-(pdftex.def)             Requested size: 427.11465pt x 248.24683pt.
+(pdftex.def)             Requested size: 426.7533pt x 247.88548pt.
 
-<Figures/DikablisProfessional.png, id=2670, 225.84375pt x 126.4725pt>
+<Figures/DikablisProfessional.png, id=2669, 225.84375pt x 126.4725pt>
 File: Figures/DikablisProfessional.png Graphic file (type png)
 
 <use Figures/DikablisProfessional.png>
@@ -2517,7 +2529,7 @@ Package pdftex.def Info: Figures/DikablisProfessional.png used on input line 10
 (pdftex.def)             Requested size: 225.84319pt x 126.47218pt.
  [138] [139 <./Figures/EvolutionLuminanceTarget.png> <./Figures/DikablisProfess
 ional.png>]
-<Figures/LargeurPupillaireEnFonctionDuTemps.png, id=2685, 858.20625pt x 481.047
+<Figures/LargeurPupillaireEnFonctionDuTemps.png, id=2684, 858.20625pt x 481.047
 18pt>
 File: Figures/LargeurPupillaireEnFonctionDuTemps.png Graphic file (type png)
  <use Figures/LargeurPupillaireEnFonctionDuTemps.png>
@@ -2532,7 +2544,7 @@ Overfull \hbox (22.44882pt too wide) in paragraph at lines 132--140
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/MesureReferenceOeil.png, id=2690, 619.113pt x 386.4036pt>
+<Figures/MesureReferenceOeil.png, id=2689, 619.113pt x 386.4036pt>
 File: Figures/MesureReferenceOeil.png Graphic file (type png)
 
 <use Figures/MesureReferenceOeil.png>
@@ -2540,15 +2552,15 @@ Package pdftex.def Info: Figures/MesureReferenceOeil.png used on input line 144
 .
 (pdftex.def)             Requested size: 433.37614pt x 270.48067pt.
  [140 <./Figures/LargeurPupillaireEnFonctionDuTemps.png>]
-<Figures/ComparaisonDiamReelDiamTheo.png, id=2698, 569.4876pt x 320.397pt>
+<Figures/ComparaisonDiamReelDiamTheo.png, id=2697, 569.0058pt x 319.9152pt>
 File: Figures/ComparaisonDiamReelDiamTheo.png Graphic file (type png)
 
 <use Figures/ComparaisonDiamReelDiamTheo.png>
 Package pdftex.def Info: Figures/ComparaisonDiamReelDiamTheo.png used on input 
 line 155.
-(pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
+(pdftex.def)             Requested size: 426.7533pt x 239.9358pt.
  [141 <./Figures/MesureReferenceOeil.png>]
-<Figures/CourbesLuminanceLunettesStereo.png, id=2705, 569.4876pt x 320.397pt>
+<Figures/CourbesLuminanceLunettesStereo.png, id=2704, 569.4876pt x 320.397pt>
 File: Figures/CourbesLuminanceLunettesStereo.png Graphic file (type png)
 
 <use Figures/CourbesLuminanceLunettesStereo.png>
@@ -2556,7 +2568,7 @@ Package pdftex.def Info: Figures/CourbesLuminanceLunettesStereo.png used on inp
 ut line 165.
 (pdftex.def)             Requested size: 427.11465pt x 240.29715pt.
 
-<Figures/PourcentageAbsorption.png, id=2708, 569.0058pt x 319.9152pt>
+<Figures/PourcentageAbsorption.png, id=2707, 569.0058pt x 319.9152pt>
 File: Figures/PourcentageAbsorption.png Graphic file (type png)
 
 <use Figures/PourcentageAbsorption.png>
@@ -2577,7 +2589,7 @@ Chapitre 19.
 Underfull \vbox (badness 1314) has occurred while \output is active []
 
  [145]
-<Figures/SubjectsCharts.png, id=2732, 568.524pt x 215.3646pt>
+<Figures/SubjectsCharts.png, id=2731, 568.524pt x 215.3646pt>
 File: Figures/SubjectsCharts.png Graphic file (type png)
 
 <use Figures/SubjectsCharts.png>
@@ -2589,7 +2601,7 @@ Overfull \hbox (1.85193pt too wide) in paragraph at lines 22--23
  []
 
 [146 <./Figures/SubjectsCharts.png>]
-<Figures/FlowchartExpeRVPGeneral.png, id=2742, 242.8272pt x 361.8318pt>
+<Figures/FlowchartExpeRVPGeneral.png, id=2741, 242.8272pt x 361.8318pt>
 File: Figures/FlowchartExpeRVPGeneral.png Graphic file (type png)
 
 <use Figures/FlowchartExpeRVPGeneral.png>
@@ -2600,7 +2612,7 @@ Package pdftex.def Info: Figures/FlowchartExpeRVPGeneral.png used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [147 <./Figures/FlowchartExpeRVPGeneral.png>]
-<Figures/FlowchartExpeRVP.png, id=2751, 470.7186pt x 478.9092pt>
+<Figures/FlowchartExpeRVP.png, id=2750, 470.7186pt x 478.9092pt>
 File: Figures/FlowchartExpeRVP.png Graphic file (type png)
 
 <use Figures/FlowchartExpeRVP.png>
@@ -2624,26 +2636,26 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/ResultsRVP_1.png, id=2802, 722.7pt x 216.81pt>
+<Figures/ResultsRVP_1.png, id=2801, 723.6636pt x 216.81pt>
 File: Figures/ResultsRVP_1.png Graphic file (type png)
 
 <use Figures/ResultsRVP_1.png>
 Package pdftex.def Info: Figures/ResultsRVP_1.png used on input line 213.
-(pdftex.def)             Requested size: 452.9679pt x 135.88966pt.
+(pdftex.def)             Requested size: 452.9679pt x 135.70772pt.
 
-<Figures/ResultsRVP_2.png, id=2803, 722.7pt x 216.81pt>
+<Figures/ResultsRVP_2.png, id=2802, 723.6636pt x 216.81pt>
 File: Figures/ResultsRVP_2.png Graphic file (type png)
 
 <use Figures/ResultsRVP_2.png>
 Package pdftex.def Info: Figures/ResultsRVP_2.png used on input line 220.
-(pdftex.def)             Requested size: 452.9679pt x 135.88966pt.
+(pdftex.def)             Requested size: 452.9679pt x 135.70772pt.
 
-<Figures/ResultsRVP_3.png, id=2804, 722.2182pt x 216.81pt>
+<Figures/ResultsRVP_3.png, id=2803, 723.6636pt x 216.81pt>
 File: Figures/ResultsRVP_3.png Graphic file (type png)
 
 <use Figures/ResultsRVP_3.png>
 Package pdftex.def Info: Figures/ResultsRVP_3.png used on input line 227.
-(pdftex.def)             Requested size: 452.9679pt x 135.9856pt.
+(pdftex.def)             Requested size: 452.9679pt x 135.70772pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2685,14 +2697,14 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 ]
 Chapitre 21.
 [165] [166] [167] [168]
-<Figures/LiangPendulum.png, id=2955, 365.86688pt x 347.79938pt>
+<Figures/LiangPendulum.png, id=2954, 365.86688pt x 347.79938pt>
 File: Figures/LiangPendulum.png Graphic file (type png)
 
 <use Figures/LiangPendulum.png>
 Package pdftex.def Info: Figures/LiangPendulum.png used on input line 72.
 (pdftex.def)             Requested size: 219.52182pt x 208.68123pt.
  [169]
-<Figures/SwindellsPhonograph.png, id=2971, 319.94531pt x 227.34938pt>
+<Figures/SwindellsPhonograph.png, id=2970, 319.94531pt x 227.34938pt>
 File: Figures/SwindellsPhonograph.png Graphic file (type png)
 
 <use Figures/SwindellsPhonograph.png>
@@ -2700,7 +2712,7 @@ Package pdftex.def Info: Figures/SwindellsPhonograph.png used on input line 83.
 
 (pdftex.def)             Requested size: 239.95839pt x 170.51161pt.
 
-<Figures/DiLucaGradient.png, id=2978, 642.4pt x 401.5pt>
+<Figures/DiLucaGradient.png, id=2977, 642.4pt x 401.5pt>
 File: Figures/DiLucaGradient.png Graphic file (type png)
 
 <use Figures/DiLucaGradient.png>
@@ -2714,28 +2726,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Chapitre 22.
 [173
 
-] <Figures/OculusRift.png, id=3006, 642.4pt x 331.2375pt>
+] <Figures/OculusRift.png, id=3005, 642.4pt x 331.2375pt>
 File: Figures/OculusRift.png Graphic file (type png)
 
 <use Figures/OculusRift.png>
 Package pdftex.def Info: Figures/OculusRift.png used on input line 129.
 (pdftex.def)             Requested size: 417.55505pt x 215.30182pt.
  [174]
-<Figures/ExpeLatency.png, id=3016, 495.7722pt x 282.3348pt>
+<Figures/ExpeLatency.png, id=3015, 495.7722pt x 282.3348pt>
 File: Figures/ExpeLatency.png Graphic file (type png)
 
 <use Figures/ExpeLatency.png>
 Package pdftex.def Info: Figures/ExpeLatency.png used on input line 143.
 (pdftex.def)             Requested size: 446.19084pt x 254.09895pt.
  [175 <./Figures/OculusRift.png>] [176 <./Figures/ExpeLatency.png>] <Figures/XY
-Precision.png, id=3031, 651.3936pt x 362.3136pt>
+Precision.png, id=3030, 651.3936pt x 362.3136pt>
 File: Figures/XYPrecision.png Graphic file (type png)
 
 <use Figures/XYPrecision.png>
 Package pdftex.def Info: Figures/XYPrecision.png used on input line 176.
 (pdftex.def)             Requested size: 423.40082pt x 235.50104pt.
  [177 <./Figures/XYPrecision.png>] [178] [179]
-<Figures/LatencyMeasureTechnique.png, id=3062, 524.1984pt x 391.7034pt>
+<Figures/LatencyMeasureTechnique.png, id=3061, 524.1984pt x 391.7034pt>
 File: Figures/LatencyMeasureTechnique.png Graphic file (type png)
 
 <use Figures/LatencyMeasureTechnique.png>
@@ -2749,14 +2761,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [181
 
-] <Figures/ITQvPQ.png, id=3077, 410.4936pt x 225.0006pt>
+] <Figures/ITQvPQ.png, id=3076, 410.4936pt x 225.0006pt>
 File: Figures/ITQvPQ.png Graphic file (type png)
 
 <use Figures/ITQvPQ.png>
 Package pdftex.def Info: Figures/ITQvPQ.png used on input line 248.
 (pdftex.def)             Requested size: 362.37569pt x 198.63626pt.
 
-<Figures/CavePrecisionResults.png, id=3083, 361.35pt x 216.81pt>
+<Figures/CavePrecisionResults.png, id=3082, 361.35pt x 216.81pt>
 File: Figures/CavePrecisionResults.png Graphic file (type png)
 
 <use Figures/CavePrecisionResults.png>
@@ -2764,7 +2776,7 @@ Package pdftex.def Info: Figures/CavePrecisionResults.png used on input line 25
 9.
 (pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
 
-<Figures/CaveCompletionTimeResults.png, id=3084, 361.35pt x 216.81pt>
+<Figures/CaveCompletionTimeResults.png, id=3083, 361.35pt x 216.81pt>
 File: Figures/CaveCompletionTimeResults.png Graphic file (type png)
 
 <use Figures/CaveCompletionTimeResults.png>
@@ -2773,7 +2785,7 @@ ne 266.
 (pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
  [182 <./Figures/ITQvPQ.png>]
 [183 <./Figures/CavePrecisionResults.png> <./Figures/CaveCompletionTimeResults.
-png>] [184] <Figures/CasquePrecisionResults.png, id=3109, 361.35pt x 216.81pt>
+png>] [184] <Figures/CasquePrecisionResults.png, id=3108, 361.35pt x 216.81pt>
 File: Figures/CasquePrecisionResults.png Graphic file (type png)
 
 <use Figures/CasquePrecisionResults.png>
@@ -2781,13 +2793,13 @@ Package pdftex.def Info: Figures/CasquePrecisionResults.png used on input line
 303.
 (pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
 
-<Figures/CasqueCompletionTimeResults.png, id=3110, 361.8318pt x 216.81pt>
+<Figures/CasqueCompletionTimeResults.png, id=3109, 361.35pt x 216.81pt>
 File: Figures/CasqueCompletionTimeResults.png Graphic file (type png)
 
 <use Figures/CasqueCompletionTimeResults.png>
 Package pdftex.def Info: Figures/CasqueCompletionTimeResults.png used on input 
 line 312.
-(pdftex.def)             Requested size: 362.37569pt x 217.1469pt.
+(pdftex.def)             Requested size: 362.37569pt x 217.4281pt.
  [185 <./Figures/CasquePrecisionResults.png>] [186 <./Figures/CasqueCompletionT
 imeResults.png>] [187]) [188]
 \openout2 = `Chapitres/EXPE2-CONCL.aux'.
@@ -2814,14 +2826,14 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 [][] 
  []
 
-[191] <Figures/ScoreRealismeMini.png, id=3148, 383.031pt x 251.9814pt>
+[191] <Figures/ScoreRealismeMini.png, id=3147, 383.031pt x 251.9814pt>
 File: Figures/ScoreRealismeMini.png Graphic file (type png)
 
 <use Figures/ScoreRealismeMini.png>
 Package pdftex.def Info: Figures/ScoreRealismeMini.png used on input line 17.
 (pdftex.def)             Requested size: 383.03006pt x 251.98077pt.
  [192 <./Figures/ScoreRealismeMini.png>]
-[193] <Figures/ResultatsScoreApplication.png, id=3159, 361.35pt x 216.81pt>
+[193] <Figures/ResultatsScoreApplication.png, id=3158, 361.35pt x 216.81pt>
 File: Figures/ResultatsScoreApplication.png Graphic file (type png)
 
 <use Figures/ResultatsScoreApplication.png>
@@ -2829,7 +2841,7 @@ Package pdftex.def Info: Figures/ResultatsScoreApplication.png used on input li
 ne 43.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-<Figures/RadarScoreIRIS.png, id=3161, 361.35pt x 216.81pt>
+<Figures/RadarScoreIRIS.png, id=3160, 361.35pt x 216.81pt>
 File: Figures/RadarScoreIRIS.png Graphic file (type png)
 
 <use Figures/RadarScoreIRIS.png>
@@ -2839,21 +2851,21 @@ Package pdftex.def Info: Figures/RadarScoreIRIS.png used on input line 52.
 Underfull \vbox (badness 4819) has occurred while \output is active []
 
  [194 <./Figures/ResultatsScoreApplication.png>]
-<Figures/RadarScoreP3I.png, id=3168, 361.35pt x 216.81pt>
+<Figures/RadarScoreP3I.png, id=3167, 361.35pt x 216.81pt>
 File: Figures/RadarScoreP3I.png Graphic file (type png)
 
 <use Figures/RadarScoreP3I.png>
 Package pdftex.def Info: Figures/RadarScoreP3I.png used on input line 61.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-<Figures/RadarScoreVIVE.png, id=3170, 361.35pt x 216.81pt>
+<Figures/RadarScoreVIVE.png, id=3169, 361.35pt x 216.81pt>
 File: Figures/RadarScoreVIVE.png Graphic file (type png)
 
 <use Figures/RadarScoreVIVE.png>
 Package pdftex.def Info: Figures/RadarScoreVIVE.png used on input line 70.
 (pdftex.def)             Requested size: 361.34912pt x 216.80946pt.
 
-<Figures/RadarScoreHololens.png, id=3172, 361.35pt x 216.81pt>
+<Figures/RadarScoreHololens.png, id=3171, 361.35pt x 216.81pt>
 File: Figures/RadarScoreHololens.png Graphic file (type png)
 
 <use Figures/RadarScoreHololens.png>
@@ -2920,7 +2932,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 1--1
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
-<Questionnaires/QPI_vf.pdf, id=3327, 614.295pt x 794.97pt>
+<Questionnaires/QPI_vf.pdf, id=3326, 614.295pt x 794.97pt>
 File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QPI_vf.pdf>
@@ -2931,7 +2943,7 @@ File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionnaires/QPI_vf.pdf used on input line 6.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Questionnaires/QPI_vf.pdf, id=3330, page=1, 614.295pt x 794.97pt>
+<Questionnaires/QPI_vf.pdf, id=3329, page=1, 614.295pt x 794.97pt>
 File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QPI_vf.pdf, page 1>
@@ -2963,7 +2975,7 @@ Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page1 used on input line 6.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [14 <./Questionnaires/QPI_vf.pdf>]
-<Questionnaires/QPI_vf.pdf, id=3353, page=2, 614.295pt x 794.97pt>
+<Questionnaires/QPI_vf.pdf, id=3352, page=2, 614.295pt x 794.97pt>
 File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QPI_vf.pdf, page 2>
@@ -2983,7 +2995,7 @@ Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page2 used on input line 6.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [15 <./Questionnaires/QPI_vf.pdf>]
-<Questionnaires/QPI_vf.pdf, id=3359, page=3, 614.295pt x 794.97pt>
+<Questionnaires/QPI_vf.pdf, id=3358, page=3, 614.295pt x 794.97pt>
 File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QPI_vf.pdf, page 3>
@@ -3003,7 +3015,7 @@ Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page3 used on input line 6.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [16 <./Questionnaires/QPI_vf.pdf>]
-<Questionnaires/QPI_vf.pdf, id=3372, page=4, 614.295pt x 794.97pt>
+<Questionnaires/QPI_vf.pdf, id=3371, page=4, 614.295pt x 794.97pt>
 File: Questionnaires/QPI_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QPI_vf.pdf, page 4>
@@ -3023,7 +3035,7 @@ Package pdftex.def Info: Questionnaires/QPI_vf.pdf, page4 used on input line 6.
 
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [17 <./Questionnaires/QPI_vf.pdf>]
-<Questionnaires/SSQ_vf.pdf, id=3406, 614.295pt x 794.97pt>
+<Questionnaires/SSQ_vf.pdf, id=3405, 614.295pt x 794.97pt>
 File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/SSQ_vf.pdf>
@@ -3034,7 +3046,7 @@ File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionnaires/SSQ_vf.pdf used on input line 10.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Questionnaires/SSQ_vf.pdf, id=3409, page=1, 614.295pt x 794.97pt>
+<Questionnaires/SSQ_vf.pdf, id=3408, page=1, 614.295pt x 794.97pt>
 File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/SSQ_vf.pdf, page 1>
@@ -3066,7 +3078,7 @@ Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page1 used on input line 10
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [18 <./Questionnaires/SSQ_vf.pdf>]
-<Questionnaires/SSQ_vf.pdf, id=3437, page=2, 614.295pt x 794.97pt>
+<Questionnaires/SSQ_vf.pdf, id=3436, page=2, 614.295pt x 794.97pt>
 File: Questionnaires/SSQ_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/SSQ_vf.pdf, page 2>
@@ -3086,7 +3098,7 @@ Package pdftex.def Info: Questionnaires/SSQ_vf.pdf, page2 used on input line 10
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [19 <./Questionnaires/SSQ_vf.pdf>]
-<Questionnaires/QEP_vf.pdf, id=3456, 614.295pt x 794.97pt>
+<Questionnaires/QEP_vf.pdf, id=3455, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf>
@@ -3097,7 +3109,7 @@ File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 Package pdftex.def Info: Questionnaires/QEP_vf.pdf used on input line 14.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<Questionnaires/QEP_vf.pdf, id=3459, page=1, 614.295pt x 794.97pt>
+<Questionnaires/QEP_vf.pdf, id=3458, page=1, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 1>
@@ -3129,7 +3141,7 @@ Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page1 used on input line 14
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [20 <./Questionnaires/QEP_vf.pdf>]
-<Questionnaires/QEP_vf.pdf, id=3492, page=2, 614.295pt x 794.97pt>
+<Questionnaires/QEP_vf.pdf, id=3491, page=2, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 2>
@@ -3149,7 +3161,7 @@ Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page2 used on input line 14
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [21 <./Questionnaires/QEP_vf.pdf>]
-<Questionnaires/QEP_vf.pdf, id=3498, page=3, 614.295pt x 794.97pt>
+<Questionnaires/QEP_vf.pdf, id=3497, page=3, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 3>
@@ -3174,7 +3186,7 @@ been already used, duplicate ignored
                    \relax 
 l.14 ...pagecommand={}]{Questionnaires/QEP_vf.pdf}
                                                    [22 <./Questionnaires/QEP_vf
-.pdf>] <Questionnaires/QEP_vf.pdf, id=3504, page=4, 614.295pt x 794.97pt>
+.pdf>] <Questionnaires/QEP_vf.pdf, id=3503, page=4, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 4>
@@ -3194,7 +3206,7 @@ Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page4 used on input line 14
 .
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [23 <./Questionnaires/QEP_vf.pdf>]
-<Questionnaires/QEP_vf.pdf, id=3510, page=5, 614.295pt x 794.97pt>
+<Questionnaires/QEP_vf.pdf, id=3509, page=5, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 5>
@@ -3219,7 +3231,7 @@ been already used, duplicate ignored
                    \relax 
 l.14 ...pagecommand={}]{Questionnaires/QEP_vf.pdf}
                                                    [24 <./Questionnaires/QEP_vf
-.pdf>] <Questionnaires/QEP_vf.pdf, id=3518, page=6, 614.295pt x 794.97pt>
+.pdf>] <Questionnaires/QEP_vf.pdf, id=3517, page=6, 614.295pt x 794.97pt>
 File: Questionnaires/QEP_vf.pdf Graphic file (type pdf)
 
 <use Questionnaires/QEP_vf.pdf, page 6>
@@ -3242,7 +3254,7 @@ Package pdftex.def Info: Questionnaires/QEP_vf.pdf, page6 used on input line 14
 [26
 
 ]
-<Illustrations/QuatriemeCouverture.pdf, id=3544, 597.55246pt x 845.07718pt>
+<Illustrations/QuatriemeCouverture.pdf, id=3543, 597.55246pt x 845.07718pt>
 File: Illustrations/QuatriemeCouverture.pdf Graphic file (type pdf)
 
 <use Illustrations/QuatriemeCouverture.pdf>
@@ -3256,7 +3268,7 @@ Package pdftex.def Info: Illustrations/QuatriemeCouverture.pdf used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 
-<Illustrations/QuatriemeCouverture.pdf, id=3547, page=1, 597.55246pt x 845.0771
+<Illustrations/QuatriemeCouverture.pdf, id=3546, page=1, 597.55246pt x 845.0771
 8pt>
 File: Illustrations/QuatriemeCouverture.pdf Graphic file (type pdf)
  <use Illustrations/QuatriemeCouverture.pdf, page 1>
@@ -3311,7 +3323,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
 Here is how much of TeX's memory you used:
  14675 strings out of 493634
  238003 string characters out of 3131976
- 388727 words of memory out of 3000000
+ 388842 words of memory out of 3000000
  16303 multiletter control sequences out of 15000+200000
  137432 words of font info for 346 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -3350,9 +3362,9 @@ rw/ncntrsbk/uncbi8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Users/Administrator/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb>
-Output written on Main.pdf (258 pages, 14760341 bytes).
+Output written on Main.pdf (258 pages, 14569352 bytes).
 PDF statistics:
- 3834 PDF objects out of 4296 (max. 8388607)
+ 3833 PDF objects out of 4296 (max. 8388607)
  812 named destinations out of 1000 (max. 500000)
  51705 words of extra memory for PDF output out of 61914 (max. 10000000)
 

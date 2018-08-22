@@ -14,13 +14,13 @@
 \contentsline {chapter}{\numberline {2}Fonctionnement de la vision}{11}{chapter.2}
 \contentsline {section}{\numberline {2.1}Structure de l'\IeC {\oe }il}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Mod\IeC {\'e}lisation de l'\IeC {\oe }il}{13}{section.2.2}
-\contentsline {section}{\numberline {2.3}Vision binoculaire}{17}{section.2.3}
+\contentsline {section}{\numberline {2.3}Vision binoculaire}{16}{section.2.3}
 \contentsline {section}{\numberline {2.4}Traitement post-r\IeC {\'e}tinien}{18}{section.2.4}
 \contentsline {chapter}{\numberline {3}Perception de la couleur}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}Espaces colorim\IeC {\'e}triques}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}Observateurs standards}{25}{section.3.2}
 \contentsline {section}{\numberline {3.3}Illuminants}{27}{section.3.3}
-\contentsline {section}{\numberline {3.4}Equations de diff\IeC {\'e}rentiations des couleurs}{27}{section.3.4}
+\contentsline {section}{\numberline {3.4}Equations de diff\IeC {\'e}rentiations des couleurs}{28}{section.3.4}
 \contentsline {chapter}{\numberline {4}Contraste}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}D\IeC {\'e}finitions math\IeC {\'e}matiques}{31}{section.4.1}
 \contentsline {section}{\numberline {4.2}Calcul de seuil}{32}{section.4.2}
@@ -76,7 +76,7 @@
 \contentsline {subsection}{\numberline {13.3.3}Indice de rendu des couleurs (IRC)}{92}{subsection.13.3.3}
 \contentsline {subsection}{\numberline {13.3.4}Fonction de notation du crit\IeC {\`e}re}{93}{subsection.13.3.4}
 \contentsline {section}{\numberline {13.4}Champ de vision}{93}{section.13.4}
-\contentsline {subsection}{\numberline {13.4.1}Axe horizontal}{93}{subsection.13.4.1}
+\contentsline {subsection}{\numberline {13.4.1}Axe horizontal}{94}{subsection.13.4.1}
 \contentsline {subsection}{\numberline {13.4.2}Axe vertical}{94}{subsection.13.4.2}
 \contentsline {subsection}{\numberline {13.4.3}Pond\IeC {\'e}ration}{95}{subsection.13.4.3}
 \contentsline {subsection}{\numberline {13.4.4}Fonction de notation du crit\IeC {\`e}re}{95}{subsection.13.4.4}

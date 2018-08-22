@@ -8,7 +8,7 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces R\IeC {\'e}partition (en $milliers/mm^2$) des c\IeC {\^o}nes/b\IeC {\^a}tonnets sur la r\IeC {\'e}tine}}{14}{figure.2.5}
 \contentsline {figure}{\numberline {6}{\ignorespaces Points caract\IeC {\'e}ristiques (cardinaux) d'un syst\IeC {\`e}me optique plan}}{15}{figure.2.6}
 \contentsline {figure}{\numberline {7}{\ignorespaces Mod\IeC {\`e}le et valeurs physiologiques de Gullstrand, image tir\IeC {\'e}e de \citep {liou_anatomically_1997}}}{16}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Mod\IeC {\`e}le de Liou \& Brennan, image tir\IeC {\'e}e de \citep {liou_anatomically_1997}}}{16}{figure.2.8}
+\contentsline {figure}{\numberline {8}{\ignorespaces Mod\IeC {\`e}le de Liou \& Brennan, image tir\IeC {\'e}e de \citep {liou_anatomically_1997}}}{17}{figure.2.8}
 \contentsline {figure}{\numberline {9}{\ignorespaces Horopt\IeC {\`e}res th\IeC {\'e}orique et empirique, Aire de Panum et disparit\IeC {\'e}s r\IeC {\'e}tiniennes. Image tir\IeC {\'e}e de \citep {neveu_impact_2012}.}}{18}{figure.2.9}
 \contentsline {figure}{\numberline {10}{\ignorespaces Structure et cellules composant la r\IeC {\'e}tine, image tir\IeC {\'e}e de \citep {anses_effets_2014}.}}{19}{figure.2.10}
 \contentsline {figure}{\numberline {11}{\ignorespaces Direction des voies ventrale et dorsale dans le cerveau.}}{20}{figure.2.11}
@@ -18,7 +18,7 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Composantes de l'espace CIELAB}}{24}{figure.3.14}
 \contentsline {figure}{\numberline {15}{\ignorespaces R\IeC {\'e}partition des domaines photopique, m\IeC {\'e}sopique et scotopique}}{25}{figure.3.15}
 \contentsline {figure}{\numberline {16}{\ignorespaces Courbes d'efficacit\IeC {\'e} lumineuse des Observateurs Standards de la CIE}}{26}{figure.3.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Spectre de l'illuminant D65 (CIE)}}{28}{figure.3.17}
+\contentsline {figure}{\numberline {17}{\ignorespaces Spectre de l'illuminant D65 (CIE)}}{27}{figure.3.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {18}{\ignorespaces Indices visuels de perception de la profondeur}}{36}{figure.5.18}
@@ -39,7 +39,7 @@
 \contentsline {figure}{\numberline {28}{\ignorespaces Param\IeC {\`e}tres caract\IeC {\'e}risant la vision totale}}{71}{figure.10.28}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {29}{\ignorespaces Illustration de la diff\IeC {\'e}rence qu'il existe entre les consignes donn\IeC {\'e}es par la carte graphique (1) et les informations visuelles re\IeC {\c c}ues par l'observateur (2).}}{74}{figure.11.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces R\IeC {\'e}sum\IeC {\'e} des \IeC {\'e}tapes d'\IeC {\'e}tat de l'Art pour la construction du mod\IeC {\`e}le et r\IeC {\'e}partition des objectifs de repr\IeC {\'e}sentation des notes interm\IeC {\'e}diaires dans le score de r\IeC {\'e}alisme.}}{75}{figure.11.30}
+\contentsline {figure}{\numberline {30}{\ignorespaces R\IeC {\'e}sum\IeC {\'e} des \IeC {\'e}tapes d'\IeC {\'e}tat de l'art pour la construction du mod\IeC {\`e}le et r\IeC {\'e}partition des objectifs de repr\IeC {\'e}sentation des notes interm\IeC {\'e}diaires dans le score de r\IeC {\'e}alisme.}}{75}{figure.11.30}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {31}{\ignorespaces Premi\IeC {\`e}re mod\IeC {\'e}lisation du score de r\IeC {\'e}alisme.}}{79}{figure.12.31}
 \contentsline {figure}{\numberline {32}{\ignorespaces Deuxi\IeC {\`e}me mod\IeC {\'e}lisation du score de r\IeC {\'e}alisme.}}{80}{figure.12.32}
@@ -71,7 +71,7 @@
 \contentsline {figure}{\numberline {55}{\ignorespaces Mod\IeC {\'e}lisation avec ordre de grandeur de la pond\IeC {\'e}ration.}}{116}{figure.15.55}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {56}{\ignorespaces Echelle <<~aid\IeC {\'e}e~>> pour noter subjectivement de 1 \IeC {\`a} 5 les diff\IeC {\'e}rents crit\IeC {\`e}res du syst\IeC {\`e}me}}{118}{figure.16.56}
-\contentsline {figure}{\numberline {57}{\ignorespaces R\IeC {\'e}sultats des valeurs th\IeC {\'e}oriques calcul\IeC {\'e}es et des valeurs subjectives relev\IeC {\'e}es.}}{120}{figure.16.57}
+\contentsline {figure}{\numberline {57}{\ignorespaces R\IeC {\'e}sultats des valeurs th\IeC {\'e}oriques calcul\IeC {\'e}es et des valeurs subjectives relev\IeC {\'e}es sur l'ensemble de la population des sujets.}}{120}{figure.16.57}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {58}{\ignorespaces Illustration de l'effet de compression.}}{130}{figure.17.58}
 \contentsline {figure}{\numberline {59}{\ignorespaces Installation de l'exp\IeC {\'e}rimentation de Rea et Ouellette.}}{132}{figure.17.59}
