@@ -1,4 +1,4 @@
-\chapter{Dans la littérature}	
+\chapter{Précédents dans la littérature}
 \par A notre connaissance, il existe, dans la littérature, assez peu de modèles ayant pour but de quantifier objectivement le réalisme physiologique. Ce type de modèle ne doit pas être confondu avec les méthodes de qualification de la qualité de l'image qui elles sont basées sur une comparaison entre une image source et cette même image après qu'elle soit passée à travers tout un processus de transformation (comme par exemple, un encodage vidéo) \citep{cadik_human_2004, winkler_quality_2000} (voir Fig. \ref{fig:quality_process}). Actuellement, il existe déjà un grand nombre de méthodes pour la qualité d'image, notamment pour des images 2D (images statiques ou vidéos). Ces dernières années, l'accent à plutôt été mis sur le développement de techniques de qualification de la qualité pour des images 3D. On peut trouver un certain nombre de revues de ces techniques dans la littérature \citep{moorthy_subjective_2013, moorthy_survey_2013} voire même avec une dimension subjective en plus \citep{beghdadi_survey_2013}.
 	
 	\begin{figure}
@@ -69,7 +69,7 @@
 	
 	\par Pour la perception du relief, ils se limitent à avancer que celle-ci résulte de la stéréo, bien qu'il existe aussi des indices monoscopiques.
 	
-	\par Ils rappellent ensuite que la discrimination des couleurs est basée sur la discrimination visuelle qui englobe l'acuité visuelle, l'acuité de reconnaissance, l'acuité de détection et l'acuité de résolution. Toutes ces acuités sont influencées par la luminance, le contraste, la durée d'observation, le rapport de luminance dans la scène, le mouvement de la cible et l'éblouissement. De même, si l'œil humain peut voir plusieurs millions de couleurs, il ne peut en voir que 8 à la fois.
+	\par Ils rappellent ensuite que la discrimination des couleurs est basée sur la discrimination visuelle qui englobe l'acuité visuelle, l'acuité de reconnaissance, l'acuité de détection et l'acuité de résolution. Toutes ces acuités sont influencées par la luminance, le contraste, la durée d'observation, le rapport de luminance dans la scène, le mouvement de la cible et l'éblouissement. De même, si l'œil humain peut voir plusieurs millions de couleurs, il ne peut, toujours selon ces auteurs, en voir que 8 à la fois.
 	
 	\par Enfin, les auteurs mettent en avant la nécessité d'une faible latence, que ce soit pour la vision contemplative (le mouvement de l'environnement doit être synchronisé avec le mouvement de la tête) comme pour la réactivité du système qui doit être aux alentours des temps de réaction de l'homme, qu'ils estiment autour de 0.1 seconde soit $100~ms$.
 	
@@ -121,10 +121,10 @@
 	
 	\par Enfin, la gamme dynamique (Dynamic Range en anglais) est, dans le domaine de l'image, le rapport entre le minimum et le maximum de luminance atteignable. Il est définit par rapport à la courbe de gamma obtenue avec un écran cathodique. Le HDR (ou High Dynamic Range) représente un ratio entre le minimum et le maximum de luminance possible supérieur au ratio standard. HDR sous entend en général une technique d'imagerie pour augmenter artificiellement les extrema lumineux pendant la capture d'image.
 	
-	\section{Propositions préliminaires}	
-	\par Avant d'arriver à la modélisation finale du score (voir ci-après) nous sommes passés par un certain nombre de pistes et de modélisations. Nous allons présenter ici les différentes étapes qui ont vu le jour.
+	\section{Propositions préliminaires}
+	\par Avant d'arriver à la modélisation finale du score (voir ci-après) nous sommes passés par un certain nombre de pistes et de modélisations. Nous allons présenter ici les différentes étapes qui ont vu le jour. Chacune des modélisations préliminaires amène un concept élémentaire qui sera utilisé pour faire notre proposition finale: l'inventaire, l'évaluation et la classification des critères du modèle.
 	
-	\subsection{Première modélisation}
+	\subsection{Inventaire des critères visuels pour le réalisme}
 	\par Initialement (Fig. \ref{fig:modèle_1}), la proposition était de faire un score simple qui réunirait les critères de base, accompagné d'un score avancé qui servirait à raffiner l'évaluation du système. La composition du modèle est basée sur les capacités de la vision que sont l'acuité, l'attention périphérique, la coordination des yeux, la perception de la profondeur, le focus et la perception des couleurs. Si le focus reste un problème insoluble en VR à cause du conflit accommodation-vergence toutes les autres capacités sont néanmoins traitables. Un critère répondant à la coordination des yeux n'est cependant pas encore proposé dans cette première modélisation. Le score simple est alors décliné selon les critères suivants:
 	\begin{itemize}
 		\item le contraste
@@ -156,7 +156,7 @@
 		\label{fig:modèle_1}
 	\end{figure}
 	
-	\subsection{Seconde modélisation}
+	\subsection{Introduction de l'évaluation des critères}
 	\par La seconde étape de la modélisation  (Fig. \ref{fig:modèle_2}) est assez proche de la première puisqu'on garde une liste quasiment similaire de critères de base : contraste, acuités monoscopique et stéréoscopique, images par seconde, couleur, luminosité et champ de vision. On retire le concept de score simple et de score avancé pour se concentrer sur un mélange des critères des deux scores précédemment envisagés en enlevant cependant les critères de champ de regard, de latence et d'échelle 1:1. Ces trois derniers facteurs, plus un critère d'uniformité, sont isolés dans une catégorie appelée << facteurs limitants >> et doivent interdire à la note globale de passer au delà d'un certain seuil en fonction de leur valeur. Ces facteurs sont de type booléens (au-dessus ou en-dessous d'un seuil): si le système propose une valeur moins bonne que celle demandée par le facteur limitant, la note globale maximale atteignable est automatiquement tronquée.
 	
 	\par Il était également envisagé de permettre un système de logique combinatoire entre les facteurs limitants. Par exemple, si le score de la latence est inférieur à 50 la note globale maximale atteignable est tronquée à 90 alors que si le score de la latence est inférieur à 60 et que le score de champ de regard est inférieur à 40 le score final maximal atteignable est diminué cette fois à 75.
@@ -170,7 +170,7 @@
 		\label{fig:modèle_2}
 	\end{figure}
 	
-	\subsection{Troisième modélisation}
+	\subsection{Classification des critères du score}
 	\par La troisième modélisation (Fig. \ref{fig:modèle_3}) est surement celle qui introduit le plus de changements tant dans la structure que dans la réflexion et le nombre de critères retenus. Le nombre de critères est doublé, passant de 7 à 14. Le concept de facteurs limitants est supprimé. A l'inverse, les critères ne sont plus regroupés en un seul et même ensemble mais sont répartis dans 3 pôles: le pôle <<~Affichage~>>, le pôle <<~Immersion~>> et le pôle <<~Observateur~>>. Le pôle observateur est construit à partir des critères extraits des autre pôles et nécessitant des informations sur la personne, typiquement sa position. Par exemple, dans un dispositif de type CAVE, la luminosité reste la même indépendamment de la position de l'utilisateur tandis que la taille perçue du pixel dépendra de la distance à l'écran. 
 	
 	\par Chaque pôle peut ainsi recevoir un score qui lui est propre et le système évalué peut avoir un score d'affichage honnête mais une mauvaise note en immersion sans que cela dégrade l'évaluation de l'affichage. On met ainsi en évidence trois scores de premier niveau: le score d'affichage, le score d'immersion et le score perceptuel (en rapport avec la catégorie observateur). Les scores d'affichage et d'immersion sont ensuite réunis dans un score technologique, par opposition au score perceptuel pour respecter la dichotomie réalisée entre les critères systémiques pur des critères nécessitant des informations sur l'observateur. Enfin, les scores technologique et perceptuel sont assemblés afin de donner le score global du système immersif évalué.

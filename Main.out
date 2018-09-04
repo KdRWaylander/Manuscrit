@@ -1,14 +1,14 @@
 \BOOKMARK [0][-]{chapter*.5}{Table des figures}{}% 1
 \BOOKMARK [0][-]{chapter*.6}{Liste des tableaux}{}% 2
 \BOOKMARK [-1][-]{chapter*.7}{Introduction g\351n\351rale}{}% 3
-\BOOKMARK [-1][-]{part.1}{I \311tat de l'Art: Partie Th\351orique}{}% 4
+\BOOKMARK [-1][-]{part.1}{I D\351finition du sujet et \351tude des composantes de la vision}{}% 4
 \BOOKMARK [0][-]{chapter.1}{D\351finition du r\351alisme}{part.1}% 5
 \BOOKMARK [1][-]{section.1.1}{Enjeux et probl\351matique}{chapter.1}% 6
 \BOOKMARK [1][-]{section.1.2}{D\351finitions usuelles}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.3}{D\351finitions dans le domaine de la R\351alit\351 Virtuelle}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.4}{D\351finition de la multi-sensorialit\351 3D}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.5}{Cadre d'\351tude}{chapter.1}% 10
-\BOOKMARK [0][-]{chapter.2}{Fonctionnement de la vision}{part.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Fonctionnement g\351n\351ral de la vision}{part.1}% 11
 \BOOKMARK [1][-]{section.2.1}{Structure de l'\234il}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.2}{Mod\351lisation de l'\234il}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.3}{Vision binoculaire}{chapter.2}% 14
@@ -18,7 +18,7 @@
 \BOOKMARK [1][-]{section.3.2}{Observateurs standards}{chapter.3}% 18
 \BOOKMARK [1][-]{section.3.3}{Illuminants}{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.4}{Equations de diff\351rentiations des couleurs}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Contraste}{part.1}% 21
+\BOOKMARK [0][-]{chapter.4}{Perception du contraste}{part.1}% 21
 \BOOKMARK [1][-]{section.4.1}{D\351finitions math\351matiques}{chapter.4}% 22
 \BOOKMARK [1][-]{section.4.2}{Calcul de seuil}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.3}{M\351thodes classiques de calcul sur un \351cran}{chapter.4}% 24
@@ -26,19 +26,19 @@
 \BOOKMARK [0][-]{chapter.6}{Influences Physiologiques}{part.1}% 26
 \BOOKMARK [1][-]{section.6.1}{Variations morphologiques}{chapter.6}% 27
 \BOOKMARK [1][-]{section.6.2}{\302ge}{chapter.6}% 28
-\BOOKMARK [-1][-]{part.2}{II Premi\350re approche: mod\350les de vision}{}% 29
+\BOOKMARK [-1][-]{part.2}{II Mod\350les de vision en R\351alit\351 Virtuelle}{}% 29
 \BOOKMARK [0][-]{chapter*.8}{Introduction}{part.2}% 30
-\BOOKMARK [0][-]{chapter.7}{\311tat de l'Art}{part.2}% 31
-\BOOKMARK [1][-]{section.7.1}{Mod\350les principaux}{chapter.7}% 32
+\BOOKMARK [0][-]{chapter.7}{\311tat de l'art}{part.2}% 31
+\BOOKMARK [1][-]{section.7.1}{Mod\350les principaux dans la litt\351rature}{chapter.7}% 32
 \BOOKMARK [1][-]{section.7.2}{P\351rennit\351 des mod\350les principaux}{chapter.7}% 33
-\BOOKMARK [1][-]{section.7.3}{Mod\350les de Mantiuk et al. [2004, 2005, 2015]}{chapter.7}% 34
-\BOOKMARK [1][-]{section.7.4}{Reproduction de tons}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.3}{D\351tail des mod\350les de Mantiuk et al.}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.4}{D\351tail des mod\350les de reproduction de tons}{chapter.7}% 35
 \BOOKMARK [0][-]{chapter.8}{Mod\350le de Pattanaik et al.}{part.2}% 36
 \BOOKMARK [0][-]{chapter.9}{Mod\350le de Mantiuk \046 Ramponi}{part.2}% 37
 \BOOKMARK [0][-]{chapter*.9}{Conclusion}{part.2}% 38
-\BOOKMARK [-1][-]{part.3}{III Deuxi\350me approche: score de r\351alisme}{}% 39
+\BOOKMARK [-1][-]{part.3}{III Score de r\351alisme visuel en R\351alit\351 Virtuelle}{}% 39
 \BOOKMARK [0][-]{chapter*.10}{Introduction}{part.3}% 40
-\BOOKMARK [0][-]{chapter.10}{Dans la litt\351rature}{part.3}% 41
+\BOOKMARK [0][-]{chapter.10}{Pr\351c\351dents dans la litt\351rature}{part.3}% 41
 \BOOKMARK [1][-]{section.10.1}{Mod\350le de Rose}{chapter.10}% 42
 \BOOKMARK [1][-]{section.10.2}{Observateur id\351al \046 th\351orie de d\351tection du signal}{chapter.10}% 43
 \BOOKMARK [1][-]{section.10.3}{Tableau de Burdea \046 Coiffet}{chapter.10}% 44
@@ -72,12 +72,12 @@
 \BOOKMARK [1][-]{section.16.3}{R\351sultats}{chapter.16}% 72
 \BOOKMARK [1][-]{section.16.4}{Discussion}{chapter.16}% 73
 \BOOKMARK [0][-]{chapter*.20}{Conclusion}{part.3}% 74
-\BOOKMARK [-1][-]{part.4}{IV Partie exp\351rimentale: contraste et luminance}{}% 75
+\BOOKMARK [-1][-]{part.4}{IV Exp\351rimentation: confrontation d'un mod\350le de performance visuelle pour le crit\350re de contraste - luminance}{}% 75
 \BOOKMARK [0][-]{chapter*.21}{Introduction}{part.4}% 76
 \BOOKMARK [0][-]{chapter.17}{Mod\350les de Rea}{part.4}% 77
 \BOOKMARK [1][-]{section.17.1}{Premi\350re mod\351lisation de la performance visuelle relative}{chapter.17}% 78
 \BOOKMARK [1][-]{section.17.2}{M\351thode des temps de r\351action}{chapter.17}% 79
-\BOOKMARK [0][-]{chapter.18}{Mesures pr\351liminaires}{part.4}% 80
+\BOOKMARK [0][-]{chapter.18}{Mesures pr\351liminaires pour l'exp\351rimentation}{part.4}% 80
 \BOOKMARK [1][-]{section.18.1}{Luminance globale \(luminance de fond\)}{chapter.18}% 81
 \BOOKMARK [1][-]{section.18.2}{Luminance de la cible \(luminance de tache\)}{chapter.18}% 82
 \BOOKMARK [1][-]{section.18.3}{Diam\350tre pupillaire}{chapter.18}% 83
@@ -85,12 +85,12 @@
 \BOOKMARK [0][-]{chapter.19}{Protocole exp\351rimental}{part.4}% 85
 \BOOKMARK [1][-]{section.19.1}{Dispositif}{chapter.19}% 86
 \BOOKMARK [1][-]{section.19.2}{Choix des conditions exp\351rimentales}{chapter.19}% 87
-\BOOKMARK [0][-]{chapter.20}{R\351sultats}{part.4}% 88
+\BOOKMARK [0][-]{chapter.20}{Comparaison des r\351sultats th\351oriques et r\351els}{part.4}% 88
 \BOOKMARK [1][-]{section.20.1}{Pr\351dictions du mod\350le th\351orique}{chapter.20}% 89
 \BOOKMARK [1][-]{section.20.2}{Mesures r\351elles}{chapter.20}% 90
 \BOOKMARK [1][-]{section.20.3}{Analyse et discussion}{chapter.20}% 91
 \BOOKMARK [0][-]{chapter*.22}{Conclusion}{part.4}% 92
-\BOOKMARK [-1][-]{part.5}{V Partie exp\351rimentale: latence}{}% 93
+\BOOKMARK [-1][-]{part.5}{V Exp\351rimentation: raffinement du crit\350re de latence}{}% 93
 \BOOKMARK [0][-]{chapter*.23}{Introduction}{part.5}% 94
 \BOOKMARK [0][-]{chapter.21}{Contexte}{part.5}% 95
 \BOOKMARK [1][-]{section.21.1}{D\351finition et mesure des effets de la latence}{chapter.21}% 96

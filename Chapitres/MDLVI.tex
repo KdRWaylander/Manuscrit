@@ -1,4 +1,5 @@
-\part{Première approche: modèles de vision}
+%\part{Première approche: modèles de vision}
+\part{Modèles de vision en Réalité Virtuelle}
 	\chapter*{Introduction}
 	\addcontentsline{toc}{chapter}{Introduction}
 	\markboth{INTRODUCTION}{}
@@ -16,7 +17,7 @@
 		\item Prédicateur de vision chromatique complet \citep{pattanaik_multiscale_1998}.
 	\end{itemize}
 	
-	\chapter{État de l'Art}
+	\chapter{État de l'art}
 	\par L'état de l'Art ici présenté n'a pas volonté d'être exhaustif sur tous les modèles de vision tant il en existe de types et de variations. On présente néanmoins des classiques ainsi que certaines de leurs ramifications.
 	
 	\par Si on a défini dans la section précédente le modèle de vision, il reste encore à déterminer les actions et objectifs de deux types de sous-modèles, le Visual Differences Predictor (VDP) et la reproduction de tons:
@@ -27,7 +28,7 @@
 	
 	\par Tout d'abord, il convient de citer les deux modèles fondateurs et sur lesquels la quasi majorité des autres modèles de vision sont adaptés: le \textit{Visual Differences Predictor} de \citep{daly_visible_1992} et le \textit{Visual Discrimination Model} de \citep{lubin_visual_1995}. Si ces deux modèles sont des références absolues, ils restent néanmoins des modèles achromatiques (le traitement et le résultat se font uniquement sur le canal luminance de l'image). Leur équivalent chromatique (traitement sur tous les canaux de l'image, luminance et couleur) est le modèle développé par \citep{pattanaik_multiscale_1998}. Enfin, \citep{rushmeier_comparing_1995} ont formalisé, les premiers, la méthode de reproduction de tons, méthode reprise très largement dans de nombreux modèles par la suite. On en profite également pour pointer vers deux références qui contiennent elle même de très nombreuses références sur le sujet: \citep{moreau_traite_2006} et \citep{bradley_wavelet_1999}.
 	
-	\section{Modèles principaux}
+	\section{Modèles principaux dans la littérature}
 	\par Le modèle de \citep{daly_visible_1992} est donc un modèle achromatique qui se base sur une simulation de l'adaptation des cellules de la rétine à la luminance. La fonction prend aussi en compte la vision spatiale (c'est à dire la sensibilité aux fréquences spatiales) avec l'intégration de fonctions de sensibilité au contraste. Enfin, le modèle simule aussi les traitement corticaux (c'est à dire la gestion de l'information nerveuse par tout un réseau de neurones) via une fonction dite \textit{cortex}.
 		
 	\par Parallèlement, le modèle de \citep{lubin_visual_1995} a lui une structure plus logique que le modèle précédent, du point de vue du déroulement de la chaine de vision (de la perception au traitement), néanmoins le traitement se fait toujours de manière achromatique. Il simule l'optique de l'œil et le comportement de la rétine, puis effectue un calcul des contrastes locaux (c'est à dire par zone de l'image perçue) puis il prend en compte l'orientation de l'image et enfin termine par une phase de transduction\footnote{Transducteur. (s.d.). Dans \textit{Dictionnaire Larousse en ligne}. Repéré à \url{http://www.larousse.fr/dictionnaires/francais/transducteur/}}.
@@ -36,7 +37,7 @@
 	\par \citep{lukin_improved_2009} et \citep{bradley_wavelet_1999} ont eu, par rapport au modèle de Daly, des approches radicalement différentes. Le premier a cherché à améliorer la modélisation en complexifiant la fonction de cortex tandis que le second l'a remplacée par une autre approche: une fonction basée sur un modèle en ondelettes.
 	Les améliorations de Lukin se concentrent sur une fixation plus précise des seuils utilisés dans la modélisation, l'ajout de la modélisation de l'effet de facilitation pendant l'effet de masque (traitements cognitifs) ainsi que la séparation de l'amplitude et de la phase de la réponse au modèle. L'amplitude servant à calculer le masque de contraste tandis que la phase prend part dans la modélisation de l'effet de facilitation.
 	
-	\section{Modèles de Mantiuk \textit{et al.} [2004, 2005, 2015]}
+	\section{Détail des modèles de Mantiuk \textit{et al.}}
 	\par Une famille de modèles de vision très intéressante, et basée sur le modèle Daly, est conçue par Rafal Mantiuk et ses collaborateurs: \citep{mantiuk_visible_2004,mantiuk_predicting_2005,mantiuk_human_2015}. Le dernier de ces modèles, qui vient en amélioration des précédents, est d'ailleurs développé en détail par la suite.
 	
 	\par \citep{mantiuk_visible_2004} proposent un modèle de vision pour les images HDR (High Dynamic Range). Leur hypothèse de base étant que le modèle de Daly est fonctionnel mais reste éloigné de la vision humaine en cela qu'il n'accepte pas une amplitude de luminance suffisante et n'intègre donc pas de mécanisme d'adaptation du système visuel à la luminosité ambiante. Deux modifications principales du modèle initial sont alors opérées:
@@ -59,7 +60,7 @@
 	
 	\par Enfin, \citep{mantiuk_human_2015} apportent une modification fondamentale dans leur modèle, en rajoutant les effets de l'âge de l'observateur simulé sur la perception des erreurs. Ce modèle est largement discuté dans une section suivante (Section \ref{sec:modele_mantiuk}).
 	
-	\section{Reproduction de tons}
+	\section{Détail des modèles de reproduction de tons}
 	\par Après la formalisation de la technique par \citep{rushmeier_comparing_1995}, les algorithmes de reproduction de tons se divisent en trois grandes familles: le traitement des images statiques par des méthodes globales, le traitement des images statiques cette fois ci par des méthodes locales et enfin le traitement des images dynamiques ; \citep{moreau_traite_2006} relèvent un grand nombre de modèles du genre. Cette dernière famille est entièrement revue par \citep{drago_perceptual_2003}.
 	
 	\par Enfin, \citep{ferwerda_model_1996} proposent un modèle très complet, basé sur le modèle de reproduction de tons lui-même basé sur le coefficient de Ward que l'on a vu précédemment. Ce modèle fonctionne avec des techniques de calcul d'éclairage plus avancées telle que la \textit{Global Illumination}, et ce, à des niveaux de luminosité allant de photopique à scotopique. Sont modélisés: la capture des changements de seuil de visibilité, les changements d'apparence des couleurs, les changements d'acuité visuelle ainsi que la sensibilité à tous ces facteurs au cours du temps. On peut par exemple obtenir toutes les images intermédiaire d'un processus d'adaptation de l'œil à un changement brutal de luminosité, que ce soit du clair vers l'obscur ou inversement (voir Fig. \ref{fig:ferwerda_adaptation_steps}).
@@ -67,7 +68,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[scale=1]{Figures/FerwerdaAdaptationSteps}
-		\caption{Différentes étapes du modèle d'adaptation lumineuse. Images tirées de \citep{ferwerda_model_1996}}
+		\caption{Différentes étapes du modèle d'adaptation lumineuse.}{Images tirées de \citep{ferwerda_model_1996}}
 		\label{fig:ferwerda_adaptation_steps}
 	\end{figure}
 	
@@ -88,7 +89,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[scale=.75]{Figures/FlowChartPattanaik}
-		\caption{Schéma synthétique du déroulé du modèle de \citep{pattanaik_multiscale_1998}}
+		\caption{Schéma synthétique du déroulé du modèle de \cite{pattanaik_multiscale_1998}}
 		\label{fig:flowchart_pattanaik}
 	\end{figure}
 	
@@ -228,7 +229,7 @@
 	\begin{figure}
 		\centering
 		\includegraphics[scale=1.25]{Figures/PattanaikFullModel}
-		\caption{Schéma exhaustif du traitement de l'image par le modèle de \citep{pattanaik_multiscale_1998}}
+		\caption{Schéma exhaustif du traitement de l'image par le modèle de \cite{pattanaik_multiscale_1998}}
 		\label{fig:full_model_pattanaik}
 	\end{figure}
 	

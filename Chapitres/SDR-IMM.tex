@@ -103,7 +103,13 @@
 	
 	\par La couleur est surement le critère le plus facile à vérifier car on sait mesurer des écarts entre les couleurs grâce aux équations de différentiations des couleurs (présentées dans la première partie du manuscrit). Ces équations donnent donc des écarts entre les couleurs qui, par construction doivent être inférieurs à une valeur de 1 pour qu'ils soient imperceptibles à l'oeil humain. Néanmoins, en informatique notamment, le seuil réel est plus bas (la valeur en dessous de laquelle la différence est imperceptible est plus grand que le 1 théorique) pour les population experte dans le domaine de la couleur, et encore plus bas pour les populations néophytes \citep{vidal_color-difference_2016}. On pourrait donc se baser sur ces trois valeurs (valeur théorique minimale, valeur de la population experte et valeur de la population néophyte) pour faire une première échelle de notation.
 	
-	\par Néanmoins, l'uniformité concerne aussi la luminosité et le contraste qui sont des sujets bien plus complexes à manipuler.
+	\par Néanmoins, on présente ici les valeurs qui sont utilisées dans les cahiers des charges de Renault pour le design des moyens immersifs du groupe. Ces valeurs sont le fruit de l'expérience des ingénieurs et d'échanges avec les différents acteurs du milieu. Toutes les mesures sont faites selon la norme ANSI IT7.215, c'est à dire avec 9 points de mesure sur chaque écran. Ces points sont répartis en 3 lignes de 3: sur chaque ligne, un point centré encadré par deux autres points distants de 1/3 de la largeur totale de l'écran par rapport au bord.
+	
+	\par Pour la couleur, le mesures se font indépendamment sur du blanc uni et un gris 18\% uni (Gris RGB 128). Les spécifications sont à appliquer à la fois entre les différents points de mesure sur l'écran mais également entre les écrans, lorsque c'est le cas dans le système immersif. Dans le premier cas, le $\Delta E$ maximal toléré est de 6. Dans le deuxième cas, pour deux faces contiguës, seuls les 3 points les plus proches des bords en contact sont concernés. Un $\Delta E$ maximal de 6 est également requis.
+	
+	\par Pour la luminance, la différence entre le point le plus lumineux et le point le plus sombre ne doit pas dépasser 30\%, sur la base de la plus petite valeur mesurée. En cas d'écrans contigus, la différence entre le point le plus lumineux et le point le plus sombre ne doit pas dépasser 10\%, là encore sur la base de la plus petite valeur mesurée. De manière analogue aux spécifications sur la couleur, on n'utilise pas les 18 points de mesure mais seulement les 6 points les plus proches des bords comparés (3 par écran).
+	
+	\par Pour le contraste, la différence entre la valeur minimale et et la valeur maximale entre les différents écrans ne doit pas dépasser 25\% de la valeur minimale.
 	
 	\section{Orientation des caméras}	
 	\subsection{Mimétisme du fonctionnement oculaire}	
