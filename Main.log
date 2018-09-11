@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  4 SEP 2018 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.4)  11 SEP 2018 15:02
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2016,7 +2016,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 ] [46
 
 ]
-Chapitre 7.
+Chapitre 1.
 [47]
 LaTeX Font Info:    Font shape `T1/pnc/bx/it' in size <17.28> not available
 (Font)              Font shape `T1/pnc/b/it' tried instead on input line 40.
@@ -2035,7 +2035,7 @@ LaTeX Warning: Float too large for page by 9.71956pt on input line 73.
 [50] [51 <./Figures/FerwerdaAdaptationSteps.png>] [52
 
 ]
-Chapitre 8.
+Chapitre 2.
 <Figures/FlowChartPattanaik.png, id=1710, 602.25pt x 179.2296pt>
 File: Figures/FlowChartPattanaik.png Graphic file (type png)
 
@@ -2055,7 +2055,7 @@ Package pdftex.def Info: Figures/PattanaikFullModel.png used on input line 231.
 LaTeX Warning: Float too large for page by 9.93036pt on input line 234.
 
 [57] [58 <./Figures/PattanaikFullModel.png>]
-Chapitre 9.
+Chapitre 3.
 [59
 
 ] [60]
@@ -2087,7 +2087,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 3--3
 
 
 ]
-Chapitre 10.
+Chapitre 1.
 <Figures/ImageQualityWinkler.png, id=1898, 417.7206pt x 199.4652pt>
 File: Figures/ImageQualityWinkler.png Graphic file (type png)
 
@@ -2113,7 +2113,7 @@ Package pdftex.def Info: Figures/BurdeaCoiffetTableau.png used on input line 61
  [70] [71 <./Figures/BurdeaCoiffetTableau.png>] [72
 
 ]
-Chapitre 11.
+Chapitre 2.
 
 Underfull \vbox (badness 1577) has occurred while \output is active []
 
@@ -2135,7 +2135,7 @@ Package pdftex.def Info: Figures/EDLAProcessScoreTarget.png used on input line
  [75 <./Figures/EDLAProcessScoreTarget.png>] [76
 
 ]
-Chapitre 12.
+Chapitre 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--114
 [][][]\T1/pnc/m/n/9 (+20) .[][]Acuité vi-suelle. Dans \T1/pnc/m/it/9 (+20) Vul-
@@ -2181,7 +2181,7 @@ Package pdftex.def Info: Figures/ModeleDefinitif_2.png used on input line 205.
 
 
 ]
-Chapitre 13.
+Chapitre 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2307,7 +2307,7 @@ Package pdftex.def Info: Figures/StereoAcuity.png used on input line 323.
 \openout2 = `Chapitres/SDR-IMM.aux'.
 
  (Chapitres/SDR-IMM.tex
-Chapitre 14.
+Chapitre 5.
 [103
 
 
@@ -2374,17 +2374,17 @@ png>])
 \openout2 = `Chapitres/SDR-POND.aux'.
 
  (Chapitres/SDR-POND.tex
-Chapitre 15.
-
-Overfull \hbox (5.31407pt too wide) in paragraph at lines 6--6
-|[]\T1/pnc/b/n/17.28 Contraste, lu-mi-nance, taille et champs vi-suels| 
- []
-
+Chapitre 6.
 [113
 
 
 
-] [114] [115]
+]
+Overfull \hbox (0.30374pt too wide) in paragraph at lines 33--33
+|[]\T1/pnc/b/n/17.28 Tracking, sté-réo-sco-pie, conver-gence des ca-mé-
+ []
+
+[114] [115]
 <Figures/ModeleDefinitifPondere_2.png, id=2452, 417.7206pt x 273.1806pt>
 File: Figures/ModeleDefinitifPondere_2.png Graphic file (type png)
 
@@ -2396,7 +2396,7 @@ e 84.
 \openout2 = `Chapitres/SDR-EXPE.aux'.
 
  (Chapitres/SDR-EXPE.tex
-Chapitre 16.
+Chapitre 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 [][][]\T1/pnc/m/n/9 (+20) .[][][][]$\T1/pcr/m/n/9 http : / / www . oktal . fr /
@@ -2459,7 +2459,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 4--4
 
 
 ]
-Chapitre 17.
+Chapitre 1.
 [129] <Figures/CompressionEffect.png, id=2541, 666.23906pt x 188.20313pt>
 File: Figures/CompressionEffect.png Graphic file (type png)
 
@@ -2482,7 +2482,7 @@ Package pdftex.def Info: Figures/ReactionTimeApparatus.png used on input line 8
 
 
 ]
-Chapitre 18.
+Chapitre 2.
 <Figures/ChromameterCS100.png, id=2601, 152.06813pt x 187.45032pt>
 File: Figures/ChromameterCS100.png Graphic file (type png)
 
@@ -2569,7 +2569,7 @@ ourcentageAbsorption.png>]
 
 
 ]
-Chapitre 19.
+Chapitre 3.
 
 Underfull \vbox (badness 1314) has occurred while \output is active []
 
@@ -2611,7 +2611,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [151] [152]
-Chapitre 20.
+Chapitre 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2680,7 +2680,7 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 4--4
 
 
 ]
-Chapitre 21.
+Chapitre 1.
 [165] [166] [167] [168]
 <Figures/LiangPendulum.png, id=2916, 365.86688pt x 347.79938pt>
 File: Figures/LiangPendulum.png Graphic file (type png)
@@ -2708,7 +2708,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [170 <./Figures/LiangPendulum.png>] [171 <./Figures/SwindellsPhonograph.png> <
 ./Figures/DiLucaGradient.png>] [172]
-Chapitre 22.
+Chapitre 2.
 [173
 
 ] <Figures/OculusRift.png, id=2967, 642.4pt x 331.2375pt>
@@ -2740,7 +2740,7 @@ Package pdftex.def Info: Figures/LatencyMeasureTechnique.png used on input line
  219.
 (pdftex.def)             Requested size: 419.35928pt x 313.36314pt.
  [180 <./Figures/LatencyMeasureTechnique.png>]
-Chapitre 23.
+Chapitre 3.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3298,7 +3298,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 7C85D3863226A14F1DB94C7A910BE162;8772.
+(rerunfilecheck)             Checksum: 6C18FDCCA6E24D895D1F78F71CC22D37;8983.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  )
 (\end occurred inside a group at level 1)
@@ -3306,10 +3306,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
 ### simple group (level 1) entered at line 139 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14678 strings out of 493634
- 237988 string characters out of 3131976
- 386898 words of memory out of 3000000
- 16303 multiletter control sequences out of 15000+200000
+ 14683 strings out of 493634
+ 238612 string characters out of 3131976
+ 387212 words of memory out of 3000000
+ 16308 multiletter control sequences out of 15000+200000
  137605 words of font info for 348 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,18n,53p,1772b,6286s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -3347,7 +3347,7 @@ rw/ncntrsbk/uncbi8a.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Administrator/AppData/Local/Pr
 ograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb><C:/Users/Administrator/
 AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb>
-Output written on Main.pdf (258 pages, 14568601 bytes).
+Output written on Main.pdf (258 pages, 14504948 bytes).
 PDF statistics:
  3795 PDF objects out of 4296 (max. 8388607)
  812 named destinations out of 1000 (max. 500000)
