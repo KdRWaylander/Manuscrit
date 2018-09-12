@@ -67,7 +67,7 @@
 	
 	\par Une première méthode pour déterminer la latence d'un système est décrite chez  \citep{liang_temporal-spatial_1991} et implique l'utilisation d'un pendule, d'un pendule fixe, d'une caméra, d'un module de tracking (ici, <<~Isotrack~>>) et d'un écran de retour (Fig. \ref{fig:liang_pendulum}). La technique revient à faire osciller un pendule devant une base fixée verticalement (type fil à plomb). Un système de tracking est associé au pendule et affiche, via l'écran de retour, ses mesures horodatées de position du pendule. Avec une caméra placée dans l'axe des pendules on peut, en analysant la vidéo image par image, mesurer l'écart de temps entre l'image montrant l'alignement entre les deux pendules et la mesure indiquant effectivement que le pendule est aligné avec la référence fixe.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.6]{Figures/LiangPendulum}
 		\caption{Méthode du pendule pour le calcul de la latence.}{Image tirée de \citep{liang_temporal-spatial_1991}}
@@ -78,7 +78,7 @@
 	
 	\par Parallèlement, il existe d'autres techniques qui ont été mises au point et qui n'impliquent pas de pendule et de mouvement oscillatoire. \citep{swindells_system_2000} génèrent un mouvement cyclique et périodique à l'aide de la table tournante d'un lecteur de vinyles. Un patch de forme ronde est placé et tracké sur la table tournante. Son mouvement est reproduit dans une scène virtuelle (Fig. \ref{fig:swindells_phonograph}). L'écart angulaire est mesuré entre le disque réel et le disque virtuel via des prises photo ou vidéo. La vitesse de rotation étant fixée et connue, on peut alors déduire le temps de latence généré par le système.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/SwindellsPhonograph}
 		\caption{Méthode de la table tournante pour le calcul de la latence.}{Image tirée de \citep{swindells_system_2000}. La position du disque physique est appliqué au disque dans la scène virtuelle. Les deux images sont superposées et on mesure l'écart angulaire entre les deux. A partir de la vitesse de rotation on peut remonter à la latence.}
@@ -89,7 +89,7 @@
 	
 	\par Si les méthodes décrites jusqu'à présent sont très abstraites par rapport au déroulement réel d'une application en VR, \citep{di_luca_new_2010} propose une technique adaptative: que ce soit pour des lunettes 3D, pour un objet quelconque ou pour un casque de Réalité Virtuelle. La méthode nécessite deux photodétecteurs: le premier placé sur l'objet à tracker et le second au niveau de l'écran qui servira à afficher l'image pour le sujet: dans le cas d'un casque, les deux photorécepteurs seront placés sur le même objet (mais à des positions différentes) alors que dans le cas d'un CAVE, les photorécepteurs seront distants (l'un sur les lunettes, l'autre au niveau d'un écran). On affiche, devant le premier photorécepteur (celui sur l'objet tracké), l'image fixe d'un gradient lumineux (un dégradé du noir vers le blanc typiquement). Si on déplace l'objet tracké dans le sens du gradient, on pourra obtenir l'équivalent de sa <<~position~>> via la valeur de luminosité qu'il mesure. De l'autre côté, le deuxième photodétecteur est dirigé vers l'écran destiné à l'utilisateur, sur lequel on affiche une nuance de gris (uniforme sur tout l'écran) en fonction des informations de tracking que l'on reçoit. En comparant le temps auquel le photorécepteur passe devant une nuance de gris donnée (en se déplaçant le long du gradient) et le temps où l'écran de l'utilisateur affiche cette même nuance de gris, on obtient la latence globale du système.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.5]{Figures/DiLucaGradient}
 		\caption{Méthode des gradients pour le calcul de la latence.}{Le cadre rouge représente la zone réellement mesurée par le photorécepteur tandis que le grand cadre vert montre la couleur affichée par l'écran final, ce qui correspond à une <<~position~>> sur le gradient fixe représentée par le cadre vert en pointillés. La différence entre les deux petits cadres permet de calculer la latence du système.}
@@ -116,7 +116,7 @@
 	\par Les sujets étaient confrontés à une situation écologique, c'est à dire sensée représenter la vie <<~réelle~>>, et il leur était demandé de réaliser une tâche de tous les jours telle que regarder à des endroits précis dans le cockpit d'une voiture, pendant de courts laps de temps.
 	
 	\subsection{Moyens immersifs}	
-	\par Un des objectifs de l'expérimentation étant de faire également une comparaison entre plusieurs moyens immersifs,	on fait passer nos sujets dans un casque de Réalité Virtuelle (un Oculus Rift) et dans un simulateur de type CAVE.
+	\par Un des objectifs de l'expérimentation étant de faire également une comparaison entre plusieurs moyens immersifs, on fait passer nos sujets dans un casque de Réalité Virtuelle (un Oculus Rift) et dans un simulateur de type CAVE.
 	
 	\par Le CAVE est le même que pour les précédentes expérimentations: que ce soit pour le contraste et la luminance ou pour la conduite suivie de questionnaires. Les sujets sont donc assis dans un CAVE 4 faces à 1 mètre de distance de la face principale (avant). Les sujets n'étaient pas assis sur un siège de voiture comme dans nos autres expérimentations mais sur un siège normal. Ce changement est dû à plusieurs raisons: premièrement, aucune tâche de conduite n'était nécessaire, ensuite, pour garder la continuité avec la chaise de même format utilisée pendant les essais dans le casque, et enfin,  pour des facilités de manœuvre. Les sujets n'étaient donc équipés que des lunettes de stéréoscopie et d'une manette de jeu faisant office d'interface de contrôle. Du point de vue des performances graphiques, l'application utilisée pendant l'expérimentation tournait à une valeur constante de 60 images par seconde.
 	
@@ -124,7 +124,7 @@
 	
 	\par L'environnement virtuel était commun au CAVE et au casque: le sujet était assis au volant d'une voiture (modèle <<~officiel~>> interne Renault), à l'arrêt dans un <<~paysage~>> constitué de l'intérieur des bâtiments de Renault. Le paysage était réalisé au moyen d'une photo 360 degrés pour un maximum de photo-réalisme et pour limiter le nombre de triangles à afficher dans la scène (déjà bien chargée par le modèle de la voiture). Les lumières et réflexions des miroirs étaient pré-calculées pour limiter au maximum l'impact sur le temps de calcul des images.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.65]{Figures/OculusRift}
 		\caption{Oculus Rift et ses accessoires.}{De gauche à droite: la caméra permettant de tracker le casque, le casque vu de face (version CV1) et la manette de Xbox associée.}
@@ -138,7 +138,7 @@
 	
 	\par A chaque fois que les sujets appuyaient sur la manette et qu'ils étaient (par le biais du réticule) dans la cible désignée, le programme déclenchait une série de mesures (temps de passage, précision sur les axes vertical et horizontal, ...) qui sont décrites plus précisément dans la section suivante. Dans le cas d'un appui sur la manette sans cible désignée, en dehors de toute cible ou sur la mauvaise cible, rien ne se passait.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.9]{Figures/ExpeLatency}
 		\caption{Environnement virtuel pour l'expérimentation sur la latence.}{L'image est tirée du point de vue du sujet, la flèche blanche indique la cible à viser (ici, le rétroviseur gauche) tandis que la croix rouge (le viseur) est alignée avec la direction de la tête.}
@@ -171,7 +171,7 @@
 	
 	\par Le premier type de mesure concerne le temps global mis pour toucher l'ensemble des cibles, l'ordre des cibles, le temps par cible, et enfin, la précision relative (en valeur absolue) de la visée. Cette dernière est découpée selon l'axe horizontal (x) et l'axe vertical (y) (voir Fig. \ref{fig:x_y_precision_latency}) et est calculée en valeur absolue de manière relative à la taille de la cible: si le sujet arrive à viser précisément le centre de la cible, il obtiendra un résultat de (0,0) alors que s'il vise dans un des angles il obtiendra un résultat de 1 sur les deux axes.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.65]{Figures/XYPrecision}
 		\caption{Précisions en X et Y pour l'expérimentation sur la latence.}{Le point rouge correspond au centre théorique de la cible à viser (ici le rétroviseur gauche) tandis que le point vert représente le point réel que le sujet a visé.}
@@ -210,11 +210,11 @@
 	
 	\par L'objectif est donc de mesurer la latence tout en restant dans les même conditions que celles de l'expérimentation. On place donc un objet (un plan) dans l'habitacle de la voiture qui sera chargé d'afficher les variations de l'objet tracké: les lunettes de stéréoscopie pour le CAVE et le masque entier pour le casque. Ce plan se colore en vert lorsqu'il détecte que le mouvement de l'objet tracké est ascendant (c'est à dire lorsque la coordonnée sur l'axe vertical de l'objet tracké est supérieure à sa valeur de l'image précédente), et se colore en rouge lorsqu'il détecte l'inverse.
 	
-	\par On demande ensuite à une personne d'imprimer verticalement un mouvement sinusoïdal à l'objet tracké et on filme, avec, dans le plan, l'objet bougé et le plan changeant de couleur. On peut donc déterminer visuellement quand est ce que l'opérateur commence un mouvement ascendant ou descendant, puis compter le nombre d'image de la vidéo jusqu'au changement de couleur du plan, signifiant la prise en compte du changement. Plus le nombre d'images entre les deux marqueurs est grand, plus la latence est importante: il s'écoule $8~ms$ entre chaque image de la vidéo. On peut donc mesurer facilement la latence de nos outils, avec une précision d'une demi-image, soit $4~ms$.
+	\par On demande ensuite à une personne d'imprimer verticalement un mouvement sinusoïdal à l'objet tracké et on filme, avec, dans le plan, l'objet bougé et le plan changeant de couleur. On peut donc déterminer visuellement quand l'opérateur commence un mouvement ascendant ou descendant, puis compter le nombre d'image de la vidéo jusqu'au changement de couleur du plan, signifiant la prise en compte du changement. Plus le nombre d'images entre les deux marqueurs est grand, plus la latence est importante: il s'écoule $8~ms$ entre chaque image de la vidéo. On peut donc mesurer facilement la latence de nos outils, avec une précision d'une demi-image, soit $4~ms$.
 	
 	\par En fonctionnement dans la scène virtuelle qui sera utilisée pour l'expérimentation, on mesure une latence nominale de $45~ms$ pour le casque et de $160~ms$ pour le CAVE. La latence très élevée de ce dernier vient de son architecture: les cartes graphiques et les projecteurs ont besoin d'une durée de plusieurs cycles de rafraichissement pour fonctionner, ce qui augmente la latence. Avec une architecture plus directe, avec un seul cycle de fonctionnement, la latence serait beaucoup plus basse. On a également mesuré et vérifié que les techniques pour ajouter de la latence donnaient bien les niveaux attendus: le delta de $60~ms$ pour le casque et le CAVE et les niveaux de latence équivalent à ceux du simulateur pour le casque. Les résultats de nos mesures sont synthétisés en Tab. \ref{tab:latence_casque_cave_expe}. On peut donc ainsi débuter une campagne de mesure sur des sujets, dont les résultats sont développés dans le chapitre suivant.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.8]{Figures/LatencyMeasureTechnique}
 		\caption{Technique de mesure de la latence.}{On compte le nombre d'image de la vidéo ralentie entre le début du mouvement (ici, vertical ascendant) et la prise en compte du mouvement par le logiciel, signalée par le passage d'une texture du rouge au vert.}
@@ -243,7 +243,7 @@
 	
 	\par Initialement, les sujets devaient répondre à un questionnaire de propension à l'immersion (moyenne des réponses: $43.83 \pm 7.50$).	Après leur passage à la condition nominale du CAVE, les sujets devaient également répondre à un questionnaire de présence (moyenne des réponses: $67.50 \pm 11.33$, Fig. \ref{fig:itq_pq}). Il ne semble pas exister ($p = 0.07$) de corrélation statistique\footnote{Méthode: Corrélation de Pearson, 28 degrés de liberté, $Qobs = 1.91$.} entre les deux (QPI et QEP) qui nous permettrait de prévoir le degré d'immersion d'un sujet sur la base d'un questionnaire de propension à l'immersion.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/ITQvPQ.png}
 		\caption{Scores moyens des questionnaires de propension à l'immersion (QPI) et de présence (QEP).}
@@ -254,14 +254,14 @@
 	
 	\par Dans le cas du CAVE sans latence ajoutée (Fig. \ref{fig:cave_precision} et Tab. \ref{tab:resultats_cave_latence}), la précision relative sur les deux axes (horizontal et vertical) est quasiment la même ($0.18$ contre $0.17$). Cet écart s'accentue néanmoins lorsque la latence augmente avec des valeurs moyennes de $0.22$ et de $0.19$ pour les axes horizontal et vertical respectivement. Le temps de complétion (Fig. \ref{fig:cave_completion_time} et Tab. \ref{tab:resultats_cave_latence}) est lui beaucoup plus sensible au changement de latence avec une valeur moyenne entre les sujets qui passe de $101.49~s$ à $128.61~s$ (soit une augmentation de 27\%) pour réaliser l'ensemble de la tâche.
 
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/CavePrecisionResults.png}
 		\caption{Précision moyenne sur x et sur y dans le CAVE, en fonction de la latence.}
 		\label{fig:cave_precision}
 	\end{figure}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/CaveCompletionTimeResults.png}
 		\caption{Temps de complétion moyens dans le CAVE, en fonction de la latence.}
@@ -298,7 +298,7 @@
 	
 	\par Pour la précision verticale, la tendance est inverse: statistiquement, la latence a un effet dès la première comparaison ($p = 0.0004$) puis cesse ($p = 0.27$ et $p = 0.20$) pour les deux dernières comparaisons. Il semblerait alors que la performance de visée, dans ce cas particulier de visée rapide avec le mouvement de la tête, varie non-linéairement mais par effet de palier. Les deux mouvements, horizontal et vertical, semblent ne pas avoir la même sensibilité: le premier possède son palier aux alentours des 100~ms de latence ajoutée, tandis que le second se situe autour de 60~ms ajoutées.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/CasquePrecisionResults.png}
 		\caption{Précision moyenne sur x et sur y dans le casque, en fonction de la latence.}
@@ -307,7 +307,7 @@
 	
 	\par Le temps de complétion montre une influence statistique de la latence plus erratique que la précision, avec des tests validés pour la première ($p = 0.0003$) et la troisième ($p = 0.005$) comparaison, mais pas pour la deuxième ($p = 0.26$).
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[width=0.8\linewidth]{Figures/CasqueCompletionTimeResults.png}
 		\caption{Temps de complétion moyens dans le casque, en fonction de la latence.}

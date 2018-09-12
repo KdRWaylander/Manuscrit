@@ -1,7 +1,7 @@
 \chapter{Mesures préliminaires pour l'expérimentation}
 \par Afin de contrôler le plus finement possible les valeurs de luminance et de contraste proposées à nos sujets pendant les expérimentations, il est nécessaire de mesurer avec le plus grand soin, directement sur le simulateur, toutes ces valeurs. Les mesures ont été faites dans les conditions de l'expérimentation avec un <<~chromameter CS-100~>> (Fig. \ref{fig:chromameter_cs100}).
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[scale=1]{Figures/ChromameterCS100}
 	\caption{Chromameter CS100}
@@ -40,7 +40,7 @@
 		\label{eq:regression_luminance_globale}
 	\end{equation}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/EvolutionLuminanceGlobale}
 		\caption{Evolution de la luminance en fonction du niveau de gris sur les cinq points de mesure et leur moyenne.}
@@ -84,7 +84,7 @@
 		\label{eq:regression_luminance_cible}
 	\end{equation}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/EvolutionLuminanceTarget}
 		\caption{Luminance de la cible en fonction de la luminance globale}
@@ -99,7 +99,7 @@
 		\label{eq:weale_equation}
 	\end{equation}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=1]{Figures/DikablisProfessional}
 		\caption{Oculomètre Dikablis Professional}
@@ -108,7 +108,7 @@
 	
 	\par L'oculomètre filme les yeux dans le cadre de son fonctionnement et permet donc de relever parallèlement un certain nombre d'autres paramètres en temps réel et sur les deux yeux indépendamment. Notamment, la surface, la hauteur et la largeur pupillaire peuvent être mesurées. La Fig. \ref{fig:mesure_pupille} représente une mesure de largeur pupillaire au cours du temps. Les pics correspondent à un clignement des yeux. Malheureusement, ces mesures sont données en pixels et non pas directement en mm. Il faut donc faire une conversion par rapport à une référence connue (en millimètres) dans l'image.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.5]{Figures/LargeurPupillaireEnFonctionDuTemps}
 		\caption{Exemple d'une mesure en pixel de largeur pupillaire au cours du temps.}{Les chutes de valeur (barres verticales) correspondent au battement des paupières.}
@@ -139,7 +139,7 @@
 		\end{tabular}
 	\end{table}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.7]{Figures/MesureReferenceOeil}
 		\caption{Mesures pour la conversion pixel/mm.}
@@ -150,7 +150,7 @@
 	
 	\par Par conséquent nos mesures sont relativement éloignées des diamètres théoriques calculés en fonction de la luminance venant des écrans (Fig. \ref{fig:resultats_mesure_pupille}). Cela ne permet donc pas de valider, ni d'invalider, notre hypothèse de départ qui était l'égalité entre la luminance générée par les écrans et la luminance d'adaptation des yeux. L'expérimentation devra donc se faire en posant cette hypothèse.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/ComparaisonDiamReelDiamTheo}
 		\caption{Comparaison entre les mesures de diamètre pupillaire par rapport aux valeurs théoriques, en fonction de la luminance affichée.}
@@ -160,7 +160,7 @@
 	\section{Absorption des verres des lunettes 3D}
 	\par On profite également de ces séries de mesures préliminaires pour vérifier un chiffre donné par le constructeur des lunettes 3D: seulement 17\% de la luminosité globale arrive à l'œil après les lunettes stéréoscopiques. Cette donnée aurait pu nous servir directement en tant que valeur de transmittance $T$ si on avait voulu réaliser notre expérimentation en stéréoscopie. Même si on choisira par la suite de faire passer nos sujets en conditions monoscopiques, il reste intéressant de vérifier ce chiffre de 17\% avancé sans justifications.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/CourbesLuminanceLunettesStereo}
 		\caption{Comparaison des mesures sans et avec filtre des lunettes stéréoscopiques.}
@@ -169,7 +169,7 @@
 	
 	\par En parallèle des mesures décrites précédemment pour la luminance globale, on réalise également des mesures à travers un des deux verres de lunettes stéréoscopiques. Les résultats sont très probants (Figs. \ref{fig:pourcentage_absorption} et \ref{fig:courbes_luminance_avec_sans_filtre}) et donnent une valeur d'absorption moyenne à 65\% sur toute la gamme de luminances possibles dans le simulateur soit un taux de non-absorption de 35\%. Cependant, par construction, en stéréoscopie, les verres ne laissent passer la lumière que la moitié du temps pour permettre de nourrir chaque œil avec la bonne image. On retrouve donc bien la valeur de 17\% annoncée par le constructeur.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/PourcentageAbsorption}
 		\caption{Pourcentage d'absorption en fonction du niveau de gris affiché.}

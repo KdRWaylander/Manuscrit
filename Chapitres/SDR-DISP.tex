@@ -9,7 +9,7 @@
 	\subsection{Fonction de sensibilité au contraste (CSF)}
 	\par Les fonctions de sensibilité au contraste (CSF, pour <<~Contrast Sensibility Functions~>>) sont des courbes traçant le seuil à partir duquel l'œil humain est capable de distinguer une différence entre deux niveaux de gris. La Fig. \ref{fig:fonction_sensibilite_contraste} en est un exemple pour les trois domaines de luminosité: photopique (jour), scotopique (nuit) et mésopique (entre-deux). Tout ce qui se trouve sous la courbe est visible. Elles fonctionnent sur des mesures de seuil en cycles par degré (cpd). Les cpd sont la quantité d'alternance noir-blanc contenue dans un degré visuel.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.9]{Figures/EyeContrastSensitivity}
 		\caption{Fonctions de sensibilité au contraste pour les domaines photopiques, scotopiques et mésopiques.}
@@ -27,7 +27,7 @@
 	\subsubsection{Modèles de Rea et Ouellette}
 	\par Le modèle de Rea est plus simple mais ses auteurs le déclarent plus précis que celui de la CIE. Leur modèle ne prend en entrée que la luminance de la tâche et la luminance de l'arrière-plan de la tâche. Mark S. Rea présente un première version de son modèle en 1986 \citep{rea_toward_1986} puis une version raffinée en 1991 \citep{rea_relative_1991}. Dans ce dernier modèle, trois paramètres de plus ont été rajoutés: l'âge, la taille de la tâche à réaliser et la luminance d'adaptation (quantité de lumière à laquelle les yeux ont adapté la taille de leur pupille). Ce modèle permet de tracer les graphes visibles en Fig. \ref{fig:courbes_rea}. Ces courbes représentent la performance visuelle en fonction de la luminosité et du contraste pour une taille d'objet vu donnée: la courbe de gauche, plus prononcée, concerne un objet plus petit que celui pour la courbe de droite, moins prononcée.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.5]{Figures/CourbesReaExemple}
 		\caption{Exemple de performance visuelle pour deux tailles de cible différentes}{Images tirées de \citep{rea_relative_1991}}
@@ -43,7 +43,7 @@
 	\subsection{Minimum de fonctionnement}
 	\par Premièrement, la perception du mouvement n'est pas basée (comme cela a été suspecté pendant longtemps) sur la persistance rétinienne mais sur deux illusions perceptuelles: l'effet \textit{phi} et le mouvement \textit{bêta} \citep{de_lauretis_flicker_1980}. La persitance rétinienne est un phénomène passif laissant une image rémanente sur la rétine pendant un court instant. L'effet phi est une illusion de mouvement, cette fois active, dans le cerveau et le traitement des images, pour un système en boucle fermée. Le mouvement bêta est lui aussi une illusion d'optique active mais pour les système ouverts. Ces effets sont illustrés en Fig. \ref{fig:beta_phi}). Ils apparaissent à partir de 16 images par seconde. En dessous de cette valeur, aucun mouvement n'est perçu, seulement une suite distincte d'images.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.65]{Figures/MouvementBetaEffetPhi}
 		\caption{Illustration du <<~mouvement beta~>> et de l'<<~effet phi~>>}
@@ -78,7 +78,7 @@
 		\label{eq:fps_score}
 	\end{equation}
 
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/FPS}
 		\caption{Tracé de la fonction de notation du critère <<~images par seconde~>>}
@@ -113,7 +113,7 @@
 		\end{tabular}
 	\end{table}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.9]{Figures/GamutBT2020}
 		\caption{Tracé de différents gamuts sur l'espace colorimétrique CIE RGB 1931.}
@@ -137,7 +137,7 @@
 	
 	\par Il pourrait être intéressant de réaliser une expérimentation sur les besoins en couleurs (à différentier de l'appréciation du nombre de couleurs) en comparant par exemple des populations novices avec des populations expertes. Néanmoins faute de temps et de moyens (aujourd'hui encore aucun appareil commercial n'est capable d'afficher l'intégralité de l'espace RGB 1931) ce ne sera pas réalisable le temps de la thèse.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/Color_2}
 		\caption{Tracé de la fonction de notation du critère <<~couleurs~>>}
@@ -160,7 +160,7 @@
 	\label{eq:score_h_fov}
 	\end{equation}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.5]{Figures/ChampVisionHorizontal}
 		\caption{Répartition des zones visuelles sur l'axe horizontal du champ de vision.}
@@ -178,7 +178,7 @@
 	\label{eq:score_v_fov}
 	\end{equation}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.6]{Figures/ChampVisionVertical}
 		\caption{Répartition des zones visuelles sur l'axe vertical du champ de vision.}
@@ -202,7 +202,7 @@
 	\label{eq:score_fov}
 	\end{equation}
 
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/FOV}
 		\caption{Tracé de la sous-fonction horizontale de notation du critère <<~champ de vision~>> (ligne continue) et de la sous-fonction verticale (pointillés).}
@@ -216,7 +216,7 @@
 	
 	\par La Fig. \ref{fig:icd_9_cdm} montre les différentes acuités possibles pour l'œil humain (encadré en bleu), associées avec le type de vision et surtout un score équivalent (encadré en bleu). Ce score est néanmoins peu adapté à notre utilisation, d'abord parce qu'il dépasse la note de 100 mais surtout parce qu'il englobe des acuités bien trop faibles pour être transposées en taille de pixel dans un simulateur. De plus il correspond à des défauts de vision plus qu'à des capacités de vision. On s'oriente alors vers une autre approche.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.6]{Figures/AcuityICD9CM}
 		\caption{Classification ICD-9-CM}{On cherche à établir un lien entre les colonnes encadrées: l'acuité, et le score.}
@@ -258,7 +258,7 @@
 		\label{eq:mono_acuity_score}
 	\end{equation}
 
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/AcuityMono}
 		\caption{Tracé de la fonction de notation du critère <<~acuité monoscopique~>>}
@@ -280,14 +280,14 @@
 	\subsubsection{Limites et solution d'amélioration}
 	\par Cependant, ces deux derniers paramètres peuvent varier de manière significative: la distance inter-pupillaire varie de 52 à 78~mm sur toute la population \citep{dodgson_variation_2004} (Fig. \ref{fig:variation_dio_population}) tandis que le seuil physiologique de vision dépend de la luminance, notamment quand celle ci est à un niveau très bas \citep{gross_human_2008}. On peut néanmoins conserver la valeur de 0.001 comme constante dans le modèle car la variation suivant les deux paramètres est assez faible (Fig. \ref{fig:variation_constante_dio}).
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.9]{Figures/FractionVariation}
 		\caption{Variation de la constante du modèle d'acuité stéréoscopique en fonction de la distance interoculaire.}
 		\label{fig:variation_constante_dio}
 	\end{figure}
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.5]{Figures/ANSURIPD}
 		\caption{Variation de la distance interoculaire sur la population. Image tirée de \citep{dodgson_variation_2004}}
@@ -318,7 +318,7 @@
 	\subsubsection{Cas du CAVE}	
 	\par Dans un cas d'application CAVE, la luminance varie en général entre $10^{-1}$ et $10^{2}~cd/m^2$, ce qui donne un $\Delta \nu_{min}$ moyen de $8~arcsecs$. Cette valeur est obtenue graphiquement en moyennenant les valeurs d'angle stéréoscopique limite pour toutes les valeurs de luminance possible dans un CAVE. L'évolution de l'angle stéréoscopique limite en fonction de la luminance vient d'une figure tracée p.67 dans \citep{gross_human_2008}. Dans ce cas d'utilisation, le CAVE, la fonction est tracée en Fig. \ref{fig:stereo_acuity}.
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=.75]{Figures/StereoAcuity}
 		\caption{Tracé de la fonction de notation du critère <<~acuité stéréoscopique~>> ($\Delta \nu_{min} = 8~arcsecs$)}
