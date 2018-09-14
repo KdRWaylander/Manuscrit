@@ -61,7 +61,7 @@
 	\par Enfin, \citep{mantiuk_human_2015} apportent une modification fondamentale dans leur modèle, en rajoutant les effets de l'âge de l'observateur simulé sur la perception des erreurs. Ce modèle est largement discuté dans une section suivante (Section \ref{sec:modele_mantiuk}).
 	
 	\section{Détail des modèles de reproduction de tons}
-	\par Après la formalisation de la technique par \citep{rushmeier_comparing_1995}, les algorithmes de reproduction de tons se divisent en trois grandes familles: le traitement des images statiques par des méthodes globales, le traitement des images statiques cette fois ci par des méthodes locales et enfin le traitement des images dynamiques ; \citep{moreau_traite_2006} relèvent un grand nombre de modèles du genre. Cette dernière famille est entièrement revue par \citep{drago_perceptual_2003}.
+	\par Après la formalisation de la technique par \citep{rushmeier_comparing_1995}, les algorithmes de reproduction de tons se divisent en trois grandes familles: le traitement des images statiques par des méthodes globales, par des méthodes locales, et le traitement des images dynamiques ; \citep{moreau_traite_2006} relèvent un grand nombre de modèles du genre. Cette dernière famille est entièrement revue par \citep{drago_perceptual_2003}.
 	
 	\par Enfin, \citep{ferwerda_model_1996} proposent un modèle très complet, basé sur le modèle de reproduction de tons lui-même basé sur le coefficient de Ward que l'on a vu précédemment. Ce modèle fonctionne avec des techniques de calcul d'éclairage plus avancées telle que la \textit{Global Illumination}, et ce, à des niveaux de luminosité allant de photopique à scotopique. Sont modélisés: la capture des changements de seuil de visibilité, les changements d'apparence des couleurs, les changements d'acuité visuelle ainsi que la sensibilité à tous ces facteurs au cours du temps. On peut par exemple obtenir toutes les images intermédiaire d'un processus d'adaptation de l'œil à un changement brutal de luminosité, que ce soit du clair vers l'obscur ou inversement (voir Fig. \ref{fig:ferwerda_adaptation_steps}).
 	
@@ -144,7 +144,7 @@
 		\label{eq:pattanaik_peli_adapted_contrast}
 	\end{equation}
 	
-	\par Les images contrastées obtenues juste avant, sont ensuite transformées encore, jusqu'au système $AC_1C_2$ qui reprend la Théorie des processus antagoniques, c'est à dire la découpage du traitement de l'image par le cerveau en un canal achromatique ($A$), et deux canaux chromatiques ($C_1$ et $C_2$), voir sections précédentes sur la couleur. La transformation se fait au moyen d'une banale matrice de passage \citep{hunt_reproduction_1995,fairchild_color_1998}:
+	\par Les images contrastées obtenues juste avant, sont ensuite transformées encore, jusqu'au système $AC_1C_2$ qui reprend la théorie des processus antagoniques, c'est à dire le découpage du traitement de l'image par le cerveau en un canal achromatique ($A$), et deux canaux chromatiques ($C_1$ et $C_2$), voir sections précédentes sur la couleur. La transformation se fait au moyen d'une banale matrice de passage \citep{hunt_reproduction_1995,fairchild_color_1998}:
 	\begin{equation}
 		\left[ \begin{array}{c}A\\ C_1\\ C_2\end{array} \right] = \left[ \begin{array}{ccc}
 		2.0 & 1.0 & 0.05\\
@@ -195,7 +195,7 @@
 			\textbf{p (bâtonnets)} & 3.39 & 3.39 & 4.50 & 7.64 & - & -\\
 			\hline
 		\end{tabular}
-		\caption{Valeurs de la puissance dans les fonctions de transducteurs de \citep{watson_model_1997}}
+		\caption{Valeurs de la puissance dans les fonctions de transducteurs de \cite{watson_model_1997}}
 	\end{table}
 	
 	\par Le canal chromatique final est en fait une combinaison des valeurs de la composante A des tri-stimulus des cônes et des bâtonnets. Le calcul se fait au moyen de l'Eq. \ref{eq:pattanaik_combination_rodes_cones}. La valeur $7$ est obtenue par calibration:
@@ -204,7 +204,7 @@
 		\label{eq:pattanaik_combination_rodes_cones}
 	\end{equation}
 	
-	\par Cette étape conclue le traitement des 6 premiers étages de la pyramide de décomposition.
+	\par Cette étape conclut le traitement des 6 premiers étages de la pyramide de décomposition.
 	
 	\par Après quoi, le traitement du dernier et septième étage de la pyramide se fait via des transducteurs passe bas (Eq. \ref{eq:pattanaik_lowpass_transducers}) \citep{fairchild_color_1998}:
 	\begin{equation}
@@ -241,7 +241,7 @@
 	
 	\par La contribution la plus importante à la dégradation de la vision au cours du temps vient du vieillissement du cristallin. La lentille continue de grossir et de générer des nouvelles fibres, compressant et accumulant ainsi les fibres plus anciennes dans la région centrale du cristallin. Celui-ci devient donc de plus en plus rigide et de moins en moins transparent.
 	
-	\par Le cristallin est modélisé comme un filtre optique dépendent de la longueur d'onde et qui réduit la quantité de lumière que la rétine reçoit. Cependant ce filtre a peu d'effet en vision photopique (vision de jour) et est plus efficace en dessous de $3~cd/m^2$, c'est à dire dans les domaines mésopique et scotopique.
+	\par Le cristallin est modélisé comme un filtre optique dépendant de la longueur d'onde et qui réduit la quantité de lumière que la rétine reçoit. Cependant ce filtre a peu d'effet en vision photopique (vision de jour) et est plus efficace en dessous de $3~cd/m^2$, c'est à dire dans les domaines mésopique et scotopique.
 	\citep{mantiuk_human_2015} reprennent ici le modèle de \citep{pokorny_aging_1987}. pour le vieillissement du cristallin (Eq. \ref{eq:vieillissement_cristallin}):
 	\begin{equation}
 		O_D(a) = \begin{cases}
@@ -285,6 +285,6 @@
 	\markboth{CONCLUSION}{}
 	\par L'étude des modèles de visions et leurs traductions vers le domaine de l'informatique semble être un domaine déjà fortement décrit et bien maitrisé. Une contribution directe dans ce domaine n'est alors ni très évidente ni très pertinente. On pourrait éventuellement tenter d'appliquer le modèle de Pattanaik \textit{et al.} en temps réel mais la portée scientifique semble limitée. On décide alors de laisser cette approche de côté pour en prendre une nouvelle.
 	
-	\par Plutôt que de s'intéresser à une capture d'image respectant le même processus que la vision humaine, on se penche sur un autre aspect jouant un rôle prépondérant dans le réalisme: l'affichage correct de ce qui a été capturé dans la scène 3D. En effet, si une fois l'image capturée proprement (via une mise en place du modèle de Pattanaik \textit{et al.} par exemple), si le système n'est pas capable de restituer l'image dans la même gamme de perception que celle de l'œil humain, le réalisme vis à vis de l'utilisateur sera amoindri.
+	\par Plutôt que de s'intéresser à une capture d'image respectant le même processus que la vision humaine, on se penche sur un autre aspect jouant un rôle prépondérant dans le réalisme: l'affichage correct de ce qui a été capturé dans la scène 3D. En effet, si une fois l'image capturée proprement (via une mise en place du modèle de Pattanaik \textit{et al.} par exemple) le système n'est pas capable de restituer l'image dans la même gamme de perception que celle de l'œil humain, le réalisme vis à vis de l'utilisateur en sera amoindri.
 	
 	\par On propose alors, non pas de développer un modèle d'affichage, mais une méthode pour quantifier la qualité du système d'affichage immersif, en fonction de la modélisation du système visuel humain.

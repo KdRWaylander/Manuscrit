@@ -26,7 +26,7 @@
 		\end{equation}
 		
 		\section{Observateur idéal \& théorie de détection du signal}		
-		\par La définition d'un <<~observateur idéal~>> est basée sur une théorie appelée "détection du signal" (Signal Dedection Theory). Cette théorie décrit la capabilité d'un système à discerner un pattern spécifique au milieu d'autres patterns ou bien au milieu d'un bruit (voir Fig. \ref{fig:signal_detection_theory}). Le théorie de détection du signal est également basée sur la théorie bayésienne qui est l'interprétation du concept de probabilités comme état de savoir -la forme est visible ou non- plutôt qu'une fréquence ou une propension d'apparition d'un phénomène. La théorie de détection du signal inclut également des probabilités de détection et des seuils de vision. Cependant, les observateurs idéaux sont utilisés pour une unique tâche bien spécifique (au contraire de la vision que se veut généraliste) telle que la détection de photon, la détection de forme, l'identification ...
+		\par La définition d'un <<~observateur idéal~>> est basée sur une théorie appelée <<~détection du signal~>> (Signal Detection Theory). Cette théorie décrit la capabilité d'un système à discerner un pattern spécifique au milieu d'autres patterns ou bien au milieu d'un bruit (voir Fig. \ref{fig:signal_detection_theory}). Le théorie de détection du signal est également basée sur la théorie bayésienne qui est l'interprétation du concept de probabilités comme état de savoir -la forme est visible ou non- plutôt qu'une fréquence ou une propension d'apparition d'un phénomène. La théorie de détection du signal inclut également des probabilités de détection et des seuils de vision. Cependant, les observateurs idéaux sont utilisés pour une unique tâche bien spécifique (au contraire de la vision qui se veut généraliste) telle que la détection de photon, la détection de forme, l'identification ...
 		
 		\begin{figure}[h]
 			\centering
@@ -36,7 +36,7 @@
 		\end{figure}
 		
 		\section{Tableau de Burdea \& Coiffet}
-		\par La démarche de Burdea et Coiffet est celle qui se rapproche le plus de la notre. On a vu précédemment qu'ils considèrent que le système de Réalité Virtuelle, par construction, implique l'intégralité des sens de l'homme. Ils notent également, qu'en dépit du risque de difficulté, <<~il apparait hautement nécessaire d'évaluer ou de qualifier les systèmes de RV~>>. Ils vont même plus loin en <<~[se demandant] si les outils et les simulations de RV s'adressent correctement à l'homme, c'est à dire s'adressent conformément à ses habitudes de stimulation~>> \citep{burdea_realite_1993}.
+		\par La démarche de Burdea et Coiffet est celle qui se rapproche le plus de la nôtre. On a vu précédemment qu'ils considèrent que le système de Réalité Virtuelle, par construction, implique l'intégralité des sens de l'homme. Ils notent également, qu'en dépit du risque de difficulté, <<~il apparait hautement nécessaire d'évaluer ou de qualifier les systèmes de RV~>>. Ils vont même plus loin en <<~[se demandant] si les outils et les simulations de RV s'adressent correctement à l'homme, c'est à dire s'adressent conformément à ses habitudes de stimulation~>> \citep{burdea_realite_1993}.
 		
 		\par Burdea et Coiffet posent plusieurs définitions nécessaire à l'évaluation des systèmes de Réalité Virtuelle:
 		\begin{itemize}
@@ -45,7 +45,7 @@
 			\item Le contrôle est l'interprétation par l'homme des informations qui s'adressent à ses sens.
 		\end{itemize}
 		
-		\par Les auteurs mettent en avant la difficulté de séparation entre les qualités du système et celles de l'application. Ils proposent néanmoins trois grandes catégories de paramètres caractérisants la vision totale (voir Fig. \ref{fig:burdea_coiffet_tableau}). Ceux-ci se présentent en trois catégories: les conditions ergonomiques générales, les conditions physiologiques de vision et les conditions psychologiques de vision. On s'intéresse tout particulièrement à la deuxième catégorie, qui se décompose en sept paramètres:
+		\par Les auteurs mettent en avant la difficulté de séparation entre les qualités du système et celles de l'application. Ils proposent néanmoins trois grandes catégories de paramètres caractérisants la vision totale (voir Fig. \ref{fig:burdea_coiffet_tableau}). Ces dernières sont: les conditions ergonomiques générales, les conditions physiologiques de vision et les conditions psychologiques de vision. On s'intéresse tout particulièrement à la deuxième catégorie, qui se décompose en sept paramètres:
 		\begin{itemize}
 			\item l'amplitude du champ de vision,
 			\item la fréquence de rafraichissement,
@@ -71,7 +71,7 @@
 	
 	\par Ils rappellent ensuite que la discrimination des couleurs est basée sur la discrimination visuelle qui englobe l'acuité visuelle, l'acuité de reconnaissance, l'acuité de détection et l'acuité de résolution. Toutes ces acuités sont influencées par la luminance, le contraste, la durée d'observation, le rapport de luminance dans la scène, le mouvement de la cible et l'éblouissement. De même, si l'œil humain peut voir plusieurs millions de couleurs, il ne peut, toujours selon ces auteurs, en voir que 8 à la fois.
 	
-	\par Enfin, les auteurs mettent en avant la nécessité d'une faible latence, que ce soit pour la vision contemplative (le mouvement de l'environnement doit être synchronisé avec le mouvement de la tête) comme pour la réactivité du système qui doit être aux alentours des temps de réaction de l'homme, qu'ils estiment autour de 0.1 seconde soit $100~ms$.
+	\par Enfin, les auteurs mettent en avant la nécessité d'une faible latence, que ce soit pour la vision contemplative (le mouvement de l'environnement doit être synchronisé avec le mouvement de la tête) ou pour la réactivité du système qui doit être aux alentours des temps de réaction de l'homme, que les auteurs estiment autour de 0.1 seconde, soit $100~ms$.
 	
 	\chapter{Score de réalisme}
 	\section{Ambition}	
@@ -99,7 +99,7 @@
 	
 	\par Troisièmement, une fois les critères établis, il convient de les évaluer. Pour ce faire, on propose d'attribuer une note comprise entre 0 et 100 à chacun des critères du modèle. Cette note modélise le fonctionnement du critère en question: la note de 0 représente les conditions dans lesquelles le système de vision n'est pas capable d'utiliser le mécanisme (ou peut l'utiliser mais n'en tire aucune information utile) tandis que la note de 100 représente le fonctionnement ou la performance maximal-e du mécanisme de vision. On rajoute également une note intermédiaire à 80 qui représente le fonctionnement nominal du mécanisme de vision. La valeur de 80 est plus probablement la valeur de score à viser car la valeur de 100 représente le maximum possible de l'œil humain et pourrait être considéré comme de la sur-qualité par rapport à la performance nominale. Il est évident que dans certaines applications, atteindre la valeur de 100 peut être une nécessité. Cette démarche est confortée par le fait que la Commission Internationale pour l'Eclairage (CIE) procède de la même manière (noter sur une valeur de 100 en adjugeant 80 à la valeur nominale) dans son modèle de performance visuelle en fonction de la luminosité et du contraste (que l'on abordera plus loin dans le manuscrit).
 	
-	\par La notation en elle même est, principalement basée sur la littérature: on cherche les valeurs correspondantes aux fonctionnements minimal, nominal et maximal. On cherche ensuite une loi mathématique simple permettant de décrire l'évolution de la note en fonction des valeurs clefs du mécanisme visuel. Si on a pu appliquer cette méthode pour la majorité des cas, certains critères ne se prêtent pas à un tel traitement et ont bénéficié d'une notation particulière. Cette notation sera explicitée plus bas, au cas par cas, dans la présentation des critères retenus dans la dernière version du modèle.
+	\par La notation en elle même est, principalement basée sur la littérature: on cherche les valeurs correspondants aux fonctionnements minimal, nominal et maximal. On cherche ensuite une loi mathématique simple permettant de décrire l'évolution de la note en fonction des valeurs clefs du mécanisme visuel. Si on a pu appliquer cette méthode pour la majorité des cas, certains critères ne se prêtent pas à un tel traitement et ont bénéficié d'une notation particulière. Cette notation sera explicitée plus bas, au cas par cas, dans la présentation des critères retenus dans la dernière version du modèle.
 	
 	\begin{figure}[h]
 		\centering
@@ -194,7 +194,7 @@
 		\item \textbf{Indices d'immersion:} latence, champ de regard, stéréoscopie, tracking, uniformité et convergence des caméras (laquelle est directement liée au mouvement des yeux).
 	\end{itemize}
 	
-	\par Les critères de luminance et de contraste sont fusionnés. De part la nature du contraste (un ratio de luminances) ces deux critères semblent indissociables. Le critère de vergence est simplement renommé en <<~convergence des caméras~>> car il portait à confusion. Le critère <<~Accommodation~>> qui jugeait de la présence ou non du conflit accommodation-vergence n'était pas pertinent car il n'existe aujourd'hui aucun système de VR déployé industriellement\footnote{Pour voir la liste des systèmes sans conflit accommodation-vergence, se rapporter à \citep{mehrabi_making_2013}.} ne permettant de visualiser des images en 3D sans générer ce type de conflit ; il a donc été supprimé.
+	\par Les critères de luminance et de contraste sont fusionnés. De par la nature du contraste (un ratio de luminances) ces deux critères semblent indissociables. Le critère de vergence est simplement renommé en <<~convergence des caméras~>> car il portait à confusion. Le critère <<~Accommodation~>> qui jugeait de la présence ou non du conflit accommodation-vergence n'était pas pertinent car il n'existe aujourd'hui aucun système de VR déployé industriellement\footnote{Pour voir la liste des systèmes sans conflit accommodation-vergence, se rapporter à \citep{mehrabi_making_2013}.} permettant de visualiser des images en 3D sans générer ce type de conflit ; il a donc été supprimé.
 	
 	\par La plus grosse modification reste le passage en deux catégories contre trois dans la précédente modélisation. La catégorie observateur portait à confusion, regroupait des critères qui avaient toute légitimité pour être dans les deux autres catégories. Les critères (moins le critère Accommodation, supprimé) ont donc été redistribués dans leur catégorie légitime. Celles ci sont en plus renommées de manière plus pertinente, pour correspondre plutôt au système, que l'on cherche à évaluer, et non à la vision humaine (sur laquelle on se base).
 	
