@@ -110,17 +110,17 @@
 	\par Ensuite, la pupille et l'iris sont intimement liées car la première est l'espace laissé par la seconde au centre de l'œil. L'iris est une composante contrôlable de l'œil. L'iris contrôle la quantité de lumière qui arrive dans l'œil et donc sur la rétine. Plus la pupille sera grande, plus la lumière pourra rentrer dans l'œil. Un œil humain peut supporter des luminosités (luminances) allant de $10^{-6}$ à $10^5~cd/m^2$. La variation du diamètre de la pupille peut être modélisée par un modèle mathématique. S'il en existe un certain nombre dans la littérature (voir \citep{watson_unified_2012} pour un état de l'Art exhaustif), on donne ici l'équation suivante (Eq. \ref{eq:diam_pupille}). De la même manière que l'accommodation, le diamètre de la pupille oscille autour de sa valeur moyenne à l'instant t. Ce phénomène est appelé \textit{hippus} \citep{gross_human_2008}.
 	
 	\begin{equation}
-		log_{10}(D_{iris}) = 0.8558 - 0.000401 \cdot [8.4 + log_{10}(L)]^3
+		log_{10}(D_{iris}) = 0.8558 - 0.000401 \cdot [8.1 + log_{10}(L)]^3
 		\label{eq:diam_pupille}
 	\end{equation}
 	
 	\par De la même manière, la vergence est la capacité des yeux de s'orienter vers le point d'accommodation lorsque celui est proche. On appelle convergence le phénomène qui consiste à augmenter l'angle formé par l'intersection des lignes du regard de chaque œil (quand la cible se rapproche) et divergence le cas inverse, lorsque cet angle diminue (la cible s'éloigne). Le processus possède une latence estimée à 150 ms et une durée approximative évaluée à 0.2 - 0.6 secondes \citep{devisme_optimisation_2004, gross_human_2008}.
 	
-	\par L'œil humain a une taille globalement constante entre les individus: autour de 24 mm de diamètre \citep{glassner_principles_1995}. Le pouvoir optique de l'œil, c'est à dire sa capacité à adapter ses propriétés optiques, se mesure en dioptries. Les dioptries ($\delta$) sont l'inverse de la distance focale d'un système optique, elles sont homogènes à des $m^{-1}$. Faire varier ses dioptries (et donc sa distance focale) permet l'accommodation et l'adaptation de l'œil. L'œil humain possède environ 42$\delta$ en fonctionnement et peut monter jusqu'à une puissance de 60 à 80$\delta$ pour compenser les défauts de l'œil \citep{glassner_principles_1995}, au nominal.
+	\par L'œil humain a une taille globalement constante entre les individus: autour de 24 mm de diamètre \citep{glassner_principles_1995}. Le pouvoir optique de l'œil, c'est à dire sa capacité à adapter ses propriétés optiques, se mesure en dioptries. Les dioptries ($\delta$) sont l'inverse de la distance focale d'un système optique, elles sont homogènes à des $m^{-1}$. Faire varier ses dioptries (et donc sa distance focale) permet l'accommodation et l'adaptation de l'œil. L'œil humain demande environ 42$\delta$ en fonctionnement et peut monter jusqu'à une puissance nécessaire de 60 à 80$\delta$ pour compenser les défauts de l'œil \citep{glassner_principles_1995}, au nominal.
 	
 	\par La rétine tapisse le fond de l'œil et est composée de millions de récepteurs photosensibles qui vont être responsables de la captation de l'image. Ces photo-récepteurs sont les cônes, sensibles à la couleur, et les bâtonnets sensibles à la luminosité. Il existe 3 types de cônes, qui sont chacun sensibles à différentes longueurs d'onde: on retrouve les cônes de type S (pour \textit{small}, petite longueur d'onde) avec un maximum de sensibilité à $420~nm$ ; ensuite, on trouve les cônes de type M (pour \textit{medium}, moyenne longueur d'onde) avec un maximum de sensibilité à $530~nm$ ; et enfin, on a les cônes de type L (pour \textit{long}, grande longueur d'onde) avec un maximum de sensibilité à $560~nm$. Le seul message émanant d'un cône ou d'un bâtonnet est celui de son activation. La reconnaissance des couleurs et de l'intensité de la lumière se fait par la combinaison des résultats d'activation des différents types de cônes ; ce procédé est analogue à celui du tramage\footnote{Tramage: Procédé permettant de générer de nouvelles couleurs à partir d'une base limitée de couleurs. Typiquement, en informatique, les pixels des écrans sont en fait composés de 3 sous pixels: blanc, rouge et vert. Une fois combinés et vus d'assez loin, ils semblent ne créer qu'une seule couleur, potentiellement différente.} en informatique. Alors que l'on pourrait penser qu'il existe un cône dédié à chaque couleur, l'œil humain ne possède que trois types de cônes. En effet, si l'œil possédait de nombreux autres types de cône, la densité par cône serait grandement réduite et donc la finesse de vision avec \citep{glassner_principles_1995}.
 	
-	\par Les cônes et les bâtonnets ont chacun leur plage de fonctionnement optimale. Dans le domaine photopique (lumière du jour), les cônes sont saturés en luminosité et sont beaucoup moins efficaces que dans le domaine scotopique (de nuit). De leur côté, les bâtonnets adaptent leur maximum de saturation par rapport au niveau global d'illumination \citep{glassner_principles_1995}.
+	\par Les cônes et les bâtonnets ont chacun leur plage de fonctionnement optimale. Dans le domaine photopique (lumière du jour), les bâtonnets sont saturés en luminosité et sont beaucoup moins efficaces que dans le domaine scotopique (de nuit). De leur côté, les cônes adaptent leur maximum de saturation par rapport au niveau global d'illumination \citep{glassner_principles_1995}.
 	
 	\par La répartition des cônes et des bâtonnets sur la rétine n'est pas du tout homogène (voir Fig. \ref{fig:densite_cones_batonnets}). Une zone de la rétine présente une extrême concentration de cônes. Cette zone est appelée \textit{fovéa}. De par l'utilité des cônes et par construction du système optique de l'œil, c'est l'endroit où les rayons lumineux issus de la cible regardée convergent. On retrouve, en périphérie de la fovéa, les bâtonnets. Ce qui est capté par la fovéa est vu net, tandis que ce qui est capté par les bâtonnets ne l'est pas. L'axe de vision est d'ailleurs défini par le rayon issu du point nodal image jusqu'à la fovéa (voir section suivante). Cet axe, représenté sur la Fig. \ref{fig:modele_liou_brennan} est donc fixe et l'angle qu'il forme avec l'axe optique de l'œil (ici appelé \textit{alpha}) vaut entre 3 et 8 degrés suivant les individus \citep{gross_human_2008}.
 	
@@ -225,7 +225,7 @@
 	
 	\par La voie parvocellulaire (P) représente 90\% de la population de cellules ganglionnaires. Ces cellules sont sensibles aux couleurs et, malgré une vitesse de conduction plus lente que les cellules de la voie M, elles répondent de manière tonique aux stimulations. Ces cellules sont à rapprocher de la voie ventrale.
 	
-	\par Enfin, il existe une voie M-non P qui représente les 5\% de population restants et participe à d'autres tâches que la vision pure (voir plus loin). 
+	\par Enfin, il existe une voie non M - non P qui représente les 5\% de population restants et participe à d'autres tâches que la vision pure (voir plus loin). 
 	
 	\begin{figure}[h]
 		\centering
@@ -234,7 +234,7 @@
 		\label{fig:structure_retine}
 	\end{figure}
 	
-	\par Une fois le signal lumineux transformé dans une des trois voies (M, P ou M-non P), l'information circule dans le nerf optique en direction du cerveau. Les nerfs optiques de chaque œil se croisent au niveau du chiasma optique avant de continuer leur chemin dans le tractus optique et d'arriver au cerveau. Au niveau du chiasma, les fibres porteuses des informations visuelles sont redirigées: les fibres des deux moitiés gauches des yeux sont envoyées à la partie droite du cerveau, tandis que les fibres des deux moitiés droites des yeux sont envoyées à la partie gauche.
+	\par Une fois le signal lumineux transformé dans une des trois voies (M, P ou non M - non P), l'information circule dans le nerf optique en direction du cerveau. Les nerfs optiques de chaque œil se croisent au niveau du chiasma optique avant de continuer leur chemin dans le tractus optique et d'arriver au cerveau. Au niveau du chiasma, les fibres porteuses des informations visuelles sont redirigées: les fibres des deux moitiés gauches des yeux sont envoyées à la partie droite du cerveau, tandis que les fibres des deux moitiés droites des yeux sont envoyées à la partie gauche.
 	
 	\par L'interface entre le cerveau à proprement parler et le tractus optique s'appelle le CGL (Corps Genouillé Latéral). Le CGL est composé de 6 couches qui vont permettre la distribution de l'information dans les différents cortex visuels. Les informations issues de la voie M sont attribuées aux couches 1 et 2 du CGL, tandis que les informations de la voie P sont attribuées aux couches 3, 4, 5 et 6 du CGL. Les 5\% d'informations restantes (la voie M non P) ne va pas dans le CGL (et donc dans les cortex d'analyse de l'image) mais se dirige dans la mésencéphale et l'hypothalamus. Ces deux dernières aires du cerveau sont dédiées à la gestion du reste du corps humain: régulation du bio-rythme, sécrétion des hormones du sommeil, gestion de l'attention, ...
 	
@@ -317,7 +317,7 @@
 		\end{cases}
 	\end{equation}
 	
-	\par Les valeurs des coefficients des équations de L, a et b sont en fait des valeurs approchées. Les valeurs exactes sont: \[L^\ast: 117,16~et~17.16\] \[b^\ast: 509.39\] \[b^\ast: 203,75\]
+	\par Les valeurs des coefficients des équations de L, a et b sont en fait des valeurs approchées. Les valeurs exactes sont: \[L^\ast: 117,16~et~17.16\] \[a^\ast: 509.39\] \[b^\ast: 203,75\]
 	
 	\par CIELAB a aussi été traduit en coordonnées cylindriques: LCh. Les composantes C et h sont les coordonnées polaires de $a^\ast$ et $b^\ast$. Ces espaces permettent de qualifier n'importe quelle couleur indépendamment de la luminosité. 
 		
@@ -341,7 +341,7 @@
 	\begin{figure}[h]
 		\centering
 		\includegraphics[scale=1]{Figures/StandardObsCurves}
-		\caption{Courbes d'efficacité lumineuse des Observateurs Standards de la CIE}
+		\caption{Courbes d'égalisation couleur des Observateurs Standards de la CIE}
 		\label{fig:standard_observer_curves}
 	\end{figure}
 	
@@ -439,7 +439,7 @@
 	
 	\par Avec:
 	$\begin{cases}
-	C^\ast_{ab} = \sqrt{a^{\ast 2} + a^{\ast 2}}\\
+	C^\ast_{ab} = \sqrt{a^{\ast 2} + b^{\ast 2}}\\
 	\Delta H^\ast_{ab} = \sqrt{\Delta E^{\ast 2}_{ab} - \Delta L^{\ast 2} - \Delta C^{\ast 2}_{ab}} = \sqrt{\Delta a^{\ast 2} + \Delta b^{\ast 2} - \Delta C^{\ast 2}_{ab}}\\
 	S_C = 1 + 0.0045 \cdot C^\ast_{ab}\\
 	S_H = 1 + 0.0015 \cdot C^\ast_{ab}\\
@@ -600,12 +600,12 @@
 \chapter{Influences Physiologiques}
 	\par Outre les maladies ou autres défauts oculaires qui ne seront pas abordés ici, il existe un certain nombre de paramètres liés au corps humain qui influent sur la qualité de perception des images projetées par le dispositif immersif d'affichage. On trouve principalement des influences morphologiques (au niveau du visage) ou d'âge de l'observateur. On peut noter que la sensibilité au contraste est dépendante des conditions d'expérimentations évidemment, de facteurs ophtalmologiques (myopie, éblouissement rétinien, cataracte, amblyopie, dégénération de la macula avec l'âge, hyper-tension oculaire, glaucome, sécheresse oculaire) mais aussi de facteurs neurologiques (lésions cérébrales, scléroses, maladie de Parkinson et schizophrénie), ou encore de facteurs liés à la prise de médicaments \citep{pelli_measuring_2013}. Nous nous plaçons évidemment dans le cas où le sujet est sain.
 		
-	\section{Variations morphologiques}
+	\section{Variations physiologiques et morphologiques}
 	\par Les influences morphologiques sont très nombreuses au niveau du visage et plus ou moins faciles à caractériser et à traiter. On retrouve par exemple la distance inter-oculaire (distance entre le centre des pupilles), la profondeur des yeux, la non-horizontalité de l' alignement du centre des pupilles, le glissement des lunettes pendant l'utilisation, la position des oreilles par rapport au nez pour la position des lunettes 3D, l'écart de position entre un premier et un second port des lunettes 3D, la position du casque immersif sur le visage ... tout ce qui fait de l'observateur humain un observateur symétriquement et géométriquement imparfait.
 	
 	\par On développera ici le cas simple de la distance inter-oculaire. Il apparait que lorsque l'on présente les mêmes images stéréo à deux personnes différentes, la profondeur stéréoscopique des objets proches n'est pas perçue de manière égale. On prend l'exemple de l'image d'un volant de virtuel normalement paramétré pour apparaitre confondu avec le volant réel du simulateur de conduite. Certain utilisateurs verront effectivement le volant là où il est sensé être, tandis que d'autres verront l'image légèrement en avant du volant et d'autres la verront légèrement en retrait. Cet écart peut être extrêmement gênant et s'explique notamment par l'écart de distance inter-pupillaire entre les différents observateurs. Il serait cependant intéressant de comparer l'influence des différentes influences physiologiques vues précédemment afin de les hiérarchiser et éventuellement d'en négliger certaines.
 	
-	\par Les grandeurs ici évoquées font référence à la Fig. \ref{fig:profondeur_stereo_dio}. Pour un individu A qui a une distance interoculaire $e$, on projette sur les murs du CAVE, où dans un visio-casque, à distance $D$, un couple d'images stéréoscopiques (ici représentées par les segments rouge et bleu). L'image reconstruite par le cerveau est vue à une distance $d$ par l'individu. Les images œil gauche et œil droit sont dissociées d'une distance $y$. En gardant les mêmes images, un individu B avec une distance interoculaire $e\prime$ se positionne au même endroit dans le CAVE. C'est à ce niveau là qu'intervient la différence de perception, et le second individu verra l'objet virtuel non pas à une distance $d$ mais à une distance $d\prime$ qui peut être supérieure ou inférieure à $d$.
+	\par Les grandeurs ici évoquées font référence à la Fig. \ref{fig:profondeur_stereo_dio}. Pour un individu A qui a une distance interoculaire $e$, on projette sur les murs du CAVE, où dans un visio-casque, à distance $D$, un couple d'images stéréoscopiques (ici représentées par les segments vert et rouge). L'image reconstruite par le cerveau est vue à une distance $d$ par l'individu. Les images œil gauche et œil droit sont dissociées d'une distance $y$. En gardant les mêmes images, un individu B avec une distance interoculaire $e\prime$ se positionne au même endroit dans le CAVE. C'est à ce niveau là qu'intervient la différence de perception, et le second individu verra l'objet virtuel non pas à une distance $d$ mais à une distance $d\prime$ qui peut être supérieure ou inférieure à $d$.
 
 	\begin{figure}[h]
 		\centering

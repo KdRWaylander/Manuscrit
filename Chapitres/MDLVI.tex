@@ -177,7 +177,7 @@
 	\label{eq:pattanaik_transducers}
 	\end{equation}
 	
-	\par Les valeurs de p sont données dans la Table \ref{tab:pattanaik_transducers_p_values}.
+	\par Les valeurs de p sont données dans la Tab. \ref{tab:pattanaik_transducers_p_values}.
 	
 	\begin{table}
 		\centering
@@ -224,7 +224,7 @@
 		\item 1 image issue d'un filtre passe-bas
 	\end{itemize}
 	
-	\par Enfin, on effectue le processus de reconstruction de l'image en faisant un traitement étape-par-étape inverse par rapport au modèle visuel de manière à recréer le signal perçu par les cônes pour l'afficher. On prend les fonctions inverses des transducteurs évoqués précédemment (Eq. \ref{eq:pattanaik_lowpass_transducers}). On passe d'une décomposition de la lumière en mode chromatique/achromatique ($AC_1C_2$) au découpage reproduisant le fonctionnement des cônes et bâtonnets ($LMS$), en utilisant la matrice inverse et enfin on applique un mécanisme de gain inverse en fonction des conditions d'affichage. Pour finir, on effectue la dernière transformation en allant de $LMS$ à l'espace colorimétrique adapté au moyen d'affichage (CIECAM, CIELAB, CIELUV, RGB, ...).
+	\par Enfin, on effectue le processus de reconstruction de l'image en faisant un traitement étape-par-étape inverse par rapport au modèle visuel de manière à recréer le signal perçu par les cônes pour l'afficher. On prend les fonctions inverses des transducteurs évoqués précédemment (Eq. \ref{eq:pattanaik_lowpass_transducers}). On passe d'une décomposition de la lumière en mode chromatique/achromatique ($AC_1C_2$) au découpage reproduisant le fonctionnement des bâtonnets et cônes ($LMS$), en utilisant la matrice inverse et enfin on applique un mécanisme de gain inverse en fonction des conditions d'affichage. Pour finir, on effectue la dernière transformation en allant de $LMS$ à l'espace colorimétrique adapté au moyen d'affichage (CIECAM, CIELAB, CIELUV, RGB, ...).
 	
 	\begin{figure}[h]
 		\centering

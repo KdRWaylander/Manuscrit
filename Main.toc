@@ -29,7 +29,7 @@
 \contentsline {section}{\numberline {4.3}M\IeC {\'e}thodes classiques de calcul sur un \IeC {\'e}cran}{34}{section.1.4.3}
 \contentsline {chapter}{\numberline {5}Perception visuelle de la profondeur}{35}{chapter.1.5}
 \contentsline {chapter}{\numberline {6}Influences Physiologiques}{39}{chapter.1.6}
-\contentsline {section}{\numberline {6.1}Variations morphologiques}{39}{section.1.6.1}
+\contentsline {section}{\numberline {6.1}Variations physiologiques et morphologiques}{39}{section.1.6.1}
 \contentsline {section}{\numberline {6.2}\IeC {\^A}ge}{42}{section.1.6.2}
 \contentsline {part}{II\hspace {1em}Mod\IeC {\`e}les de vision en R\IeC {\'e}alit\IeC {\'e} Virtuelle}{43}{part.2}
 \contentsline {chapter}{Introduction}{45}{chapter*.8}
@@ -63,7 +63,7 @@
 \contentsline {subsubsection}{Mod\IeC {\`e}le de la CIE}{85}{subsubsection*.11}
 \contentsline {subsubsection}{Mod\IeC {\`e}les de Rea et Ouellette}{85}{subsubsection*.12}
 \contentsline {subsubsection}{Vers une v\IeC {\'e}rification exp\IeC {\'e}rimentale}{85}{subsubsection*.13}
-\contentsline {section}{\numberline {4.2}Images par seconde}{86}{section.3.4.2}
+\contentsline {section}{\numberline {4.2}Fr\IeC {\'e}quence de rafraichissement}{86}{section.3.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Minimum de fonctionnement}{86}{subsection.3.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}Ph\IeC {\'e}nom\IeC {\`e}ne de scintillement (flickering)}{86}{subsection.3.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Maximum de fonctionnement}{87}{subsection.3.4.2.3}
